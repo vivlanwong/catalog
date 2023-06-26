@@ -4,6 +4,15 @@
 
 
 
+## [netdata-5.0.26](https://github.com/truecharts/charts/compare/netdata-5.0.25...netdata-5.0.26) (2023-06-26)
+
+### Chore
+
+- update helm general non-major ([#9963](https://github.com/truecharts/charts/issues/9963))
+  
+  
+
+
 ## [netdata-5.0.25](https://github.com/truecharts/charts/compare/netdata-5.0.24...netdata-5.0.25) (2023-06-26)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [netdata-5.0.16](https://github.com/truecharts/charts/compare/netdata-5.0.15...netdata-5.0.16) (2023-05-24)
-
-### Chore
-
-- update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
   
   
 
