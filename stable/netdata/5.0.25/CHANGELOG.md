@@ -4,6 +4,15 @@
 
 
 
+## [netdata-5.0.25](https://github.com/truecharts/charts/compare/netdata-5.0.24...netdata-5.0.25) (2023-06-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/netdata to v1.40.0 ([#9964](https://github.com/truecharts/charts/issues/9964))
+  
+  
+
+
 ## [netdata-5.0.24](https://github.com/truecharts/charts/compare/netdata-5.0.23...netdata-5.0.24) (2023-06-13)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
-  
-  
-
-
-## [netdata-5.0.15](https://github.com/truecharts/charts/compare/netdata-5.0.14...netdata-5.0.15) (2023-05-23)
-
-### Chore
-
-- Improved lint speed ([#8809](https://github.com/truecharts/charts/issues/8809))
   
   
 
