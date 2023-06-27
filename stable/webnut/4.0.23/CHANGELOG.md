@@ -4,6 +4,15 @@
 
 
 
+## [webnut-4.0.23](https://github.com/truecharts/charts/compare/webnut-4.0.22...webnut-4.0.23) (2023-06-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/webnut to latest ([#9974](https://github.com/truecharts/charts/issues/9974))
+  
+  
+
+
 ## [webnut-4.0.22](https://github.com/truecharts/charts/compare/webnut-4.0.21...webnut-4.0.22) (2023-06-13)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
-  
-  
-
-
-## [webnut-4.0.13](https://github.com/truecharts/charts/compare/webnut-4.0.12...webnut-4.0.13) (2023-05-22)
-
-### Feat
-
-- Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
   
   
 
