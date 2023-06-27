@@ -4,6 +4,11 @@
 
 
 
+## [plexripper-4.0.1](https://github.com/truecharts/charts/compare/plexripper-4.0.0...plexripper-4.0.1) (2023-06-27)
+
+
+
+
 ## [plexripper-4.0.0](https://github.com/truecharts/charts/compare/plexripper-3.0.1...plexripper-4.0.0) (2023-06-17)
 
 ### Feat
@@ -92,8 +97,3 @@
 - update helm general non-major
   
   
-
-
-## [plexripper-2.0.4](https://github.com/truecharts/charts/compare/plexripper-2.0.3...plexripper-2.0.4) (2022-12-01)
-
-### Chore
