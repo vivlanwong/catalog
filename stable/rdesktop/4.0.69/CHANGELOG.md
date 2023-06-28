@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.69](https://github.com/truecharts/charts/compare/rdesktop-4.0.68...rdesktop-4.0.69) (2023-06-28)
+
+### Chore
+
+- update rdesktop ([#9992](https://github.com/truecharts/charts/issues/9992))
+  
+  
+
+
 ## [rdesktop-4.0.68](https://github.com/truecharts/charts/compare/rdesktop-4.0.67...rdesktop-4.0.68) (2023-06-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-4.0.59](https://github.com/truecharts/charts/compare/rdesktop-4.0.58...rdesktop-4.0.59) (2023-06-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-ubuntu-openbox to latest ([#9773](https://github.com/truecharts/charts/issues/9773))
-  
-  
-
-
-## [rdesktop-4.0.58](https://github.com/truecharts/charts/compare/rdesktop-4.0.57...rdesktop-4.0.58) (2023-06-19)
 
 ### Chore
