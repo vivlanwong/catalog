@@ -357,6 +357,7 @@ questions:
                 description: Interface Configuration
                 label: Interface Configuration
                 schema:
+                  additional_attrs: true
                   type: dict
                   $ref:
                     - "normalize/interfaceConfiguration"
@@ -373,6 +374,7 @@ questions:
                       description: Define how IP Address will be managed
                       label: IP Address Management
                       schema:
+                        additional_attrs: true
                         type: dict
                         required: true
                         attrs:
@@ -753,14 +755,14 @@ questions:
             attrs:
               - variable: cpu
                 label: CPU
-                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 4000m
                   valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: RAM
-                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 8Gi
@@ -774,7 +776,7 @@ questions:
             attrs:
               - variable: cpu
                 label: CPU
-                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 10m
@@ -782,7 +784,7 @@ questions:
                   valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: "RAM"
-                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 50Mi
@@ -846,6 +848,7 @@ questions:
               - variable: gpu
                 label: Select GPU
                 schema:
+                  additional_attrs: true
                   type: dict
                   $ref:
                     - "definitions/gpuConfiguration"
@@ -1433,6 +1436,7 @@ questions:
               - variable: openvpn
                 label: OpenVPN Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "openvpn"]]
                   attrs:
@@ -1453,6 +1457,7 @@ questions:
               - variable: tailscale
                 label: Tailscale Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "tailscale"]]
                   attrs:
