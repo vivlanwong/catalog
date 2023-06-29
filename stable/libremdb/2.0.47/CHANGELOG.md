@@ -4,6 +4,15 @@
 
 
 
+## [libremdb-2.0.47](https://github.com/truecharts/charts/compare/libremdb-2.0.46...libremdb-2.0.47) (2023-06-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/libremdb to latest ([#10036](https://github.com/truecharts/charts/issues/10036))
+  
+  
+
+
 ## [libremdb-2.0.46](https://github.com/truecharts/charts/compare/libremdb-2.0.45...libremdb-2.0.46) (2023-06-25)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [libremdb-2.0.37](https://github.com/truecharts/charts/compare/libremdb-2.0.36...libremdb-2.0.37) (2023-06-17)
 
 ### Fix
-
-- use default redis username ([#9738](https://github.com/truecharts/charts/issues/9738))
-  
-  
-
-
-## [libremdb-2.0.36](https://github.com/truecharts/charts/compare/libremdb-2.0.35...libremdb-2.0.36) (2023-06-14)
-
-### Chore
