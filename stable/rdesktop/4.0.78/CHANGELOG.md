@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.78](https://github.com/truecharts/charts/compare/rdesktop-4.0.77...rdesktop-4.0.78) (2023-06-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-arch-openbox to latest ([#10054](https://github.com/truecharts/charts/issues/10054))
+  
+  
+
+
 ## [rdesktop-4.0.77](https://github.com/truecharts/charts/compare/rdesktop-4.0.76...rdesktop-4.0.77) (2023-06-30)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-4.0.68](https://github.com/truecharts/charts/compare/rdesktop-4.0.67...rdesktop-4.0.68) (2023-06-27)
-
-### Chore
-
-- update rdesktop ([#9991](https://github.com/truecharts/charts/issues/9991))
-  
-  
-
-
-## [rdesktop-4.0.67](https://github.com/truecharts/charts/compare/rdesktop-4.0.66...rdesktop-4.0.67) (2023-06-27)
 
 ### Chore
