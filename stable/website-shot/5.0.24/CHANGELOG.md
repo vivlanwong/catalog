@@ -4,6 +4,15 @@
 
 
 
+## [website-shot-5.0.24](https://github.com/truecharts/charts/compare/website-shot-5.0.23...website-shot-5.0.24) (2023-07-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/website-shot to latest ([#10059](https://github.com/truecharts/charts/issues/10059))
+  
+  
+
+
 ## [website-shot-5.0.23](https://github.com/truecharts/charts/compare/website-shot-5.0.22...website-shot-5.0.23) (2023-06-16)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
-  
-  
-
-
-## [website-shot-5.0.14](https://github.com/truecharts/charts/compare/website-shot-5.0.13...website-shot-5.0.14) (2023-05-22)
-
-### Chore
-
-- update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
   
   
 
