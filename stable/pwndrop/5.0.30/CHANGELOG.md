@@ -4,6 +4,15 @@
 
 
 
+## [pwndrop-5.0.30](https://github.com/truecharts/charts/compare/pwndrop-5.0.29...pwndrop-5.0.30) (2023-07-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/pwndrop to v1.0.1 ([#10127](https://github.com/truecharts/charts/issues/10127))
+  
+  
+
+
 ## [pwndrop-5.0.29](https://github.com/truecharts/charts/compare/pwndrop-5.0.28...pwndrop-5.0.29) (2023-07-01)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [pwndrop-5.0.20](https://github.com/truecharts/charts/compare/pwndrop-5.0.19...pwndrop-5.0.20) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
   
   
