@@ -4,6 +4,11 @@
 
 
 
+## [oscam-9.0.24](https://github.com/truecharts/charts/compare/oscam-9.0.23...oscam-9.0.24) (2023-07-03)
+
+
+
+
 ## [oscam-9.0.23](https://github.com/truecharts/charts/compare/oscam-9.0.22...oscam-9.0.23) (2023-07-01)
 
 ### Chore
@@ -92,8 +97,3 @@
 ## [oscam-9.0.14](https://github.com/truecharts/charts/compare/oscam-9.0.13...oscam-9.0.14) (2023-05-22)
 
 ### Chore
-
-- update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
-  
-  
-
