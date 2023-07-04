@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.94](https://github.com/truecharts/charts/compare/rdesktop-4.0.93...rdesktop-4.0.94) (2023-07-04)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-ubuntu-xfce to latest ([#10139](https://github.com/truecharts/charts/issues/10139))
+  
+  
+
+
 ## [rdesktop-4.0.93](https://github.com/truecharts/charts/compare/rdesktop-4.0.92...rdesktop-4.0.93) (2023-07-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-4.0.84](https://github.com/truecharts/charts/compare/rdesktop-4.0.83...rdesktop-4.0.84) (2023-07-03)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-fedora-i3 to latest ([#10109](https://github.com/truecharts/charts/issues/10109))
-  
-  
-
-
-## [rdesktop-4.0.83](https://github.com/truecharts/charts/compare/rdesktop-4.0.82...rdesktop-4.0.83) (2023-07-03)
 
 ### Chore
