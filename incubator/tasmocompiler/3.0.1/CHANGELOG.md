@@ -4,6 +4,11 @@
 
 
 
+## [tasmocompiler-3.0.1](https://github.com/truecharts/charts/compare/tasmocompiler-3.0.0...tasmocompiler-3.0.1) (2023-07-04)
+
+
+
+
 ## [tasmocompiler-3.0.0](https://github.com/truecharts/charts/compare/tasmocompiler-2.0.14...tasmocompiler-3.0.0) (2023-07-03)
 
 ### Fix
@@ -92,8 +97,3 @@
 ## [tasmocompiler-2.0.6](https://github.com/truecharts/charts/compare/tasmocompiler-2.0.5...tasmocompiler-2.0.6) (2022-12-25)
 
 ### Chore
-
-- update helm general non-major
-  
-  
-
