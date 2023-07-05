@@ -4,6 +4,15 @@
 
 
 
+## [mstream-6.0.32](https://github.com/truecharts/charts/compare/mstream-6.0.31...mstream-6.0.32) (2023-07-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/mstream to v5.11.4 ([#10170](https://github.com/truecharts/charts/issues/10170))
+  
+  
+
+
 ## [mstream-6.0.31](https://github.com/truecharts/charts/compare/mstream-6.0.30...mstream-6.0.31) (2023-07-01)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [mstream-6.0.22](https://github.com/truecharts/charts/compare/mstream-6.0.21...mstream-6.0.22) (2023-06-04)
 
-### Chore
-
-- update container image tccr.io/truecharts/mstream to v5.11.4 ([#9377](https://github.com/truecharts/charts/issues/9377))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
