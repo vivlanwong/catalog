@@ -4,6 +4,15 @@
 
 
 
+## [code-server-7.0.27](https://github.com/truecharts/charts/compare/code-server-7.0.26...code-server-7.0.27) (2023-07-06)
+
+### Chore
+
+- update container image tccr.io/truecharts/code-server to v4.14.1 ([#10212](https://github.com/truecharts/charts/issues/10212))
+  
+  
+
+
 ## [code-server-7.0.26](https://github.com/truecharts/charts/compare/code-server-7.0.25...code-server-7.0.26) (2023-07-01)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [code-server-7.0.17](https://github.com/truecharts/charts/compare/code-server-7.0.16...code-server-7.0.17) (2023-05-24)
-
-### Chore
-
-- update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
   
   
 
