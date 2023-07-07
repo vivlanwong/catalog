@@ -4,6 +4,15 @@
 
 
 
+## [drawio-5.0.30](https://github.com/truecharts/charts/compare/drawio-5.0.29...drawio-5.0.30) (2023-07-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/drawio to v21.5.2 ([#10221](https://github.com/truecharts/charts/issues/10221))
+  
+  
+
+
 ## [drawio-5.0.29](https://github.com/truecharts/charts/compare/drawio-5.0.28...drawio-5.0.29) (2023-07-01)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [drawio-5.0.20](https://github.com/truecharts/charts/compare/drawio-5.0.19...drawio-5.0.20) (2023-05-28)
 
 ### Chore
-
-- update container image tccr.io/truecharts/drawio to v21.3.5 ([#9231](https://github.com/truecharts/charts/issues/9231))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
