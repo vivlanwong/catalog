@@ -4,6 +4,15 @@
 
 
 
+## [code-server-7.0.28](https://github.com/truecharts/charts/compare/code-server-7.0.27...code-server-7.0.28) (2023-07-07)
+
+### Chore
+
+- update helm general non-major ([#10156](https://github.com/truecharts/charts/issues/10156))
+  
+  
+
+
 ## [code-server-7.0.27](https://github.com/truecharts/charts/compare/code-server-7.0.26...code-server-7.0.27) (2023-07-06)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [code-server-7.0.18](https://github.com/truecharts/charts/compare/code-server-7.0.17...code-server-7.0.18) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
   
   
 
