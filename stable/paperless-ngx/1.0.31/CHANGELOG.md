@@ -4,6 +4,15 @@
 
 
 
+## [paperless-ngx-1.0.31](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.30...paperless-ngx-1.0.31) (2023-07-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/paperless-ng to v1.16.5 ([#10228](https://github.com/truecharts/charts/issues/10228))
+  
+  
+
+
 ## [paperless-ngx-1.0.30](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.29...paperless-ngx-1.0.30) (2023-07-01)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [paperless-ngx-1.0.21](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.20...paperless-ngx-1.0.21) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 
