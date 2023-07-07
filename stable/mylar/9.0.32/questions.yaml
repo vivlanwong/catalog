@@ -37,14 +37,6 @@ portals:
       - "$kubernetes-resource_configmap_tcportal-open_host"
     ports:
       - "$kubernetes-resource_configmap_tcportal-open_port"
-  admin:
-    protocols:
-      - "$kubernetes-resource_configmap_tcportal-open_protocol"
-    host:
-      - "$kubernetes-resource_configmap_tcportal-open_host"
-    ports:
-      - "$kubernetes-resource_configmap_tcportal-open_port"
-    path: "/admin"
 questions:
   - variable: global
     group: General Settings
@@ -109,77 +101,7 @@ questions:
                               type: dict
                               attrs:
 
-                                - variable: env
-                                  group: "App Configuration"
-                                  label: "Image Environment"
-                                  schema:
-                                    additional_attrs: true
-                                    type: dict
-                                    attrs:
-                                      - variable: JWT_SECRET
-                                        label: Jwt Secret
-                                        description: The secret used to sign the JWT for the Users-Permissions plugin.
-                                        schema:
-                                          type: string
-                                          private: true
-                                          required: true
-                                          default: ""
-                                      - variable: ADMIN_JWT_SECRET
-                                        label: Admin Jwt Secret
-                                        description: The secret used to sign the JWT for the Admin panel.
-                                        schema:
-                                          type: string
-                                          private: true
-                                          required: true
-                                          default: ""
-                                      - variable: APP_KEYS
-                                        label: App Keys
-                                        description: The secret keys used to sign the session cookies.
-                                        schema:
-                                          type: string
-                                          private: true
-                                          required: true
-                                          default: ""
-                                      - variable: NODE_ENV
-                                        label: Node Environment
-                                        description: Sets Node's Environment
-                                        schema:
-                                          type: string
-                                          default: production
-                                          enum:
-                                            - value: production
-                                              description: Production
-                                            - value: development
-                                              description: Development
-                                      - variable: PUBLIC_URL
-                                        label: Public URL
-                                        schema:
-                                          type: string
-                                          default: ""
-                                      - variable: STRAPI_LICENSE
-                                        label: Strapi License
-                                        description: The license key to activate the Enterprise Edition.
-                                        schema:
-                                          type: string
-                                          default: ""
-                                      - variable: STRAPI_DISABLE_UPDATE_NOTIFICATION
-                                        label: Strapi Disable Update Notifications
-                                        description: Don't show the notification message about updating Strapi.
-                                        schema:
-                                          type: boolean
-                                          default: true
-                                      - variable: FAST_REFRESH
-                                        label: Fast Refresh
-                                        description: enable "Fast Refresh" for near-instant feedback.
-                                        schema:
-                                          type: boolean
-                                          default: false
-                                      - variable: EXTRA_ARGS
-                                        label: "Extra Args (Leave empty for default)"
-                                        description: "Pass extra args to the strapi new"
-                                        schema:
-                                          type: string
-                                          default: ""
+
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -361,7 +283,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 1337
+                              default: 8090
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -591,9 +513,9 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: data
-          label: "App Data Storage"
-          description: "Stores the Application Data."
+        - variable: config
+          label: "App Config Storage"
+          description: "Stores the Application Configuration."
           schema:
             additional_attrs: true
             type: dict
@@ -625,14 +547,6 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  hidden: true
-                  type: boolean
-                  default: false
               - variable: autoPermissions
                 label: Automatic Permissions Configuration
                 description: Automatically set permissions
@@ -641,27 +555,36 @@ questions:
                   type: dict
                   additional_attrs: true
                   attrs:
-                    - variable: chown
-                      label: Run CHOWN
-                      description: |
-                        It will run CHOWN on the path with the given fsGroup
+                    - variable: enabled
+                      label: enabled
                       schema:
                         type: boolean
                         default: false
-                    - variable: chmod
-                      label: Run CHMOD
-                      description: |
-                        It will run CHMOD on the path with the given value
-                      schema:
-                        type: string
-                        default: "775"
-                    - variable: recursive
-                      label: Recursive
-                      description: |
-                        It will run CHOWN and CHMOD recursively
-                      schema:
-                        type: boolean
-                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -737,13 +660,44 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
                 schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:

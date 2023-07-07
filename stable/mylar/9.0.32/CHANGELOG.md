@@ -4,6 +4,15 @@
 
 
 
+## [mylar-9.0.32](https://github.com/truecharts/charts/compare/mylar-9.0.31...mylar-9.0.32) (2023-07-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/mylar3 to v0.7.2 ([#10231](https://github.com/truecharts/charts/issues/10231))
+  
+  
+
+
 ## [mylar-9.0.31](https://github.com/truecharts/charts/compare/mylar-9.0.30...mylar-9.0.31) (2023-07-01)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [mylar-9.0.22](https://github.com/truecharts/charts/compare/mylar-9.0.21...mylar-9.0.22) (2023-06-04)
 
-### Chore
-
-- update container image tccr.io/truecharts/mylar3 to v0.7.2 ([#9378](https://github.com/truecharts/charts/issues/9378))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  

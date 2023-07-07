@@ -4,6 +4,15 @@
 
 
 
+## [strapi-9.0.29](https://github.com/truecharts/charts/compare/strapi-9.0.28...strapi-9.0.29) (2023-07-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/strapi to v4.11.4 ([#10236](https://github.com/truecharts/charts/issues/10236))
+  
+  
+
+
 ## [strapi-9.0.28](https://github.com/truecharts/charts/compare/strapi-9.0.27...strapi-9.0.28) (2023-07-01)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [strapi-9.0.19](https://github.com/truecharts/charts/compare/strapi-9.0.18...strapi-9.0.19) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 

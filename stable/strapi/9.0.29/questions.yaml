@@ -37,6 +37,14 @@ portals:
       - "$kubernetes-resource_configmap_tcportal-open_host"
     ports:
       - "$kubernetes-resource_configmap_tcportal-open_port"
+  admin:
+    protocols:
+      - "$kubernetes-resource_configmap_tcportal-open_protocol"
+    host:
+      - "$kubernetes-resource_configmap_tcportal-open_host"
+    ports:
+      - "$kubernetes-resource_configmap_tcportal-open_port"
+    path: "/admin"
 questions:
   - variable: global
     group: General Settings
@@ -101,7 +109,77 @@ questions:
                               type: dict
                               attrs:
 
-
+                                - variable: env
+                                  group: "App Configuration"
+                                  label: "Image Environment"
+                                  schema:
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: JWT_SECRET
+                                        label: Jwt Secret
+                                        description: The secret used to sign the JWT for the Users-Permissions plugin.
+                                        schema:
+                                          type: string
+                                          private: true
+                                          required: true
+                                          default: ""
+                                      - variable: ADMIN_JWT_SECRET
+                                        label: Admin Jwt Secret
+                                        description: The secret used to sign the JWT for the Admin panel.
+                                        schema:
+                                          type: string
+                                          private: true
+                                          required: true
+                                          default: ""
+                                      - variable: APP_KEYS
+                                        label: App Keys
+                                        description: The secret keys used to sign the session cookies.
+                                        schema:
+                                          type: string
+                                          private: true
+                                          required: true
+                                          default: ""
+                                      - variable: NODE_ENV
+                                        label: Node Environment
+                                        description: Sets Node's Environment
+                                        schema:
+                                          type: string
+                                          default: production
+                                          enum:
+                                            - value: production
+                                              description: Production
+                                            - value: development
+                                              description: Development
+                                      - variable: PUBLIC_URL
+                                        label: Public URL
+                                        schema:
+                                          type: string
+                                          default: ""
+                                      - variable: STRAPI_LICENSE
+                                        label: Strapi License
+                                        description: The license key to activate the Enterprise Edition.
+                                        schema:
+                                          type: string
+                                          default: ""
+                                      - variable: STRAPI_DISABLE_UPDATE_NOTIFICATION
+                                        label: Strapi Disable Update Notifications
+                                        description: Don't show the notification message about updating Strapi.
+                                        schema:
+                                          type: boolean
+                                          default: true
+                                      - variable: FAST_REFRESH
+                                        label: Fast Refresh
+                                        description: enable "Fast Refresh" for near-instant feedback.
+                                        schema:
+                                          type: boolean
+                                          default: false
+                                      - variable: EXTRA_ARGS
+                                        label: "Extra Args (Leave empty for default)"
+                                        description: "Pass extra args to the strapi new"
+                                        schema:
+                                          type: string
+                                          default: ""
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -151,6 +229,7 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
+
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -227,154 +306,6 @@ questions:
                             schema:
                               type: string
                               required: true
-  - variable: wordpress
-    group: App Configuration
-    label: WordPress Configuration
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: user
-          label: User Name
-          description: Username for wordpress.
-          schema:
-            type: string
-            required: true
-            default: ""
-        - variable: pass
-          label: User Password
-          description: User Password for wordpress.
-          schema:
-            type: string
-            private: true
-            required: true
-            default: ""
-        - variable: email
-          label: Wordpress Email
-          description: WordPress application email.
-          schema:
-            type: string
-            required: true
-            default: ""
-        - variable: first_name
-          label: Wordpress First Name
-          description: WordPress user first name.
-          schema:
-            type: string
-            required: true
-            default: ""
-        - variable: last_name
-          label: Wordpress Last Name
-          description: WordPress user last name.
-          schema:
-            type: string
-            required: true
-            default: ""
-        - variable: blog_name
-          label: Wordpress Blog Name
-          description: WordPress blog name.
-          schema:
-            type: string
-            required: true
-            default: Truecharts Blog
-        - variable: enable_reverse_proxy_headers
-          label: Wordpress Reverse Proxy Headers Support
-          description: Enable WordPress support for reverse proxy headers
-          schema:
-            type: boolean
-            default: true
-  - variable: smtp
-    group: App Configuration
-    label: SMTP Configuration
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: enabled
-          label: Enable SMTP
-          schema:
-            type: boolean
-            default: false
-            show_subquestions_if: true
-            subquestions:
-              - variable: host
-                label: SMTP Host
-                schema:
-                  type: string
-                  default: ""
-                  required: true
-              - variable: port
-                label: SMTP Port
-                schema:
-                  type: int
-                  required: true
-                  default: 587
-              - variable: user
-                label: SMTP User
-                schema:
-                  type: string
-                  default: ""
-              - variable: pass
-                label: SMTP Pass
-                schema:
-                  type: string
-                  private: true
-                  default: ""
-  - variable: php-config
-    group: App Configuration
-    label: PHP Configuration
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: PHP_ENABLE_OPCACHE
-          label: Enable OPCache
-          description:  Enable OPcache for PHP scripts.
-          schema:
-            type: string
-            default: "yes"
-        - variable: PHP_EXPOSE_PHP
-          label: Expose PHP
-          description:  Enables HTTP header with PHP version.
-          schema:
-            type: string
-            default: ""
-        - variable: PHP_MAX_EXECUTION_TIME
-          label: Max Execution Time
-          description:  Maximum execution time for PHP scripts.
-          schema:
-            type: string
-            default: ""
-        - variable: PHP_MAX_INPUT_TIME
-          label: Max Input Time
-          description:  Maximum input time for PHP scripts.
-          schema:
-            type: string
-            default: ""
-        - variable: PHP_MAX_INPUT_VARS
-          label: Max Input Vars
-          description: Maximum amount of input variables for PHP scripts.
-          schema:
-            type: string
-            default: ""
-        - variable: PHP_MEMORY_LIMIT
-          label: Memory Limit
-          description: Memory limit for PHP scripts.
-          schema:
-            type: string
-            default: 512M
-        - variable: PHP_POST_MAX_SIZE
-          label: Post Max Size
-          description: Maximum size for PHP POST requests.
-          schema:
-            type: string
-            default: ""
-        - variable: PHP_UPLOAD_MAX_FILESIZE
-          label: Upload Max Filesize
-          description: Maximum file size for PHP uploads.
-          schema:
-            type: string
-            default: ""
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -383,8 +314,8 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Service
-          description: The Primary service on which the healthcheck runs, often the webUI
+          label: "Main Service"
+          description: "The Primary service on which the healthcheck runs, often the webUI"
           schema:
             additional_attrs: true
             type: dict
@@ -420,17 +351,17 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: Main Service Port Configuration
+                      label: "Main Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10591
+                              default: 1337
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -660,9 +591,9 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: config
-          label: App Config Storage
-          description: Stores the Application Config.
+        - variable: data
+          label: "App Data Storage"
+          description: "Stores the Application Data."
           schema:
             additional_attrs: true
             type: dict
@@ -694,14 +625,6 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  hidden: true
-                  type: boolean
-                  default: false
               - variable: autoPermissions
                 label: Automatic Permissions Configuration
                 description: Automatically set permissions
@@ -710,27 +633,36 @@ questions:
                   type: dict
                   additional_attrs: true
                   attrs:
-                    - variable: chown
-                      label: Run CHOWN
-                      description: |
-                        It will run CHOWN on the path with the given fsGroup
+                    - variable: enabled
+                      label: enabled
                       schema:
                         type: boolean
                         default: false
-                    - variable: chmod
-                      label: Run CHMOD
-                      description: |
-                        It will run CHMOD on the path with the given value
-                      schema:
-                        type: string
-                        default: "775"
-                    - variable: recursive
-                      label: Recursive
-                      description: |
-                        It will run CHOWN and CHMOD recursively
-                      schema:
-                        type: boolean
-                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -806,13 +738,44 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
                 schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -857,7 +820,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Ingress
+          label: "Main Ingress"
           schema:
             additional_attrs: true
             type: dict
@@ -1171,10 +1134,10 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 568
+                  default: 0
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID of the user running the application"
+                description: "The groupID this App of the user running the application"
                 schema:
                   type: int
                   default: 0
