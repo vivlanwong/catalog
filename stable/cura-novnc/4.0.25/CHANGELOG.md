@@ -4,6 +4,15 @@
 
 
 
+## [cura-novnc-4.0.25](https://github.com/truecharts/charts/compare/cura-novnc-4.0.24...cura-novnc-4.0.25) (2023-07-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/cura-novnc to latest ([#10230](https://github.com/truecharts/charts/issues/10230))
+  
+  
+
+
 ## [cura-novnc-4.0.24](https://github.com/truecharts/charts/compare/cura-novnc-4.0.23...cura-novnc-4.0.24) (2023-07-01)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
-  
-  
-
-
-## [cura-novnc-4.0.15](https://github.com/truecharts/charts/compare/cura-novnc-4.0.14...cura-novnc-4.0.15) (2023-05-22)
-
-### Chore
-
-- update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
   
   
 
