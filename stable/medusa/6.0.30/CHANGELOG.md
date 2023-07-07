@@ -4,6 +4,15 @@
 
 
 
+## [medusa-6.0.30](https://github.com/truecharts/charts/compare/medusa-6.0.29...medusa-6.0.30) (2023-07-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/medusa to v1.0.17 ([#10220](https://github.com/truecharts/charts/issues/10220))
+  
+  
+
+
 ## [medusa-6.0.29](https://github.com/truecharts/charts/compare/medusa-6.0.28...medusa-6.0.29) (2023-07-01)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [medusa-6.0.20](https://github.com/truecharts/charts/compare/medusa-6.0.19...medusa-6.0.20) (2023-05-29)
 
 ### Chore
-
-- update container image tccr.io/truecharts/medusa to v1.0.16 ([#9243](https://github.com/truecharts/charts/issues/9243))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
