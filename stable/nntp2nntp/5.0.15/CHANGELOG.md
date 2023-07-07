@@ -4,6 +4,15 @@
 
 
 
+## [nntp2nntp-5.0.15](https://github.com/truecharts/charts/compare/nntp2nntp-5.0.14...nntp2nntp-5.0.15) (2023-07-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/nntp2nntp to v0.3.20230704 ([#10226](https://github.com/truecharts/charts/issues/10226))
+  
+  
+
+
 ## [nntp2nntp-5.0.14](https://github.com/truecharts/charts/compare/nntp2nntp-5.0.13...nntp2nntp-5.0.14) (2023-07-01)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
-  
-  
-
-
-## [nntp2nntp-5.0.5](https://github.com/truecharts/charts/compare/nntp2nntp-5.0.4...nntp2nntp-5.0.5) (2023-05-22)
-
-### Chore
-
-- update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
   
   
 
