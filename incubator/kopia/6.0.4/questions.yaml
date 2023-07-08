@@ -116,7 +116,7 @@ questions:
                                           default: "secret"
                                           required: true
                                       - variable: KOPIA_PASSWORD
-                                        label: "KOPIA_PASSWORD"
+                                        label: "Kopia Password"
                                         description: "Repository password"
                                         schema:
                                           type: string
@@ -124,20 +124,21 @@ questions:
                                           required: true
                                           private: true
                                       - variable: KOPIA_SERVER_USERNAME
-                                        label: "KOPIA_SERVER_USERNAME"
+                                        label: "Kopia Server Username"
                                         description: "Username for WebUI"
                                         schema:
                                           type: string
                                           default: "server_user"
                                           required: true
                                       - variable: KOPIA_SERVER_PASSWORD
-                                        label: "KOPIA_SERVER_PASSWORD"
+                                        label: "Kopia Server Password"
                                         description: "Password for WebUI"
                                         schema:
                                           type: string
                                           default: "server_password"
                                           required: true
                                           private: true
+
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -582,14 +583,6 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  hidden: true
-                  type: boolean
-                  default: false
               - variable: autoPermissions
                 label: Automatic Permissions Configuration
                 description: Automatically set permissions
@@ -598,27 +591,36 @@ questions:
                   type: dict
                   additional_attrs: true
                   attrs:
-                    - variable: chown
-                      label: Run CHOWN
-                      description: |
-                        It will run CHOWN on the path with the given fsGroup
+                    - variable: enabled
+                      label: enabled
                       schema:
                         type: boolean
                         default: false
-                    - variable: chmod
-                      label: Run CHMOD
-                      description: |
-                        It will run CHMOD on the path with the given value
-                      schema:
-                        type: string
-                        default: "775"
-                    - variable: recursive
-                      label: Recursive
-                      description: |
-                        It will run CHOWN and CHMOD recursively
-                      schema:
-                        type: boolean
-                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -682,14 +684,6 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  hidden: true
-                  type: boolean
-                  default: false
               - variable: autoPermissions
                 label: Automatic Permissions Configuration
                 description: Automatically set permissions
@@ -698,27 +692,36 @@ questions:
                   type: dict
                   additional_attrs: true
                   attrs:
-                    - variable: chown
-                      label: Run CHOWN
-                      description: |
-                        It will run CHOWN on the path with the given fsGroup
+                    - variable: enabled
+                      label: enabled
                       schema:
                         type: boolean
                         default: false
-                    - variable: chmod
-                      label: Run CHMOD
-                      description: |
-                        It will run CHMOD on the path with the given value
-                      schema:
-                        type: string
-                        default: "775"
-                    - variable: recursive
-                      label: Recursive
-                      description: |
-                        It will run CHOWN and CHMOD recursively
-                      schema:
-                        type: boolean
-                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -782,14 +785,6 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  hidden: true
-                  type: boolean
-                  default: false
               - variable: autoPermissions
                 label: Automatic Permissions Configuration
                 description: Automatically set permissions
@@ -798,27 +793,36 @@ questions:
                   type: dict
                   additional_attrs: true
                   attrs:
-                    - variable: chown
-                      label: Run CHOWN
-                      description: |
-                        It will run CHOWN on the path with the given fsGroup
+                    - variable: enabled
+                      label: enabled
                       schema:
                         type: boolean
                         default: false
-                    - variable: chmod
-                      label: Run CHMOD
-                      description: |
-                        It will run CHMOD on the path with the given value
-                      schema:
-                        type: string
-                        default: "775"
-                    - variable: recursive
-                      label: Recursive
-                      description: |
-                        It will run CHOWN and CHMOD recursively
-                      schema:
-                        type: boolean
-                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -882,14 +886,6 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  hidden: true
-                  type: boolean
-                  default: false
               - variable: autoPermissions
                 label: Automatic Permissions Configuration
                 description: Automatically set permissions
@@ -898,27 +894,36 @@ questions:
                   type: dict
                   additional_attrs: true
                   attrs:
-                    - variable: chown
-                      label: Run CHOWN
-                      description: |
-                        It will run CHOWN on the path with the given fsGroup
+                    - variable: enabled
+                      label: enabled
                       schema:
                         type: boolean
                         default: false
-                    - variable: chmod
-                      label: Run CHMOD
-                      description: |
-                        It will run CHMOD on the path with the given value
-                      schema:
-                        type: string
-                        default: "775"
-                    - variable: recursive
-                      label: Recursive
-                      description: |
-                        It will run CHOWN and CHMOD recursively
-                      schema:
-                        type: boolean
-                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -994,13 +999,44 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
                 schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
