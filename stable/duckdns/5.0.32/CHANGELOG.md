@@ -4,6 +4,15 @@
 
 
 
+## [duckdns-5.0.32](https://github.com/truecharts/charts/compare/duckdns-5.0.31...duckdns-5.0.32) (2023-07-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/duckdns to latest ([#10359](https://github.com/truecharts/charts/issues/10359))
+  
+  
+
+
 ## [duckdns-5.0.31](https://github.com/truecharts/charts/compare/duckdns-5.0.30...duckdns-5.0.31) (2023-07-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [duckdns-5.0.22](https://github.com/truecharts/charts/compare/duckdns-5.0.21...duckdns-5.0.22) (2023-05-28)
-
-### Chore
-
-- update container image tccr.io/truecharts/duckdns to latest ([#9205](https://github.com/truecharts/charts/issues/9205))
-  
-  
-
-
-## [duckdns-5.0.21](https://github.com/truecharts/charts/compare/duckdns-5.0.20...duckdns-5.0.21) (2023-05-27)
 
 ### Chore
