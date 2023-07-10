@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.99](https://github.com/truecharts/charts/compare/rdesktop-4.0.98...rdesktop-4.0.99) (2023-07-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-alpine-mate to latest ([#10360](https://github.com/truecharts/charts/issues/10360))
+  
+  
+
+
 ## [rdesktop-4.0.98](https://github.com/truecharts/charts/compare/rdesktop-4.0.97...rdesktop-4.0.98) (2023-07-10)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-4.0.89](https://github.com/truecharts/charts/compare/rdesktop-4.0.88...rdesktop-4.0.89) (2023-07-03)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-ubuntu-i3 to latest ([#10124](https://github.com/truecharts/charts/issues/10124))
-  
-  
-
-
-## [rdesktop-4.0.88](https://github.com/truecharts/charts/compare/rdesktop-4.0.87...rdesktop-4.0.88) (2023-07-03)
 
 ### Chore
