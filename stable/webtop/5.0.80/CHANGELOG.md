@@ -4,6 +4,15 @@
 
 
 
+## [webtop-5.0.80](https://github.com/truecharts/charts/compare/webtop-5.0.79...webtop-5.0.80) (2023-07-11)
+
+### Chore
+
+- update webtop ([#10388](https://github.com/truecharts/charts/issues/10388))
+  
+  
+
+
 ## [webtop-5.0.79](https://github.com/truecharts/charts/compare/webtop-5.0.78...webtop-5.0.79) (2023-07-11)
 
 ### Chore
@@ -85,15 +94,6 @@
   - update container image tccr.io/truecharts/webtop-fedora-mate to latest ([#10179](https://github.com/truecharts/charts/issues/10179))
   - update container image tccr.io/truecharts/webtop-fedora-kde to latest ([#10177](https://github.com/truecharts/charts/issues/10177))
   - update container image tccr.io/truecharts/webtop-fedora-icewm to latest ([#10175](https://github.com/truecharts/charts/issues/10175))
-  
-  
-
-
-## [webtop-5.0.66](https://github.com/truecharts/charts/compare/webtop-5.0.65...webtop-5.0.66) (2023-07-05)
-
-### Chore
-
-- update webtop ([#10173](https://github.com/truecharts/charts/issues/10173))
   
   
 
