@@ -4,6 +4,15 @@
 
 
 
+## [matomo-7.0.31](https://github.com/truecharts/charts/compare/matomo-7.0.30...matomo-7.0.31) (2023-07-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/matomo to v4.15.0 ([#10379](https://github.com/truecharts/charts/issues/10379))
+  
+  
+
+
 ## [matomo-7.0.30](https://github.com/truecharts/charts/compare/matomo-7.0.29...matomo-7.0.30) (2023-07-08)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [matomo-7.0.21](https://github.com/truecharts/charts/compare/matomo-7.0.20...matomo-7.0.21) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 
