@@ -4,6 +4,15 @@
 
 
 
+## [znc-5.0.30](https://github.com/truecharts/charts/compare/znc-5.0.29...znc-5.0.30) (2023-07-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/znc to v1.8.2 ([#10426](https://github.com/truecharts/charts/issues/10426))
+  
+  
+
+
 ## [znc-5.0.29](https://github.com/truecharts/charts/compare/znc-5.0.28...znc-5.0.29) (2023-07-07)
 
 ### Chore
@@ -86,14 +95,5 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [znc-5.0.20](https://github.com/truecharts/charts/compare/znc-5.0.19...znc-5.0.20) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
