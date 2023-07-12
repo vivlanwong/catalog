@@ -4,6 +4,15 @@
 
 
 
+## [ubooquity-6.0.20](https://github.com/truecharts/charts/compare/ubooquity-6.0.19...ubooquity-6.0.20) (2023-07-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/ubooquity to v2.1.2 ([#10424](https://github.com/truecharts/charts/issues/10424))
+  
+  
+
+
 ## [ubooquity-6.0.19](https://github.com/truecharts/charts/compare/ubooquity-6.0.18...ubooquity-6.0.19) (2023-07-05)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [ubooquity-6.0.10](https://github.com/truecharts/charts/compare/ubooquity-6.0.9...ubooquity-6.0.10) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
   
   
