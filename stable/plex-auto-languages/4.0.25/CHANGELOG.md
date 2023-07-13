@@ -4,6 +4,15 @@
 
 
 
+## [plex-auto-languages-4.0.25](https://github.com/truecharts/charts/compare/plex-auto-languages-4.0.24...plex-auto-languages-4.0.25) (2023-07-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/plex-auto-languages to latest ([#10447](https://github.com/truecharts/charts/issues/10447))
+  
+  
+
+
 ## [plex-auto-languages-4.0.24](https://github.com/truecharts/charts/compare/plex-auto-languages-4.0.23...plex-auto-languages-4.0.24) (2023-07-01)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [plex-auto-languages-4.0.15](https://github.com/truecharts/charts/compare/plex-auto-languages-4.0.14...plex-auto-languages-4.0.15) (2023-05-22)
 
 ### Chore
-
-- update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
-  
-  
-
-
-## [plex-auto-languages-4.0.14](https://github.com/truecharts/charts/compare/plex-auto-languages-4.0.13...plex-auto-languages-4.0.14) (2023-05-22)
-
-### Feat
