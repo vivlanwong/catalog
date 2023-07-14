@@ -4,6 +4,11 @@
 
 
 
+## [minecraft-bedrock-4.0.24](https://github.com/truecharts/charts/compare/minecraft-bedrock-4.0.23...minecraft-bedrock-4.0.24) (2023-07-14)
+
+
+
+
 ## [minecraft-bedrock-4.0.23](https://github.com/truecharts/charts/compare/minecraft-bedrock-4.0.22...minecraft-bedrock-4.0.23) (2023-07-01)
 
 ### Chore
@@ -92,8 +97,3 @@
 - update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
   
   
-
-
-## [minecraft-bedrock-4.0.13](https://github.com/truecharts/charts/compare/minecraft-bedrock-4.0.12...minecraft-bedrock-4.0.13) (2023-05-22)
-
-### Feat

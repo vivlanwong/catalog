@@ -4,6 +4,11 @@
 
 
 
+## [minecraft-bungeecord-4.1.4](https://github.com/truecharts/charts/compare/minecraft-bungeecord-4.1.3...minecraft-bungeecord-4.1.4) (2023-07-14)
+
+
+
+
 ## [minecraft-bungeecord-4.1.3](https://github.com/truecharts/charts/compare/minecraft-bungeecord-4.1.2...minecraft-bungeecord-4.1.3) (2023-07-01)
 
 ### Chore
@@ -92,8 +97,3 @@
 
 ## [minecraft-bungeecord-4.0.13](https://github.com/truecharts/charts/compare/minecraft-bungeecord-4.0.12...minecraft-bungeecord-4.0.13) (2023-05-22)
 
-### Chore
-
-- update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
-  
-  
