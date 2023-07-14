@@ -4,6 +4,15 @@
 
 
 
+## [projectsend-7.1.1](https://github.com/truecharts/charts/compare/projectsend-7.1.0...projectsend-7.1.1) (2023-07-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/projectsend to vlatest ([#10460](https://github.com/truecharts/charts/issues/10460))
+  
+  
+
+
 ## [projectsend-7.1.0](https://github.com/truecharts/charts/compare/projectsend-7.0.25...projectsend-7.1.0) (2023-07-14)
 
 
@@ -86,14 +95,5 @@
 
 
 ## [projectsend-7.0.17](https://github.com/truecharts/charts/compare/projectsend-7.0.16...projectsend-7.0.17) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [projectsend-7.0.16](https://github.com/truecharts/charts/compare/projectsend-7.0.15...projectsend-7.0.16) (2023-05-26)
 
 ### Chore
