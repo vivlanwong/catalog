@@ -4,6 +4,15 @@
 
 
 
+## [clusterissuer-1.0.11](https://github.com/truecharts/charts/compare/clusterissuer-1.0.10...clusterissuer-1.0.11) (2023-07-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/scratch to latest ([#10451](https://github.com/truecharts/charts/issues/10451))
+  
+  
+
+
 ## [clusterissuer-1.0.10](https://github.com/truecharts/charts/compare/clusterissuer-1.0.9...clusterissuer-1.0.10) (2023-07-01)
 
 ### Chore
@@ -84,15 +93,6 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [clusterissuer-1.0.2](https://github.com/truecharts/charts/compare/clusterissuer-1.0.1...clusterissuer-1.0.2) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
   
 
