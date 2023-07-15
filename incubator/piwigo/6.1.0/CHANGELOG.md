@@ -4,6 +4,11 @@
 
 
 
+## [piwigo-6.1.0](https://github.com/truecharts/charts/compare/piwigo-6.0.0...piwigo-6.1.0) (2023-07-15)
+
+
+
+
 ## [piwigo-6.0.0](https://github.com/truecharts/charts/compare/piwigo-5.0.8...piwigo-6.0.0) (2023-07-13)
 
 ### Feat
@@ -69,11 +74,6 @@
 - update helm general non-major
   
   
-
-
-## [piwigo-5.0.2](https://github.com/truecharts/charts/compare/piwigo-5.0.1...piwigo-5.0.2) (2022-11-30)
-
-
 
 
 ## [piwigo-5.0.2](https://github.com/truecharts/charts/compare/piwigo-5.0.1...piwigo-5.0.2) (2022-11-30)
