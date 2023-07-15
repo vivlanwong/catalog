@@ -4,6 +4,15 @@
 
 
 
+## [grav-7.0.31](https://github.com/truecharts/charts/compare/grav-7.0.30...grav-7.0.31) (2023-07-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/grav to v1.7.42 ([#10495](https://github.com/truecharts/charts/issues/10495))
+  
+  
+
+
 ## [grav-7.0.30](https://github.com/truecharts/charts/compare/grav-7.0.29...grav-7.0.30) (2023-07-08)
 
 ### Chore
@@ -36,15 +45,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/grav to v1.7.42 ([#9923](https://github.com/truecharts/charts/issues/9923))
-  
-  
-
-
-## [grav-7.0.26](https://github.com/truecharts/charts/compare/grav-7.0.25...grav-7.0.26) (2023-06-14)
-
-### Chore
-
-- update container image tccr.io/truecharts/grav to v1.7.41 ([#9618](https://github.com/truecharts/charts/issues/9618))
   
   
 
