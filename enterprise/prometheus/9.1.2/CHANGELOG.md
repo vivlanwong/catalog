@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-9.1.2](https://github.com/truecharts/charts/compare/prometheus-9.1.1...prometheus-9.1.2) (2023-07-17)
+
+### Chore
+
+- update container image tccr.io/truecharts/prometheus to v2.45.0 ([#10551](https://github.com/truecharts/charts/issues/10551))
+  
+  
+
+
 ## [prometheus-9.1.1](https://github.com/truecharts/charts/compare/prometheus-9.1.0...prometheus-9.1.1) (2023-07-14)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [prometheus-9.0.24](https://github.com/truecharts/charts/compare/prometheus-9.0.23...prometheus-9.0.24) (2023-06-20)
-
-### Chore
-
-- update container image tccr.io/truecharts/prometheus to v2.44.0 ([#9784](https://github.com/truecharts/charts/issues/9784))
-  
-  
-
-
-## [prometheus-9.0.23](https://github.com/truecharts/charts/compare/prometheus-9.0.22...prometheus-9.0.23) (2023-06-17)
 
 ### Chore
