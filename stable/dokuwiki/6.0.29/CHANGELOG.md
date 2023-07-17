@@ -4,6 +4,15 @@
 
 
 
+## [dokuwiki-6.0.29](https://github.com/truecharts/charts/compare/dokuwiki-6.0.28...dokuwiki-6.0.29) (2023-07-17)
+
+### Chore
+
+- update container image tccr.io/truecharts/dokuwiki to v20230404.1.0 ([#10544](https://github.com/truecharts/charts/issues/10544))
+  
+  
+
+
 ## [dokuwiki-6.0.28](https://github.com/truecharts/charts/compare/dokuwiki-6.0.27...dokuwiki-6.0.28) (2023-07-14)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [dokuwiki-6.0.19](https://github.com/truecharts/charts/compare/dokuwiki-6.0.18...dokuwiki-6.0.19) (2023-06-04)
 
 ### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
