@@ -4,6 +4,15 @@
 
 
 
+## [pwndrop-5.0.31](https://github.com/truecharts/charts/compare/pwndrop-5.0.30...pwndrop-5.0.31) (2023-07-18)
+
+### Chore
+
+- update container image tccr.io/truecharts/pwndrop to v1.0.1 ([#10558](https://github.com/truecharts/charts/issues/10558))
+  
+  
+
+
 ## [pwndrop-5.0.30](https://github.com/truecharts/charts/compare/pwndrop-5.0.29...pwndrop-5.0.30) (2023-07-03)
 
 ### Chore
@@ -86,14 +95,5 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [pwndrop-5.0.21](https://github.com/truecharts/charts/compare/pwndrop-5.0.20...pwndrop-5.0.21) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
