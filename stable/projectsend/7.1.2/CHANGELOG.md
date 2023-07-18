@@ -4,6 +4,15 @@
 
 
 
+## [projectsend-7.1.2](https://github.com/truecharts/charts/compare/projectsend-7.1.1...projectsend-7.1.2) (2023-07-18)
+
+### Chore
+
+- update container image tccr.io/truecharts/projectsend to vlatest ([#10557](https://github.com/truecharts/charts/issues/10557))
+  
+  
+
+
 ## [projectsend-7.1.1](https://github.com/truecharts/charts/compare/projectsend-7.1.0...projectsend-7.1.1) (2023-07-14)
 
 ### Chore
@@ -88,12 +97,3 @@
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
   ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [projectsend-7.0.17](https://github.com/truecharts/charts/compare/projectsend-7.0.16...projectsend-7.0.17) (2023-05-27)
-
-### Chore
