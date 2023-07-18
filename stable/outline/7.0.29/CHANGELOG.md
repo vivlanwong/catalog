@@ -4,6 +4,15 @@
 
 
 
+## [outline-7.0.29](https://github.com/truecharts/charts/compare/outline-7.0.28...outline-7.0.29) (2023-07-18)
+
+### Chore
+
+- update container image tccr.io/truecharts/outline to v0.70.2 ([#10588](https://github.com/truecharts/charts/issues/10588))
+  
+  
+
+
 ## [outline-7.0.28](https://github.com/truecharts/charts/compare/outline-7.0.27...outline-7.0.28) (2023-07-08)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [outline-7.0.19](https://github.com/truecharts/charts/compare/outline-7.0.18...outline-7.0.19) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
   
   
 
