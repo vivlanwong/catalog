@@ -4,6 +4,15 @@
 
 
 
+## [wg-easy-4.0.17](https://github.com/truecharts/charts/compare/wg-easy-4.0.16...wg-easy-4.0.17) (2023-07-19)
+
+### Fix
+
+- update mtu default ([#10515](https://github.com/truecharts/charts/issues/10515))
+  
+  
+
+
 ## [wg-easy-4.0.16](https://github.com/truecharts/charts/compare/wg-easy-4.0.15...wg-easy-4.0.16) (2023-07-07)
 
 
@@ -86,14 +95,5 @@
 
 
 ## [wg-easy-4.0.7](https://github.com/truecharts/charts/compare/wg-easy-4.0.6...wg-easy-4.0.7) (2023-05-24)
-
-### Chore
-
-- update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
-  
-  
-
-
-## [wg-easy-4.0.6](https://github.com/truecharts/charts/compare/wg-easy-4.0.5...wg-easy-4.0.6) (2023-05-22)
 
 ### Chore
