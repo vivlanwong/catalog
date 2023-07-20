@@ -4,6 +4,15 @@
 
 
 
+## [clusterissuer-2.0.1](https://github.com/truecharts/charts/compare/clusterissuer-2.0.0...clusterissuer-2.0.1) (2023-07-20)
+
+### Fix
+
+- actually verify operator presence
+  
+  
+
+
 ## [clusterissuer-2.0.0](https://github.com/truecharts/charts/compare/clusterissuer-1.0.13...clusterissuer-2.0.0) (2023-07-19)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [clusterissuer-1.0.6](https://github.com/truecharts/charts/compare/clusterissuer-1.0.5...clusterissuer-1.0.6) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [clusterissuer-1.0.5](https://github.com/truecharts/charts/compare/clusterissuer-1.0.4...clusterissuer-1.0.5) (2023-06-11)
 
 ### Chore
 
