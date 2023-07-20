@@ -4,6 +4,15 @@
 
 
 
+## [baserow-7.0.28](https://github.com/truecharts/charts/compare/baserow-7.0.27...baserow-7.0.28) (2023-07-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/baserow to v1.19.0 ([#10654](https://github.com/truecharts/charts/issues/10654))
+  
+  
+
+
 ## [baserow-7.0.27](https://github.com/truecharts/charts/compare/baserow-7.0.26...baserow-7.0.27) (2023-07-01)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [baserow-7.0.18](https://github.com/truecharts/charts/compare/baserow-7.0.17...baserow-7.0.18) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 
