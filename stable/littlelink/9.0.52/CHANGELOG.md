@@ -4,6 +4,15 @@
 
 
 
+## [littlelink-9.0.52](https://github.com/truecharts/charts/compare/littlelink-9.0.51...littlelink-9.0.52) (2023-07-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/littlelink-server to latest ([#10672](https://github.com/truecharts/charts/issues/10672))
+  
+  
+
+
 ## [littlelink-9.0.51](https://github.com/truecharts/charts/compare/littlelink-9.0.50...littlelink-9.0.51) (2023-07-19)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [littlelink-9.0.42](https://github.com/truecharts/charts/compare/littlelink-9.0.41...littlelink-9.0.42) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [littlelink-9.0.41](https://github.com/truecharts/charts/compare/littlelink-9.0.40...littlelink-9.0.41) (2023-06-29)
 
 ### Chore
