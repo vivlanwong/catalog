@@ -4,6 +4,15 @@
 
 
 
+## [kube-state-metrics-2.0.1](https://github.com/truecharts/charts/compare/kube-state-metrics-2.0.0...kube-state-metrics-2.0.1) (2023-07-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/kube-state-metrics to v2.9.2 ([#10676](https://github.com/truecharts/charts/issues/10676))
+  
+  
+
+
 ## [kube-state-metrics-2.0.0](https://github.com/truecharts/charts/compare/kube-state-metrics-1.0.41...kube-state-metrics-2.0.0) (2023-07-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm chart common to 12.14.7 ([#10237](https://github.com/truecharts/charts/issues/10237))
-  
-  
-
-
-## [kube-state-metrics-1.0.32](https://github.com/truecharts/charts/compare/kube-state-metrics-1.0.31...kube-state-metrics-1.0.32) (2023-07-04)
-
-### Chore
-
-- update container image tccr.io/truecharts/kube-state-metrics to v2.9.2 ([#10072](https://github.com/truecharts/charts/issues/10072))
   
   
