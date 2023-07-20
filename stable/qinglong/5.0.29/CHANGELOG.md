@@ -4,6 +4,15 @@
 
 
 
+## [qinglong-5.0.29](https://github.com/truecharts/charts/compare/qinglong-5.0.28...qinglong-5.0.29) (2023-07-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/qinglong to v2.15.18 ([#10646](https://github.com/truecharts/charts/issues/10646))
+  
+  
+
+
 ## [qinglong-5.0.28](https://github.com/truecharts/charts/compare/qinglong-5.0.27...qinglong-5.0.28) (2023-07-07)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [qinglong-5.0.19](https://github.com/truecharts/charts/compare/qinglong-5.0.18...qinglong-5.0.19) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 
