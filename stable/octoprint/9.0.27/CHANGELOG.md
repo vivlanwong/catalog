@@ -4,6 +4,15 @@
 
 
 
+## [octoprint-9.0.27](https://github.com/truecharts/charts/compare/octoprint-9.0.26...octoprint-9.0.27) (2023-07-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/octoprint to v1.9.2 ([#10643](https://github.com/truecharts/charts/issues/10643))
+  
+  
+
+
 ## [octoprint-9.0.26](https://github.com/truecharts/charts/compare/octoprint-9.0.25...octoprint-9.0.26) (2023-07-07)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [octoprint-9.0.17](https://github.com/truecharts/charts/compare/octoprint-9.0.16...octoprint-9.0.17) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
   
   
 
