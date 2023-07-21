@@ -4,6 +4,15 @@
 
 
 
+## [strapi-9.0.31](https://github.com/truecharts/charts/compare/strapi-9.0.30...strapi-9.0.31) (2023-07-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/strapi to v4.11.7 ([#10708](https://github.com/truecharts/charts/issues/10708))
+  
+  
+
+
 ## [strapi-9.0.30](https://github.com/truecharts/charts/compare/strapi-9.0.29...strapi-9.0.30) (2023-07-19)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [strapi-9.0.21](https://github.com/truecharts/charts/compare/strapi-9.0.20...strapi-9.0.21) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  
-
-
-## [strapi-9.0.20](https://github.com/truecharts/charts/compare/strapi-9.0.19...strapi-9.0.20) (2023-05-29)
 
 ### Chore
