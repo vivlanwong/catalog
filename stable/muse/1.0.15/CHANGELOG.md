@@ -4,6 +4,15 @@
 
 
 
+## [muse-1.0.15](https://github.com/truecharts/charts/compare/muse-1.0.14...muse-1.0.15) (2023-07-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/muse to v2.4.0 ([#10710](https://github.com/truecharts/charts/issues/10710))
+  
+  
+
+
 ## [muse-1.0.14](https://github.com/truecharts/charts/compare/muse-1.0.13...muse-1.0.14) (2023-07-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [muse-1.0.5](https://github.com/truecharts/charts/compare/muse-1.0.4...muse-1.0.5) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [muse-1.0.4](https://github.com/truecharts/charts/compare/muse-1.0.3...muse-1.0.4) (2023-05-24)
 
 ### Chore
