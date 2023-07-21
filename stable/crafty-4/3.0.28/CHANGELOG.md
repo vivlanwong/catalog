@@ -4,6 +4,15 @@
 
 
 
+## [crafty-4-3.0.28](https://github.com/truecharts/charts/compare/crafty-4-3.0.27...crafty-4-3.0.28) (2023-07-21)
+
+### Chore
+
+- update helm general non-major ([#10666](https://github.com/truecharts/charts/issues/10666))
+  
+  
+
+
 ## [crafty-4-3.0.27](https://github.com/truecharts/charts/compare/crafty-4-3.0.26...crafty-4-3.0.27) (2023-07-21)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [crafty-4-3.0.18](https://github.com/truecharts/charts/compare/crafty-4-3.0.17...crafty-4-3.0.18) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 
