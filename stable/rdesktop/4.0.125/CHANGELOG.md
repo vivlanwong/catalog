@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.125](https://github.com/truecharts/charts/compare/rdesktop-4.0.124...rdesktop-4.0.125) (2023-07-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-arch-icewm to latest ([#10723](https://github.com/truecharts/charts/issues/10723))
+  
+  
+
+
 ## [rdesktop-4.0.124](https://github.com/truecharts/charts/compare/rdesktop-4.0.123...rdesktop-4.0.124) (2023-07-21)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-4.0.115](https://github.com/truecharts/charts/compare/rdesktop-4.0.114...rdesktop-4.0.115) (2023-07-17)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-fedora-icewm to latest ([#10530](https://github.com/truecharts/charts/issues/10530))
-  
-  
-
-
-## [rdesktop-4.0.114](https://github.com/truecharts/charts/compare/rdesktop-4.0.113...rdesktop-4.0.114) (2023-07-17)
 
 ### Chore
