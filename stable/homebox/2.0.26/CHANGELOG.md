@@ -4,6 +4,15 @@
 
 
 
+## [homebox-2.0.26](https://github.com/truecharts/charts/compare/homebox-2.0.25...homebox-2.0.26) (2023-07-22)
+
+### Fix
+
+- ints must be quoted in CMs/Secrets. ([#10732](https://github.com/truecharts/charts/issues/10732))
+  
+  
+
+
 ## [homebox-2.0.25](https://github.com/truecharts/charts/compare/homebox-2.0.24...homebox-2.0.25) (2023-07-01)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [homebox-2.0.16](https://github.com/truecharts/charts/compare/homebox-2.0.15...homebox-2.0.16) (2023-05-24)
-
-### Chore
-
-- update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
   
   
 
