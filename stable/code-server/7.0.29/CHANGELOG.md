@@ -4,6 +4,15 @@
 
 
 
+## [code-server-7.0.29](https://github.com/truecharts/charts/compare/code-server-7.0.28...code-server-7.0.29) (2023-07-22)
+
+### Chore
+
+- update container image tccr.io/truecharts/code-server to v4.15.0 ([#10746](https://github.com/truecharts/charts/issues/10746))
+  
+  
+
+
 ## [code-server-7.0.28](https://github.com/truecharts/charts/compare/code-server-7.0.27...code-server-7.0.28) (2023-07-07)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [code-server-7.0.19](https://github.com/truecharts/charts/compare/code-server-7.0.18...code-server-7.0.19) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 
