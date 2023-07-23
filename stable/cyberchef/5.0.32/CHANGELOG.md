@@ -4,6 +4,15 @@
 
 
 
+## [cyberchef-5.0.32](https://github.com/truecharts/charts/compare/cyberchef-5.0.31...cyberchef-5.0.32) (2023-07-23)
+
+### Chore
+
+- update container image tccr.io/truecharts/cyberchef to v10.5.2 ([#10765](https://github.com/truecharts/charts/issues/10765))
+  
+  
+
+
 ## [cyberchef-5.0.31](https://github.com/truecharts/charts/compare/cyberchef-5.0.30...cyberchef-5.0.31) (2023-07-22)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [cyberchef-5.0.22](https://github.com/truecharts/charts/compare/cyberchef-5.0.21...cyberchef-5.0.22) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 
