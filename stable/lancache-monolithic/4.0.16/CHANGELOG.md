@@ -4,6 +4,15 @@
 
 
 
+## [lancache-monolithic-4.0.16](https://github.com/truecharts/charts/compare/lancache-monolithic-4.0.15...lancache-monolithic-4.0.16) (2023-07-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/lancache-monolithic to latest ([#10798](https://github.com/truecharts/charts/issues/10798))
+  
+  
+
+
 ## [lancache-monolithic-4.0.15](https://github.com/truecharts/charts/compare/lancache-monolithic-4.0.14...lancache-monolithic-4.0.15) (2023-07-01)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
-  
-  
-
-
-## [lancache-monolithic-4.0.6](https://github.com/truecharts/charts/compare/lancache-monolithic-4.0.5...lancache-monolithic-4.0.6) (2023-05-22)
-
-### Chore
-
-- update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
   
   
 
