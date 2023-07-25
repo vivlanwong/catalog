@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.136](https://github.com/truecharts/charts/compare/rdesktop-4.0.135...rdesktop-4.0.136) (2023-07-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-fedora-openbox to latest ([#10815](https://github.com/truecharts/charts/issues/10815))
+  
+  
+
+
 ## [rdesktop-4.0.135](https://github.com/truecharts/charts/compare/rdesktop-4.0.134...rdesktop-4.0.135) (2023-07-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-4.0.126](https://github.com/truecharts/charts/compare/rdesktop-4.0.125...rdesktop-4.0.126) (2023-07-22)
-
-### Chore
-
-- update rdesktop ([#10724](https://github.com/truecharts/charts/issues/10724))
-  
-  
-
-
-## [rdesktop-4.0.125](https://github.com/truecharts/charts/compare/rdesktop-4.0.124...rdesktop-4.0.125) (2023-07-21)
 
 ### Chore
