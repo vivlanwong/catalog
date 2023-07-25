@@ -4,6 +4,15 @@
 
 
 
+## [littlelink-9.0.53](https://github.com/truecharts/charts/compare/littlelink-9.0.52...littlelink-9.0.53) (2023-07-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/littlelink-server to latest ([#10840](https://github.com/truecharts/charts/issues/10840))
+  
+  
+
+
 ## [littlelink-9.0.52](https://github.com/truecharts/charts/compare/littlelink-9.0.51...littlelink-9.0.52) (2023-07-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [littlelink-9.0.43](https://github.com/truecharts/charts/compare/littlelink-9.0.42...littlelink-9.0.43) (2023-07-04)
-
-### Chore
-
-- update container image tccr.io/truecharts/littlelink-server to latest ([#10142](https://github.com/truecharts/charts/issues/10142))
-  
-  
-
-
-## [littlelink-9.0.42](https://github.com/truecharts/charts/compare/littlelink-9.0.41...littlelink-9.0.42) (2023-07-01)
 
 ### Chore
