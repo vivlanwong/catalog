@@ -4,6 +4,15 @@
 
 
 
+## [webtop-5.0.101](https://github.com/truecharts/charts/compare/webtop-5.0.100...webtop-5.0.101) (2023-07-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/webtop-ubuntu-openbox to latest ([#10858](https://github.com/truecharts/charts/issues/10858))
+  
+  
+
+
 ## [webtop-5.0.100](https://github.com/truecharts/charts/compare/webtop-5.0.99...webtop-5.0.100) (2023-07-26)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [webtop-5.0.91](https://github.com/truecharts/charts/compare/webtop-5.0.90...webtop-5.0.91) (2023-07-25)
-
-### Chore
-
-- update webtop ([#10820](https://github.com/truecharts/charts/issues/10820))
-  
-  
-
-
-## [webtop-5.0.90](https://github.com/truecharts/charts/compare/webtop-5.0.89...webtop-5.0.90) (2023-07-18)
 
 ### Chore
