@@ -4,6 +4,15 @@
 
 
 
+## [ubooquity-6.0.22](https://github.com/truecharts/charts/compare/ubooquity-6.0.21...ubooquity-6.0.22) (2023-07-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/ubooquity to v2.1.2 ([#10856](https://github.com/truecharts/charts/issues/10856))
+  
+  
+
+
 ## [ubooquity-6.0.21](https://github.com/truecharts/charts/compare/ubooquity-6.0.20...ubooquity-6.0.21) (2023-07-19)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [ubooquity-6.0.12](https://github.com/truecharts/charts/compare/ubooquity-6.0.11...ubooquity-6.0.12) (2023-06-04)
 
-### Chore
-
-- update container image tccr.io/truecharts/ubooquity to v2.1.2 ([#9388](https://github.com/truecharts/charts/issues/9388))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
