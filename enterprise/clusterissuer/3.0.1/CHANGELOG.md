@@ -4,6 +4,15 @@
 
 
 
+## [clusterissuer-3.0.1](https://github.com/truecharts/charts/compare/clusterissuer-3.0.0...clusterissuer-3.0.1) (2023-07-26)
+
+### Fix
+
+- fix `issuerRef` for self-signed CAs ([#10847](https://github.com/truecharts/charts/issues/10847))
+  
+  
+
+
 ## [clusterissuer-3.0.0](https://github.com/truecharts/charts/compare/clusterissuer-2.0.1...clusterissuer-3.0.0) (2023-07-25)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [clusterissuer-1.0.8](https://github.com/truecharts/charts/compare/clusterissuer-1.0.7...clusterissuer-1.0.8) (2023-06-24)
-
-### Chore
-
-- update container image tccr.io/truecharts/scratch to latest ([#9868](https://github.com/truecharts/charts/issues/9868))
-  
-  
-
-
-## [clusterissuer-1.0.7](https://github.com/truecharts/charts/compare/clusterissuer-1.0.6...clusterissuer-1.0.7) (2023-06-17)
 
 ### Chore
 
