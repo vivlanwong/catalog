@@ -4,6 +4,15 @@
 
 
 
+## [medusa-6.0.33](https://github.com/truecharts/charts/compare/medusa-6.0.32...medusa-6.0.33) (2023-07-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/medusa to v1.0.17 ([#10896](https://github.com/truecharts/charts/issues/10896))
+  
+  
+
+
 ## [medusa-6.0.32](https://github.com/truecharts/charts/compare/medusa-6.0.31...medusa-6.0.32) (2023-07-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [medusa-6.0.23](https://github.com/truecharts/charts/compare/medusa-6.0.22...medusa-6.0.23) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [medusa-6.0.22](https://github.com/truecharts/charts/compare/medusa-6.0.21...medusa-6.0.22) (2023-06-07)
 
 ### Chore
