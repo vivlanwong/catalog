@@ -4,6 +4,15 @@
 
 
 
+## [znc-5.0.33](https://github.com/truecharts/charts/compare/znc-5.0.32...znc-5.0.33) (2023-07-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/znc to v1.8.2 ([#10909](https://github.com/truecharts/charts/issues/10909))
+  
+  
+
+
 ## [znc-5.0.32](https://github.com/truecharts/charts/compare/znc-5.0.31...znc-5.0.32) (2023-07-21)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [znc-5.0.23](https://github.com/truecharts/charts/compare/znc-5.0.22...znc-5.0.23) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [znc-5.0.22](https://github.com/truecharts/charts/compare/znc-5.0.21...znc-5.0.22) (2023-06-07)
 
 ### Chore
