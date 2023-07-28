@@ -4,6 +4,15 @@
 
 
 
+## [adguard-home-5.0.30](https://github.com/truecharts/charts/compare/adguard-home-5.0.29...adguard-home-5.0.30) (2023-07-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/adguard-home to v0.107.35 ([#10927](https://github.com/truecharts/charts/issues/10927))
+  
+  
+
+
 ## [adguard-home-5.0.29](https://github.com/truecharts/charts/compare/adguard-home-5.0.28...adguard-home-5.0.29) (2023-07-18)
 
 ### Chore
@@ -27,15 +36,6 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [adguard-home-5.0.26](https://github.com/truecharts/charts/compare/adguard-home-5.0.25...adguard-home-5.0.26) (2023-06-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/adguard-home to v0.107.32 ([#9651](https://github.com/truecharts/charts/issues/9651))
   
   
 
