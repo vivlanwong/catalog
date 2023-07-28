@@ -4,6 +4,15 @@
 
 
 
+## [hedgedoc-8.0.34](https://github.com/truecharts/charts/compare/hedgedoc-8.0.33...hedgedoc-8.0.34) (2023-07-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/hedgedoc to v1.9.8 ([#10922](https://github.com/truecharts/charts/issues/10922))
+  
+  
+
+
 ## [hedgedoc-8.0.33](https://github.com/truecharts/charts/compare/hedgedoc-8.0.32...hedgedoc-8.0.33) (2023-07-28)
 
 ### Chore
@@ -72,15 +81,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/hedgedoc to v1.9.8 ([#9837](https://github.com/truecharts/charts/issues/9837))
-  
-  
-
-
-## [hedgedoc-8.0.25](https://github.com/truecharts/charts/compare/hedgedoc-8.0.24...hedgedoc-8.0.25) (2023-06-14)
-
-### Chore
-
-- update container image tccr.io/truecharts/hedgedoc to v1.9.8 ([#9640](https://github.com/truecharts/charts/issues/9640))
   
   
 
