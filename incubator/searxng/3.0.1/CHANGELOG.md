@@ -4,6 +4,15 @@
 
 
 
+## [searxng-3.0.1](https://github.com/truecharts/charts/compare/searxng-3.0.0...searxng-3.0.1) (2023-07-29)
+
+### Fix
+
+- Update tag for full testing ([#10977](https://github.com/truecharts/charts/issues/10977))
+  
+  
+
+
 ## [searxng-3.0.0](https://github.com/truecharts/charts/compare/searxng-2.0.21...searxng-3.0.0) (2023-07-28)
 
 ### Feat
@@ -85,15 +94,6 @@
 
 
 ## [searxng-2.0.14](https://github.com/truecharts/charts/compare/searxng-2.0.13...searxng-2.0.14) (2023-01-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/searxng to latest
-  
-  
-
-
-## [searxng-2.0.13](https://github.com/truecharts/charts/compare/searxng-2.0.12...searxng-2.0.13) (2023-01-07)
 
 ### Chore
 
