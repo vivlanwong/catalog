@@ -4,6 +4,15 @@
 
 
 
+## [paperless-ngx-1.1.0](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.32...paperless-ngx-1.1.0) (2023-07-29)
+
+### Feat
+
+- Add additional OCR options ([#10994](https://github.com/truecharts/charts/issues/10994))
+  
+  
+
+
 ## [paperless-ngx-1.0.32](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.31...paperless-ngx-1.0.32) (2023-07-29)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [paperless-ngx-1.0.23](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.22...paperless-ngx-1.0.23) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [paperless-ngx-1.0.22](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.21...paperless-ngx-1.0.22) (2023-06-04)
 
 ### Chore

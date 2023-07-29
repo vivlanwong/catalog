@@ -139,6 +139,18 @@ questions:
                                           type: int
                                           required: true
                                           default: 2
+                                      - variable: PAPERLESS_OCR_LANGUAGES
+                                        label: "Additional Paperless OCR Languages"
+                                        description: "Additional OCR languages to install. By default, paperless comes with English, German, Italian, Spanish and French. If your language is not in this list, install additional languages with this configuration option. Use LangCodes for the additional languages in a SPACED list."
+                                        schema:
+                                          type: string
+                                          default: ""
+                                      - variable: PAPERLESS_OCR_LANGUAGE
+                                        label: "Additional Language Selector"
+                                        description: "If additional languages are selected above, you can set the default language used with OCR using LangCodes below, default is none"
+                                        schema:
+                                          type: string
+                                          default: ""
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
