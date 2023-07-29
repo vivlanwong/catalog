@@ -4,6 +4,15 @@
 
 
 
+## [filebrowser-5.0.25](https://github.com/truecharts/charts/compare/filebrowser-5.0.24...filebrowser-5.0.25) (2023-07-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/filebrowser to v2.24.0 ([#11015](https://github.com/truecharts/charts/issues/11015))
+  
+  
+
+
 ## [filebrowser-5.0.24](https://github.com/truecharts/charts/compare/filebrowser-5.0.23...filebrowser-5.0.24) (2023-07-29)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [filebrowser-5.0.15](https://github.com/truecharts/charts/compare/filebrowser-5.0.14...filebrowser-5.0.15) (2023-05-24)
-
-### Chore
-
-- update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
   
   
 
