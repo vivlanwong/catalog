@@ -4,6 +4,15 @@
 
 
 
+## [memcached-7.0.5](https://github.com/truecharts/charts/compare/memcached-7.0.4...memcached-7.0.5) (2023-07-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/memcached to v1.6.21 ([#10974](https://github.com/truecharts/charts/issues/10974))
+  
+  
+
+
 ## [memcached-7.0.4](https://github.com/truecharts/charts/compare/memcached-7.0.3...memcached-7.0.4) (2023-07-26)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [memcached-6.0.73](https://github.com/truecharts/charts/compare/memcached-6.0.72...memcached-6.0.73) (2023-07-09)
-
-### Chore
-
-- update container image tccr.io/truecharts/memcached to v1.6.21 ([#10351](https://github.com/truecharts/charts/issues/10351))
-  
-  
-
-
-## [memcached-6.0.72](https://github.com/truecharts/charts/compare/memcached-6.0.71...memcached-6.0.72) (2023-07-08)
 
 ### Chore
