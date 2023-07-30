@@ -4,6 +4,15 @@
 
 
 
+## [netdata-5.0.30](https://github.com/truecharts/charts/compare/netdata-5.0.29...netdata-5.0.30) (2023-07-30)
+
+### Fix
+
+- automount sa token ([#11052](https://github.com/truecharts/charts/issues/11052))
+  
+  
+
+
 ## [netdata-5.0.29](https://github.com/truecharts/charts/compare/netdata-5.0.28...netdata-5.0.29) (2023-07-29)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [netdata-5.0.20](https://github.com/truecharts/charts/compare/netdata-5.0.19...netdata-5.0.20) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  
-
-
-## [netdata-5.0.19](https://github.com/truecharts/charts/compare/netdata-5.0.18...netdata-5.0.19) (2023-05-29)
 
 ### Chore
