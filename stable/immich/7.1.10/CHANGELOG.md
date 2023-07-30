@@ -4,6 +4,15 @@
 
 
 
+## [immich-7.1.10](https://github.com/truecharts/charts/compare/immich-7.1.9...immich-7.1.10) (2023-07-30)
+
+### Chore
+
+- update immich to v1.71.0 (minor) ([#11023](https://github.com/truecharts/charts/issues/11023))
+  
+  
+
+
 ## [immich-7.1.9](https://github.com/truecharts/charts/compare/immich-7.1.8...immich-7.1.9) (2023-07-29)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [immich-7.1.0](https://github.com/truecharts/charts/compare/immich-7.0.16...immich-7.1.0) (2023-06-20)
-
-### Chore
-
-- Only pass secrets to containers that need them and mount files only where needed ([#9697](https://github.com/truecharts/charts/issues/9697))
-  
-  
-
-
-## [immich-7.0.16](https://github.com/truecharts/charts/compare/immich-7.0.15...immich-7.0.16) (2023-06-20)
 
 ### Chore
