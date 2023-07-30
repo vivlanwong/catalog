@@ -4,6 +4,16 @@
 
 
 
+## [paperless-ngx-1.1.1](https://github.com/truecharts/charts/compare/paperless-ngx-1.1.0...paperless-ngx-1.1.1) (2023-07-30)
+
+### Docs
+
+- Fix how-to + remove outdated ([#11047](https://github.com/truecharts/charts/issues/11047))
+  - fix how to docs ([#11046](https://github.com/truecharts/charts/issues/11046))
+  
+  
+
+
 ## [paperless-ngx-1.1.0](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.32...paperless-ngx-1.1.0) (2023-07-29)
 
 ### Feat
@@ -87,13 +97,3 @@
 
 ## [paperless-ngx-1.0.24](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.23...paperless-ngx-1.0.24) (2023-06-07)
 
-### Chore
-
-- update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [paperless-ngx-1.0.23](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.22...paperless-ngx-1.0.23) (2023-06-07)
-
-### Chore
