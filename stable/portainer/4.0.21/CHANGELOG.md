@@ -4,6 +4,15 @@
 
 
 
+## [portainer-4.0.21](https://github.com/truecharts/charts/compare/portainer-4.0.20...portainer-4.0.21) (2023-07-30)
+
+### Chore
+
+- fix image namingpattern ([#11053](https://github.com/truecharts/charts/issues/11053))
+  
+  
+
+
 ## [portainer-4.0.20](https://github.com/truecharts/charts/compare/portainer-4.0.19...portainer-4.0.20) (2023-07-29)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [portainer-4.0.11](https://github.com/truecharts/charts/compare/portainer-4.0.10...portainer-4.0.11) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 
