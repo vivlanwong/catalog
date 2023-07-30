@@ -4,6 +4,15 @@
 
 
 
+## [funkwhale-3.0.1](https://github.com/truecharts/charts/compare/funkwhale-3.0.0...funkwhale-3.0.1) (2023-07-30)
+
+### Fix
+
+- fix port ([#11062](https://github.com/truecharts/charts/issues/11062))
+  
+  
+
+
 ## [funkwhale-3.0.0](https://github.com/truecharts/charts/compare/funkwhale-2.1.10...funkwhale-3.0.0) (2023-07-30)
 
 ### Feat
@@ -80,15 +89,6 @@
 
 
 ## [funkwhale-2.1.4](https://github.com/truecharts/charts/compare/funkwhale-2.1.3...funkwhale-2.1.4) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [funkwhale-2.1.3](https://github.com/truecharts/charts/compare/funkwhale-2.1.2...funkwhale-2.1.3) (2022-12-13)
 
 ### Chore
 
