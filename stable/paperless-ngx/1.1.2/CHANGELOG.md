@@ -4,6 +4,15 @@
 
 
 
+## [paperless-ngx-1.1.2](https://github.com/truecharts/charts/compare/paperless-ngx-1.1.1...paperless-ngx-1.1.2) (2023-07-31)
+
+### Fix
+
+- Set defaults for OCR_LANGUAGES ([#11072](https://github.com/truecharts/charts/issues/11072))
+  
+  
+
+
 ## [paperless-ngx-1.1.1](https://github.com/truecharts/charts/compare/paperless-ngx-1.1.0...paperless-ngx-1.1.1) (2023-07-30)
 
 ### Docs
@@ -87,13 +96,4 @@
 
 
 ## [paperless-ngx-1.0.25](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.24...paperless-ngx-1.0.25) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9459](https://github.com/truecharts/charts/issues/9459))
-  
-  
-
-
-## [paperless-ngx-1.0.24](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.23...paperless-ngx-1.0.24) (2023-06-07)
 
