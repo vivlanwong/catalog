@@ -4,6 +4,15 @@
 
 
 
+## [doublecommander-9.0.1](https://github.com/truecharts/charts/compare/doublecommander-9.0.0...doublecommander-9.0.1) (2023-08-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/doublecommander to latest ([#11154](https://github.com/truecharts/charts/issues/11154))
+  
+  
+
+
 
 ## [doublecommander-9.0.0](https://github.com/truecharts/charts/compare/doublecommander-8.0.0...doublecommander-9.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [doublecommander-7.0.19](https://github.com/truecharts/charts/compare/doublecommander-7.0.18...doublecommander-7.0.19) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [doublecommander-7.0.18](https://github.com/truecharts/charts/compare/doublecommander-7.0.17...doublecommander-7.0.18) (2023-05-26)
 
