@@ -4,6 +4,15 @@
 
 
 
+## [guacd-6.0.1](https://github.com/truecharts/charts/compare/guacd-6.0.0...guacd-6.0.1) (2023-08-06)
+
+### Chore
+
+- update container image tccr.io/truecharts/guacamole-server to v1.5.3 ([#11250](https://github.com/truecharts/charts/issues/11250))
+  
+  
+
+
 
 ## [guacd-6.0.0](https://github.com/truecharts/charts/compare/guacd-5.0.17...guacd-6.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [guacd-5.0.9](https://github.com/truecharts/charts/compare/guacd-5.0.8...guacd-5.0.9) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [guacd-5.0.8](https://github.com/truecharts/charts/compare/guacd-5.0.7...guacd-5.0.8) (2023-05-26)
 
