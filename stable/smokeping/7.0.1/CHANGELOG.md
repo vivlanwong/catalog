@@ -4,6 +4,15 @@
 
 
 
+## [smokeping-7.0.1](https://github.com/truecharts/charts/compare/smokeping-7.0.0...smokeping-7.0.1) (2023-08-06)
+
+### Fix
+
+- Disable varrun ([#11171](https://github.com/truecharts/charts/issues/11171))
+  
+  
+
+
 
 ## [smokeping-7.0.0](https://github.com/truecharts/charts/compare/smokeping-6.0.15...smokeping-7.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [smokeping-6.0.7](https://github.com/truecharts/charts/compare/smokeping-6.0.6...smokeping-6.0.7) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [smokeping-6.0.6](https://github.com/truecharts/charts/compare/smokeping-6.0.5...smokeping-6.0.6) (2023-05-24)
 
