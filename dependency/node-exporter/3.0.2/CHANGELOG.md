@@ -4,6 +4,15 @@
 
 
 
+## [node-exporter-3.0.2](https://github.com/truecharts/charts/compare/node-exporter-3.0.1...node-exporter-3.0.2) (2023-08-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/node-exporter to v1.6.1 ([#11287](https://github.com/truecharts/charts/issues/11287))
+  
+  
+
+
 ## [node-exporter-3.0.1](https://github.com/truecharts/charts/compare/node-exporter-3.0.0...node-exporter-3.0.1) (2023-08-06)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm chart common to 13.2.0 ([#10499](https://github.com/truecharts/charts/issues/10499))
-  
-  
-
-
-## [node-exporter-1.0.46](https://github.com/truecharts/charts/compare/node-exporter-1.0.45...node-exporter-1.0.46) (2023-07-19)
-
-### Chore
-
-- update helm chart common to 12.15.0 ([#10603](https://github.com/truecharts/charts/issues/10603))
   
