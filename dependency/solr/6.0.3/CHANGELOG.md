@@ -4,6 +4,15 @@
 
 
 
+## [solr-6.0.3](https://github.com/truecharts/charts/compare/solr-6.0.2...solr-6.0.3) (2023-08-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/solr to v9.3.0 ([#11284](https://github.com/truecharts/charts/issues/11284))
+  
+  
+
+
 ## [solr-6.0.2](https://github.com/truecharts/charts/compare/solr-6.0.1...solr-6.0.2) (2023-08-03)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm chart common to 13.2.0 ([#10499](https://github.com/truecharts/charts/issues/10499))
-  
-  
-
-
-## [solr-4.0.68](https://github.com/truecharts/charts/compare/solr-4.0.67...solr-4.0.68) (2023-07-19)
-
-### Chore
-
-- update helm chart common to 12.15.0 ([#10603](https://github.com/truecharts/charts/issues/10603))
   
