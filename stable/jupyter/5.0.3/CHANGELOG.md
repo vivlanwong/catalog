@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-5.0.3](https://github.com/truecharts/charts/compare/jupyter-5.0.2...jupyter-5.0.3) (2023-08-07)
+
+### Chore
+
+- update jupyter to v2023-08 (minor) ([#11281](https://github.com/truecharts/charts/issues/11281))
+  
+  
+
+
 ## [jupyter-5.0.2](https://github.com/truecharts/charts/compare/jupyter-5.0.1...jupyter-5.0.2) (2023-08-06)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update jupyter to v2023-07 (minor) ([#10289](https://github.com/truecharts/charts/issues/10289))
-  
-  
-
-
-## [jupyter-4.0.46](https://github.com/truecharts/charts/compare/jupyter-4.0.45...jupyter-4.0.46) (2023-07-08)
-
-### Chore
-
-- update jupyter to v2023-07 (minor) ([#10288](https://github.com/truecharts/charts/issues/10288))
   
