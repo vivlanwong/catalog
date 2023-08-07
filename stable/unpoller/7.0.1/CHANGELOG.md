@@ -4,6 +4,15 @@
 
 
 
+## [unpoller-7.0.1](https://github.com/truecharts/charts/compare/unpoller-7.0.0...unpoller-7.0.1) (2023-08-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/unifi-poller to v2.8.0 ([#11280](https://github.com/truecharts/charts/issues/11280))
+  
+  
+
+
 
 ## [unpoller-7.0.0](https://github.com/truecharts/charts/compare/unpoller-6.0.26...unpoller-7.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  
-
-
-## [unpoller-6.0.17](https://github.com/truecharts/charts/compare/unpoller-6.0.16...unpoller-6.0.17) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
