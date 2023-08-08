@@ -4,6 +4,15 @@
 
 
 
+## [watchyourlan-5.0.1](https://github.com/truecharts/charts/compare/watchyourlan-5.0.0...watchyourlan-5.0.1) (2023-08-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/watchyourlan to v1.0.0 ([#11336](https://github.com/truecharts/charts/issues/11336))
+  
+  
+
+
 
 ## [watchyourlan-5.0.0](https://github.com/truecharts/charts/compare/watchyourlan-4.0.27...watchyourlan-5.0.0) (2023-07-31)
 
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [watchyourlan-4.0.18](https://github.com/truecharts/charts/compare/watchyourlan-4.0.17...watchyourlan-4.0.18) (2023-05-27)
-
