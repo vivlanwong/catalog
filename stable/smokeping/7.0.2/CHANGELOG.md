@@ -4,6 +4,11 @@
 
 
 
+## [smokeping-7.0.2](https://github.com/truecharts/charts/compare/smokeping-7.0.1...smokeping-7.0.2) (2023-08-08)
+
+
+
+
 ## [smokeping-7.0.1](https://github.com/truecharts/charts/compare/smokeping-7.0.0...smokeping-7.0.1) (2023-08-06)
 
 ### Fix
@@ -92,8 +97,3 @@
 
 - update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
-  
-
-
-## [smokeping-6.0.7](https://github.com/truecharts/charts/compare/smokeping-6.0.6...smokeping-6.0.7) (2023-05-26)
-
