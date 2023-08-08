@@ -4,6 +4,15 @@
 
 
 
+## [portainer-5.0.1](https://github.com/truecharts/charts/compare/portainer-5.0.0...portainer-5.0.1) (2023-08-08)
+
+### Fix
+
+- probe type key ([#11242](https://github.com/truecharts/charts/issues/11242))
+  
+  
+
+
 
 ## [portainer-5.0.0](https://github.com/truecharts/charts/compare/portainer-4.0.22...portainer-5.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [portainer-4.0.13](https://github.com/truecharts/charts/compare/portainer-4.0.12...portainer-4.0.13) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
