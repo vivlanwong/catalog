@@ -4,6 +4,15 @@
 
 
 
+## [grafana-9.0.3](https://github.com/truecharts/charts/compare/grafana-9.0.2...grafana-9.0.3) (2023-08-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/grafana to v10.0.3 ([#11393](https://github.com/truecharts/charts/issues/11393))
+  
+  
+
+
 ## [grafana-9.0.2](https://github.com/truecharts/charts/compare/grafana-9.0.1...grafana-9.0.2) (2023-08-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/grafana to v10.0.2 ([#10677](https://github.com/truecharts/charts/issues/10677))
-  
-  
-
-
-## [grafana-8.0.0](https://github.com/truecharts/charts/compare/grafana-7.0.59...grafana-8.0.0) (2023-07-19)
-
-### Chore
-
-- update helm chart common to 13.2.0 ([#10555](https://github.com/truecharts/charts/issues/10555))
   
