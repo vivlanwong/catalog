@@ -4,6 +4,15 @@
 
 
 
+## [clamav-7.0.1](https://github.com/truecharts/charts/compare/clamav-7.0.0...clamav-7.0.1) (2023-08-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/clamav to v1.1.0 ([#11437](https://github.com/truecharts/charts/issues/11437))
+  
+  
+
+
 
 ## [clamav-7.0.0](https://github.com/truecharts/charts/compare/clamav-6.0.18...clamav-7.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
   
   
 
-
-## [clamav-6.0.16](https://github.com/truecharts/charts/compare/clamav-6.0.14...clamav-6.0.16) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.3 ([#9602](https://github.com/truecharts/charts/issues/9602))
-  - update container image tccr.io/truecharts/clamav to v1.1.0 ([#9603](https://github.com/truecharts/charts/issues/9603))
-  
-  
 
