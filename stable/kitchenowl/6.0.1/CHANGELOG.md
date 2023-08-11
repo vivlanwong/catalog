@@ -4,6 +4,15 @@
 
 
 
+## [kitchenowl-6.0.1](https://github.com/truecharts/charts/compare/kitchenowl-6.0.0...kitchenowl-6.0.1) (2023-08-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/kitchenowl-web to latest ([#11423](https://github.com/truecharts/charts/issues/11423))
+  
+  
+
+
 ## [kitchenowl-6.0.0](https://github.com/truecharts/charts/compare/kitchenowl-5.0.1...kitchenowl-6.0.0) (2023-08-10)
 
 ### Refactor
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [kitchenowl-4.0.25](https://github.com/truecharts/charts/compare/kitchenowl-4.0.24...kitchenowl-4.0.25) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
   
