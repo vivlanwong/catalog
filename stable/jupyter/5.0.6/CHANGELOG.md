@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-5.0.6](https://github.com/truecharts/charts/compare/jupyter-5.0.5...jupyter-5.0.6) (2023-08-12)
+
+### Chore
+
+- update jupyter ([#11443](https://github.com/truecharts/charts/issues/11443))
+  
+  
+
+
 ## [jupyter-5.0.5](https://github.com/truecharts/charts/compare/jupyter-5.0.4...jupyter-5.0.5) (2023-08-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update jupyter ([#10969](https://github.com/truecharts/charts/issues/10969))
-  
-  
-
-
-## [jupyter-4.0.49](https://github.com/truecharts/charts/compare/jupyter-4.0.48...jupyter-4.0.49) (2023-07-28)
-
-### Chore
-
-- update jupyter ([#10925](https://github.com/truecharts/charts/issues/10925))
   
