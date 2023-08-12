@@ -4,6 +4,15 @@
 
 
 
+## [ntfy-6.0.1](https://github.com/truecharts/charts/compare/ntfy-6.0.0...ntfy-6.0.1) (2023-08-12)
+
+### Feat
+
+- enable prometheus metrics ([#11389](https://github.com/truecharts/charts/issues/11389))
+  
+  
+
+
 
 ## [ntfy-6.0.0](https://github.com/truecharts/charts/compare/ntfy-5.0.20...ntfy-6.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [ntfy-5.0.12](https://github.com/truecharts/charts/compare/ntfy-5.0.11...ntfy-5.0.12) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [ntfy-5.0.11](https://github.com/truecharts/charts/compare/ntfy-5.0.10...ntfy-5.0.11) (2023-05-26)
 
