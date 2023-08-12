@@ -4,6 +4,15 @@
 
 
 
+## [actualserver-5.0.2](https://github.com/truecharts/charts/compare/actualserver-5.0.1...actualserver-5.0.2) (2023-08-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/actualserver to v23.8.1 ([#11447](https://github.com/truecharts/charts/issues/11447))
+  
+  
+
+
 ## [actualserver-5.0.1](https://github.com/truecharts/charts/compare/actualserver-5.0.0...actualserver-5.0.1) (2023-08-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [actualserver-4.0.21](https://github.com/truecharts/charts/compare/actualserver-4.0.20...actualserver-4.0.21) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
   
