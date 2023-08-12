@@ -4,6 +4,15 @@
 
 
 
+## [mysql-workbench-6.0.2](https://github.com/truecharts/charts/compare/mysql-workbench-6.0.1...mysql-workbench-6.0.2) (2023-08-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/mysql-workbench to v8.0.34 ([#11457](https://github.com/truecharts/charts/issues/11457))
+  
+  
+
+
 ## [mysql-workbench-6.0.1](https://github.com/truecharts/charts/compare/mysql-workbench-6.0.0...mysql-workbench-6.0.1) (2023-08-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [mysql-workbench-5.0.18](https://github.com/truecharts/charts/compare/mysql-workbench-5.0.17...mysql-workbench-5.0.18) (2023-06-04)
 
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
