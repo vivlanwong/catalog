@@ -4,6 +4,15 @@
 
 
 
+## [ipfs-7.0.1](https://github.com/truecharts/charts/compare/ipfs-7.0.0...ipfs-7.0.1) (2023-08-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/ipfs to v0.21.1 ([#11472](https://github.com/truecharts/charts/issues/11472))
+  
+  
+
+
 
 ## [ipfs-7.0.0](https://github.com/truecharts/charts/compare/ipfs-6.0.27...ipfs-7.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [ipfs-6.0.19](https://github.com/truecharts/charts/compare/ipfs-6.0.18...ipfs-6.0.19) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [ipfs-6.0.18](https://github.com/truecharts/charts/compare/ipfs-6.0.17...ipfs-6.0.18) (2023-05-26)
 
