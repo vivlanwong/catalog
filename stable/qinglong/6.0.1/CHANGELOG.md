@@ -4,6 +4,15 @@
 
 
 
+## [qinglong-6.0.1](https://github.com/truecharts/charts/compare/qinglong-6.0.0...qinglong-6.0.1) (2023-08-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/qinglong to v2.16.0 ([#11494](https://github.com/truecharts/charts/issues/11494))
+  
+  
+
+
 
 ## [qinglong-6.0.0](https://github.com/truecharts/charts/compare/qinglong-5.0.33...qinglong-6.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [qinglong-5.0.24](https://github.com/truecharts/charts/compare/qinglong-5.0.23...qinglong-5.0.24) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
   
