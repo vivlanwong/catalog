@@ -4,6 +4,15 @@
 
 
 
+## [n8n-9.0.1](https://github.com/truecharts/charts/compare/n8n-9.0.0...n8n-9.0.1) (2023-08-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/n8n to v1.2.1 ([#11492](https://github.com/truecharts/charts/issues/11492))
+  
+  
+
+
 
 ## [n8n-9.0.0](https://github.com/truecharts/charts/compare/n8n-8.0.41...n8n-9.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/n8n to v0.234.0 ([#9961](https://github.com/truecharts/charts/issues/9961))
-  
-  
-
-
-## [n8n-8.0.32](https://github.com/truecharts/charts/compare/n8n-8.0.31...n8n-8.0.32) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
