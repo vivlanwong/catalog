@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.40](https://github.com/truecharts/charts/compare/webtop-6.0.39...webtop-6.0.40) (2023-08-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/webtop to latest ([#11571](https://github.com/truecharts/charts/issues/11571))
+  
+  
+
+
 ## [webtop-6.0.39](https://github.com/truecharts/charts/compare/webtop-6.0.38...webtop-6.0.39) (2023-08-15)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [webtop-6.0.30](https://github.com/truecharts/charts/compare/webtop-6.0.29...webtop-6.0.30) (2023-08-12)
-
-### Chore
-
-- update webtop ([#11450](https://github.com/truecharts/charts/issues/11450))
-  
-  
-
-
-## [webtop-6.0.29](https://github.com/truecharts/charts/compare/webtop-6.0.28...webtop-6.0.29) (2023-08-12)
 
 ### Chore
