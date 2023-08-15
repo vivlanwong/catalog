@@ -4,6 +4,15 @@
 
 
 
+## [nginx-proxy-manager-5.0.2](https://github.com/truecharts/charts/compare/nginx-proxy-manager-5.0.1...nginx-proxy-manager-5.0.2) (2023-08-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/nginx-proxy-manager to v2.10.4 ([#11559](https://github.com/truecharts/charts/issues/11559))
+  
+  
+
+
 ## [nginx-proxy-manager-5.0.1](https://github.com/truecharts/charts/compare/nginx-proxy-manager-5.0.0...nginx-proxy-manager-5.0.1) (2023-08-06)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [nginx-proxy-manager-4.0.165](https://github.com/truecharts/charts/compare/nginx-proxy-manager-4.0.164...nginx-proxy-manager-4.0.165) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
