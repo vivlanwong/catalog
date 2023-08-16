@@ -4,6 +4,15 @@
 
 
 
+## [cops-5.0.3](https://github.com/truecharts/charts/compare/cops-5.0.2...cops-5.0.3) (2023-08-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/cops to latest ([#11600](https://github.com/truecharts/charts/issues/11600))
+  
+  
+
+
 ## [cops-5.0.2](https://github.com/truecharts/charts/compare/cops-5.0.1...cops-5.0.2) (2023-08-13)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [cops-4.0.19](https://github.com/truecharts/charts/compare/cops-4.0.18...cops-4.0.19) (2023-05-27)
-
