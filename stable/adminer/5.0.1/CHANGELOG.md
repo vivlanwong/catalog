@@ -4,6 +4,15 @@
 
 
 
+## [adminer-5.0.1](https://github.com/truecharts/charts/compare/adminer-5.0.0...adminer-5.0.1) (2023-08-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/adminer to latest ([#11582](https://github.com/truecharts/charts/issues/11582))
+  
+  
+
+
 
 ## [adminer-5.0.0](https://github.com/truecharts/charts/compare/adminer-4.0.40...adminer-5.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/adminer to latest ([#10150](https://github.com/truecharts/charts/issues/10150))
-  
-  
-
-
-## [adminer-4.0.31](https://github.com/truecharts/charts/compare/adminer-4.0.30...adminer-4.0.31) (2023-07-04)
-
-### Chore
-
-- update container image tccr.io/truecharts/adminer to latest ([#10145](https://github.com/truecharts/charts/issues/10145))
   
