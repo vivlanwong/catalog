@@ -4,6 +4,15 @@
 
 
 
+## [rsnapshot-6.0.3](https://github.com/truecharts/charts/compare/rsnapshot-6.0.2...rsnapshot-6.0.3) (2023-08-17)
+
+### Chore
+
+- update container image tccr.io/truecharts/rsnapshot to v1.4.5 ([#11628](https://github.com/truecharts/charts/issues/11628))
+  
+  
+
+
 ## [rsnapshot-6.0.2](https://github.com/truecharts/charts/compare/rsnapshot-6.0.1...rsnapshot-6.0.2) (2023-08-10)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/rsnapshot to v1.4.5 ([#9824](https://github.com/truecharts/charts/issues/9824))
-  
-  
-
-
-## [rsnapshot-5.0.23](https://github.com/truecharts/charts/compare/rsnapshot-5.0.22...rsnapshot-5.0.23) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
