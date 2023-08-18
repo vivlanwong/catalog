@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-5.0.8](https://github.com/truecharts/charts/compare/jupyter-5.0.7...jupyter-5.0.8) (2023-08-18)
+
+### Chore
+
+- update container image tccr.io/truecharts/jupyter-tensorflow to v2023-08 ([#11660](https://github.com/truecharts/charts/issues/11660))
+  
+  
+
+
 ## [jupyter-5.0.7](https://github.com/truecharts/charts/compare/jupyter-5.0.6...jupyter-5.0.7) (2023-08-16)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update jupyter ([#10993](https://github.com/truecharts/charts/issues/10993))
-  
-  
-
-
-## [jupyter-4.0.51](https://github.com/truecharts/charts/compare/jupyter-4.0.50...jupyter-4.0.51) (2023-07-29)
-
-### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
   
