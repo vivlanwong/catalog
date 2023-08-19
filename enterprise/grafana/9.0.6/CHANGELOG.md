@@ -4,6 +4,15 @@
 
 
 
+## [grafana-9.0.6](https://github.com/truecharts/charts/compare/grafana-9.0.5...grafana-9.0.6) (2023-08-19)
+
+### Chore
+
+- update container image tccr.io/truecharts/grafana to v10.0.3 ([#11713](https://github.com/truecharts/charts/issues/11713))
+  
+  
+
+
 ## [grafana-9.0.5](https://github.com/truecharts/charts/compare/grafana-9.0.4...grafana-9.0.5) (2023-08-16)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/grafana to v10.0.3 ([#10944](https://github.com/truecharts/charts/issues/10944))
-  
-  
-
-
-## [grafana-8.0.3](https://github.com/truecharts/charts/compare/grafana-8.0.2...grafana-8.0.3) (2023-07-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/grafana to v10.0.2 ([#10833](https://github.com/truecharts/charts/issues/10833))
   
