@@ -4,6 +4,15 @@
 
 
 
+## [wordpress-3.0.10](https://github.com/truecharts/charts/compare/wordpress-3.0.9...wordpress-3.0.10) (2023-08-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/wordpress to v6.3.0 ([#11736](https://github.com/truecharts/charts/issues/11736))
+  
+  
+
+
 ## [wordpress-3.0.9](https://github.com/truecharts/charts/compare/wordpress-3.0.8...wordpress-3.0.9) (2023-08-17)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [wordpress-3.0.0](https://github.com/truecharts/charts/compare/wordpress-2.0.48...wordpress-3.0.0) (2023-07-31)
 
-
-
-
-## [wordpress-2.0.48](https://github.com/truecharts/charts/compare/wordpress-2.0.47...wordpress-2.0.48) (2023-07-29)
-
-### Chore
-
-- update container image tccr.io/truecharts/wordpress to v6.2.2 ([#11019](https://github.com/truecharts/charts/issues/11019))
-  
