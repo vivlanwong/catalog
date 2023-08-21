@@ -4,6 +4,15 @@
 
 
 
+## [duckdns-6.0.3](https://github.com/truecharts/charts/compare/duckdns-6.0.2...duckdns-6.0.3) (2023-08-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/duckdns to latest ([#11746](https://github.com/truecharts/charts/issues/11746))
+  
+  
+
+
 ## [duckdns-6.0.2](https://github.com/truecharts/charts/compare/duckdns-6.0.1...duckdns-6.0.2) (2023-08-14)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [duckdns-5.0.29](https://github.com/truecharts/charts/compare/duckdns-5.0.28...duckdns-5.0.29) (2023-06-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/duckdns to latest ([#9757](https://github.com/truecharts/charts/issues/9757))
   
