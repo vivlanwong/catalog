@@ -4,6 +4,15 @@
 
 
 
+## [tailscale-5.0.2](https://github.com/truecharts/charts/compare/tailscale-5.0.1...tailscale-5.0.2) (2023-08-23)
+
+### Chore
+
+- update container image tailscale/tailscale to v1.48.1 ([#11811](https://github.com/truecharts/charts/issues/11811))
+  
+  
+
+
 ## [tailscale-5.0.1](https://github.com/truecharts/charts/compare/tailscale-5.0.0...tailscale-5.0.1) (2023-08-11)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [tailscale-4.0.25](https://github.com/truecharts/charts/compare/tailscale-4.0.24...tailscale-4.0.25) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
