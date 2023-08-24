@@ -4,6 +4,15 @@
 
 
 
+## [openhab-6.0.1](https://github.com/truecharts/charts/compare/openhab-6.0.0...openhab-6.0.1) (2023-08-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/openhab to v4.0.2 ([#11622](https://github.com/truecharts/charts/issues/11622))
+  
+  
+
+
 
 ## [openhab-6.0.0](https://github.com/truecharts/charts/compare/openhab-5.0.20...openhab-6.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [openhab-5.0.11](https://github.com/truecharts/charts/compare/openhab-5.0.10...openhab-5.0.11) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
