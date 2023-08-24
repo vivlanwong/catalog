@@ -4,6 +4,15 @@
 
 
 
+## [xen-orchestra-5.0.4](https://github.com/truecharts/charts/compare/xen-orchestra-5.0.3...xen-orchestra-5.0.4) (2023-08-24)
+
+### Chore
+
+- update helm general non-major ([#11848](https://github.com/truecharts/charts/issues/11848))
+  
+  
+
+
 ## [xen-orchestra-5.0.3](https://github.com/truecharts/charts/compare/xen-orchestra-5.0.2...xen-orchestra-5.0.3) (2023-08-24)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/xenorchestra to v5.118.0 ([#10296](https://github.com/truecharts/charts/issues/10296))
-  
-  
-
-
-## [xen-orchestra-4.0.28](https://github.com/truecharts/charts/compare/xen-orchestra-4.0.27...xen-orchestra-4.0.28) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
