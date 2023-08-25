@@ -101,19 +101,6 @@ questions:
                               type: dict
                               attrs:
 
-                                - variable: env
-                                  label: Image Environment
-                                  schema:
-                                    additional_attrs: true
-                                    type: dict
-                                    attrs:
-                                      - variable: BACKEND
-                                        label: Backend
-                                        description: A string indicating the partial URL for the remote server of the ProxyPass directive.
-                                        schema:
-                                          type: string
-                                          private: true
-                                          default: ""
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
