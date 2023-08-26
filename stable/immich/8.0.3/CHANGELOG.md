@@ -4,6 +4,15 @@
 
 
 
+## [immich-8.0.3](https://github.com/truecharts/charts/compare/immich-8.0.2...immich-8.0.3) (2023-08-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/immich-ml to v1.75.1 ([#11920](https://github.com/truecharts/charts/issues/11920))
+  
+  
+
+
 ## [immich-8.0.2](https://github.com/truecharts/charts/compare/immich-8.0.1...immich-8.0.2) (2023-08-16)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update immich to v1.66.1 (minor) ([#10239](https://github.com/truecharts/charts/issues/10239))
-  
-  
-
-
-## [immich-7.1.3](https://github.com/truecharts/charts/compare/immich-7.1.2...immich-7.1.3) (2023-07-04)
-
-### Chore
-
-- update immich to v1.65.0 (minor) ([#10160](https://github.com/truecharts/charts/issues/10160))
   
