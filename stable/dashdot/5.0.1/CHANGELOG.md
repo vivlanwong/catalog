@@ -4,6 +4,15 @@
 
 
 
+## [dashdot-5.0.1](https://github.com/truecharts/charts/compare/dashdot-5.0.0...dashdot-5.0.1) (2023-08-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/dashdot to v5.2.3 ([#11913](https://github.com/truecharts/charts/issues/11913))
+  
+  
+
+
 
 ## [dashdot-5.0.0](https://github.com/truecharts/charts/compare/dashdot-4.0.26...dashdot-5.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [dashdot-4.0.18](https://github.com/truecharts/charts/compare/dashdot-4.0.17...dashdot-4.0.18) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [dashdot-4.0.17](https://github.com/truecharts/charts/compare/dashdot-4.0.16...dashdot-4.0.17) (2023-05-24)
 
