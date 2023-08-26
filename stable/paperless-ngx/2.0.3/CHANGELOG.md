@@ -4,6 +4,15 @@
 
 
 
+## [paperless-ngx-2.0.3](https://github.com/truecharts/charts/compare/paperless-ngx-2.0.2...paperless-ngx-2.0.3) (2023-08-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/paperless-ng to v1.17.2 ([#11899](https://github.com/truecharts/charts/issues/11899))
+  
+  
+
+
 ## [paperless-ngx-2.0.2](https://github.com/truecharts/charts/compare/paperless-ngx-2.0.1...paperless-ngx-2.0.2) (2023-08-17)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/paperless-ng to v1.16.3 ([#9950](https://github.com/truecharts/charts/issues/9950))
-  
-  
-
-
-## [paperless-ngx-1.0.28](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.27...paperless-ngx-1.0.28) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
