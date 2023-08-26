@@ -4,6 +4,15 @@
 
 
 
+## [tinymediamanager-6.0.1](https://github.com/truecharts/charts/compare/tinymediamanager-6.0.0...tinymediamanager-6.0.1) (2023-08-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/tinymediamanager to v4.3.13 ([#11916](https://github.com/truecharts/charts/issues/11916))
+  
+  
+
+
 
 ## [tinymediamanager-6.0.0](https://github.com/truecharts/charts/compare/tinymediamanager-5.0.27...tinymediamanager-6.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [tinymediamanager-5.0.19](https://github.com/truecharts/charts/compare/tinymediamanager-5.0.18...tinymediamanager-5.0.19) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [tinymediamanager-5.0.18](https://github.com/truecharts/charts/compare/tinymediamanager-5.0.17...tinymediamanager-5.0.18) (2023-05-26)
 
