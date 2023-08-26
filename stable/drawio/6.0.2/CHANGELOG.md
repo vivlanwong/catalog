@@ -4,6 +4,15 @@
 
 
 
+## [drawio-6.0.2](https://github.com/truecharts/charts/compare/drawio-6.0.1...drawio-6.0.2) (2023-08-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/drawio to v21.6.9 ([#11883](https://github.com/truecharts/charts/issues/11883))
+  
+  
+
+
 ## [drawio-6.0.1](https://github.com/truecharts/charts/compare/drawio-6.0.0...drawio-6.0.1) (2023-08-12)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [drawio-5.0.28](https://github.com/truecharts/charts/compare/drawio-5.0.27...drawio-5.0.28) (2023-06-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/drawio to v21.5.0 ([#9947](https://github.com/truecharts/charts/issues/9947))
   
