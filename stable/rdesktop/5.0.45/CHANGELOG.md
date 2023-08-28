@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-5.0.45](https://github.com/truecharts/charts/compare/rdesktop-5.0.44...rdesktop-5.0.45) (2023-08-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-alpine-kde to latest ([#11970](https://github.com/truecharts/charts/issues/11970))
+  
+  
+
+
 ## [rdesktop-5.0.44](https://github.com/truecharts/charts/compare/rdesktop-5.0.43...rdesktop-5.0.44) (2023-08-26)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-5.0.35](https://github.com/truecharts/charts/compare/rdesktop-5.0.34...rdesktop-5.0.35) (2023-08-21)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-fedora-icewm to latest ([#11751](https://github.com/truecharts/charts/issues/11751))
-  
-  
-
-
-## [rdesktop-5.0.34](https://github.com/truecharts/charts/compare/rdesktop-5.0.33...rdesktop-5.0.34) (2023-08-21)
 
 ### Chore
