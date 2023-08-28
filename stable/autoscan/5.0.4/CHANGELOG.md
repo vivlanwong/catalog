@@ -4,6 +4,15 @@
 
 
 
+## [autoscan-5.0.4](https://github.com/truecharts/charts/compare/autoscan-5.0.3...autoscan-5.0.4) (2023-08-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/autoscan to latest ([#11951](https://github.com/truecharts/charts/issues/11951))
+  
+  
+
+
 ## [autoscan-5.0.3](https://github.com/truecharts/charts/compare/autoscan-5.0.2...autoscan-5.0.3) (2023-08-27)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  
-  
-
-
-## [autoscan-4.0.23](https://github.com/truecharts/charts/compare/autoscan-4.0.22...autoscan-4.0.23) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
   
