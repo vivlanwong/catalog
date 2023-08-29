@@ -4,6 +4,15 @@
 
 
 
+## [obs-ndi-3.0.2](https://github.com/truecharts/charts/compare/obs-ndi-3.0.1...obs-ndi-3.0.2) (2023-08-29)
+
+### Fix
+
+- Fix VNC_PASSWD ([#11985](https://github.com/truecharts/charts/issues/11985))
+  
+  
+
+
 ## [obs-ndi-3.0.1](https://github.com/truecharts/charts/compare/obs-ndi-3.0.0...obs-ndi-3.0.1) (2023-08-26)
 
 ### Fix
@@ -85,15 +94,6 @@
 
 
 ## [obs-ndi-2.0.9](https://github.com/truecharts/charts/compare/obs-ndi-2.0.8...obs-ndi-2.0.9) (2022-12-24)
-
-### Chore
-
-- update container image tccr.io/truecharts/obs-ndi to latest
-  
-  
-
-
-## [obs-ndi-2.0.8](https://github.com/truecharts/charts/compare/obs-ndi-2.0.7...obs-ndi-2.0.8) (2022-12-21)
 
 ### Chore
 
