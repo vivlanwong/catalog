@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.72](https://github.com/truecharts/charts/compare/webtop-6.0.71...webtop-6.0.72) (2023-08-30)
+
+### Chore
+
+- update webtop ([#12041](https://github.com/truecharts/charts/issues/12041))
+  
+  
+
+
 ## [webtop-6.0.71](https://github.com/truecharts/charts/compare/webtop-6.0.70...webtop-6.0.71) (2023-08-30)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [webtop-6.0.62](https://github.com/truecharts/charts/compare/webtop-6.0.61...webtop-6.0.62) (2023-08-29)
-
-### Chore
-
-- update container image tccr.io/truecharts/webtop-alpine-i3 to latest ([#12003](https://github.com/truecharts/charts/issues/12003))
-  
-  
-
-
-## [webtop-6.0.61](https://github.com/truecharts/charts/compare/webtop-6.0.60...webtop-6.0.61) (2023-08-26)
 
 ### Chore
