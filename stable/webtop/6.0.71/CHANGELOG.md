@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.71](https://github.com/truecharts/charts/compare/webtop-6.0.70...webtop-6.0.71) (2023-08-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/webtop-ubuntu-kde to latest ([#12039](https://github.com/truecharts/charts/issues/12039))
+  
+  
+
+
 ## [webtop-6.0.70](https://github.com/truecharts/charts/compare/webtop-6.0.69...webtop-6.0.70) (2023-08-30)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [webtop-6.0.61](https://github.com/truecharts/charts/compare/webtop-6.0.60...webtop-6.0.61) (2023-08-26)
-
-### Chore
-
-- update webtop ([#11880](https://github.com/truecharts/charts/issues/11880))
-  
-  
-
-
-## [webtop-6.0.60](https://github.com/truecharts/charts/compare/webtop-6.0.59...webtop-6.0.60) (2023-08-22)
 
 ### Chore
