@@ -1,4 +1,4 @@
-This Chart Chart will download the latest stable release of the game, generate the map and you're ready to play.
+A game in which you build and maintain factories.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/incubator/factorio](https://truecharts.org/charts/incubator/factorio)
 

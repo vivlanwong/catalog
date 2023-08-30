@@ -4,6 +4,17 @@
 
 
 
+## [factorio-4.1.0](https://github.com/truecharts/charts/compare/factorio-5.0.0...factorio-4.1.0) (2023-08-30)
+
+
+
+
+
+## [factorio-5.0.0](https://github.com/truecharts/charts/compare/factorio-4.0.9...factorio-5.0.0) (2023-07-31)
+
+
+
+
 ## [factorio-4.0.9](https://github.com/truecharts/charts/compare/factorio-4.0.8...factorio-4.0.9) (2023-07-30)
 
 ### Chore
@@ -86,14 +97,3 @@
 ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  ### Fix
-
-- fix mistakes on questions.yaml
-  
-  
-
-
-## [factorio-3.0.2](https://github.com/truecharts/charts/compare/factorio-3.0.1...factorio-3.0.2) (2023-02-10)
-
-### Fix

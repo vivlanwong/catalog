@@ -1,4 +1,4 @@
-Kaizoku is self-hosted manga downloader.
+A self-hosted manga downloader.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/incubator/kaizoku](https://truecharts.org/charts/incubator/kaizoku)
 
