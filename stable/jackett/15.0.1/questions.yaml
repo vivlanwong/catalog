@@ -101,35 +101,6 @@ questions:
                               type: dict
                               attrs:
 
-                                - variable: env
-                                  group: App Configuration
-                                  label: Image Environment
-                                  schema:
-                                    additional_attrs: true
-                                    type: dict
-                                    attrs:
-                                      - variable: DJANGO_SUPERUSER_EMAIL
-                                        label: SuperUser Email
-                                        description: Admin email
-                                        schema:
-                                          type: string
-                                          required: true
-                                          default: ""
-                                      - variable: DJANGO_SUPERUSER_USENAME
-                                        label: SuperUser UserName
-                                        description: Admin user
-                                        schema:
-                                          type: string
-                                          required: true
-                                          default: ""
-                                      - variable: DJANGO_SUPERUSER_PASSWORD
-                                        label: SuperUser Password
-                                        description: Admin Password
-                                        schema:
-                                          type: string
-                                          required: true
-                                          private: true
-                                          default: ""
 
                                 - variable: envList
                                   label: Extra Environment Variables
@@ -312,7 +283,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10141
+                              default: 9117
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -1085,13 +1056,13 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID

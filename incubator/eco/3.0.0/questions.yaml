@@ -102,34 +102,42 @@ questions:
                               attrs:
 
                                 - variable: env
-                                  group: App Configuration
                                   label: Image Environment
                                   schema:
                                     additional_attrs: true
                                     type: dict
                                     attrs:
-                                      - variable: DJANGO_SUPERUSER_EMAIL
-                                        label: SuperUser Email
-                                        description: Admin email
+                                      - variable: USERNAME
+                                        label: "UserName"
+                                        description: "Your Steam username  (optionally leave it blank)."
                                         schema:
                                           type: string
-                                          required: true
                                           default: ""
-                                      - variable: DJANGO_SUPERUSER_USENAME
-                                        label: SuperUser UserName
-                                        description: Admin user
+                                      - variable: PASSWRD
+                                        label: "Password"
+                                        description: "Your Steam password (optionally leave it blank)"
                                         schema:
                                           type: string
-                                          required: true
-                                          default: ""
-                                      - variable: DJANGO_SUPERUSER_PASSWORD
-                                        label: SuperUser Password
-                                        description: Admin Password
-                                        schema:
-                                          type: string
-                                          required: true
                                           private: true
                                           default: ""
+                                      - variable: GAME_ID
+                                        label: "Game ID"
+                                        description: "The ID of the container to download at start up."
+                                        schema:
+                                          type: string
+                                          default: ""
+                                      - variable: GAME_PARAMS
+                                        label: "Game Params"
+                                        description: "Enter your start up commands for the server."
+                                        schema:
+                                          type: string
+                                          default: ""
+                                      - variable: VALIDATE
+                                        label: "Validate"
+                                        description: "Set the Variable to true if you want to validate the installation otherwise leave it blank."
+                                        schema:
+                                          type: boolean
+                                          default: true
 
                                 - variable: envList
                                   label: Extra Environment Variables
@@ -180,7 +188,6 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
-
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -265,8 +272,8 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: "Main Service"
-          description: "The Primary service on which the healthcheck runs, often the webUI"
+          label: Main Service
+          description: The Primary service on which the Minecraft Server runs on
           schema:
             additional_attrs: true
             type: dict
@@ -302,17 +309,67 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: "Main Service Port Configuration"
+                      label: Main Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
-                              default: 10141
+                              default: 3001
+                              required: true
+        - variable: game
+          label: Game Service
+          description: The Game service.
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: game
+                      label: Game Service Port Configuration
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: Port
+                            description: This port exposes the container port on the service
+                            schema:
+                              type: int
+                              default: 3000
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -542,9 +599,110 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: config
-          label: "App Config Storage"
-          description: "Stores the Application Configuration."
+        - variable: steamcmd
+          label: App SteamCMD Storage
+          description: Stores the Application SteamCMD.
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
+        - variable: serverfiles
+          label: App Server Files Storage
+          description: Stores the Application Server Files.
           schema:
             additional_attrs: true
             type: dict
@@ -771,7 +929,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: "Main Ingress"
+          label: Main Ingress
           schema:
             additional_attrs: true
             type: dict
@@ -1088,7 +1246,7 @@ questions:
                   default: 0
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
                   default: 0
