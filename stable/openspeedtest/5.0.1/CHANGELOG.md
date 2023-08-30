@@ -4,6 +4,15 @@
 
 
 
+## [openspeedtest-5.0.1](https://github.com/truecharts/charts/compare/openspeedtest-5.0.0...openspeedtest-5.0.1) (2023-08-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/openspeedtest to latest ([#12057](https://github.com/truecharts/charts/issues/12057))
+  
+  
+
+
 
 ## [openspeedtest-5.0.0](https://github.com/truecharts/charts/compare/openspeedtest-4.0.27...openspeedtest-5.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [openspeedtest-4.0.18](https://github.com/truecharts/charts/compare/openspeedtest-4.0.17...openspeedtest-4.0.18) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
