@@ -4,6 +4,15 @@
 
 
 
+## [netdata-6.0.3](https://github.com/truecharts/charts/compare/netdata-6.0.2...netdata-6.0.3) (2023-08-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/netdata to v1.42.2 ([#12070](https://github.com/truecharts/charts/issues/12070))
+  
+  
+
+
 ## [netdata-6.0.2](https://github.com/truecharts/charts/compare/netdata-6.0.1...netdata-6.0.2) (2023-08-26)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [netdata-5.0.23](https://github.com/truecharts/charts/compare/netdata-5.0.22...netdata-5.0.23) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
   
