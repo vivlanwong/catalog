@@ -100,14 +100,14 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
-                                - variable: env
+                                - variable: notifiarr
                                   group: App Configuration
                                   label: Image Environment
                                   schema:
                                     additional_attrs: true
                                     type: dict
                                     attrs:
-                                      - variable: DN_API_KEY
+                                      - variable: apikey
                                         label: Notifiarr All API Key
                                         description: Notifiarr All Integrations API key from https://notifiarr.com
                                         schema:
