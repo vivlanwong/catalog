@@ -4,6 +4,15 @@
 
 
 
+## [cloudflared-6.0.2](https://github.com/truecharts/charts/compare/cloudflared-6.0.1...cloudflared-6.0.2) (2023-08-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/cloudflared to v2023.8.1 ([#12066](https://github.com/truecharts/charts/issues/12066))
+  
+  
+
+
 ## [cloudflared-6.0.1](https://github.com/truecharts/charts/compare/cloudflared-6.0.0...cloudflared-6.0.1) (2023-08-27)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [cloudflared-5.0.4](https://github.com/truecharts/charts/compare/cloudflared-5.0.3...cloudflared-5.0.4) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
   
