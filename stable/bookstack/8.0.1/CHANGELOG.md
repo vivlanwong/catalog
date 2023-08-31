@@ -4,6 +4,15 @@
 
 
 
+## [bookstack-8.0.1](https://github.com/truecharts/charts/compare/bookstack-8.0.0...bookstack-8.0.1) (2023-08-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/bookstack to v23.08.20230830 ([#12085](https://github.com/truecharts/charts/issues/12085))
+  
+  
+
+
 
 ## [bookstack-8.0.0](https://github.com/truecharts/charts/compare/bookstack-7.0.25...bookstack-8.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [bookstack-7.0.16](https://github.com/truecharts/charts/compare/bookstack-7.0.15...bookstack-7.0.16) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
