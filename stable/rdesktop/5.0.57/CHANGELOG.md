@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-5.0.57](https://github.com/truecharts/charts/compare/rdesktop-5.0.56...rdesktop-5.0.57) (2023-09-01)
+
+### Chore
+
+- update rdesktop ([#12137](https://github.com/truecharts/charts/issues/12137))
+  
+  
+
+
 ## [rdesktop-5.0.56](https://github.com/truecharts/charts/compare/rdesktop-5.0.55...rdesktop-5.0.56) (2023-09-01)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-5.0.47](https://github.com/truecharts/charts/compare/rdesktop-5.0.46...rdesktop-5.0.47) (2023-08-28)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-fedora-i3 to latest ([#11973](https://github.com/truecharts/charts/issues/11973))
-  
-  
-
-
-## [rdesktop-5.0.46](https://github.com/truecharts/charts/compare/rdesktop-5.0.45...rdesktop-5.0.46) (2023-08-28)
 
 ### Chore
