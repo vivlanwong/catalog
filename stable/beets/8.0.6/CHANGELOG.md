@@ -4,6 +4,15 @@
 
 
 
+## [beets-8.0.6](https://github.com/truecharts/charts/compare/beets-8.0.5...beets-8.0.6) (2023-09-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/beets to v1.6.0 ([#12134](https://github.com/truecharts/charts/issues/12134))
+  
+  
+
+
 ## [beets-8.0.5](https://github.com/truecharts/charts/compare/beets-8.0.4...beets-8.0.5) (2023-08-25)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/beets to v1.6.0 ([#10478](https://github.com/truecharts/charts/issues/10478))
-  
-  
-
-
-## [beets-7.0.32](https://github.com/truecharts/charts/compare/beets-7.0.31...beets-7.0.32) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
