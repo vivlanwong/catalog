@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.75](https://github.com/truecharts/charts/compare/webtop-6.0.74...webtop-6.0.75) (2023-09-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/webtop-arch-icewm to latest ([#12143](https://github.com/truecharts/charts/issues/12143))
+  
+  
+
+
 ## [webtop-6.0.74](https://github.com/truecharts/charts/compare/webtop-6.0.73...webtop-6.0.74) (2023-09-02)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [webtop-6.0.65](https://github.com/truecharts/charts/compare/webtop-6.0.64...webtop-6.0.65) (2023-08-29)
-
-### Chore
-
-- update container image tccr.io/truecharts/webtop-alpine-mate to latest ([#12013](https://github.com/truecharts/charts/issues/12013))
-  
-  
-
-
-## [webtop-6.0.64](https://github.com/truecharts/charts/compare/webtop-6.0.63...webtop-6.0.64) (2023-08-29)
 
 ### Chore
