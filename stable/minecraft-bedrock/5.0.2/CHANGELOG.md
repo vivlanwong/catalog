@@ -4,6 +4,11 @@
 
 
 
+## [minecraft-bedrock-5.0.2](https://github.com/truecharts/charts/compare/minecraft-bedrock-5.0.1...minecraft-bedrock-5.0.2) (2023-09-03)
+
+
+
+
 ## [minecraft-bedrock-5.0.1](https://github.com/truecharts/charts/compare/minecraft-bedrock-5.0.0...minecraft-bedrock-5.0.1) (2023-08-31)
 
 ### Chore
@@ -92,8 +97,3 @@
 ### Chore
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  
-
-
-## [minecraft-bedrock-4.0.17](https://github.com/truecharts/charts/compare/minecraft-bedrock-4.0.16...minecraft-bedrock-4.0.17) (2023-05-27)

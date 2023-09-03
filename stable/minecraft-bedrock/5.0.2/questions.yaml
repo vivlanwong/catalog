@@ -94,7 +94,6 @@ questions:
                               type: dict
                               attrs:
 
-
                                 - variable: env
                                   group: "App Configuration"
                                   label: "Image Environment"
@@ -102,6 +101,17 @@ questions:
                                     additional_attrs: true
                                     type: dict
                                     attrs:
+                                      - variable: EULA
+                                        label: Minecraft Eula
+                                        schema:
+                                          type: boolean
+                                          required: true
+                                          default: false
+                                      - variable: ENABLE_LAN_VISIBILITY
+                                        label: Enable Lan Visibility
+                                        schema:
+                                          type: boolean
+                                          default: false
                                       - variable: VERSION
                                         label: "Minecraft version"
                                         description: "Options: LATEST, PREVIOUS or version number"
@@ -281,6 +291,7 @@ questions:
                                         schema:
                                           type: boolean
                                           default: false
+
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
