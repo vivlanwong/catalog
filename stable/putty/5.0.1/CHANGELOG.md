@@ -4,6 +4,15 @@
 
 
 
+## [putty-5.0.1](https://github.com/truecharts/charts/compare/putty-5.0.0...putty-5.0.1) (2023-09-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/putty to v23.08.1 ([#12177](https://github.com/truecharts/charts/issues/12177))
+  
+  
+
+
 
 ## [putty-5.0.0](https://github.com/truecharts/charts/compare/putty-4.0.17...putty-5.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [putty-4.0.9](https://github.com/truecharts/charts/compare/putty-4.0.8...putty-4.0.9) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [putty-4.0.8](https://github.com/truecharts/charts/compare/putty-4.0.7...putty-4.0.8) (2023-05-26)
 
