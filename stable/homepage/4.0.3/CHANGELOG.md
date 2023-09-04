@@ -4,6 +4,11 @@
 
 
 
+## [homepage-4.0.3](https://github.com/truecharts/charts/compare/homepage-4.0.2...homepage-4.0.3) (2023-09-04)
+
+
+
+
 ## [homepage-4.0.2](https://github.com/truecharts/charts/compare/homepage-4.0.1...homepage-4.0.2) (2023-08-31)
 
 ### Chore
@@ -91,9 +96,4 @@
   - update icon ([#9576](https://github.com/truecharts/charts/issues/9576))
   
   
-
-
-## [homepage-3.0.25](https://github.com/truecharts/charts/compare/homepage-3.0.24...homepage-3.0.25) (2023-06-15)
-
-### Chore
 
