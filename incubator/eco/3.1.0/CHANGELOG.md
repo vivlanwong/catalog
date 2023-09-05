@@ -4,6 +4,11 @@
 
 
 
+## [eco-3.1.0](https://github.com/truecharts/charts/compare/eco-3.0.0...eco-3.1.0) (2023-09-05)
+
+
+
+
 
 
 ## [eco-3.0.0](https://github.com/truecharts/charts/compare/eco-2.0.8...eco-3.0.0) (2023-07-31)
@@ -72,11 +77,6 @@
 - update helm general non-major
   
   
-
-
-## [eco-2.0.2](https://github.com/truecharts/charts/compare/doublecommander-6.0.1...eco-2.0.2) (2022-11-30)
-
-
 
 
 ## [eco-2.0.2](https://github.com/truecharts/charts/compare/doublecommander-6.0.1...eco-2.0.2) (2022-11-30)
