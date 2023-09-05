@@ -4,6 +4,15 @@
 
 
 
+## [pylon-6.0.6](https://github.com/truecharts/charts/compare/pylon-6.0.5...pylon-6.0.6) (2023-09-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/pylon to v2.10.0 ([#12251](https://github.com/truecharts/charts/issues/12251))
+  
+  
+
+
 ## [pylon-6.0.5](https://github.com/truecharts/charts/compare/pylon-6.0.4...pylon-6.0.5) (2023-08-29)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [pylon-5.0.21](https://github.com/truecharts/charts/compare/pylon-5.0.20...pylon-5.0.21) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
