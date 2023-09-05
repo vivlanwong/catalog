@@ -4,6 +4,15 @@
 
 
 
+## [cyberchef-6.0.24](https://github.com/truecharts/charts/compare/cyberchef-6.0.23...cyberchef-6.0.24) (2023-09-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/cyberchef to v10.5.2 ([#12214](https://github.com/truecharts/charts/issues/12214))
+  
+  
+
+
 ## [cyberchef-6.0.23](https://github.com/truecharts/charts/compare/cyberchef-6.0.22...cyberchef-6.0.23) (2023-09-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [cyberchef-6.0.14](https://github.com/truecharts/charts/compare/cyberchef-6.0.13...cyberchef-6.0.14) (2023-08-17)
-
-### Chore
-
-- update container image tccr.io/truecharts/cyberchef to v10.5.2 ([#11625](https://github.com/truecharts/charts/issues/11625))
-  
-  
-
-
-## [cyberchef-6.0.13](https://github.com/truecharts/charts/compare/cyberchef-6.0.12...cyberchef-6.0.13) (2023-08-16)
 
 ### Chore
