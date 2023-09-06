@@ -4,6 +4,15 @@
 
 
 
+## [alist-6.0.3](https://github.com/truecharts/charts/compare/alist-6.0.2...alist-6.0.3) (2023-09-06)
+
+### Chore
+
+- update container image tccr.io/truecharts/alist to v3.27.0 ([#12314](https://github.com/truecharts/charts/issues/12314))
+  
+  
+
+
 ## [alist-6.0.2](https://github.com/truecharts/charts/compare/alist-6.0.1...alist-6.0.2) (2023-08-31)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [alist-5.0.24](https://github.com/truecharts/charts/compare/alist-5.0.23...alist-5.0.24) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
   
