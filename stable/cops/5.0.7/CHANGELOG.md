@@ -4,6 +4,15 @@
 
 
 
+## [cops-5.0.7](https://github.com/truecharts/charts/compare/cops-5.0.6...cops-5.0.7) (2023-09-06)
+
+### Chore
+
+- update helm general non-major ([#12276](https://github.com/truecharts/charts/issues/12276))
+  
+  
+
+
 ## [cops-5.0.6](https://github.com/truecharts/charts/compare/cops-5.0.5...cops-5.0.6) (2023-09-06)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [cops-4.0.23](https://github.com/truecharts/charts/compare/cops-4.0.22...cops-4.0.23) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
   
