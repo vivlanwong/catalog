@@ -4,6 +4,15 @@
 
 
 
+## [ztcuui-aio-5.0.1](https://github.com/truecharts/charts/compare/ztcuui-aio-5.0.0...ztcuui-aio-5.0.1) (2023-09-06)
+
+### Chore
+
+- update container image tccr.io/truecharts/ztcuui-aio to v1.2.16 ([#12275](https://github.com/truecharts/charts/issues/12275))
+  
+  
+
+
 
 ## [ztcuui-aio-5.0.0](https://github.com/truecharts/charts/compare/ztcuui-aio-4.0.26...ztcuui-aio-5.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [ztcuui-aio-4.0.18](https://github.com/truecharts/charts/compare/ztcuui-aio-4.0.17...ztcuui-aio-4.0.18) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [ztcuui-aio-4.0.17](https://github.com/truecharts/charts/compare/ztcuui-aio-4.0.16...ztcuui-aio-4.0.17) (2023-05-24)
 
