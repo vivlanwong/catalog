@@ -4,6 +4,15 @@
 
 
 
+## [snapdrop-6.0.6](https://github.com/truecharts/charts/compare/snapdrop-6.0.5...snapdrop-6.0.6) (2023-09-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/snapdrop to latest ([#12340](https://github.com/truecharts/charts/issues/12340))
+  
+  
+
+
 ## [snapdrop-6.0.5](https://github.com/truecharts/charts/compare/snapdrop-6.0.4...snapdrop-6.0.5) (2023-08-25)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/snapdrop to latest ([#10436](https://github.com/truecharts/charts/issues/10436))
-  
-  
-
-
-## [snapdrop-5.0.30](https://github.com/truecharts/charts/compare/snapdrop-5.0.29...snapdrop-5.0.30) (2023-07-06)
-
-### Chore
-
-- update container image tccr.io/truecharts/snapdrop to latest ([#10196](https://github.com/truecharts/charts/issues/10196))
   
