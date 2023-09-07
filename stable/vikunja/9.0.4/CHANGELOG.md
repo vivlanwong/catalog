@@ -4,6 +4,15 @@
 
 
 
+## [vikunja-9.0.4](https://github.com/truecharts/charts/compare/vikunja-9.0.3...vikunja-9.0.4) (2023-09-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/nginx to v1.25.2 ([#12343](https://github.com/truecharts/charts/issues/12343))
+  
+  
+
+
 ## [vikunja-9.0.3](https://github.com/truecharts/charts/compare/vikunja-9.0.2...vikunja-9.0.3) (2023-09-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [vikunja-8.0.21](https://github.com/truecharts/charts/compare/vikunja-8.0.20...vikunja-8.0.21) (2023-06-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/nginx to v1.25.1 ([#9928](https://github.com/truecharts/charts/issues/9928))
   
