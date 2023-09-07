@@ -4,6 +4,15 @@
 
 
 
+## [zigbee2mqtt-8.0.2](https://github.com/truecharts/charts/compare/zigbee2mqtt-8.0.1...zigbee2mqtt-8.0.2) (2023-09-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/zigbee2mqtt to v1.33.0 ([#12366](https://github.com/truecharts/charts/issues/12366))
+  
+  
+
+
 ## [zigbee2mqtt-8.0.1](https://github.com/truecharts/charts/compare/zigbee2mqtt-8.0.0...zigbee2mqtt-8.0.1) (2023-08-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [zigbee2mqtt-7.0.23](https://github.com/truecharts/charts/compare/zigbee2mqtt-7.0.22...zigbee2mqtt-7.0.23) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
   
