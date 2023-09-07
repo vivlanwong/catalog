@@ -4,6 +4,15 @@
 
 
 
+## [mattermost-9.0.11](https://github.com/truecharts/charts/compare/mattermost-9.0.10...mattermost-9.0.11) (2023-09-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/mattermost to v9.0.0 ([#12357](https://github.com/truecharts/charts/issues/12357))
+  
+  
+
+
 ## [mattermost-9.0.10](https://github.com/truecharts/charts/compare/mattermost-9.0.9...mattermost-9.0.10) (2023-09-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [mattermost-9.0.1](https://github.com/truecharts/charts/compare/mattermost-9.0.0...mattermost-9.0.1) (2023-08-06)
 
 ### Chore
-
-- update container image tccr.io/truecharts/mattermost to v8.1.0 ([#11209](https://github.com/truecharts/charts/issues/11209))
-  
-  
-
-
-
-## [mattermost-9.0.0](https://github.com/truecharts/charts/compare/mattermost-8.0.8...mattermost-9.0.0) (2023-07-31)
-
