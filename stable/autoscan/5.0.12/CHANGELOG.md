@@ -4,6 +4,15 @@
 
 
 
+## [autoscan-5.0.12](https://github.com/truecharts/charts/compare/autoscan-5.0.11...autoscan-5.0.12) (2023-09-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/autoscan to latest ([#12380](https://github.com/truecharts/charts/issues/12380))
+  
+  
+
+
 ## [autoscan-5.0.11](https://github.com/truecharts/charts/compare/autoscan-5.0.10...autoscan-5.0.11) (2023-09-08)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [autoscan-5.0.2](https://github.com/truecharts/charts/compare/autoscan-5.0.1...autoscan-5.0.2) (2023-08-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/autoscan to latest ([#11719](https://github.com/truecharts/charts/issues/11719))
-  
-  
-
-
-## [autoscan-5.0.1](https://github.com/truecharts/charts/compare/autoscan-5.0.0...autoscan-5.0.1) (2023-08-08)
 
 ### Chore
