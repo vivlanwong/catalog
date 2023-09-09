@@ -4,6 +4,15 @@
 
 
 
+## [xen-orchestra-5.0.7](https://github.com/truecharts/charts/compare/xen-orchestra-5.0.6...xen-orchestra-5.0.7) (2023-09-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/xenorchestra to v5.122.0 ([#12432](https://github.com/truecharts/charts/issues/12432))
+  
+  
+
+
 ## [xen-orchestra-5.0.6](https://github.com/truecharts/charts/compare/xen-orchestra-5.0.5...xen-orchestra-5.0.6) (2023-09-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Fix
 
 - Fix HTTPS port to prevent ingress errors (Bad Gateway) ([#10790](https://github.com/truecharts/charts/issues/10790))
-  
-  
-
-
-## [xen-orchestra-4.0.31](https://github.com/truecharts/charts/compare/xen-orchestra-4.0.30...xen-orchestra-4.0.31) (2023-07-22)
-
-### Chore
-
-- update container image tccr.io/truecharts/xenorchestra to v5.118.0 ([#10740](https://github.com/truecharts/charts/issues/10740))
   
