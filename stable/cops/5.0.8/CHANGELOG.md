@@ -4,6 +4,15 @@
 
 
 
+## [cops-5.0.8](https://github.com/truecharts/charts/compare/cops-5.0.7...cops-5.0.8) (2023-09-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/cops to latest ([#12433](https://github.com/truecharts/charts/issues/12433))
+  
+  
+
+
 ## [cops-5.0.7](https://github.com/truecharts/charts/compare/cops-5.0.6...cops-5.0.7) (2023-09-06)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [cops-4.0.24](https://github.com/truecharts/charts/compare/cops-4.0.23...cops-4.0.24) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
