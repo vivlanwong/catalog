@@ -4,6 +4,15 @@
 
 
 
+## [firefox-7.0.5](https://github.com/truecharts/charts/compare/firefox-7.0.4...firefox-7.0.5) (2023-09-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/firefox to v116.0.3 ([#12440](https://github.com/truecharts/charts/issues/12440))
+  
+  
+
+
 ## [firefox-7.0.4](https://github.com/truecharts/charts/compare/firefox-7.0.3...firefox-7.0.4) (2023-09-03)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/firefox to v115.0.2 ([#10575](https://github.com/truecharts/charts/issues/10575))
-  
-  
-
-
-## [firefox-6.0.8](https://github.com/truecharts/charts/compare/firefox-6.0.7...firefox-6.0.8) (2023-07-09)
-
-### Chore
-
-- update container image tccr.io/truecharts/firefox to v115.0.1 ([#10328](https://github.com/truecharts/charts/issues/10328))
   
