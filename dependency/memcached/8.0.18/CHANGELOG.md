@@ -4,6 +4,15 @@
 
 
 
+## [memcached-8.0.18](https://github.com/truecharts/charts/compare/memcached-8.0.17...memcached-8.0.18) (2023-09-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/memcached to v1.6.21 ([#12457](https://github.com/truecharts/charts/issues/12457))
+  
+  
+
+
 ## [memcached-8.0.17](https://github.com/truecharts/charts/compare/memcached-8.0.16...memcached-8.0.17) (2023-09-07)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [memcached-8.0.8](https://github.com/truecharts/charts/compare/memcached-8.0.7...memcached-8.0.8) (2023-08-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/memcached to v1.6.21 ([#11688](https://github.com/truecharts/charts/issues/11688))
-  
-  
-
-
-## [memcached-8.0.7](https://github.com/truecharts/charts/compare/memcached-8.0.6...memcached-8.0.7) (2023-08-16)
 
 ### Chore
