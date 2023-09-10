@@ -29,7 +29,6 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
-portals: {}
 questions:
   - variable: global
     group: General Settings
@@ -67,7 +66,6 @@ questions:
                       description: Deployment
                     - value: DaemonSet
                       description: DaemonSet
-
               - variable: replicas
                 label: Replicas (Advanced)
                 description: Set the number of Replicas
@@ -93,57 +91,6 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
-
-
-                                - variable: env
-                                  group: "App Configuration"
-                                  label: "Image Environment"
-                                  schema:
-                                    additional_attrs: true
-                                    type: dict
-                                    attrs:
-                                      - variable: CACHE_DOMAINS_REPO
-                                        label: "CACHE DOMAINS REPO"
-                                        description: "The github repo url for the cache_domains files to use to populate the cdn maps."
-                                        schema:
-                                          type: string
-                                          default: "https://github.com/uklans/cache-domains.git"
-                                      - variable: CACHE_DOMAINS_BRANCH
-                                        label: "CACHE DOMAINS BRANCH"
-                                        description: "The branch of the CACHE_DOMAINS_REPO to use"
-                                        schema:
-                                          type: string
-                                          default: "master"
-                                      - variable: NOFETCH
-                                        label: "NO FETCH"
-                                        description: "Turn off all git pull operations and use stored data"
-                                        schema:
-                                          type: boolean
-                                          default: false
-                                      - variable: UPSTREAM_DNS
-                                        label: "UPSTREAM DNS"
-                                        description: "Upstream DNS server(s) the cache should use(separated by spaces). Do NOT point this at lancache-dns)"
-                                        schema:
-                                          type: string
-                                          default: "1.1.1.1 1.0.0.1"
-                                      - variable: CACHE_DISK_SIZE
-                                        label: "CACHE DISK SIZE"
-                                        description: "The amount of disk space the container should use for caching data"
-                                        schema:
-                                          type: string
-                                          default: "1000000m"
-                                      - variable: CACHE_MAX_AGE
-                                        label: "CACHE MAX AGE"
-                                        description: "The maximum amount of time a file should be held in cache"
-                                        schema:
-                                          type: string
-                                          default: "3560d"
-                                      - variable: CACHE_INDEX_SIZE
-                                        label: "CACHE INDEX SIZE"
-                                        description: "Amount of index memory for the nginx cache manager. We recommend 250m of index memory per 1TB"
-                                        schema:
-                                          type: string
-                                          default: "500m"
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -269,6 +216,269 @@ questions:
                             schema:
                               type: string
                               required: true
+  - variable: tfaAppOptions
+    group: App Configuration
+    label: Application Options
+    schema:
+      type: dict
+      attrs:
+        - variable: secret
+          label: Secret
+          description: Mandatory, can be any string.
+          schema:
+            type: string
+            required: true
+            private: true
+        - variable: port
+          label: Port
+          schema:
+            type: int
+            default: 4181
+        - variable: logLevel
+          label: Log level
+          schema:
+            type: string
+            default: warn
+            enum:
+              - value: trace
+                description: Trace (most detailed)
+              - value: debug
+                description: Debug
+              - value: info
+                description: Information
+              - value: warn
+                description: Warning
+              - value: error
+                description: Error
+              - value: fatal
+                description: Fatal
+              - value: panic
+                description: Panic (least detailed)
+        - variable: logFormat
+          label: Log format
+          schema:
+            type: string
+            default: text
+            enum:
+              - value: text
+                description: Text
+              - value: json
+                description: JSON
+              - value: pretty
+                description: Pretty
+  - variable: tfaAuthOptions
+    group: App Configuration
+    label: Auth Options
+    schema:
+      type: dict
+      attrs:
+        - variable: authHost
+          label: Auth host
+          description: Single host to use when returning from 3rd party auth.
+          schema:
+            type: string
+        - variable: urlPath
+          label: Callback URL Path
+          schema:
+            type: string
+            default: "/_oauth"
+        - variable: defaultAction
+          label: Default action
+          schema:
+            type: string
+            default: auth
+            enum:
+              - value: auth
+                description: Authenticate
+              - value: allow
+                description: Allow (do not require authentication)
+        - variable: defaultProvider
+          label: Default provider
+          schema:
+            type: string
+            default: google
+            enum:
+              - value: google
+                description: Google Provider
+              - value: oidc
+                description: OIDC Provider
+              - value: generic-oauth
+                description: Generic OAuth2 Provider
+        - variable: domain
+          label: Domains
+          description: Only allow given email domains.
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: allowedDomain
+                label: Host
+                schema:
+                  type: string
+                  required: true
+        - variable: whitelist
+          label: Whitelist
+          description: Only allow given email addresses.
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: allowedEmail
+                label: Host
+                schema:
+                  type: string
+                  required: true
+        - variable: rules
+          label: Rules
+          description: Additional rules in rule.<name>.<param>=<value> format.
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: rule
+                label: Rule
+                schema:
+                  type: string
+                  required: true
+        - variable: logoutRedirect
+          label: Logout redirect
+          description: URL to redirect to following logout.
+          schema:
+            type: string
+  - variable: tfaCookieOptions
+    group: App Configuration
+    label: Cookie Options
+    schema:
+      type: dict
+      attrs:
+        - variable: cookieDomain
+          label: Cookie domain hosts
+          schema:
+            type: list
+            default: []
+            items:
+              - variable: cookieDomainHost
+                label: Host
+                schema:
+                  type: string
+                  required: true
+        - variable: cookieName
+          label: Cookie name
+          schema:
+            type: string
+            default: "_forward_auth"
+        - variable: csrfCookieName
+          label: CSRF cookie name
+          schema:
+            type: string
+            default: "_forward_auth_csrf"
+        - variable: lifetime
+          label: Lifetime
+          description: Lifetime in seconds.
+          schema:
+            type: int
+            default: 43200
+        - variable: insecureCookie
+          label: Use insecure cookies
+          schema:
+            type: boolean
+            default: false
+  - variable: tfaGoogleOptions
+    group: App Configuration
+    label: Google Provider
+    schema:
+      type: dict
+      attrs:
+        - variable: clientId
+          label: Client ID
+          schema:
+            type: string
+            private: true
+        - variable: clientSecret
+          label: Client Secret
+          schema:
+            type: string
+            private: true
+        - variable: prompt
+          label: Prompt
+          description: Space separated list of OpenID prompt options.
+          schema:
+            type: string
+  - variable: tfaOidcOptions
+    group: App Configuration
+    label: OIDC Provider
+    schema:
+      type: dict
+      attrs:
+        - variable: issuerUrl
+          label: Issuer URL
+          schema:
+            type: string
+        - variable: clientId
+          label: Client ID
+          schema:
+            type: string
+            private: true
+        - variable: clientSecret
+          label: Client Secret
+          schema:
+            type: string
+            private: true
+        - variable: resource
+          label: Resource
+          description: Optional resource indicator.
+          schema:
+            type: string
+  - variable: tfaOauthOptions
+    group: App Configuration
+    label: Generic OAuth2 Provider
+    schema:
+      type: dict
+      attrs:
+        - variable: authUrl
+          label: Auth/Login URL
+          schema:
+            type: string
+        - variable: tokenUrl
+          label: Token URL
+          schema:
+            type: string
+        - variable: userUrl
+          label: User URL
+          description: URL used to retrieve user info.
+          schema:
+            type: string
+        - variable: clientId
+          label: Client ID
+          schema:
+            type: string
+            private: true
+        - variable: clientSecret
+          label: Client Secret
+          schema:
+            type: string
+            private: true
+        - variable: scopes
+          label: Scopes
+          schema:
+            type: string
+            default: profile, email
+        - variable: tokenStyle
+          label: Token style
+          description: How token is presented when querying the User URL
+          schema:
+            type: string
+            default: header
+            enum:
+              - value: header
+                description: Header
+              - value: query
+                description: Query
+        - variable: resource
+          label: Resource
+          description: Optional resource indicator.
+          schema:
+            type: string
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -324,57 +534,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10279
-                              required: true
-        - variable: https
-          label: "HTTPS"
-          description: "HTTPS Service"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: Enable the Service
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: type
-                label: Service Type
-                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
-                schema:
-                  type: string
-                  default: LoadBalancer
-                  enum:
-                    - value: LoadBalancer
-                      description: LoadBalancer (Expose Ports)
-                    - value: ClusterIP
-                      description: ClusterIP (Do Not Expose Ports)
-              - variable: loadBalancerIP
-                label: LoadBalancer IP
-                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: string
-                  default: ""
-              - variable: ports
-                label: "Service's Port(s) Configuration"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: https
-                      label: "HTTPS"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 10280
+                              default: 4181
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -607,107 +767,6 @@ questions:
         - variable: config
           label: "App Config Storage"
           description: "Stores the Application Configuration."
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: autoPermissions
-                label: Automatic Permissions Configuration
-                description: Automatically set permissions
-                schema:
-                  show_if: [["type", "!=", "pvc"]]
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: enabled
-                      label: enabled
-                      schema:
-                        type: boolean
-                        default: false
-                        show_subquestions_if: true
-                        subquestions:
-                          - variable: chown
-                            label: Run CHOWN
-                            description: |
-                              It will run CHOWN on the path with the given fsGroup
-                            schema:
-                              type: boolean
-                              default: false
-                          - variable: chmod
-                            label: Run CHMOD
-                            description: |
-                              It will run CHMOD on the path with the given value</br>
-                              Format should be 3 digits, e.g. 770
-                            schema:
-                              type: string
-                              valid_chars: '[0-9]{3}'
-                              default: ""
-                          - variable: recursive
-                            label: Recursive
-                            description: |
-                              It will run CHOWN and CHMOD recursively
-                            schema:
-                              type: boolean
-                              default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage (Do NOT REDUCE after installation)
-                description: This value can ONLY be INCREASED after the installation
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-        - variable: logs
-          label: "App logs Storage"
-          description: "Stores the Application logs."
           schema:
             additional_attrs: true
             type: dict
@@ -1242,19 +1301,18 @@ questions:
             type: dict
             attrs:
               # Settings from questions.yaml get appended here on a per-app basis
-
               - variable: runAsUser
                 label: "runAsUser"
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID of the user running the application"
+                description: "The groupID this App of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
@@ -1320,7 +1378,6 @@ questions:
                 schema:
                   type: int
                   default: 568
-
   - variable: resources
     group: Resources and Devices
     label: "Resource Limits"

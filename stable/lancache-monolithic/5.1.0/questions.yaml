@@ -29,8 +29,21 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
+portals: {}
 questions:
-
+  - variable: global
+    group: General Settings
+    label: "Global Settings"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: stopAll
+          label: Stop All
+          description: "Stops All Running pods and hibernates cnpg"
+          schema:
+            type: boolean
+            default: false
   - variable: workload
     group: "Workload Settings"
     label: ""
@@ -80,6 +93,7 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
+
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -130,270 +144,191 @@ questions:
                                               schema:
                                                 type: string
 
-
-  - variable: tfaAppOptions
+  - variable: monolithic
     group: App Configuration
-    label: Application Options
+    label: LanCache Monolithic
     schema:
+      additional_attrs: true
       type: dict
       attrs:
-        - variable: secret
-          label: Secret
-          description: Mandatory, can be any string.
+        - variable: cache_domains_repo
+          label: Cache Domains Repo
+          description: The github repo url for the cache_domains files to use to populate the cdn maps.
           schema:
             type: string
+            default: "https://github.com/uklans/cache-domains.git"
+        - variable: cache_domains_branch
+          label: Cache Domains Repo
+          description: The branch of the CACHE_DOMAINS_REPO to use.
+          schema:
+            type: string
+            default: "master"
+        - variable: upstream_dns
+          label: Upstream DNS
+          description: Upstream DNS server(s). (Do NOT point this at lancache-dns)
+          schema:
+            type: list
+            empty: false
+            default:
+              - 1.1.1.1
+              - 1.0.0.1
             required: true
-            private: true
-        - variable: port
-          label: Port
-          schema:
-            type: int
-            default: 4181
-        - variable: logLevel
-          label: Log level
-          schema:
-            type: string
-            default: warn
-            enum:
-              - value: trace
-                description: Trace (most detailed)
-              - value: debug
-                description: Debug
-              - value: info
-                description: Information
-              - value: warn
-                description: Warning
-              - value: error
-                description: Error
-              - value: fatal
-                description: Fatal
-              - value: panic
-                description: Panic (least detailed)
-        - variable: logFormat
-          label: Log format
-          schema:
-            type: string
-            default: text
-            enum:
-              - value: text
-                description: Text
-              - value: json
-                description: JSON
-              - value: pretty
-                description: Pretty
-  - variable: tfaAuthOptions
-    group: App Configuration
-    label: Auth Options
-    schema:
-      type: dict
-      attrs:
-        - variable: authHost
-          label: Auth host
-          description: Single host to use when returning from 3rd party auth.
-          schema:
-            type: string
-        - variable: urlPath
-          label: Callback URL Path
-          schema:
-            type: string
-            default: "/_oauth"
-        - variable: defaultAction
-          label: Default action
-          schema:
-            type: string
-            default: auth
-            enum:
-              - value: auth
-                description: Authenticate
-              - value: allow
-                description: Allow (do not require authentication)
-        - variable: defaultProvider
-          label: Default provider
-          schema:
-            type: string
-            default: google
-            enum:
-              - value: google
-                description: Google Provider
-              - value: oidc
-                description: OIDC Provider
-              - value: generic-oauth
-                description: Generic OAuth2 Provider
-        - variable: domain
-          label: Domains
-          description: Only allow given email domains.
-          schema:
-            type: list
-            default: []
             items:
-              - variable: allowedDomain
-                label: Host
+              - variable: dns
+                label: DNS
                 schema:
                   type: string
                   required: true
-        - variable: whitelist
-          label: Whitelist
-          description: Only allow given email addresses.
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: allowedEmail
-                label: Host
-                schema:
-                  type: string
-                  required: true
-        - variable: rules
-          label: Rules
-          description: Additional rules in rule.<name>.<param>=<value> format.
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: rule
-                label: Rule
-                schema:
-                  type: string
-                  required: true
-        - variable: logoutRedirect
-          label: Logout redirect
-          description: URL to redirect to following logout.
+                  default: ""
+        - variable: cache_disk_size
+          label: Cache Disk Size
+          description: The amount of disk space the container should use for caching data.
           schema:
             type: string
-  - variable: tfaCookieOptions
-    group: App Configuration
-    label: Cookie Options
-    schema:
-      type: dict
-      attrs:
-        - variable: cookieDomain
-          label: Cookie domain hosts
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: cookieDomainHost
-                label: Host
-                schema:
-                  type: string
-                  required: true
-        - variable: cookieName
-          label: Cookie name
+            default: "1000000m"
+        - variable: cache_max_age
+          label: Cache Max Age
+          description: The maximum amount of time a file should be held in cache.
           schema:
             type: string
-            default: "_forward_auth"
-        - variable: csrfCookieName
-          label: CSRF cookie name
+            default: "3560d"
+        - variable: cache_index_size
+          label: Cache Index Size
+          description: Amount of index memory for the nginx cache manager. We recommend 250m of index memory per 1TB.
           schema:
             type: string
-            default: "_forward_auth_csrf"
-        - variable: lifetime
-          label: Lifetime
-          description: Lifetime in seconds.
-          schema:
-            type: int
-            default: 43200
-        - variable: insecureCookie
-          label: Use insecure cookies
+            default: "500m"
+        - variable: no_fetch
+          label: No Fetch
+          description: Turn off all git pull operations and use stored data
           schema:
             type: boolean
             default: false
-  - variable: tfaGoogleOptions
+
+  - variable: prefill
     group: App Configuration
-    label: Google Provider
+    label: LanCache Prefill
     schema:
+      additional_attrs: true
       type: dict
       attrs:
-        - variable: clientId
-          label: Client ID
+        - variable: enabled
+          label: Enable Prefill Sidecar
+          schema:
+            type: boolean
+            default: true
+        - variable: updates
+          label: Updates
+          description: enable to check for updates from BattleNetPrefill/SteamPrefill on container start/restart.
+          schema:
+            type: boolean
+            default: true
+        - variable: on_start
+          label: Prefill On Start
+          description: Force a Prefill on every container start/restart. (please be careful with this option and enable only when you know what you are doing!)
+          schema:
+            type: boolean
+            default: false
+        - variable: log_clean_up
+          label: Log Clean Up
+          description: enable to clean up the logs directory on each start/restart.
+          schema:
+            type: boolean
+            default: true
+        - variable: default_cron
+          label: Default Cron
+          description: Specify a cron schedule to override the individual schedules for BatteNetPrefill and SteamPrefill. (leave empty to set cron individually)
           schema:
             type: string
-            private: true
-        - variable: clientSecret
-          label: Client Secret
+            default: ""
+        - variable: battlenet
+          label: BattleNet Configuration
           schema:
-            type: string
-            private: true
-        - variable: prompt
-          label: Prompt
-          description: Space separated list of OpenID prompt options.
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enabled
+                description: Enable or disable BattleNetPrefill.
+                schema:
+                  type: boolean
+                  default: true
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: cron
+                      label: cron
+                      description: Set your cron schedule for the BattleNetPrefill.
+                      schema:
+                        type: string
+                        default: ""
+        - variable: epic
+          label: Epic Configuration
           schema:
-            type: string
-  - variable: tfaOidcOptions
-    group: App Configuration
-    label: OIDC Provider
-    schema:
-      type: dict
-      attrs:
-        - variable: issuerUrl
-          label: Issuer URL
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enabled
+                description: Enable or disable EpicPrefill.
+                schema:
+                  type: boolean
+                  default: true
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: params
+                      label: Params
+                      description:  list of parameters for EpicPrefill.
+                      schema:
+                        type: list
+                        default: []
+                        required: true
+                        items:
+                          - variable: param
+                            label: Param
+                            schema:
+                              type: string
+                              required: true
+                              default: ""
+                    - variable: cron
+                      label: cron
+                      description: Set your cron schedule for the EpicPrefill.
+                      schema:
+                        type: string
+                        default: ""
+        - variable: steam
+          label: Steam Configuration
           schema:
-            type: string
-        - variable: clientId
-          label: Client ID
-          schema:
-            type: string
-            private: true
-        - variable: clientSecret
-          label: Client Secret
-          schema:
-            type: string
-            private: true
-        - variable: resource
-          label: Resource
-          description: Optional resource indicator.
-          schema:
-            type: string
-  - variable: tfaOauthOptions
-    group: App Configuration
-    label: Generic OAuth2 Provider
-    schema:
-      type: dict
-      attrs:
-        - variable: authUrl
-          label: Auth/Login URL
-          schema:
-            type: string
-        - variable: tokenUrl
-          label: Token URL
-          schema:
-            type: string
-        - variable: userUrl
-          label: User URL
-          description: URL used to retrieve user info.
-          schema:
-            type: string
-        - variable: clientId
-          label: Client ID
-          schema:
-            type: string
-            private: true
-        - variable: clientSecret
-          label: Client Secret
-          schema:
-            type: string
-            private: true
-        - variable: scopes
-          label: Scopes
-          schema:
-            type: string
-            default: profile, email
-        - variable: tokenStyle
-          label: Token style
-          description: How token is presented when querying the User URL
-          schema:
-            type: string
-            default: header
-            enum:
-              - value: header
-                description: Header
-              - value: query
-                description: Query
-        - variable: resource
-          label: Resource
-          description: Optional resource indicator.
-          schema:
-            type: string
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enabled
+                description: Enable or disable SteamPrefill.
+                schema:
+                  type: boolean
+                  default: true
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: params
+                      label: Params
+                      description:  list of parameters for SteamPrefill. (if you want to only prefill your selected apps then leave this variable empty)
+                      schema:
+                        type: list
+                        default: []
+                        required: true
+                        items:
+                          - variable: param
+                            label: Param
+                            schema:
+                              type: string
+                              required: true
+                              default: ""
+                    - variable: cron
+                      label: cron
+                      description: Set your cron schedule for the SteamPrefill.
+                      schema:
+                        type: string
+                        default: ""
 
   - variable: TZ
     label: Timezone
@@ -403,6 +338,74 @@ questions:
       default: "Etc/UTC"
       $ref:
         - "definitions/timezone"
+  - variable: podOptions
+    group: "General Settings"
+    label: "Global Pod Options (Advanced)"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: expertPodOpts
+          label: "Expert - Pod Options"
+          schema:
+            type: boolean
+            default: false
+            show_subquestions_if: true
+            subquestions:
+              - variable: hostNetwork
+                label: "Host Networking"
+                schema:
+                  type: boolean
+                  default: false
+              - variable: dnsConfig
+                label: "DNS Configuration"
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: options
+                      label: "Options"
+                      schema:
+                        type: list
+                        default: [{"name": "ndots", "value": "1"}]
+                        items:
+                          - variable: optionsEntry
+                            label: "Option Entry"
+                            schema:
+                              type: dict
+                              additional_attrs: true
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                    required: true
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+                    - variable: nameservers
+                      label: "Nameservers"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: nsEntry
+                            label: "Nameserver Entry"
+                            schema:
+                              type: string
+                              required: true
+                    - variable: searches
+                      label: "Searches"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: searchEntry
+                            label: "Search Entry"
+                            schema:
+                              type: string
+                              required: true
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -414,9 +417,26 @@ questions:
           label: "Main Service"
           description: "The Primary service on which the healthcheck runs, often the webUI"
           schema:
+            additional_attrs: true
             type: dict
             attrs:
-
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -433,6 +453,7 @@ questions:
                     - variable: main
                       label: "Main Service Port Configuration"
                       schema:
+                        additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
@@ -440,47 +461,58 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 4181
+                              default: 10279
                               required: true
-                          - variable: advanced
-                            label: "Show Advanced settings"
+        - variable: https
+          label: "HTTPS"
+          description: "HTTPS Service"
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: https
+                      label: "HTTPS"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
-                              type: boolean
-                              default: false
-                              show_subquestions_if: true
-                              subquestions:
-                                - variable: enabled
-                                  label: "Enable the port"
-                                  schema:
-                                    type: boolean
-                                    default: true
-                                - variable: protocol
-                                  label: "Port Type"
-                                  schema:
-                                    type: string
-                                    default: "HTTP"
-                                    enum:
-                                      - value: HTTP
-                                        description: "HTTP"
-                                      - value: "HTTPS"
-                                        description: "HTTPS"
-                                      - value: TCP
-                                        description: "TCP"
-                                      - value: "UDP"
-                                        description: "UDP"
-                                - variable: nodePort
-                                  label: "Node Port (Optional)"
-                                  description: "This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer"
-                                  schema:
-                                    type: int
-                                    min: 9000
-                                    max: 65535
-                                - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
-                                  schema:
-                                    type: int
-                                    default: 4181
+                              type: int
+                              default: 10280
+                              required: true
   - variable: serviceexpert
     group: Networking and Services
     label: Show Expert Config
@@ -489,13 +521,6 @@ questions:
       default: false
       show_subquestions_if: true
       subquestions:
-        - variable: hostNetwork
-          group: Networking and Services
-          label: Host-Networking (Complicated)
-          schema:
-            hidden: true
-            type: boolean
-            default: false
         - variable: scaleExternalInterface
           description: Add External Interfaces
           label: Add external Interfaces
@@ -507,6 +532,7 @@ questions:
                 description: Interface Configuration
                 label: Interface Configuration
                 schema:
+                  additional_attrs: true
                   type: dict
                   $ref:
                     - "normalize/interfaceConfiguration"
@@ -523,6 +549,7 @@ questions:
                       description: Define how IP Address will be managed
                       label: IP Address Management
                       schema:
+                        additional_attrs: true
                         type: dict
                         required: true
                         attrs:
@@ -706,6 +733,437 @@ questions:
                                   schema:
                                     type: int
                                     required: true
+  - variable: persistence
+    label: Integrated Persistent Storage
+    description: Integrated Persistent Storage
+    group: Storage and Persistence
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: config
+          label: "App Cache Storage"
+          description: "Stores the Application Cache."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
+        - variable: logs
+          label: "App logs Storage"
+          description: "Stores the Application logs."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
+        - variable: prefill
+          label: "App Prefill Storage"
+          description: "Stores the Application Prefill."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
+  - variable: persistenceList
+    label: Additional App Storage
+    group: Storage and Persistence
+    schema:
+      type: list
+      default: []
+      items:
+        - variable: persistenceListEntry
+          label: Custom Storage
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the storage
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: hostPath
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: mountPath
+                label: Mount Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  type: string
+                  default: ""
+                  required: true
+                  valid_chars: '^\/([a-zA-Z0-9._-]+(\s?[a-zA-Z0-9._-]+|\/?))+$'
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size Quotum of Storage
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
   - variable: ingress
     label: ""
     group: Ingress
@@ -716,6 +1174,7 @@ questions:
         - variable: main
           label: "Main Ingress"
           schema:
+            additional_attrs: true
             type: dict
             attrs:
               - variable: enabled
@@ -773,11 +1232,44 @@ questions:
                       schema:
                         type: string
                         default: ""
+                    - variable: middlewares
+                      label: Traefik Middlewares
+                      description: Add previously created Traefik Middlewares to this Ingress
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: name
+                            label: Name
+                            schema:
+                              type: string
+                              default: ""
+                              required: true
+                    - variable: advanced
+                      label: Show Advanced Settings
+                      description: Advanced settings are not covered by TrueCharts Support
+                      schema:
+                        type: boolean
+                        default: false
+                    - variable: entrypoint
+                      label: (Advanced) Traefik Entrypoint
+                      description: Entrypoint used by Traefik when using Traefik as Ingress Provider
+                      schema:
+                        type: string
+                        default: websecure
+                        show_if: [["advanced", "=", true]]
+                        required: true
+                    - variable: ingressClassName
+                      label: (Advanced/Optional) IngressClass Name
+                      schema:
+                        type: string
+                        show_if: [["advanced", "=", true]]
+                        default: ""
                     - variable: tls
                       label: TLS-Settings
                       schema:
                         type: list
-                        show_if: [["certificateIssuer", "=", ""]]
+                        show_if: [["advanced", "=", true]]
                         default: []
                         items:
                           - variable: tlsEntry
@@ -818,32 +1310,6 @@ questions:
                                     show_if: [["certificateIssuer", "=", ""]]
                                     type: string
                                     default: ""
-                    - variable: entrypoint
-                      label: (Advanced) Traefik Entrypoint
-                      description: Entrypoint used by Traefik when using Traefik as Ingress Provider
-                      schema:
-                        type: string
-                        default: websecure
-                        required: true
-                    - variable: ingressClassName
-                      label: (Advanced/Optional) IngressClass Name
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: middlewares
-                      label: Traefik Middlewares
-                      description: Add previously created Traefik Middlewares to this Ingress
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: name
-                            label: Name
-                            schema:
-                              type: string
-                              default: ""
-                              required: true
-
   - variable: ingressList
     label: Add Manual Custom Ingresses
     group: Ingress
@@ -1000,57 +1466,6 @@ questions:
                         type: string
                         default: ""
                         required: true
-  - variable: advancedSecurity
-    label: "Show Advanced Security Settings"
-    group: "Security and Permissions"
-    schema:
-      type: boolean
-      default: false
-      show_subquestions_if: true
-      subquestions:
-        - variable: securityContext
-          label: "Security Context"
-          schema:
-            type: dict
-            attrs:
-              - variable: privileged
-                label: "Privileged mode"
-                schema:
-                  type: boolean
-                  default: false
-              - variable: readOnlyRootFilesystem
-                label: "ReadOnly Root Filesystem"
-                schema:
-                  type: boolean
-                  default: true
-              - variable: allowPrivilegeEscalation
-                label: "Allow Privilege Escalation"
-                schema:
-                  type: boolean
-                  default: false
-              - variable: runAsNonRoot
-                label: "runAsNonRoot"
-                schema:
-                  type: boolean
-                  default: true
-              - variable: advanced
-                label: Show Advanced Settings
-                description: Advanced settings are not covered by TrueCharts Support
-                schema:
-                  type: boolean
-                  default: false
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: privileged
-                      label: "Privileged mode"
-                      schema:
-                        type: boolean
-                        default: false
-                    - variable: readOnlyRootFilesystem
-                      label: "ReadOnly Root Filesystem"
-                      schema:
-                        type: boolean
-                        default: true
   - variable: securityContext
     group: Security and Permissions
     label: Security Context
@@ -1065,18 +1480,19 @@ questions:
             type: dict
             attrs:
               # Settings from questions.yaml get appended here on a per-app basis
+
               - variable: runAsUser
                 label: "runAsUser"
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 568
+                  default: 0
               - variable: runAsGroup
                 label: "runAsGroup"
                 description: "The groupID of the user running the application"
                 schema:
                   type: int
-                  default: 568
+                  default: 0
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
@@ -1158,14 +1574,14 @@ questions:
             attrs:
               - variable: cpu
                 label: CPU
-                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 4000m
                   valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: RAM
-                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 8Gi
@@ -1179,7 +1595,7 @@ questions:
             attrs:
               - variable: cpu
                 label: CPU
-                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 10m
@@ -1187,7 +1603,7 @@ questions:
                   valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: "RAM"
-                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 50Mi
@@ -1251,6 +1667,7 @@ questions:
               - variable: gpu
                 label: Select GPU
                 schema:
+                  additional_attrs: true
                   type: dict
                   $ref:
                     - "definitions/gpuConfiguration"
@@ -1813,7 +2230,6 @@ questions:
                                   schema:
                                     type: string
                                     required: true
-
         - variable: vpn
           label: VPN
           schema:
@@ -1839,6 +2255,7 @@ questions:
               - variable: openvpn
                 label: OpenVPN Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "openvpn"]]
                   attrs:
@@ -1859,6 +2276,7 @@ questions:
               - variable: tailscale
                 label: Tailscale Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "tailscale"]]
                   attrs:
@@ -1985,3 +2403,33 @@ questions:
                             schema:
                               type: string
                               required: true
+                              max_length: 10240
+  - variable: docs
+    group: Documentation
+    label: Please read the documentation at https://truecharts.org
+    description: Please read the documentation at
+      <br /><a href="https://truecharts.org">https://truecharts.org</a>
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: confirmDocs
+          label: I have checked the documentation
+          schema:
+            type: boolean
+            default: true
+  - variable: donateNag
+    group: Documentation
+    label: Please consider supporting TrueCharts, see https://truecharts.org/sponsor
+    description: Please consider supporting TrueCharts, see
+      <br /><a href="https://truecharts.org/sponsor">https://truecharts.org/sponsor</a>
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: confirmDonate
+          label: I have considered donating
+          schema:
+            type: boolean
+            default: true
+            hidden: true
