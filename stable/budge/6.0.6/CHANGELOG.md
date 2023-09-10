@@ -4,6 +4,15 @@
 
 
 
+## [budge-6.0.6](https://github.com/truecharts/charts/compare/budge-6.0.5...budge-6.0.6) (2023-09-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/budge to v0.0.9 ([#12449](https://github.com/truecharts/charts/issues/12449))
+  
+  
+
+
 ## [budge-6.0.5](https://github.com/truecharts/charts/compare/budge-6.0.4...budge-6.0.5) (2023-09-03)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/budge to v0.0.9 ([#10509](https://github.com/truecharts/charts/issues/10509))
-  
-  
-
-
-## [budge-5.0.32](https://github.com/truecharts/charts/compare/budge-5.0.31...budge-5.0.32) (2023-07-09)
-
-### Chore
-
-- update container image tccr.io/truecharts/budge to v0.0.9 ([#10334](https://github.com/truecharts/charts/issues/10334))
   
