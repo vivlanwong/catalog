@@ -4,6 +4,15 @@
 
 
 
+## [fluidd-6.0.5](https://github.com/truecharts/charts/compare/fluidd-6.0.4...fluidd-6.0.5) (2023-09-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/fluidd to v1.25.3 ([#12465](https://github.com/truecharts/charts/issues/12465))
+  
+  
+
+
 ## [fluidd-6.0.4](https://github.com/truecharts/charts/compare/fluidd-6.0.3...fluidd-6.0.4) (2023-08-16)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [fluidd-5.0.22](https://github.com/truecharts/charts/compare/fluidd-5.0.21...fluidd-5.0.22) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
   
