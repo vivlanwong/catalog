@@ -4,6 +4,15 @@
 
 
 
+## [solr-6.0.19](https://github.com/truecharts/charts/compare/solr-6.0.18...solr-6.0.19) (2023-09-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/solr to v9.3.0 ([#12489](https://github.com/truecharts/charts/issues/12489))
+  
+  
+
+
 ## [solr-6.0.18](https://github.com/truecharts/charts/compare/solr-6.0.17...solr-6.0.18) (2023-09-11)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [solr-6.0.9](https://github.com/truecharts/charts/compare/solr-6.0.8...solr-6.0.9) (2023-08-21)
-
-### Chore
-
-- update container image tccr.io/truecharts/solr to v9.3.0 ([#11744](https://github.com/truecharts/charts/issues/11744))
-  
-  
-
-
-## [solr-6.0.8](https://github.com/truecharts/charts/compare/solr-6.0.7...solr-6.0.8) (2023-08-18)
 
 ### Chore
