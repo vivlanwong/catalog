@@ -4,6 +4,15 @@
 
 
 
+## [unpoller-7.0.5](https://github.com/truecharts/charts/compare/unpoller-7.0.4...unpoller-7.0.5) (2023-09-12)
+
+### Chore
+
+- update helm general non-major ([#12523](https://github.com/truecharts/charts/issues/12523))
+  
+  
+
+
 ## [unpoller-7.0.4](https://github.com/truecharts/charts/compare/unpoller-7.0.3...unpoller-7.0.4) (2023-09-12)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [unpoller-6.0.21](https://github.com/truecharts/charts/compare/unpoller-6.0.20...unpoller-6.0.21) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
   
