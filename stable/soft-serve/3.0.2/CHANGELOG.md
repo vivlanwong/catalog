@@ -4,6 +4,15 @@
 
 
 
+## [soft-serve-3.0.2](https://github.com/truecharts/charts/compare/soft-serve-3.0.1...soft-serve-3.0.2) (2023-09-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/soft-serve to v0.6.1 ([#12572](https://github.com/truecharts/charts/issues/12572))
+  
+  
+
+
 ## [soft-serve-3.0.1](https://github.com/truecharts/charts/compare/soft-serve-3.0.0...soft-serve-3.0.1) (2023-09-04)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [soft-serve-2.0.19](https://github.com/truecharts/charts/compare/soft-serve-2.0.18...soft-serve-2.0.19) (2023-05-27)
-
