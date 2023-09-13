@@ -4,6 +4,15 @@
 
 
 
+## [baserow-8.0.1](https://github.com/truecharts/charts/compare/baserow-8.0.0...baserow-8.0.1) (2023-09-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/baserow to v1.20.0 ([#12553](https://github.com/truecharts/charts/issues/12553))
+  
+  
+
+
 
 ## [baserow-8.0.0](https://github.com/truecharts/charts/compare/baserow-7.0.30...baserow-8.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [baserow-7.0.21](https://github.com/truecharts/charts/compare/baserow-7.0.20...baserow-7.0.21) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
   
