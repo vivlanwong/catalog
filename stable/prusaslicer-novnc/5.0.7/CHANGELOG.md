@@ -4,6 +4,15 @@
 
 
 
+## [prusaslicer-novnc-5.0.7](https://github.com/truecharts/charts/compare/prusaslicer-novnc-5.0.6...prusaslicer-novnc-5.0.7) (2023-09-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/prusaslicer-novnc to latest ([#12612](https://github.com/truecharts/charts/issues/12612))
+  
+  
+
+
 ## [prusaslicer-novnc-5.0.6](https://github.com/truecharts/charts/compare/prusaslicer-novnc-5.0.5...prusaslicer-novnc-5.0.6) (2023-09-08)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/prusaslicer-novnc to latest ([#10691](https://github.com/truecharts/charts/issues/10691))
-  
-  
-
-
-## [prusaslicer-novnc-4.0.35](https://github.com/truecharts/charts/compare/prusaslicer-novnc-4.0.34...prusaslicer-novnc-4.0.35) (2023-07-14)
-
-### Chore
-
-- update container image tccr.io/truecharts/prusaslicer-novnc to latest ([#10453](https://github.com/truecharts/charts/issues/10453))
   
