@@ -4,6 +4,15 @@
 
 
 
+## [rsshub-8.0.142](https://github.com/truecharts/charts/compare/rsshub-8.0.141...rsshub-8.0.142) (2023-09-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/rsshub to latest ([#12624](https://github.com/truecharts/charts/issues/12624))
+  
+  
+
+
 ## [rsshub-8.0.141](https://github.com/truecharts/charts/compare/rsshub-8.0.140...rsshub-8.0.141) (2023-09-14)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rsshub-8.0.132](https://github.com/truecharts/charts/compare/rsshub-8.0.131...rsshub-8.0.132) (2023-09-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/browserless-chrome to v1.60.0 ([#12519](https://github.com/truecharts/charts/issues/12519))
-  
-  
-
-
-## [rsshub-8.0.131](https://github.com/truecharts/charts/compare/rsshub-8.0.130...rsshub-8.0.131) (2023-09-12)
 
 ### Chore
