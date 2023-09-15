@@ -4,6 +4,19 @@
 
 
 
+## [lldap-2.0.2](https://github.com/truecharts/charts/compare/lldap-2.0.1...lldap-2.0.2) (2023-09-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/lldap to v0.5.0 ([#12609](https://github.com/truecharts/charts/issues/12609))
+  
+  ### Docs
+
+- Fix upstream link ([#11701](https://github.com/truecharts/charts/issues/11701))
+  
+  
+
+
 ## [lldap-2.0.1](https://github.com/truecharts/charts/compare/lldap-2.0.0...lldap-2.0.1) (2023-08-18)
 
 
@@ -84,16 +97,3 @@
 
 
 ## [lldap-1.1.11](https://github.com/truecharts/charts/compare/lldap-1.1.10...lldap-1.1.11) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [lldap-1.1.10](https://github.com/truecharts/charts/compare/lldap-1.1.9...lldap-1.1.10) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
