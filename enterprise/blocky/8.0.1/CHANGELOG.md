@@ -4,6 +4,15 @@
 
 
 
+## [blocky-8.0.1](https://github.com/truecharts/charts/compare/blocky-8.0.0...blocky-8.0.1) (2023-09-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/blocky to v0.22.0 ([#12084](https://github.com/truecharts/charts/issues/12084))
+  
+  
+
+
 
 ## [blocky-8.0.0](https://github.com/truecharts/charts/compare/blocky-7.0.2...blocky-8.0.0) (2023-07-31)
 
@@ -88,12 +97,3 @@
 ## [blocky-5.0.43](https://github.com/truecharts/charts/compare/blocky-5.0.42...blocky-5.0.43) (2023-06-16)
 
 ### Docs
-
-- fix setup guide line breaks ([#9645](https://github.com/truecharts/charts/issues/9645))
-  
-  ### Fix
-
-- Default metrics to off ([#9647](https://github.com/truecharts/charts/issues/9647))
-  
-  
-

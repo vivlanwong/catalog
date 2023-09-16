@@ -4,6 +4,15 @@
 
 
 
+## [invidious-6.0.4](https://github.com/truecharts/charts/compare/invidious-6.0.3...invidious-6.0.4) (2023-09-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/invidious to latest ([#12649](https://github.com/truecharts/charts/issues/12649))
+  
+  
+
+
 ## [invidious-6.0.3](https://github.com/truecharts/charts/compare/invidious-6.0.2...invidious-6.0.3) (2023-08-31)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Fix
 
 - patch hmac_key requirement ([#10310](https://github.com/truecharts/charts/issues/10310))
-  
-  
-
-
-## [invidious-5.0.11](https://github.com/truecharts/charts/compare/invidious-5.0.10...invidious-5.0.11) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
