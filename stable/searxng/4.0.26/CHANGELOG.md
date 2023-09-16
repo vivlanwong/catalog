@@ -4,6 +4,15 @@
 
 
 
+## [searxng-4.0.26](https://github.com/truecharts/charts/compare/searxng-4.0.25...searxng-4.0.26) (2023-09-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/searxng to latest ([#12668](https://github.com/truecharts/charts/issues/12668))
+  
+  
+
+
 ## [searxng-4.0.25](https://github.com/truecharts/charts/compare/searxng-4.0.24...searxng-4.0.25) (2023-09-16)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [searxng-4.0.16](https://github.com/truecharts/charts/compare/searxng-4.0.15...searxng-4.0.16) (2023-09-11)
-
-### Chore
-
-- update container image tccr.io/truecharts/searxng to latest ([#12496](https://github.com/truecharts/charts/issues/12496))
-  
-  
-
-
-## [searxng-4.0.15](https://github.com/truecharts/charts/compare/searxng-4.0.14...searxng-4.0.15) (2023-09-09)
 
 ### Chore
