@@ -4,6 +4,15 @@
 
 
 
+## [dillinger-6.0.4](https://github.com/truecharts/charts/compare/dillinger-6.0.3...dillinger-6.0.4) (2023-09-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/dillinger to v3.39.1 ([#12644](https://github.com/truecharts/charts/issues/12644))
+  
+  
+
+
 ## [dillinger-6.0.3](https://github.com/truecharts/charts/compare/dillinger-6.0.2...dillinger-6.0.3) (2023-08-19)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [dillinger-5.0.30](https://github.com/truecharts/charts/compare/dillinger-5.0.29...dillinger-5.0.30) (2023-07-01)
-
-### Chore
-
-- update container image tccr.io/truecharts/dillinger to v3.39.1 ([#10063](https://github.com/truecharts/charts/issues/10063))
-  
-  
-
-
-## [dillinger-5.0.29](https://github.com/truecharts/charts/compare/dillinger-5.0.28...dillinger-5.0.29) (2023-06-24)
 
