@@ -1,0 +1,65 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/spaceengineers
+  tag: latest@sha256:5485c3fe13e73608d6f1f212ac7868dc91096e491ca6c556d20eeb1791da7447
+
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        protocol: udp
+        targetPort: 27016
+        port: 27017
+  api:
+    enabled: true
+    ports:
+      api:
+        protocol: http
+        enabled: true
+        targetPort: 8080
+        port: 18080
+
+spaceengineers:
+  instance_name: "TestInstance"
+  public_ip: "1.2.3.4"
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+          env:
+            INSTANCE_NAME: "{{ .Values.spaceengineers.instance_name }}"
+            PUBLIC_IP: "{{ .Values.spaceengineers.public_ip }}"
+
+persistence:
+  steamcmd:
+    enabled: true
+    mountPath: /root/.steam
+  plugins:
+    enabled: true
+    mountPath: /appdata/space-engineers/plugins
+  serverfiles:
+    enabled: true
+    mountPath: /appdata/space-engineers/SpaceEngineersDedicated
+  instances:
+    enabled: true
+    mountPath: /appdata/space-engineers/instances
+
+portal:
+  open:
+    enabled: false
