@@ -4,6 +4,15 @@
 
 
 
+## [docker-compose-7.0.7](https://github.com/truecharts/charts/compare/docker-compose-7.0.6...docker-compose-7.0.7) (2023-09-16)
+
+### Fix
+
+- postStart execution. ([#12472](https://github.com/truecharts/charts/issues/12472))
+  
+  
+
+
 ## [docker-compose-7.0.6](https://github.com/truecharts/charts/compare/docker-compose-7.0.5...docker-compose-7.0.6) (2023-09-06)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10554](https://github.com/truecharts/charts/issues/10554))
-  
-  
-
-
-## [docker-compose-6.0.28](https://github.com/truecharts/charts/compare/docker-compose-6.0.27...docker-compose-6.0.28) (2023-07-18)
-
-### Chore
-
-- update container image tccr.io/truecharts/docker-in-docker to v24.0.4 ([#10580](https://github.com/truecharts/charts/issues/10580))
   
