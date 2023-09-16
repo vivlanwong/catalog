@@ -4,6 +4,15 @@
 
 
 
+## [openvscode-server-6.0.8](https://github.com/truecharts/charts/compare/openvscode-server-6.0.7...openvscode-server-6.0.8) (2023-09-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/openvscode-server to v1.82.2 ([#12663](https://github.com/truecharts/charts/issues/12663))
+  
+  
+
+
 ## [openvscode-server-6.0.7](https://github.com/truecharts/charts/compare/openvscode-server-6.0.6...openvscode-server-6.0.7) (2023-09-13)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
-  
-  
-
-
-## [openvscode-server-5.0.34](https://github.com/truecharts/charts/compare/openvscode-server-5.0.33...openvscode-server-5.0.34) (2023-07-22)
-
-### Chore
-
-- update container image tccr.io/truecharts/openvscode-server to v1.80.1 ([#10730](https://github.com/truecharts/charts/issues/10730))
   
