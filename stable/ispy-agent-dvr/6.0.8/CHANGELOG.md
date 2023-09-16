@@ -4,6 +4,15 @@
 
 
 
+## [ispy-agent-dvr-6.0.8](https://github.com/truecharts/charts/compare/ispy-agent-dvr-6.0.7...ispy-agent-dvr-6.0.8) (2023-09-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/ispy-agent-dvr to v5.0.1.0 ([#12662](https://github.com/truecharts/charts/issues/12662))
+  
+  
+
+
 ## [ispy-agent-dvr-6.0.7](https://github.com/truecharts/charts/compare/ispy-agent-dvr-6.0.6...ispy-agent-dvr-6.0.7) (2023-09-15)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/ispy-agent-dvr to v4.8.8.0 ([#10903](https://github.com/truecharts/charts/issues/10903))
-  
-  
-
-
-## [ispy-agent-dvr-5.0.33](https://github.com/truecharts/charts/compare/ispy-agent-dvr-5.0.32...ispy-agent-dvr-5.0.33) (2023-07-21)
-
-### Chore
-
-- update container image tccr.io/truecharts/ispy-agent-dvr to v4.8.7.0 ([#10705](https://github.com/truecharts/charts/issues/10705))
   
