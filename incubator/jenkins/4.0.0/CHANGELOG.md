@@ -6,6 +6,7 @@
 
 
 
+
 ## [jenkins-4.0.0](https://github.com/truecharts/charts/compare/jenkins-3.0.15...jenkins-4.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/jenkins to 2.388.0
-  
