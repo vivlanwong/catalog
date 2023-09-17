@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-5.0.23](https://github.com/truecharts/charts/compare/jupyter-5.0.22...jupyter-5.0.23) (2023-09-17)
+
+### Chore
+
+- update jupyter ([#12681](https://github.com/truecharts/charts/issues/12681))
+  
+  
+
+
 ## [jupyter-5.0.22](https://github.com/truecharts/charts/compare/jupyter-5.0.21...jupyter-5.0.22) (2023-09-12)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [jupyter-5.0.13](https://github.com/truecharts/charts/compare/jupyter-5.0.12...jupyter-5.0.13) (2023-08-28)
-
-### Chore
-
-- update container image tccr.io/truecharts/jupyter-base to v2023-08 ([#11957](https://github.com/truecharts/charts/issues/11957))
-  
-  
-
-
-## [jupyter-5.0.12](https://github.com/truecharts/charts/compare/jupyter-5.0.11...jupyter-5.0.12) (2023-08-28)
 
 ### Chore
