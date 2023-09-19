@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.96](https://github.com/truecharts/charts/compare/webtop-6.0.95...webtop-6.0.96) (2023-09-19)
+
+### Chore
+
+- update container image tccr.io/truecharts/webtop-fedora-openbox to latest ([#12735](https://github.com/truecharts/charts/issues/12735))
+  
+  
+
+
 ## [webtop-6.0.95](https://github.com/truecharts/charts/compare/webtop-6.0.94...webtop-6.0.95) (2023-09-19)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [webtop-6.0.86](https://github.com/truecharts/charts/compare/webtop-6.0.85...webtop-6.0.86) (2023-09-08)
-
-### Chore
-
-- update webtop ([#12395](https://github.com/truecharts/charts/issues/12395))
-  
-  
-
-
-## [webtop-6.0.85](https://github.com/truecharts/charts/compare/webtop-6.0.84...webtop-6.0.85) (2023-09-07)
 
 ### Chore
