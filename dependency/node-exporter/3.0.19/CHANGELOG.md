@@ -4,6 +4,15 @@
 
 
 
+## [node-exporter-3.0.19](https://github.com/truecharts/charts/compare/node-exporter-3.0.18...node-exporter-3.0.19) (2023-09-19)
+
+### Chore
+
+- update container image tccr.io/truecharts/node-exporter to v1.6.1 ([#12739](https://github.com/truecharts/charts/issues/12739))
+  
+  
+
+
 ## [node-exporter-3.0.18](https://github.com/truecharts/charts/compare/node-exporter-3.0.17...node-exporter-3.0.18) (2023-09-16)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [node-exporter-3.0.9](https://github.com/truecharts/charts/compare/node-exporter-3.0.8...node-exporter-3.0.9) (2023-08-27)
-
-### Chore
-
-- update container image tccr.io/truecharts/node-exporter to v1.6.1 ([#11931](https://github.com/truecharts/charts/issues/11931))
-  
-  
-
-
-## [node-exporter-3.0.8](https://github.com/truecharts/charts/compare/node-exporter-3.0.7...node-exporter-3.0.8) (2023-08-23)
 
 ### Chore
