@@ -4,6 +4,15 @@
 
 
 
+## [satisfactory-6.0.3](https://github.com/truecharts/charts/compare/satisfactory-6.0.2...satisfactory-6.0.3) (2023-09-19)
+
+### Chore
+
+- update container image tccr.io/truecharts/satisfactory to v1.5.4 ([#12757](https://github.com/truecharts/charts/issues/12757))
+  
+  
+
+
 ## [satisfactory-6.0.2](https://github.com/truecharts/charts/compare/satisfactory-6.0.1...satisfactory-6.0.2) (2023-09-17)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [satisfactory-5.0.17](https://github.com/truecharts/charts/compare/satisfactory-5.0.16...satisfactory-5.0.17) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
