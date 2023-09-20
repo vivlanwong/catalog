@@ -4,6 +4,15 @@
 
 
 
+## [portainer-5.0.3](https://github.com/truecharts/charts/compare/portainer-5.0.2...portainer-5.0.3) (2023-09-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/portainer-be to v2.19.1 ([#12763](https://github.com/truecharts/charts/issues/12763))
+  
+  
+
+
 ## [portainer-5.0.2](https://github.com/truecharts/charts/compare/portainer-5.0.1...portainer-5.0.2) (2023-09-08)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  
-  
-
-
-## [portainer-4.0.15](https://github.com/truecharts/charts/compare/portainer-4.0.14...portainer-4.0.15) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
   
