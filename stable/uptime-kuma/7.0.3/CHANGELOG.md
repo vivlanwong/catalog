@@ -4,6 +4,15 @@
 
 
 
+## [uptime-kuma-7.0.3](https://github.com/truecharts/charts/compare/uptime-kuma-7.0.2...uptime-kuma-7.0.3) (2023-09-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/uptime-kuma to v1.23.2 ([#12766](https://github.com/truecharts/charts/issues/12766))
+  
+  
+
+
 ## [uptime-kuma-7.0.2](https://github.com/truecharts/charts/compare/uptime-kuma-7.0.1...uptime-kuma-7.0.2) (2023-08-31)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [uptime-kuma-6.0.20](https://github.com/truecharts/charts/compare/uptime-kuma-6.0.19...uptime-kuma-6.0.20) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
