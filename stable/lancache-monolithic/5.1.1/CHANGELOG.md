@@ -4,6 +4,11 @@
 
 
 
+## [lancache-monolithic-5.1.1](https://github.com/truecharts/charts/compare/lancache-monolithic-5.1.0...lancache-monolithic-5.1.1) (2023-09-22)
+
+
+
+
 ## [lancache-monolithic-5.1.0](https://github.com/truecharts/charts/compare/lancache-monolithic-5.0.0...lancache-monolithic-5.1.0) (2023-09-10)
 
 
@@ -92,8 +97,3 @@
 
 
 ## [lancache-monolithic-4.0.9](https://github.com/truecharts/charts/compare/lancache-monolithic-4.0.8...lancache-monolithic-4.0.9) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
