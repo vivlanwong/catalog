@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-5.0.86](https://github.com/truecharts/charts/compare/rdesktop-5.0.85...rdesktop-5.0.86) (2023-09-22)
+
+### Chore
+
+- update rdesktop ([#12846](https://github.com/truecharts/charts/issues/12846))
+  
+  
+
+
 ## [rdesktop-5.0.85](https://github.com/truecharts/charts/compare/rdesktop-5.0.84...rdesktop-5.0.85) (2023-09-22)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-5.0.76](https://github.com/truecharts/charts/compare/rdesktop-5.0.75...rdesktop-5.0.76) (2023-09-11)
-
-### Chore
-
-- update rdesktop ([#12482](https://github.com/truecharts/charts/issues/12482))
-  
-  
-
-
-## [rdesktop-5.0.75](https://github.com/truecharts/charts/compare/rdesktop-5.0.74...rdesktop-5.0.75) (2023-09-11)
 
 ### Chore
