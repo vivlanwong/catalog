@@ -4,6 +4,15 @@
 
 
 
+## [metallb-config-3.0.1](https://github.com/truecharts/charts/compare/metallb-config-3.0.0...metallb-config-3.0.1) (2023-09-22)
+
+### Docs
+
+- Setup Guide Updates ([#12191](https://github.com/truecharts/charts/issues/12191))
+  
+  
+
+
 
 ## [metallb-config-3.0.0](https://github.com/truecharts/charts/compare/metallb-config-2.0.2...metallb-config-3.0.0) (2023-07-31)
 
@@ -88,12 +97,3 @@
 
 
 ## [metallb-config-1.1.7](https://github.com/truecharts/charts/compare/metallb-config-1.1.6...metallb-config-1.1.7) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  
-  
-
-
-## [metallb-config-1.1.6](https://github.com/truecharts/charts/compare/metallb-config-1.1.5...metallb-config-1.1.6) (2023-06-07)
