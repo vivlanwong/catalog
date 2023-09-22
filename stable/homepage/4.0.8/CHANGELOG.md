@@ -4,6 +4,15 @@
 
 
 
+## [homepage-4.0.8](https://github.com/truecharts/charts/compare/homepage-4.0.7...homepage-4.0.8) (2023-09-22)
+
+### Fix
+
+- Enable service account token, and permission to check for CRDs to prevent log spam ([#12834](https://github.com/truecharts/charts/issues/12834))
+  
+  
+
+
 ## [homepage-4.0.7](https://github.com/truecharts/charts/compare/homepage-4.0.6...homepage-4.0.7) (2023-09-20)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [homepage-3.0.28](https://github.com/truecharts/charts/compare/homepage-3.0.27...homepage-3.0.28) (2023-07-21)
-
-### Chore
-
-- update container image tccr.io/truecharts/homepage to v0.6.23 ([#10704](https://github.com/truecharts/charts/issues/10704))
-  
-  
-
-
-## [homepage-3.0.27](https://github.com/truecharts/charts/compare/homepage-3.0.26...homepage-3.0.27) (2023-07-20)
