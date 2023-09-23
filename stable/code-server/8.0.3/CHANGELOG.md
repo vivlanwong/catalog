@@ -4,6 +4,15 @@
 
 
 
+## [code-server-8.0.3](https://github.com/truecharts/charts/compare/code-server-8.0.2...code-server-8.0.3) (2023-09-23)
+
+### Chore
+
+- update helm general non-major ([#12869](https://github.com/truecharts/charts/issues/12869))
+  
+  
+
+
 ## [code-server-8.0.2](https://github.com/truecharts/charts/compare/code-server-8.0.1...code-server-8.0.2) (2023-09-23)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/code-server to v4.14.0 ([#9946](https://github.com/truecharts/charts/issues/9946))
-  
-  
-
-
-## [code-server-7.0.24](https://github.com/truecharts/charts/compare/code-server-7.0.23...code-server-7.0.24) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
