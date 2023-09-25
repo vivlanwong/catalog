@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-5.0.89](https://github.com/truecharts/charts/compare/rdesktop-5.0.88...rdesktop-5.0.89) (2023-09-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-ubuntu-icewm to latest ([#12930](https://github.com/truecharts/charts/issues/12930))
+  
+  
+
+
 ## [rdesktop-5.0.88](https://github.com/truecharts/charts/compare/rdesktop-5.0.87...rdesktop-5.0.88) (2023-09-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-5.0.79](https://github.com/truecharts/charts/compare/rdesktop-5.0.78...rdesktop-5.0.79) (2023-09-15)
-
-### Chore
-
-- update rdesktop ([#12629](https://github.com/truecharts/charts/issues/12629))
-  
-  
-
-
-## [rdesktop-5.0.78](https://github.com/truecharts/charts/compare/rdesktop-5.0.77...rdesktop-5.0.78) (2023-09-15)
 
 ### Chore
