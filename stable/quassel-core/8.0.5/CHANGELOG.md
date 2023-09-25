@@ -4,6 +4,15 @@
 
 
 
+## [quassel-core-8.0.5](https://github.com/truecharts/charts/compare/quassel-core-8.0.4...quassel-core-8.0.5) (2023-09-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/quassel-core to v0.14.0 ([#12938](https://github.com/truecharts/charts/issues/12938))
+  
+  
+
+
 ## [quassel-core-8.0.4](https://github.com/truecharts/charts/compare/quassel-core-8.0.3...quassel-core-8.0.4) (2023-09-18)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/quassel-core to v0.14.0 ([#10116](https://github.com/truecharts/charts/issues/10116))
-  
-  
-
-
-## [quassel-core-7.0.30](https://github.com/truecharts/charts/compare/quassel-core-7.0.29...quassel-core-7.0.30) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
