@@ -4,6 +4,15 @@
 
 
 
+## [ring-mqtt-5.1.4](https://github.com/truecharts/charts/compare/ring-mqtt-5.1.3...ring-mqtt-5.1.4) (2023-09-27)
+
+### Chore
+
+- update helm general non-major ([#12950](https://github.com/truecharts/charts/issues/12950))
+  
+  
+
+
 ## [ring-mqtt-5.1.3](https://github.com/truecharts/charts/compare/ring-mqtt-5.1.2...ring-mqtt-5.1.3) (2023-09-27)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [ring-mqtt-4.0.24](https://github.com/truecharts/charts/compare/ring-mqtt-4.0.23...ring-mqtt-4.0.24) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [ring-mqtt-4.0.23](https://github.com/truecharts/charts/compare/ring-mqtt-4.0.22...ring-mqtt-4.0.23) (2023-06-11)
