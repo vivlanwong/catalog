@@ -4,6 +4,15 @@
 
 
 
+## [ring-mqtt-5.1.3](https://github.com/truecharts/charts/compare/ring-mqtt-5.1.2...ring-mqtt-5.1.3) (2023-09-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/ring-mqtt to v5.6.3 ([#12989](https://github.com/truecharts/charts/issues/12989))
+  
+  
+
+
 ## [ring-mqtt-5.1.2](https://github.com/truecharts/charts/compare/ring-mqtt-5.1.1...ring-mqtt-5.1.2) (2023-09-06)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [ring-mqtt-4.0.23](https://github.com/truecharts/charts/compare/ring-mqtt-4.0.22...ring-mqtt-4.0.23) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  
-  
-
-
-## [ring-mqtt-4.0.22](https://github.com/truecharts/charts/compare/ring-mqtt-4.0.21...ring-mqtt-4.0.22) (2023-06-09)
