@@ -4,6 +4,15 @@
 
 
 
+## [cops-5.0.12](https://github.com/truecharts/charts/compare/cops-5.0.11...cops-5.0.12) (2023-09-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/cops to latest ([#12991](https://github.com/truecharts/charts/issues/12991))
+  
+  
+
+
 ## [cops-5.0.11](https://github.com/truecharts/charts/compare/cops-5.0.10...cops-5.0.11) (2023-09-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [cops-5.0.2](https://github.com/truecharts/charts/compare/cops-5.0.1...cops-5.0.2) (2023-08-13)
-
-### Chore
-
-- update container image tccr.io/truecharts/cops to latest ([#11533](https://github.com/truecharts/charts/issues/11533))
-  
-  
-
-
-## [cops-5.0.1](https://github.com/truecharts/charts/compare/cops-5.0.0...cops-5.0.1) (2023-08-13)
 
 ### Chore
