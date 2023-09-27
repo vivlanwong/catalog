@@ -4,6 +4,15 @@
 
 
 
+## [clickhouse-7.0.8](https://github.com/truecharts/charts/compare/clickhouse-7.0.7...clickhouse-7.0.8) (2023-09-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/clickhouse to v23.8.3.48 ([#13017](https://github.com/truecharts/charts/issues/13017))
+  
+  
+
+
 ## [clickhouse-7.0.7](https://github.com/truecharts/charts/compare/clickhouse-7.0.6...clickhouse-7.0.7) (2023-09-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/clickhouse to v23.7.1.2470 ([#10957](https://github.com/truecharts/charts/issues/10957))
-  
-  
-
-
-## [clickhouse-6.0.1](https://github.com/truecharts/charts/compare/clickhouse-6.0.0...clickhouse-6.0.1) (2023-07-23)
-
-### Chore
-
-- update helm chart common to 13.2.1 ([#10757](https://github.com/truecharts/charts/issues/10757))
   
