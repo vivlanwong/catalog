@@ -13,7 +13,7 @@ cublasCuda12Image:
 cublasCuda12FfmpegImage:
   repository: tccr.io/truecharts/local-ai-cublas-cuda12-ffmpeg
   pullPolicy: IfNotPresent
-  tag: v1.25.0-cublas-cuda12@sha256:0bd571310d7e4246cc622ec1e955596b23840205e7a7d2c62fddd7874da4fdfa
+  tag: v1.30.0-cublas-cuda12@sha256:12e8affff4b21d933b1866f25345973de7bb1a8f02643900c7256cb1515a4825
 cublasCuda11Image:
   repository: tccr.io/truecharts/local-ai-cublas-cuda11
   pullPolicy: IfNotPresent
@@ -21,7 +21,7 @@ cublasCuda11Image:
 cublasCuda11FfmpegImage:
   repository: tccr.io/truecharts/local-ai-cublas-cuda11-ffmpeg
   pullPolicy: IfNotPresent
-  tag: v1.25.0-cublas-cuda11@sha256:bc8b085ca58b6a24d35be4e925340010b50fa01aaee06f2495e21d7f2feeaf1c
+  tag: v1.30.0-cublas-cuda11@sha256:86d695dc24f82ea55a5976414a3bf36cd67933f4ad07927695afbf7a83dade16
 
 securityContext:
   container:
