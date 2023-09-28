@@ -4,6 +4,15 @@
 
 
 
+## [emulatorjs-6.0.3](https://github.com/truecharts/charts/compare/emulatorjs-6.0.2...emulatorjs-6.0.3) (2023-09-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/emulatorjs to v1.7.2 ([#13045](https://github.com/truecharts/charts/issues/13045))
+  
+  
+
+
 ## [emulatorjs-6.0.2](https://github.com/truecharts/charts/compare/emulatorjs-6.0.1...emulatorjs-6.0.2) (2023-09-21)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [emulatorjs-5.0.18](https://github.com/truecharts/charts/compare/emulatorjs-5.0.17...emulatorjs-5.0.18) (2023-05-27)
-
