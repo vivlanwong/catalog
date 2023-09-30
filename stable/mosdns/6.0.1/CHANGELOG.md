@@ -4,6 +4,15 @@
 
 
 
+## [mosdns-6.0.1](https://github.com/truecharts/charts/compare/mosdns-6.0.0...mosdns-6.0.1) (2023-09-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/mosdns to v5.2.1 ([#13113](https://github.com/truecharts/charts/issues/13113))
+  
+  
+
+
 
 ## [mosdns-6.0.0](https://github.com/truecharts/charts/compare/mosdns-5.0.24...mosdns-6.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [mosdns-5.0.15](https://github.com/truecharts/charts/compare/mosdns-5.0.14...mosdns-5.0.15) (2023-05-24)
-
-### Chore
-
-- update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
   
