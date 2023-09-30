@@ -4,6 +4,15 @@
 
 
 
+## [recyclarr-6.0.8](https://github.com/truecharts/charts/compare/recyclarr-6.0.7...recyclarr-6.0.8) (2023-09-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/recyclarr to v6.0.0 ([#13100](https://github.com/truecharts/charts/issues/13100))
+  
+  
+
+
 ## [recyclarr-6.0.7](https://github.com/truecharts/charts/compare/recyclarr-6.0.6...recyclarr-6.0.7) (2023-09-17)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [recyclarr-4.0.25](https://github.com/truecharts/charts/compare/recyclarr-4.0.24...recyclarr-4.0.25) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [recyclarr-4.0.24](https://github.com/truecharts/charts/compare/recyclarr-4.0.23...recyclarr-4.0.24) (2023-06-13)
