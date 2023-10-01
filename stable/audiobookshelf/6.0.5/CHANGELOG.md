@@ -4,6 +4,15 @@
 
 
 
+## [audiobookshelf-6.0.5](https://github.com/truecharts/charts/compare/audiobookshelf-6.0.4...audiobookshelf-6.0.5) (2023-10-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/audiobookshelf to v2.4.4 ([#13144](https://github.com/truecharts/charts/issues/13144))
+  
+  
+
+
 ## [audiobookshelf-6.0.4](https://github.com/truecharts/charts/compare/audiobookshelf-6.0.3...audiobookshelf-6.0.4) (2023-09-19)
 
 ### Chore
@@ -78,15 +87,6 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [audiobookshelf-5.0.25](https://github.com/truecharts/charts/compare/audiobookshelf-5.0.24...audiobookshelf-5.0.25) (2023-06-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/audiobookshelf to v2.2.23 ([#9652](https://github.com/truecharts/charts/issues/9652))
   
   
 
