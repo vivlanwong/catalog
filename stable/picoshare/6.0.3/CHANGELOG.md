@@ -4,6 +4,15 @@
 
 
 
+## [picoshare-6.0.3](https://github.com/truecharts/charts/compare/picoshare-6.0.2...picoshare-6.0.3) (2023-10-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/picoshare to v1.4.0 ([#13152](https://github.com/truecharts/charts/issues/13152))
+  
+  
+
+
 ## [picoshare-6.0.2](https://github.com/truecharts/charts/compare/picoshare-6.0.1...picoshare-6.0.2) (2023-09-05)
 
 
@@ -88,12 +97,3 @@
 
 
 ## [picoshare-5.0.20](https://github.com/truecharts/charts/compare/picoshare-5.0.19...picoshare-5.0.20) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
