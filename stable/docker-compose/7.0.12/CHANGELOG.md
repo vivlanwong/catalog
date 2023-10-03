@@ -4,6 +4,15 @@
 
 
 
+## [docker-compose-7.0.12](https://github.com/truecharts/charts/compare/docker-compose-7.0.11...docker-compose-7.0.12) (2023-10-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/docker-in-docker to v24.0.6 ([#13186](https://github.com/truecharts/charts/issues/13186))
+  
+  
+
+
 ## [docker-compose-7.0.11](https://github.com/truecharts/charts/compare/docker-compose-7.0.10...docker-compose-7.0.11) (2023-09-29)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [docker-compose-7.0.2](https://github.com/truecharts/charts/compare/docker-compose-7.0.1...docker-compose-7.0.2) (2023-08-08)
-
-### Chore
-
-- update container image tccr.io/truecharts/docker-in-docker to v24.0.5 ([#11328](https://github.com/truecharts/charts/issues/11328))
-  
-  
-
-
-## [docker-compose-7.0.1](https://github.com/truecharts/charts/compare/docker-compose-7.0.0...docker-compose-7.0.1) (2023-08-01)
 
 ### Chore
