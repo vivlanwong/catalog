@@ -4,6 +4,15 @@
 
 
 
+## [dokuwiki-7.0.22](https://github.com/truecharts/charts/compare/dokuwiki-7.0.21...dokuwiki-7.0.22) (2023-10-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/dokuwiki to v20230404.1.0 ([#13212](https://github.com/truecharts/charts/issues/13212))
+  
+  
+
+
 ## [dokuwiki-7.0.21](https://github.com/truecharts/charts/compare/dokuwiki-7.0.20...dokuwiki-7.0.21) (2023-09-30)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [dokuwiki-7.0.12](https://github.com/truecharts/charts/compare/dokuwiki-7.0.11...dokuwiki-7.0.12) (2023-09-03)
-
-### Chore
-
-- update container image tccr.io/truecharts/dokuwiki to v20230404.1.0 ([#12186](https://github.com/truecharts/charts/issues/12186))
-  
-  
-
-
-## [dokuwiki-7.0.11](https://github.com/truecharts/charts/compare/dokuwiki-7.0.10...dokuwiki-7.0.11) (2023-08-31)
 
 ### Chore
