@@ -4,6 +4,15 @@
 
 
 
+## [unmanic-7.0.1](https://github.com/truecharts/charts/compare/unmanic-7.0.0...unmanic-7.0.1) (2023-10-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/unmanic to v0.2.4 ([#13195](https://github.com/truecharts/charts/issues/13195))
+  
+  
+
+
 
 ## [unmanic-7.0.0](https://github.com/truecharts/charts/compare/unmanic-6.0.22...unmanic-7.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [unmanic-6.0.14](https://github.com/truecharts/charts/compare/unmanic-6.0.13...unmanic-6.0.14) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [unmanic-6.0.13](https://github.com/truecharts/charts/compare/unmanic-6.0.12...unmanic-6.0.13) (2023-05-24)
 
