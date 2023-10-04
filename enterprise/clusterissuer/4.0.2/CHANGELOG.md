@@ -4,6 +4,19 @@
 
 
 
+## [clusterissuer-4.0.2](https://github.com/truecharts/charts/compare/clusterissuer-4.0.1...clusterissuer-4.0.2) (2023-10-04)
+
+### Docs
+
+- remove quad9 ([#11376](https://github.com/truecharts/charts/issues/11376))
+  
+  ### Fix
+
+- handle tsig secret encoding ([#13245](https://github.com/truecharts/charts/issues/13245))
+  
+  
+
+
 ## [clusterissuer-4.0.1](https://github.com/truecharts/charts/compare/clusterissuer-4.0.0...clusterissuer-4.0.1) (2023-07-31)
 
 ### Fix
@@ -84,16 +97,3 @@
   
   
 
-
-## [clusterissuer-1.0.11](https://github.com/truecharts/charts/compare/clusterissuer-1.0.10...clusterissuer-1.0.11) (2023-07-14)
-
-### Chore
-
-- update container image tccr.io/truecharts/scratch to latest ([#10451](https://github.com/truecharts/charts/issues/10451))
-  
-  
-
-
-## [clusterissuer-1.0.10](https://github.com/truecharts/charts/compare/clusterissuer-1.0.9...clusterissuer-1.0.10) (2023-07-01)
-
-### Chore
