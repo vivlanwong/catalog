@@ -4,6 +4,15 @@
 
 
 
+## [clusterissuer-4.1.0](https://github.com/truecharts/charts/compare/clusterissuer-4.0.2...clusterissuer-4.1.0) (2023-10-04)
+
+### Clusterissuer
+
+- add ACME DNS issuer ([#11483](https://github.com/truecharts/charts/issues/11483))
+  
+  
+
+
 ## [clusterissuer-4.0.2](https://github.com/truecharts/charts/compare/clusterissuer-4.0.1...clusterissuer-4.0.2) (2023-10-04)
 
 ### Docs
@@ -85,15 +94,6 @@
 ### Fix
 
 - try to deal with the fact cert-manager contains a dash
-  
-  
-
-
-## [clusterissuer-1.0.12](https://github.com/truecharts/charts/compare/clusterissuer-1.0.11...clusterissuer-1.0.12) (2023-07-19)
-
-### Fix
-
-- ensure clusterissuer is compatible with new cert-manager operator
   
   
 
