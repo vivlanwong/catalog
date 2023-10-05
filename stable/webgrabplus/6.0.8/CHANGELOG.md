@@ -4,6 +4,15 @@
 
 
 
+## [webgrabplus-6.0.8](https://github.com/truecharts/charts/compare/webgrabplus-6.0.7...webgrabplus-6.0.8) (2023-10-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/webgrabplus to v5.1.3 ([#13270](https://github.com/truecharts/charts/issues/13270))
+  
+  
+
+
 ## [webgrabplus-6.0.7](https://github.com/truecharts/charts/compare/webgrabplus-6.0.6...webgrabplus-6.0.7) (2023-09-26)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [webgrabplus-5.0.24](https://github.com/truecharts/charts/compare/webgrabplus-5.0.23...webgrabplus-5.0.24) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
