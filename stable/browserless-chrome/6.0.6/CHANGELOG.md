@@ -4,6 +4,15 @@
 
 
 
+## [browserless-chrome-6.0.6](https://github.com/truecharts/charts/compare/browserless-chrome-6.0.5...browserless-chrome-6.0.6) (2023-10-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/browserless-chrome to v1.60.2 ([#13268](https://github.com/truecharts/charts/issues/13268))
+  
+  
+
+
 ## [browserless-chrome-6.0.5](https://github.com/truecharts/charts/compare/browserless-chrome-6.0.4...browserless-chrome-6.0.5) (2023-10-04)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  
-  
-
-
-## [browserless-chrome-5.0.24](https://github.com/truecharts/charts/compare/browserless-chrome-5.0.23...browserless-chrome-5.0.24) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
   
