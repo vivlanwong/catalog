@@ -4,6 +4,15 @@
 
 
 
+## [immich-8.1.24](https://github.com/truecharts/charts/compare/immich-8.1.23...immich-8.1.24) (2023-10-06)
+
+### Chore
+
+- update immich to v1.81.1 (patch) ([#13277](https://github.com/truecharts/charts/issues/13277))
+  
+  
+
+
 ## [immich-8.1.23](https://github.com/truecharts/charts/compare/immich-8.1.22...immich-8.1.23) (2023-10-05)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [immich-8.0.14](https://github.com/truecharts/charts/compare/immich-8.0.13...immich-8.0.14) (2023-09-14)
-
-### Chore
-
-- update immich to v1.78.1 (patch) ([#12606](https://github.com/truecharts/charts/issues/12606))
-  
-  
-
-
-## [immich-8.0.13](https://github.com/truecharts/charts/compare/immich-8.0.12...immich-8.0.13) (2023-09-14)
 
