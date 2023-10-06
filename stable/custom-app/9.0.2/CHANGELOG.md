@@ -4,6 +4,15 @@
 
 
 
+## [custom-app-9.0.2](https://github.com/truecharts/charts/compare/custom-app-9.0.1...custom-app-9.0.2) (2023-10-06)
+
+### Chore
+
+- update container image tccr.io/truecharts/jackett to v0.21.969 ([#13297](https://github.com/truecharts/charts/issues/13297))
+  
+  
+
+
 ## [custom-app-9.0.1](https://github.com/truecharts/charts/compare/custom-app-9.0.0...custom-app-9.0.1) (2023-10-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [custom-app-8.0.16](https://github.com/truecharts/charts/compare/custom-app-8.0.15...custom-app-8.0.16) (2023-05-27)
-
