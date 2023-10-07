@@ -4,6 +4,15 @@
 
 
 
+## [clusterissuer-4.1.1](https://github.com/truecharts/charts/compare/clusterissuer-4.1.0...clusterissuer-4.1.1) (2023-10-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/scratch to latest ([#11380](https://github.com/truecharts/charts/issues/11380))
+  
+  
+
+
 ## [clusterissuer-4.1.0](https://github.com/truecharts/charts/compare/clusterissuer-4.0.2...clusterissuer-4.1.0) (2023-10-04)
 
 ### Clusterissuer
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm chart common to 13.2.0 ([#10555](https://github.com/truecharts/charts/issues/10555))
-  
-  
-
-
-## [clusterissuer-1.0.13](https://github.com/truecharts/charts/compare/clusterissuer-1.0.12...clusterissuer-1.0.13) (2023-07-19)
-
-### Fix
-
-- try to deal with the fact cert-manager contains a dash
   
   
 
