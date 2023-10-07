@@ -4,6 +4,15 @@
 
 
 
+## [mkvcleaver-5.0.1](https://github.com/truecharts/charts/compare/mkvcleaver-5.0.0...mkvcleaver-5.0.1) (2023-10-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/mkvcleaver to v23.06.1 ([#8300](https://github.com/truecharts/charts/issues/8300))
+  
+  
+
+
 
 ## [mkvcleaver-5.0.0](https://github.com/truecharts/charts/compare/mkvcleaver-4.0.22...mkvcleaver-5.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [mkvcleaver-4.0.14](https://github.com/truecharts/charts/compare/mkvcleaver-4.0.13...mkvcleaver-4.0.14) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [mkvcleaver-4.0.13](https://github.com/truecharts/charts/compare/mkvcleaver-4.0.12...mkvcleaver-4.0.13) (2023-05-24)
 
