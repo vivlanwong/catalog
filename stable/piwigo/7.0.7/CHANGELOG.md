@@ -4,6 +4,15 @@
 
 
 
+## [piwigo-7.0.7](https://github.com/truecharts/charts/compare/piwigo-7.0.6...piwigo-7.0.7) (2023-10-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/piwigo to v13.8.0 ([#13363](https://github.com/truecharts/charts/issues/13363))
+  
+  
+
+
 ## [piwigo-7.0.6](https://github.com/truecharts/charts/compare/piwigo-7.0.5...piwigo-7.0.6) (2023-09-30)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/piwigo to v13.8.0 ([#10763](https://github.com/truecharts/charts/issues/10763))
-  
-  
-
-
-## [piwigo-6.1.2](https://github.com/truecharts/charts/compare/piwigo-6.1.1...piwigo-6.1.2) (2023-07-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/piwigo to v13.8.0 ([#10607](https://github.com/truecharts/charts/issues/10607))
   
