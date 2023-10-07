@@ -4,6 +4,15 @@
 
 
 
+## [theme-park-6.0.1](https://github.com/truecharts/charts/compare/theme-park-6.0.0...theme-park-6.0.1) (2023-10-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/theme-park to v1.14.0 ([#13385](https://github.com/truecharts/charts/issues/13385))
+  
+  
+
+
 
 ## [theme-park-6.0.0](https://github.com/truecharts/charts/compare/theme-park-5.0.24...theme-park-6.0.0) (2023-07-31)
 
@@ -87,13 +96,4 @@
 
 
 ## [theme-park-5.0.16](https://github.com/truecharts/charts/compare/theme-park-5.0.15...theme-park-5.0.16) (2023-05-26)
-
-### Chore
-
-- update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [theme-park-5.0.15](https://github.com/truecharts/charts/compare/theme-park-5.0.14...theme-park-5.0.15) (2023-05-24)
 
