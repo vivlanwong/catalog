@@ -4,6 +4,15 @@
 
 
 
+## [fileflows-6.0.1](https://github.com/truecharts/charts/compare/fileflows-6.0.0...fileflows-6.0.1) (2023-10-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/fileflows to v23.10.0 ([#13381](https://github.com/truecharts/charts/issues/13381))
+  
+  
+
+
 
 ## [fileflows-6.0.0](https://github.com/truecharts/charts/compare/fileflows-5.0.31...fileflows-6.0.0) (2023-07-31)
 
@@ -51,15 +60,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/fileflows to v23.06.4 ([#9919](https://github.com/truecharts/charts/issues/9919))
-  
-  
-
-
-## [fileflows-5.0.26](https://github.com/truecharts/charts/compare/fileflows-5.0.25...fileflows-5.0.26) (2023-06-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/fileflows to v23.06.3 ([#9670](https://github.com/truecharts/charts/issues/9670))
   
   
 
