@@ -4,6 +4,15 @@
 
 
 
+## [watchyourlan-5.0.5](https://github.com/truecharts/charts/compare/watchyourlan-5.0.4...watchyourlan-5.0.5) (2023-10-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/watchyourlan to v1.0.3 ([#13407](https://github.com/truecharts/charts/issues/13407))
+  
+  
+
+
 ## [watchyourlan-5.0.4](https://github.com/truecharts/charts/compare/watchyourlan-5.0.3...watchyourlan-5.0.4) (2023-10-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  
-  
-
-
-## [watchyourlan-4.0.22](https://github.com/truecharts/charts/compare/watchyourlan-4.0.21...watchyourlan-4.0.22) (2023-06-09)
-
-### Chore
-
-- update container image tccr.io/truecharts/watchyourlan to v0.9.3 ([#9545](https://github.com/truecharts/charts/issues/9545))
   
