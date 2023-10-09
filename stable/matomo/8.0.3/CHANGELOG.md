@@ -4,6 +4,15 @@
 
 
 
+## [matomo-8.0.3](https://github.com/truecharts/charts/compare/matomo-8.0.2...matomo-8.0.3) (2023-10-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/matomo to v4.15.1 ([#13443](https://github.com/truecharts/charts/issues/13443))
+  
+  
+
+
 ## [matomo-8.0.2](https://github.com/truecharts/charts/compare/matomo-8.0.1...matomo-8.0.2) (2023-10-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [matomo-7.0.27](https://github.com/truecharts/charts/compare/matomo-7.0.26...matomo-7.0.27) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
