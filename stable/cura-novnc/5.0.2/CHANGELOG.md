@@ -4,6 +4,15 @@
 
 
 
+## [cura-novnc-5.0.2](https://github.com/truecharts/charts/compare/cura-novnc-5.0.1...cura-novnc-5.0.2) (2023-10-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/cura-novnc to latest ([#13440](https://github.com/truecharts/charts/issues/13440))
+  
+  
+
+
 ## [cura-novnc-5.0.1](https://github.com/truecharts/charts/compare/cura-novnc-5.0.0...cura-novnc-5.0.1) (2023-10-07)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [cura-novnc-4.0.18](https://github.com/truecharts/charts/compare/cura-novnc-4.0.17...cura-novnc-4.0.18) (2023-05-27)
-
