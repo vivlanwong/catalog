@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.126](https://github.com/truecharts/charts/compare/webtop-6.0.125...webtop-6.0.126) (2023-10-10)
+
+### Chore
+
+- update webtop ([#13468](https://github.com/truecharts/charts/issues/13468))
+  
+  
+
+
 ## [webtop-6.0.125](https://github.com/truecharts/charts/compare/webtop-6.0.124...webtop-6.0.125) (2023-10-10)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [webtop-6.0.116](https://github.com/truecharts/charts/compare/webtop-6.0.115...webtop-6.0.116) (2023-10-03)
-
-### Chore
-
-- update helm general non-major ([#13184](https://github.com/truecharts/charts/issues/13184))
-  
-  
-
-
-## [webtop-6.0.115](https://github.com/truecharts/charts/compare/webtop-6.0.114...webtop-6.0.115) (2023-10-03)
 
 ### Chore
