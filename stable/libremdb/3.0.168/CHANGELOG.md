@@ -4,6 +4,15 @@
 
 
 
+## [libremdb-3.0.168](https://github.com/truecharts/charts/compare/libremdb-3.0.167...libremdb-3.0.168) (2023-10-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/libremdb to latest ([#13505](https://github.com/truecharts/charts/issues/13505))
+  
+  
+
+
 ## [libremdb-3.0.167](https://github.com/truecharts/charts/compare/libremdb-3.0.166...libremdb-3.0.167) (2023-10-11)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [libremdb-3.0.158](https://github.com/truecharts/charts/compare/libremdb-3.0.157...libremdb-3.0.158) (2023-10-08)
-
-### Chore
-
-- update container image tccr.io/truecharts/libremdb to latest ([#13400](https://github.com/truecharts/charts/issues/13400))
-  
-  
-
-
-## [libremdb-3.0.157](https://github.com/truecharts/charts/compare/libremdb-3.0.156...libremdb-3.0.157) (2023-10-08)
 
