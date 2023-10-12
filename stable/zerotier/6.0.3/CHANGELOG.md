@@ -4,6 +4,16 @@
 
 
 
+## [zerotier-6.0.3](https://github.com/truecharts/charts/compare/zerotier-6.0.2...zerotier-6.0.3) (2023-10-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/zerotier to v1.12.2 ([#13537](https://github.com/truecharts/charts/issues/13537))
+  - run precocmit ([#13387](https://github.com/truecharts/charts/issues/13387))
+  
+  
+
+
 ## [zerotier-6.0.2](https://github.com/truecharts/charts/compare/zerotier-6.0.1...zerotier-6.0.2) (2023-10-07)
 
 ### Chore
@@ -87,13 +97,3 @@
 
 
 ## [zerotier-5.0.18](https://github.com/truecharts/charts/compare/zerotier-5.0.17...zerotier-5.0.18) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  
-
-
-## [zerotier-5.0.17](https://github.com/truecharts/charts/compare/zerotier-5.0.16...zerotier-5.0.17) (2023-05-27)
-
