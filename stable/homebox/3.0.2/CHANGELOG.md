@@ -4,6 +4,15 @@
 
 
 
+## [homebox-3.0.2](https://github.com/truecharts/charts/compare/homebox-3.0.1...homebox-3.0.2) (2023-10-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/homebox to v0.10.1 ([#13545](https://github.com/truecharts/charts/issues/13545))
+  
+  
+
+
 ## [homebox-3.0.1](https://github.com/truecharts/charts/compare/homebox-3.0.0...homebox-3.0.1) (2023-10-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  
-
-
-## [homebox-2.0.19](https://github.com/truecharts/charts/compare/homebox-2.0.18...homebox-2.0.19) (2023-06-01)
-
-### Chore
-
-- update container image tccr.io/truecharts/homebox to v0.9.2 ([#9325](https://github.com/truecharts/charts/issues/9325))
   
