@@ -4,6 +4,15 @@
 
 
 
+## [emulatorjs-6.0.6](https://github.com/truecharts/charts/compare/emulatorjs-6.0.5...emulatorjs-6.0.6) (2023-10-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/emulatorjs to v1.7.2 ([#13553](https://github.com/truecharts/charts/issues/13553))
+  
+  
+
+
 ## [emulatorjs-6.0.5](https://github.com/truecharts/charts/compare/emulatorjs-6.0.4...emulatorjs-6.0.5) (2023-10-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  
-  
-
-
-## [emulatorjs-5.0.21](https://github.com/truecharts/charts/compare/emulatorjs-5.0.20...emulatorjs-5.0.21) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
   
