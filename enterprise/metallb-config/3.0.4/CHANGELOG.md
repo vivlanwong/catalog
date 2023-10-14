@@ -4,6 +4,16 @@
 
 
 
+## [metallb-config-3.0.4](https://github.com/truecharts/charts/compare/metallb-config-3.0.3...metallb-config-3.0.4) (2023-10-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/scratch to latest ([#13491](https://github.com/truecharts/charts/issues/13491))
+  - run precocmit ([#13387](https://github.com/truecharts/charts/issues/13387))
+  
+  
+
+
 ## [metallb-config-3.0.3](https://github.com/truecharts/charts/compare/metallb-config-3.0.2...metallb-config-3.0.3) (2023-10-07)
 
 ### Chore
@@ -87,13 +97,3 @@
 
 
 ## [metallb-config-1.1.10](https://github.com/truecharts/charts/compare/metallb-config-1.1.9...metallb-config-1.1.10) (2023-06-24)
-
-### Chore
-
-- update container image tccr.io/truecharts/scratch to latest ([#9868](https://github.com/truecharts/charts/issues/9868))
-  
-  
-
-
-## [metallb-config-1.1.9](https://github.com/truecharts/charts/compare/metallb-config-1.1.8...metallb-config-1.1.9) (2023-06-17)
-
