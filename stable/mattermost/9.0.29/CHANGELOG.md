@@ -4,6 +4,16 @@
 
 
 
+## [mattermost-9.0.29](https://github.com/truecharts/charts/compare/mattermost-9.0.28...mattermost-9.0.29) (2023-10-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/mattermost to v9.1.0 ([#13599](https://github.com/truecharts/charts/issues/13599))
+  - run precocmit ([#13387](https://github.com/truecharts/charts/issues/13387))
+  
+  
+
+
 ## [mattermost-9.0.28](https://github.com/truecharts/charts/compare/mattermost-9.0.27...mattermost-9.0.28) (2023-10-07)
 
 ### Chore
@@ -87,13 +97,3 @@
 
 ## [mattermost-9.0.19](https://github.com/truecharts/charts/compare/mattermost-9.0.18...mattermost-9.0.19) (2023-10-03)
 
-### Chore
-
-- update helm general non-major ([#13174](https://github.com/truecharts/charts/issues/13174))
-  
-  
-
-
-## [mattermost-9.0.18](https://github.com/truecharts/charts/compare/mattermost-9.0.17...mattermost-9.0.18) (2023-10-03)
-
-### Chore
