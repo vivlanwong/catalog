@@ -4,6 +4,15 @@
 
 
 
+## [ghostfolio-0.0.23](https://github.com/truecharts/charts/compare/ghostfolio-0.0.22...ghostfolio-0.0.23) (2023-10-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/ghostfolio to v2.11.0 ([#13658](https://github.com/truecharts/charts/issues/13658))
+  
+  
+
+
 ## [ghostfolio-0.0.22](https://github.com/truecharts/charts/compare/ghostfolio-0.0.21...ghostfolio-0.0.22) (2023-10-12)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [ghostfolio-0.0.13](https://github.com/truecharts/charts/compare/ghostfolio-0.0.12...ghostfolio-0.0.13) (2023-09-17)
-
-### Chore
-
-- update container image tccr.io/truecharts/ghostfolio to v2.2.0 ([#12694](https://github.com/truecharts/charts/issues/12694))
-  
-  
-
-
-## [ghostfolio-0.0.12](https://github.com/truecharts/charts/compare/ghostfolio-0.0.11...ghostfolio-0.0.12) (2023-09-16)
 
 ### Chore
