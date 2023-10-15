@@ -4,6 +4,15 @@
 
 
 
+## [dashdot-5.0.3](https://github.com/truecharts/charts/compare/dashdot-5.0.2...dashdot-5.0.3) (2023-10-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/dashdot to v5.2.3 ([#13629](https://github.com/truecharts/charts/issues/13629))
+  
+  
+
+
 ## [dashdot-5.0.2](https://github.com/truecharts/charts/compare/dashdot-5.0.1...dashdot-5.0.2) (2023-10-07)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [dashdot-4.0.19](https://github.com/truecharts/charts/compare/dashdot-4.0.18...dashdot-4.0.19) (2023-05-27)
-
