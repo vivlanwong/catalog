@@ -4,6 +4,15 @@
 
 
 
+## [collabora-2.0.6](https://github.com/truecharts/charts/compare/collabora-2.0.5...collabora-2.0.6) (2023-10-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/collabora to v23.05.5.1.1 ([#13642](https://github.com/truecharts/charts/issues/13642))
+  
+  
+
+
 ## [collabora-2.0.5](https://github.com/truecharts/charts/compare/collabora-2.0.4...collabora-2.0.5) (2023-10-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [collabora-1.0.0]collabora-1.0.0 (2023-06-21)
-
-### Feat
-
-- add collabora ([#9794](https://github.com/truecharts/charts/issues/9794))
   
