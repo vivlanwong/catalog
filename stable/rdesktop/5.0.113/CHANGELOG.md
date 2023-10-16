@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-5.0.113](https://github.com/truecharts/charts/compare/rdesktop-5.0.112...rdesktop-5.0.113) (2023-10-16)
+
+### Chore
+
+- update rdesktop ([#13672](https://github.com/truecharts/charts/issues/13672))
+  
+  
+
+
 ## [rdesktop-5.0.112](https://github.com/truecharts/charts/compare/rdesktop-5.0.111...rdesktop-5.0.112) (2023-10-16)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-5.0.103](https://github.com/truecharts/charts/compare/rdesktop-5.0.102...rdesktop-5.0.103) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  
-
-
-## [rdesktop-5.0.102](https://github.com/truecharts/charts/compare/rdesktop-5.0.101...rdesktop-5.0.102) (2023-10-06)
 
 ### Chore
