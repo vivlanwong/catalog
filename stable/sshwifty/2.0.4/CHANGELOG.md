@@ -4,6 +4,15 @@
 
 
 
+## [sshwifty-2.0.4](https://github.com/truecharts/charts/compare/sshwifty-2.0.3...sshwifty-2.0.4) (2023-10-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/sshwifty to vlatest ([#13679](https://github.com/truecharts/charts/issues/13679))
+  
+  
+
+
 ## [sshwifty-2.0.3](https://github.com/truecharts/charts/compare/sshwifty-2.0.2...sshwifty-2.0.3) (2023-10-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [sshwifty-1.0.2](https://github.com/truecharts/charts/compare/sshwifty-1.0.1...sshwifty-1.0.2) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
   
