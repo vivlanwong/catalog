@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.139](https://github.com/truecharts/charts/compare/webtop-6.0.138...webtop-6.0.139) (2023-10-17)
+
+### Chore
+
+- update webtop ([#13703](https://github.com/truecharts/charts/issues/13703))
+  
+  
+
+
 ## [webtop-6.0.138](https://github.com/truecharts/charts/compare/webtop-6.0.137...webtop-6.0.138) (2023-10-17)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [webtop-6.0.129](https://github.com/truecharts/charts/compare/webtop-6.0.128...webtop-6.0.129) (2023-10-13)
-
-### Chore
-
-- update container image tccr.io/truecharts/webtop-arch-icewm to latest ([#13594](https://github.com/truecharts/charts/issues/13594))
-  
-  
-
-
-## [webtop-6.0.128](https://github.com/truecharts/charts/compare/webtop-6.0.127...webtop-6.0.128) (2023-10-13)
 
 ### Chore
