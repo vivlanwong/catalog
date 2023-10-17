@@ -4,6 +4,15 @@
 
 
 
+## [scrutiny-7.0.2](https://github.com/truecharts/charts/compare/scrutiny-7.0.1...scrutiny-7.0.2) (2023-10-17)
+
+### Chore
+
+- update container image tccr.io/truecharts/scrutiny to v0.7.2 ([#13719](https://github.com/truecharts/charts/issues/13719))
+  
+  
+
+
 ## [scrutiny-7.0.1](https://github.com/truecharts/charts/compare/scrutiny-7.0.0...scrutiny-7.0.1) (2023-10-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [scrutiny-6.0.18](https://github.com/truecharts/charts/compare/scrutiny-6.0.17...scrutiny-6.0.18) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
-  
-  
-
-
-## [scrutiny-6.0.17](https://github.com/truecharts/charts/compare/scrutiny-6.0.16...scrutiny-6.0.17) (2023-05-26)
 
