@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-5.0.37](https://github.com/truecharts/charts/compare/jupyter-5.0.36...jupyter-5.0.37) (2023-10-18)
+
+### Chore
+
+- update container image tccr.io/truecharts/jupyter-minimal to v2023-10 ([#13728](https://github.com/truecharts/charts/issues/13728))
+  
+  
+
+
 ## [jupyter-5.0.36](https://github.com/truecharts/charts/compare/jupyter-5.0.35...jupyter-5.0.36) (2023-10-18)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [jupyter-5.0.27](https://github.com/truecharts/charts/compare/jupyter-5.0.24...jupyter-5.0.27) (2023-09-19)
 
 ### Chore
-
-- update helm general non-major ([#12726](https://github.com/truecharts/charts/issues/12726))
-  - update jupyter ([#12751](https://github.com/truecharts/charts/issues/12751))
-  - update jupyter ([#12746](https://github.com/truecharts/charts/issues/12746))
-  
-  
-
-
-## [jupyter-5.0.24](https://github.com/truecharts/charts/compare/jupyter-5.0.23...jupyter-5.0.24) (2023-09-17)
