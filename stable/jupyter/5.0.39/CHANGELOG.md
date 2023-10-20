@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-5.0.39](https://github.com/truecharts/charts/compare/jupyter-5.0.38...jupyter-5.0.39) (2023-10-20)
+
+### Chore
+
+- update jupyter ([#13809](https://github.com/truecharts/charts/issues/13809))
+  
+  
+
+
 ## [jupyter-5.0.38](https://github.com/truecharts/charts/compare/jupyter-5.0.37...jupyter-5.0.38) (2023-10-18)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [jupyter-5.0.29](https://github.com/truecharts/charts/compare/jupyter-5.0.28...jupyter-5.0.29) (2023-09-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/jupyter-datascience to v2023-09 ([#12966](https://github.com/truecharts/charts/issues/12966))
-  
-  
-
-
-## [jupyter-5.0.28](https://github.com/truecharts/charts/compare/jupyter-5.0.27...jupyter-5.0.28) (2023-09-26)
 
 ### Chore
