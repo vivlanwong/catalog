@@ -4,6 +4,15 @@
 
 
 
+## [filebot-5.0.2](https://github.com/truecharts/charts/compare/filebot-5.0.1...filebot-5.0.2) (2023-10-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/filebot to v23.10.1 ([#13829](https://github.com/truecharts/charts/issues/13829))
+  
+  
+
+
 ## [filebot-5.0.1](https://github.com/truecharts/charts/compare/filebot-5.0.0...filebot-5.0.1) (2023-10-07)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [filebot-4.0.10](https://github.com/truecharts/charts/compare/filebot-4.0.9...filebot-4.0.10) (2023-05-27)
-
