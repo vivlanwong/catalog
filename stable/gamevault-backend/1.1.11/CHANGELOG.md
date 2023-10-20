@@ -4,6 +4,15 @@
 
 
 
+## [gamevault-backend-1.1.11](https://github.com/truecharts/charts/compare/gamevault-backend-1.1.10...gamevault-backend-1.1.11) (2023-10-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/gamevault-backend to v8.0.3 ([#13796](https://github.com/truecharts/charts/issues/13796))
+  
+  
+
+
 ## [gamevault-backend-1.1.10](https://github.com/truecharts/charts/compare/gamevault-backend-1.1.9...gamevault-backend-1.1.10) (2023-10-19)
 
 ### Chore
@@ -88,12 +97,3 @@
 - update container image tccr.io/truecharts/gamevault-backend to v3.0.0 ([#11821](https://github.com/truecharts/charts/issues/11821))
   
   
-
-
-## [gamevault-backend-1.1.0](https://github.com/truecharts/charts/compare/gamevault-backend-1.0.2...gamevault-backend-1.1.0) (2023-08-19)
-
-
-
-
-## [gamevault-backend-1.0.2](https://github.com/truecharts/charts/compare/gamevault-backend-1.0.1...gamevault-backend-1.0.2) (2023-08-16)
-
