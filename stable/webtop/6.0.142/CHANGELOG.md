@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.142](https://github.com/truecharts/charts/compare/webtop-6.0.141...webtop-6.0.142) (2023-10-20)
+
+### Chore
+
+- update webtop ([#13826](https://github.com/truecharts/charts/issues/13826))
+  
+  
+
+
 ## [webtop-6.0.141](https://github.com/truecharts/charts/compare/webtop-6.0.140...webtop-6.0.141) (2023-10-17)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [webtop-6.0.132](https://github.com/truecharts/charts/compare/webtop-6.0.131...webtop-6.0.132) (2023-10-14)
-
-### Chore
-
-- update container image tccr.io/truecharts/webtop-arch-xfce to latest ([#13603](https://github.com/truecharts/charts/issues/13603))
-  
-  
-
-
-## [webtop-6.0.131](https://github.com/truecharts/charts/compare/webtop-6.0.130...webtop-6.0.131) (2023-10-13)
 
 ### Chore
