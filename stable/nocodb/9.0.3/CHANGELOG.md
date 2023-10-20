@@ -4,6 +4,15 @@
 
 
 
+## [nocodb-9.0.3](https://github.com/truecharts/charts/compare/nocodb-9.0.2...nocodb-9.0.3) (2023-10-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/nocodb to v0.202.5 ([#13821](https://github.com/truecharts/charts/issues/13821))
+  
+  
+
+
 ## [nocodb-9.0.2](https://github.com/truecharts/charts/compare/nocodb-9.0.1...nocodb-9.0.2) (2023-10-12)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [nocodb-7.0.12](https://github.com/truecharts/charts/compare/nocodb-7.0.11...nocodb-7.0.12) (2023-06-07)
-
-### Chore
-
-- update container image tccr.io/truecharts/nocodb to v0.107.5 ([#9274](https://github.com/truecharts/charts/issues/9274))
   
