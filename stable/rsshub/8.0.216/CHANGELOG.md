@@ -4,6 +4,15 @@
 
 
 
+## [rsshub-8.0.216](https://github.com/truecharts/charts/compare/rsshub-8.0.215...rsshub-8.0.216) (2023-10-22)
+
+### Chore
+
+- update container image tccr.io/truecharts/rsshub to latest ([#13895](https://github.com/truecharts/charts/issues/13895))
+  
+  
+
+
 ## [rsshub-8.0.215](https://github.com/truecharts/charts/compare/rsshub-8.0.214...rsshub-8.0.215) (2023-10-21)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rsshub-8.0.206](https://github.com/truecharts/charts/compare/rsshub-8.0.205...rsshub-8.0.206) (2023-10-17)
-
-### Chore
-
-- update container image tccr.io/truecharts/rsshub to latest ([#13712](https://github.com/truecharts/charts/issues/13712))
-  
-  
-
-
-## [rsshub-8.0.205](https://github.com/truecharts/charts/compare/rsshub-8.0.204...rsshub-8.0.205) (2023-10-17)
 
 ### Chore
