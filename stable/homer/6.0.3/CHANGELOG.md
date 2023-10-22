@@ -4,6 +4,15 @@
 
 
 
+## [homer-6.0.3](https://github.com/truecharts/charts/compare/homer-6.0.2...homer-6.0.3) (2023-10-22)
+
+### Chore
+
+- update container image tccr.io/truecharts/homer to v23.10.1 ([#13876](https://github.com/truecharts/charts/issues/13876))
+  
+  
+
+
 ## [homer-6.0.2](https://github.com/truecharts/charts/compare/homer-6.0.1...homer-6.0.2) (2023-10-07)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [homer-5.0.17](https://github.com/truecharts/charts/compare/homer-5.0.16...homer-5.0.17) (2023-05-27)
-
