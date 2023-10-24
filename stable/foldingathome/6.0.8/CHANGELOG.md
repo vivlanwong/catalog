@@ -4,6 +4,15 @@
 
 
 
+## [foldingathome-6.0.8](https://github.com/truecharts/charts/compare/foldingathome-6.0.7...foldingathome-6.0.8) (2023-10-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/foldingathome to v7.6.21 ([#13928](https://github.com/truecharts/charts/issues/13928))
+  
+  
+
+
 ## [foldingathome-6.0.7](https://github.com/truecharts/charts/compare/foldingathome-6.0.6...foldingathome-6.0.7) (2023-10-10)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/foldingathome to v7.6.21 ([#10146](https://github.com/truecharts/charts/issues/10146))
-  
-  
-
-
-## [foldingathome-5.0.28](https://github.com/truecharts/charts/compare/foldingathome-5.0.27...foldingathome-5.0.28) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
