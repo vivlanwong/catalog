@@ -4,6 +4,15 @@
 
 
 
+## [synclounge-6.0.8](https://github.com/truecharts/charts/compare/synclounge-6.0.7...synclounge-6.0.8) (2023-10-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/synclounge to v5.2.19 ([#13940](https://github.com/truecharts/charts/issues/13940))
+  
+  
+
+
 ## [synclounge-6.0.7](https://github.com/truecharts/charts/compare/synclounge-6.0.6...synclounge-6.0.7) (2023-10-24)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [synclounge-5.0.24](https://github.com/truecharts/charts/compare/synclounge-5.0.23...synclounge-5.0.24) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
