@@ -4,6 +4,15 @@
 
 
 
+## [minio-7.0.21](https://github.com/truecharts/charts/compare/minio-7.0.20...minio-7.0.21) (2023-10-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/minio to latest ([#13962](https://github.com/truecharts/charts/issues/13962))
+  
+  
+
+
 ## [minio-7.0.20](https://github.com/truecharts/charts/compare/minio-7.0.19...minio-7.0.20) (2023-10-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [minio-7.0.11](https://github.com/truecharts/charts/compare/minio-7.0.10...minio-7.0.11) (2023-09-22)
-
-### Chore
-
-- update container image tccr.io/truecharts/minio to latest ([#12820](https://github.com/truecharts/charts/issues/12820))
-  
-  
-
-
-## [minio-7.0.10](https://github.com/truecharts/charts/compare/minio-7.0.9...minio-7.0.10) (2023-09-21)
 
 ### Chore
