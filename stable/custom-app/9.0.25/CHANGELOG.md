@@ -4,6 +4,15 @@
 
 
 
+## [custom-app-9.0.25](https://github.com/truecharts/charts/compare/custom-app-9.0.24...custom-app-9.0.25) (2023-10-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/jackett to v0.21.1077 ([#13949](https://github.com/truecharts/charts/issues/13949))
+  
+  
+
+
 ## [custom-app-9.0.24](https://github.com/truecharts/charts/compare/custom-app-9.0.23...custom-app-9.0.24) (2023-10-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [custom-app-9.0.15](https://github.com/truecharts/charts/compare/custom-app-9.0.14...custom-app-9.0.15) (2023-10-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/jackett to v0.21.1017 ([#13631](https://github.com/truecharts/charts/issues/13631))
-  
-  
-
-
-## [custom-app-9.0.14](https://github.com/truecharts/charts/compare/custom-app-9.0.13...custom-app-9.0.14) (2023-10-14)
 
 ### Chore
