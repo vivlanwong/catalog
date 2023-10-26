@@ -4,6 +4,15 @@
 
 
 
+## [ddclient-6.0.3](https://github.com/truecharts/charts/compare/ddclient-6.0.2...ddclient-6.0.3) (2023-10-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/ddclient to v3.11.1 ([#13975](https://github.com/truecharts/charts/issues/13975))
+  
+  
+
+
 ## [ddclient-6.0.2](https://github.com/truecharts/charts/compare/ddclient-6.0.1...ddclient-6.0.2) (2023-10-22)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
-  
-  
-
-
-## [ddclient-5.0.18](https://github.com/truecharts/charts/compare/ddclient-5.0.17...ddclient-5.0.18) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
