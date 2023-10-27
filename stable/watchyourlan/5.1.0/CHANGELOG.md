@@ -4,6 +4,15 @@
 
 
 
+## [watchyourlan-5.1.0](https://github.com/truecharts/charts/compare/watchyourlan-5.0.6...watchyourlan-5.1.0) (2023-10-27)
+
+### Fix
+
+- Fix networking + capabilities ([#13979](https://github.com/truecharts/charts/issues/13979))
+  
+  
+
+
 ## [watchyourlan-5.0.6](https://github.com/truecharts/charts/compare/watchyourlan-5.0.5...watchyourlan-5.0.6) (2023-10-14)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [watchyourlan-4.0.24](https://github.com/truecharts/charts/compare/watchyourlan-4.0.23...watchyourlan-4.0.24) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
