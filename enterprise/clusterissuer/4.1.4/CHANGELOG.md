@@ -4,6 +4,15 @@
 
 
 
+## [clusterissuer-4.1.4](https://github.com/truecharts/charts/compare/clusterissuer-4.1.3...clusterissuer-4.1.4) (2023-10-27)
+
+### Fix
+
+- fix malformed yaml output ([#14028](https://github.com/truecharts/charts/issues/14028))
+  
+  
+
+
 ## [clusterissuer-4.1.3](https://github.com/truecharts/charts/compare/clusterissuer-4.1.2...clusterissuer-4.1.3) (2023-10-14)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [clusterissuer-3.0.0](https://github.com/truecharts/charts/compare/clusterissuer-2.0.1...clusterissuer-3.0.0) (2023-07-25)
 
-### Chore
-
-- update helm general major (major) ([#10722](https://github.com/truecharts/charts/issues/10722))
-  
-  ### Docs
-
-- add cert-manager ([#10681](https://github.com/truecharts/charts/issues/10681))
-  
-  
