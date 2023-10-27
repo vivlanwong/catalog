@@ -4,6 +4,15 @@
 
 
 
+## [outline-8.0.6](https://github.com/truecharts/charts/compare/outline-8.0.5...outline-8.0.6) (2023-10-27)
+
+### Fix
+
+- fetch from the correct secret
+  
+  
+
+
 ## [outline-8.0.5](https://github.com/truecharts/charts/compare/outline-8.0.4...outline-8.0.5) (2023-10-15)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [outline-7.0.26](https://github.com/truecharts/charts/compare/outline-7.0.25...outline-7.0.26) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
