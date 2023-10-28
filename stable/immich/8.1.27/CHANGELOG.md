@@ -4,6 +4,16 @@
 
 
 
+## [immich-8.1.27](https://github.com/truecharts/charts/compare/immich-8.1.26...immich-8.1.27) (2023-10-28)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  - update immich to v1.83.0 (minor) ([#14064](https://github.com/truecharts/charts/issues/14064))
+  
+  
+
+
 ## [immich-8.1.26](https://github.com/truecharts/charts/compare/immich-8.1.25...immich-8.1.26) (2023-10-18)
 
 ### Chore
@@ -87,13 +97,3 @@
 
 
 ## [immich-8.1.17](https://github.com/truecharts/charts/compare/immich-8.1.16...immich-8.1.17) (2023-10-03)
-
-
-
-
-## [immich-8.1.16](https://github.com/truecharts/charts/compare/immich-8.0.16...immich-8.1.16) (2023-09-24)
-
-
-
-
-## [immich-8.0.16](https://github.com/truecharts/charts/compare/immich-8.0.15...immich-8.0.16) (2023-09-22)
