@@ -4,6 +4,16 @@
 
 
 
+## [fileflows-6.0.4](https://github.com/truecharts/charts/compare/fileflows-6.0.3...fileflows-6.0.4) (2023-10-28)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  - update container image tccr.io/truecharts/fileflows to v23.10.0 ([#14067](https://github.com/truecharts/charts/issues/14067))
+  
+  
+
+
 ## [fileflows-6.0.3](https://github.com/truecharts/charts/compare/fileflows-6.0.2...fileflows-6.0.3) (2023-10-21)
 
 ### Chore
@@ -87,13 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/fileflows to v23.06.3 ([#9670](https://github.com/truecharts/charts/issues/9670))
-  
-  
-
-
-## [fileflows-5.0.26](https://github.com/truecharts/charts/compare/fileflows-5.0.25...fileflows-5.0.26) (2023-06-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/fileflows to v23.06.3 ([#9670](https://github.com/truecharts/charts/issues/9670))
-  
