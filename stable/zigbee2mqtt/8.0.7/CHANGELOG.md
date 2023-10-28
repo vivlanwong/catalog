@@ -4,6 +4,15 @@
 
 
 
+## [zigbee2mqtt-8.0.7](https://github.com/truecharts/charts/compare/zigbee2mqtt-8.0.6...zigbee2mqtt-8.0.7) (2023-10-28)
+
+### Chore
+
+- Changed default value for MQTT address ([#14030](https://github.com/truecharts/charts/issues/14030))
+  
+  
+
+
 ## [zigbee2mqtt-8.0.6](https://github.com/truecharts/charts/compare/zigbee2mqtt-8.0.4...zigbee2mqtt-8.0.6) (2023-10-28)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [zigbee2mqtt-7.0.27](https://github.com/truecharts/charts/compare/zigbee2mqtt-7.0.26...zigbee2mqtt-7.0.27) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
