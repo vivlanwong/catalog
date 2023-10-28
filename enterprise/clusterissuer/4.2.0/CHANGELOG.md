@@ -4,6 +4,19 @@
 
 
 
+## [clusterissuer-4.2.0](https://github.com/truecharts/charts/compare/clusterissuer-4.1.4...clusterissuer-4.2.0) (2023-10-28)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  
+  ### Feat
+
+- Add ability to create cluster-wide certificates ([#13852](https://github.com/truecharts/charts/issues/13852))
+  
+  
+
+
 ## [clusterissuer-4.1.4](https://github.com/truecharts/charts/compare/clusterissuer-4.1.3...clusterissuer-4.1.4) (2023-10-27)
 
 ### Fix
@@ -84,16 +97,3 @@
 - update helm general non-major ([#11034](https://github.com/truecharts/charts/issues/11034))
   
   
-
-
-## [clusterissuer-3.0.1](https://github.com/truecharts/charts/compare/clusterissuer-3.0.0...clusterissuer-3.0.1) (2023-07-26)
-
-### Fix
-
-- fix `issuerRef` for self-signed CAs ([#10847](https://github.com/truecharts/charts/issues/10847))
-  
-  
-
-
-## [clusterissuer-3.0.0](https://github.com/truecharts/charts/compare/clusterissuer-2.0.1...clusterissuer-3.0.0) (2023-07-25)
-
