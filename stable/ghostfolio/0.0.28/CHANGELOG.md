@@ -4,6 +4,16 @@
 
 
 
+## [ghostfolio-0.0.28](https://github.com/truecharts/charts/compare/ghostfolio-0.0.27...ghostfolio-0.0.28) (2023-10-29)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  - update container image tccr.io/truecharts/ghostfolio to v2.16.0 ([#14086](https://github.com/truecharts/charts/issues/14086))
+  
+  
+
+
 ## [ghostfolio-0.0.27](https://github.com/truecharts/charts/compare/ghostfolio-0.0.26...ghostfolio-0.0.27) (2023-10-27)
 
 ### Chore
@@ -87,13 +97,3 @@
 
 ## [ghostfolio-0.0.18](https://github.com/truecharts/charts/compare/ghostfolio-0.0.17...ghostfolio-0.0.18) (2023-10-01)
 
-### Chore
-
-- update container image tccr.io/truecharts/ghostfolio to v2.7.0 ([#13148](https://github.com/truecharts/charts/issues/13148))
-  
-  
-
-
-## [ghostfolio-0.0.17](https://github.com/truecharts/charts/compare/ghostfolio-0.0.16...ghostfolio-0.0.17) (2023-09-27)
-
-### Chore
