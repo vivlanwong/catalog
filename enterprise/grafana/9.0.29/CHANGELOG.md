@@ -4,6 +4,16 @@
 
 
 
+## [grafana-9.0.29](https://github.com/truecharts/charts/compare/grafana-9.0.28...grafana-9.0.29) (2023-10-29)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  - update container image tccr.io/truecharts/grafana to v10.2.0 ([#13982](https://github.com/truecharts/charts/issues/13982))
+  
+  
+
+
 ## [grafana-9.0.28](https://github.com/truecharts/charts/compare/grafana-9.0.27...grafana-9.0.28) (2023-10-15)
 
 ### Chore
@@ -87,13 +97,3 @@
 
 ## [grafana-9.0.19](https://github.com/truecharts/charts/compare/grafana-9.0.18...grafana-9.0.19) (2023-09-22)
 
-### Chore
-
-- update container image tccr.io/truecharts/grafana to v10.1.2 ([#12835](https://github.com/truecharts/charts/issues/12835))
-  
-  
-
-
-## [grafana-9.0.18](https://github.com/truecharts/charts/compare/grafana-9.0.16...grafana-9.0.18) (2023-09-19)
-
-### Chore

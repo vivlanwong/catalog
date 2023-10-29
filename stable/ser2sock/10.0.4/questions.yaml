@@ -100,6 +100,8 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
+
+
                                 - variable: env
                                   group: "App Configuration"
                                   label: "Image Environment"
@@ -107,40 +109,19 @@ questions:
                                     additional_attrs: true
                                     type: dict
                                     attrs:
-                                      - variable: GF_SECURITY_ADMIN_USER
-                                        label: "Admin User"
+                                      - variable: BAUD_RATE
+                                        label: "BAUD_RATE"
+                                        description: "Serial device baud rate"
+                                        schema:
+                                          type: string
+                                          default: "115200"
+                                      - variable: SERIAL_DEVICE
+                                        label: "SERIAL_DEVICE"
+                                        description: "Path to the serial device"
                                         schema:
                                           type: string
                                           required: true
-                                          default: "admin"
-                                      - variable: GF_SECURITY_ADMIN_PASSWORD
-                                        label: "Admin Password"
-                                        schema:
-                                          type: string
-                                          required: true
-                                          private: true
-                                          default: "REPLACETHIS"
-                                      - variable: GF_INSTALL_PLUGINS
-                                        label: "Extra Plugins to Install"
-                                        description: "comma seperated"
-                                        schema:
-                                          type: string
                                           default: ""
-                                      - variable: GF_AUTH_LDAP_ENABLED
-                                        label: "enable LDAP"
-                                        schema:
-                                          type: boolean
-                                          default: false
-                                      - variable: GF_AUTH_LDAP_ALLOW_SIGN_UP
-                                        label: "Allow LDAP Signup"
-                                        schema:
-                                          type: boolean
-                                          default: false
-                                      - variable: GF_AUTH_LDAP_CONFIG_FILE
-                                        label: "LDAP Config Path"
-                                        schema:
-                                          type: string
-                                          default: "/opt/bitnami/grafana/conf/ldap.toml"
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -190,7 +171,6 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
-
 
   - variable: TZ
     label: Timezone
@@ -323,7 +303,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10038
+                              default: 10000
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -842,6 +822,19 @@ questions:
                       schema:
                         type: string
                         default: ""
+                    - variable: clusterCertificate
+                      label: Cluster Certificate  (Experimental)
+                      description: 'Add the name of your cluster-wide certificate, that you set up in ClusterIssuer chart. NOTE: This is an experimental feature'
+                      schema:
+                        show_if: [["certificateIssuer", "=", ""]]
+                        type: string
+                        default: ""
+                    - variable: secretName
+                      label: Custom Certificate Secret (Advanced)'
+                      schema:
+                        show_if: [["certificateIssuer", "=", ""]]
+                        type: string
+                        default: ""
                     - variable: middlewares
                       label: Traefik Middlewares
                       description: Add previously created Traefik Middlewares to this Ingress
@@ -1050,6 +1043,13 @@ questions:
                               type: int
                               $ref:
                                 - "definitions/certificate"
+                          - variable: clusterCertificate
+                            label:  Cluster Certificate (Experimental)
+                            description: 'Add the name of your cluster-wide certificate, that you set up in the ClusterIssuer chart. NOTE: This is an experimental feature'
+                            schema:
+                              type: string
+                              show_if: [["clusterIssuer", "=", ""]]
+                              default: ""
                           - variable: secretName
                             label: Use Custom Secret (Advanced)
                             schema:
@@ -1099,7 +1099,7 @@ questions:
                   default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID of the user running the application"
+                description: "The groupID this App of the user running the application"
                 schema:
                   type: int
                   default: 568
@@ -1288,41 +1288,6 @@ questions:
                   type: string
                   default: workaround
                   hidden: true
-  - variable: metrics
-    group: Metrics
-    label: Prometheus Metrics
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: main
-          label: Main Metrics
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: Enabled
-                description: Enable Prometheus Metrics
-                schema:
-                  type: boolean
-                  default: false
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: prometheusRule
-                      label: PrometheusRule
-                      description: Enable and configure Prometheus Rules for the App.
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: enabled
-                            label: Enabled
-                            description: Enable Prometheus Metrics
-                            schema:
-                              type: boolean
-                              default: false
-                          # TODO: Rule List section
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
