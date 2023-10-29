@@ -851,6 +851,19 @@ questions:
                       schema:
                         type: string
                         default: ""
+                    - variable: clusterCertificate
+                      label: Cluster Certificate  (Experimental)
+                      description: 'Add the name of your cluster-wide certificate, that you set up in ClusterIssuer chart. NOTE: This is an experimental feature'
+                      schema:
+                        show_if: [["certificateIssuer", "=", ""]]
+                        type: string
+                        default: ""
+                    - variable: secretName
+                      label: Custom Certificate Secret (Advanced)'
+                      schema:
+                        show_if: [["certificateIssuer", "=", ""]]
+                        type: string
+                        default: ""
                     - variable: middlewares
                       label: Traefik Middlewares
                       description: Add previously created Traefik Middlewares to this Ingress
@@ -1059,6 +1072,13 @@ questions:
                               type: int
                               $ref:
                                 - "definitions/certificate"
+                          - variable: clusterCertificate
+                            label:  Cluster Certificate (Experimental)
+                            description: 'Add the name of your cluster-wide certificate, that you set up in the ClusterIssuer chart. NOTE: This is an experimental feature'
+                            schema:
+                              type: string
+                              show_if: [["clusterIssuer", "=", ""]]
+                              default: ""
                           - variable: secretName
                             label: Use Custom Secret (Advanced)
                             schema:
