@@ -4,6 +4,15 @@
 
 
 
+## [picoshare-6.0.8](https://github.com/truecharts/charts/compare/picoshare-6.0.7...picoshare-6.0.8) (2023-10-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/picoshare to v1.4.1 ([#14113](https://github.com/truecharts/charts/issues/14113))
+  
+  
+
+
 ## [picoshare-6.0.7](https://github.com/truecharts/charts/compare/picoshare-6.0.6...picoshare-6.0.7) (2023-10-29)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [picoshare-5.0.24](https://github.com/truecharts/charts/compare/picoshare-5.0.23...picoshare-5.0.24) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [picoshare-5.0.23](https://github.com/truecharts/charts/compare/picoshare-5.0.22...picoshare-5.0.23) (2023-06-11)
