@@ -4,6 +4,15 @@
 
 
 
+## [netdata-6.0.10](https://github.com/truecharts/charts/compare/netdata-6.0.9...netdata-6.0.10) (2023-10-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/netdata to v1.43.2 ([#14131](https://github.com/truecharts/charts/issues/14131))
+  
+  
+
+
 ## [netdata-6.0.9](https://github.com/truecharts/charts/compare/netdata-6.0.8...netdata-6.0.9) (2023-10-29)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [netdata-6.0.0](https://github.com/truecharts/charts/compare/netdata-5.0.30...netdata-6.0.0) (2023-07-31)
-
-
-
-
-## [netdata-5.0.30](https://github.com/truecharts/charts/compare/netdata-5.0.29...netdata-5.0.30) (2023-07-30)
-
-### Fix
-
-- automount sa token ([#11052](https://github.com/truecharts/charts/issues/11052))
