@@ -4,6 +4,15 @@
 
 
 
+## [youtubedl-material-6.0.5](https://github.com/truecharts/charts/compare/youtubedl-material-6.0.4...youtubedl-material-6.0.5) (2023-10-31)
+
+### Chore
+
+- manual version bump ([#14125](https://github.com/truecharts/charts/issues/14125))
+  
+  
+
+
 ## [youtubedl-material-6.0.4](https://github.com/truecharts/charts/compare/youtubedl-material-6.0.3...youtubedl-material-6.0.4) (2023-10-29)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [youtubedl-material-5.0.20](https://github.com/truecharts/charts/compare/youtubedl-material-5.0.19...youtubedl-material-5.0.20) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
   
