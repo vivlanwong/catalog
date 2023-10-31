@@ -4,6 +4,15 @@
 
 
 
+## [libremdb-3.0.242](https://github.com/truecharts/charts/compare/libremdb-3.0.241...libremdb-3.0.242) (2023-10-31)
+
+### Chore
+
+- update helm general non-major ([#14178](https://github.com/truecharts/charts/issues/14178))
+  
+  
+
+
 ## [libremdb-3.0.241](https://github.com/truecharts/charts/compare/libremdb-3.0.240...libremdb-3.0.241) (2023-10-31)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [libremdb-3.0.232](https://github.com/truecharts/charts/compare/libremdb-3.0.231...libremdb-3.0.232) (2023-10-29)
-
-### Chore
-
-- update container image tccr.io/truecharts/libremdb to latest ([#14090](https://github.com/truecharts/charts/issues/14090))
-  
-  
-
-
-## [libremdb-3.0.231](https://github.com/truecharts/charts/compare/libremdb-3.0.230...libremdb-3.0.231) (2023-10-29)
 
 ### Chore
