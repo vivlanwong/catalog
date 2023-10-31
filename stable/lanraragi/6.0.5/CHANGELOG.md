@@ -4,6 +4,15 @@
 
 
 
+## [lanraragi-6.0.5](https://github.com/truecharts/charts/compare/lanraragi-6.0.4...lanraragi-6.0.5) (2023-10-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/lanraragi to v0.9.0 ([#14184](https://github.com/truecharts/charts/issues/14184))
+  
+  
+
+
 ## [lanraragi-6.0.4](https://github.com/truecharts/charts/compare/lanraragi-6.0.3...lanraragi-6.0.4) (2023-10-29)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
-  
-  
-
-
-## [lanraragi-5.0.17](https://github.com/truecharts/charts/compare/lanraragi-5.0.16...lanraragi-5.0.17) (2023-06-04)
-
-### Chore
-
-- update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
