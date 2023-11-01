@@ -4,6 +4,15 @@
 
 
 
+## [crafty-4-4.0.4](https://github.com/truecharts/charts/compare/crafty-4-4.0.3...crafty-4-4.0.4) (2023-11-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/crafty-4 to v4.2.1 ([#14201](https://github.com/truecharts/charts/issues/14201))
+  
+  
+
+
 ## [crafty-4-4.0.3](https://github.com/truecharts/charts/compare/crafty-4-4.0.2...crafty-4-4.0.3) (2023-10-29)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Chore
 
 - update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  
-  
-
-
-## [crafty-4-3.0.22](https://github.com/truecharts/charts/compare/crafty-4-3.0.21...crafty-4-3.0.22) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
