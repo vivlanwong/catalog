@@ -4,6 +4,15 @@
 
 
 
+## [doublecommander-9.0.15](https://github.com/truecharts/charts/compare/doublecommander-9.0.14...doublecommander-9.0.15) (2023-11-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/doublecommander to latest ([#14223](https://github.com/truecharts/charts/issues/14223))
+  
+  
+
+
 ## [doublecommander-9.0.14](https://github.com/truecharts/charts/compare/doublecommander-9.0.13...doublecommander-9.0.14) (2023-10-29)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [doublecommander-9.0.5](https://github.com/truecharts/charts/compare/doublecommander-9.0.4...doublecommander-9.0.5) (2023-09-11)
-
-### Chore
-
-- update container image tccr.io/truecharts/doublecommander to latest ([#12307](https://github.com/truecharts/charts/issues/12307))
-  
-  
-
-
-## [doublecommander-9.0.4](https://github.com/truecharts/charts/compare/doublecommander-9.0.3...doublecommander-9.0.4) (2023-08-30)
 

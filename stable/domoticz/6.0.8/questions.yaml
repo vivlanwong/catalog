@@ -100,6 +100,20 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
+
+                                - variable: env
+                                  group: "App Configuration"
+                                  label: "Image Environment"
+                                  schema:
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: WEBROOT
+                                        label: "WEBROOT"
+                                        description: "WEBROOT"
+                                        schema:
+                                          type: string
+                                          default: "domoticz"
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -149,7 +163,6 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
-
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -281,7 +294,107 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10034
+                              default: 10144
+                              required: true
+        - variable: comm1
+          label: "comm1 Service"
+          description: "The comm1 service."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: comm1
+                      label: "comm1 Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 6144
+                              required: true
+        - variable: comm2
+          label: "comm2 Service"
+          description: "The comm2 service."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: comm2
+                      label: "comm2 Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 1443
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -800,19 +913,6 @@ questions:
                       schema:
                         type: string
                         default: ""
-                    - variable: clusterCertificate
-                      label: Cluster Certificate  (Experimental)
-                      description: 'Add the name of your cluster-wide certificate, that you set up in ClusterIssuer chart. NOTE: This is an experimental feature'
-                      schema:
-                        show_if: [["certificateIssuer", "=", ""]]
-                        type: string
-                        default: ""
-                    - variable: secretName
-                      label: Custom Certificate Secret (Advanced)'
-                      schema:
-                        show_if: [["certificateIssuer", "=", ""]]
-                        type: string
-                        default: ""
                     - variable: middlewares
                       label: Traefik Middlewares
                       description: Add previously created Traefik Middlewares to this Ingress
@@ -878,19 +978,26 @@ questions:
                                   schema:
                                     type: string
                                     default: ""
+                                - variable: 'clusterCertificate (Advanced)'
+                                  label:  Cluster Certificate
+                                  description: 'Add the name of your cluster-wide certificate, that you set up in the ClusterIssuer chart.'
+                                  schema:
+                                    type: string
+                                    show_if: [["clusterIssuer", "=", ""]]
+                                    default: ""
+                                - variable: secretName
+                                  label: 'Use Custom Certificate Secret (Advanced)'
+                                  schema:
+                                    show_if: [["certificateIssuer", "=", ""]]
+                                    type: string
+                                    default: ""
                                 - variable: scaleCert
-                                  label: Use TrueNAS SCALE Certificate (Deprecated)
+                                  label: 'Use TrueNAS SCALE Certificate (Deprecated)'
                                   schema:
                                     show_if: [["certificateIssuer", "=", ""]]
                                     type: int
                                     $ref:
                                       - "definitions/certificate"
-                                - variable: secretName
-                                  label: Use Custom Secret (Advanced)
-                                  schema:
-                                    show_if: [["certificateIssuer", "=", ""]]
-                                    type: string
-                                    default: ""
   - variable: ingressList
     label: Add Manual Custom Ingresses
     group: Ingress
@@ -1077,7 +1184,7 @@ questions:
                   default: 0
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
                   default: 0
