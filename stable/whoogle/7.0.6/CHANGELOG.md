@@ -4,6 +4,15 @@
 
 
 
+## [whoogle-7.0.6](https://github.com/truecharts/charts/compare/whoogle-7.0.5...whoogle-7.0.6) (2023-11-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/whoogle-search to v0.8.4 ([#14234](https://github.com/truecharts/charts/issues/14234))
+  
+  
+
+
 ## [whoogle-7.0.5](https://github.com/truecharts/charts/compare/whoogle-7.0.4...whoogle-7.0.5) (2023-10-29)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9457](https://github.com/truecharts/charts/issues/9457))
-  
-  
-
-
-## [whoogle-6.0.18](https://github.com/truecharts/charts/compare/whoogle-6.0.17...whoogle-6.0.18) (2023-06-07)
-
-### Chore
-
-- update helm general non-major ([#9423](https://github.com/truecharts/charts/issues/9423))
   
