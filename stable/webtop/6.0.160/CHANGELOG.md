@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.160](https://github.com/truecharts/charts/compare/webtop-6.0.159...webtop-6.0.160) (2023-11-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/webtop-arch-i3 to latest ([#14268](https://github.com/truecharts/charts/issues/14268))
+  
+  
+
+
 ## [webtop-6.0.159](https://github.com/truecharts/charts/compare/webtop-6.0.158...webtop-6.0.159) (2023-10-31)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [webtop-6.0.150](https://github.com/truecharts/charts/compare/webtop-6.0.149...webtop-6.0.150) (2023-10-29)
 
 ### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [webtop-6.0.149](https://github.com/truecharts/charts/compare/webtop-6.0.148...webtop-6.0.149) (2023-10-27)
-
