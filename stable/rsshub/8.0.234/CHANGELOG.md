@@ -4,6 +4,15 @@
 
 
 
+## [rsshub-8.0.234](https://github.com/truecharts/charts/compare/rsshub-8.0.233...rsshub-8.0.234) (2023-11-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/rsshub to latest ([#14252](https://github.com/truecharts/charts/issues/14252))
+  
+  
+
+
 ## [rsshub-8.0.233](https://github.com/truecharts/charts/compare/rsshub-8.0.232...rsshub-8.0.233) (2023-11-01)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [rsshub-8.0.224](https://github.com/truecharts/charts/compare/rsshub-8.0.223...rsshub-8.0.224) (2023-10-29)
 
 ### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - update container image tccr.io/truecharts/rsshub to latest ([#14057](https://github.com/truecharts/charts/issues/14057))
-  
-  
-
-
-## [rsshub-8.0.223](https://github.com/truecharts/charts/compare/rsshub-8.0.222...rsshub-8.0.223) (2023-10-27)
-
