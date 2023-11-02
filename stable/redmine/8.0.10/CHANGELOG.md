@@ -4,6 +4,15 @@
 
 
 
+## [redmine-8.0.10](https://github.com/truecharts/charts/compare/redmine-8.0.9...redmine-8.0.10) (2023-11-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/redmine to v5.0.6 ([#14231](https://github.com/truecharts/charts/issues/14231))
+  
+  
+
+
 ## [redmine-8.0.9](https://github.com/truecharts/charts/compare/redmine-8.0.8...redmine-8.0.9) (2023-11-01)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [redmine-8.0.0](https://github.com/truecharts/charts/compare/redmine-7.0.26...redmine-8.0.0) (2023-07-31)
-
-
-
-
-## [redmine-7.0.26](https://github.com/truecharts/charts/compare/redmine-7.0.25...redmine-7.0.26) (2023-07-29)
-
-### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
