@@ -1,0 +1,26 @@
+apiVersion: v2
+appVersion: "2.14.0"
+dependencies:
+  - name: common
+    repository: https://library-charts.truecharts.org
+    version: 14.2.2
+description: A discord bot that monitors your game server and tracks the live data of your game servers.
+home: https://truecharts.org/charts/stable/discordgsm
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/discordgsm.png
+keywords:
+  - discordgsm
+  - game-server
+  - monitor
+kubeVersion: ">=1.16.0-0"
+maintainers:
+  - email: info@truecharts.org
+    name: TrueCharts
+    url: https://truecharts.org
+name: discordgsm
+sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/discordgsm
+  - https://github.com/DiscordGSM/GameServerMonitor
+version: 4.0.6
+annotations:
+  truecharts.org/category: monitor
+  truecharts.org/SCALE-support: "true"
