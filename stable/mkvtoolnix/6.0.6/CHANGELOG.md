@@ -4,6 +4,15 @@
 
 
 
+## [mkvtoolnix-6.0.6](https://github.com/truecharts/charts/compare/mkvtoolnix-6.0.5...mkvtoolnix-6.0.6) (2023-11-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/mkvtoolnix to v23.11.1 ([#14291](https://github.com/truecharts/charts/issues/14291))
+  
+  
+
+
 ## [mkvtoolnix-6.0.5](https://github.com/truecharts/charts/compare/mkvtoolnix-6.0.4...mkvtoolnix-6.0.5) (2023-10-29)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  
-  
-
-
-## [mkvtoolnix-5.0.14](https://github.com/truecharts/charts/compare/mkvtoolnix-5.0.13...mkvtoolnix-5.0.14) (2023-06-09)
-
-### Chore
-
-- update container image tccr.io/truecharts/mkvtoolnix to v23.06.1 ([#9508](https://github.com/truecharts/charts/issues/9508))
   
