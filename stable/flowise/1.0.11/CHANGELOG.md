@@ -4,6 +4,15 @@
 
 
 
+## [flowise-1.0.11](https://github.com/truecharts/charts/compare/flowise-1.0.10...flowise-1.0.11) (2023-11-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/flowise to v1.3.9 ([#14311](https://github.com/truecharts/charts/issues/14311))
+  
+  
+
+
 ## [flowise-1.0.10](https://github.com/truecharts/charts/compare/flowise-1.0.9...flowise-1.0.10) (2023-11-03)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [flowise-1.0.0](https://github.com/truecharts/charts/compare/flowise-0.0.5...flowise-1.0.0) (2023-07-31)
 
-
-
-
-## [flowise-0.0.5](https://github.com/truecharts/charts/compare/flowise-0.0.4...flowise-0.0.5) (2023-07-31)
-
-### Chore
-
-- update container image tccr.io/truecharts/flowise to v1.3.2 ([#11089](https://github.com/truecharts/charts/issues/11089))
-  
