@@ -4,6 +4,15 @@
 
 
 
+## [channels-dvr-3.0.7](https://github.com/truecharts/charts/compare/channels-dvr-3.0.6...channels-dvr-3.0.7) (2023-11-04)
+
+### Chore
+
+- update container image tccr.io/truecharts/channels-dvr to latest ([#14325](https://github.com/truecharts/charts/issues/14325))
+  
+  
+
+
 ## [channels-dvr-3.0.6](https://github.com/truecharts/charts/compare/channels-dvr-3.0.5...channels-dvr-3.0.6) (2023-11-03)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [channels-dvr-2.1.0](https://github.com/truecharts/charts/compare/channels-dvr-2.0.5...channels-dvr-2.1.0) (2023-07-01)
-
-### Fix
-
-- Add DVR storage ([#10048](https://github.com/truecharts/charts/issues/10048))
-  
-  
-
-
-## [channels-dvr-2.0.5](https://github.com/truecharts/charts/compare/channels-dvr-2.0.4...channels-dvr-2.0.5) (2023-06-13)
