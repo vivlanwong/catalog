@@ -4,6 +4,15 @@
 
 
 
+## [channels-dvr-3.0.8](https://github.com/truecharts/charts/compare/channels-dvr-3.0.7...channels-dvr-3.0.8) (2023-11-04)
+
+### Chore
+
+- update container image tccr.io/truecharts/channels-dvr-tve to latest ([#14326](https://github.com/truecharts/charts/issues/14326))
+  
+  
+
+
 ## [channels-dvr-3.0.7](https://github.com/truecharts/charts/compare/channels-dvr-3.0.6...channels-dvr-3.0.7) (2023-11-04)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [channels-dvr-2.1.1](https://github.com/truecharts/charts/compare/channels-dvr-2.1.0...channels-dvr-2.1.1) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [channels-dvr-2.1.0](https://github.com/truecharts/charts/compare/channels-dvr-2.0.5...channels-dvr-2.1.0) (2023-07-01)
