@@ -4,6 +4,19 @@
 
 
 
+## [clusterissuer-4.2.4](https://github.com/truecharts/charts/compare/clusterissuer-4.2.3...clusterissuer-4.2.4) (2023-11-05)
+
+### Docs
+
+- nameserver warning ([#14348](https://github.com/truecharts/charts/issues/14348))
+  
+  ### Fix
+
+- Fix http01 resource creation ([#14364](https://github.com/truecharts/charts/issues/14364))
+  
+  
+
+
 ## [clusterissuer-4.2.3](https://github.com/truecharts/charts/compare/clusterissuer-4.2.2...clusterissuer-4.2.3) (2023-11-03)
 
 ### Chore
@@ -84,16 +97,3 @@
 ## [clusterissuer-4.1.0](https://github.com/truecharts/charts/compare/clusterissuer-4.0.2...clusterissuer-4.1.0) (2023-10-04)
 
 ### Clusterissuer
-
-- add ACME DNS issuer ([#11483](https://github.com/truecharts/charts/issues/11483))
-  
-  
-
-
-## [clusterissuer-4.0.2](https://github.com/truecharts/charts/compare/clusterissuer-4.0.1...clusterissuer-4.0.2) (2023-10-04)
-
-### Docs
-
-- remove quad9 ([#11376](https://github.com/truecharts/charts/issues/11376))
-  
-  ### Fix
