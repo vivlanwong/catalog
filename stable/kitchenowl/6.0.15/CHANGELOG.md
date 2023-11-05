@@ -4,6 +4,15 @@
 
 
 
+## [kitchenowl-6.0.15](https://github.com/truecharts/charts/compare/kitchenowl-6.0.14...kitchenowl-6.0.15) (2023-11-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/kitchenowl-backend to latest ([#14371](https://github.com/truecharts/charts/issues/14371))
+  
+  
+
+
 ## [kitchenowl-6.0.14](https://github.com/truecharts/charts/compare/kitchenowl-6.0.13...kitchenowl-6.0.14) (2023-11-05)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [kitchenowl-6.0.5](https://github.com/truecharts/charts/compare/kitchenowl-6.0.4...kitchenowl-6.0.5) (2023-09-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/kitchenowl-backend to latest ([#12622](https://github.com/truecharts/charts/issues/12622))
-  
-  
-
-
-## [kitchenowl-6.0.4](https://github.com/truecharts/charts/compare/kitchenowl-6.0.3...kitchenowl-6.0.4) (2023-09-15)
 
