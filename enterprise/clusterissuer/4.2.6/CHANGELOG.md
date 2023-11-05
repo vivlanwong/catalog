@@ -4,6 +4,15 @@
 
 
 
+## [clusterissuer-4.2.6](https://github.com/truecharts/charts/compare/clusterissuer-4.2.5...clusterissuer-4.2.6) (2023-11-05)
+
+### Feat
+
+- Add cluster certificate docs and replace experimental label with advanced ([#14372](https://github.com/truecharts/charts/issues/14372))
+  
+  
+
+
 ## [clusterissuer-4.2.5](https://github.com/truecharts/charts/compare/clusterissuer-4.2.4...clusterissuer-4.2.5) (2023-11-05)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [clusterissuer-4.1.2](https://github.com/truecharts/charts/compare/clusterissuer-4.1.1...clusterissuer-4.1.2) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  
-
-
-## [clusterissuer-4.1.1](https://github.com/truecharts/charts/compare/clusterissuer-4.1.0...clusterissuer-4.1.1) (2023-10-07)
 
 ### Chore
