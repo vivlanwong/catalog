@@ -4,6 +4,15 @@
 
 
 
+## [linkding-6.0.11](https://github.com/truecharts/charts/compare/linkding-6.0.10...linkding-6.0.11) (2023-11-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/linkding to v1.22.3 ([#14336](https://github.com/truecharts/charts/issues/14336))
+  
+  
+
+
 ## [linkding-6.0.10](https://github.com/truecharts/charts/compare/linkding-6.0.9...linkding-6.0.10) (2023-11-05)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [linkding-6.0.1](https://github.com/truecharts/charts/compare/linkding-6.0.0...linkding-6.0.1) (2023-08-12)
-
-
-
-
-
-## [linkding-6.0.0](https://github.com/truecharts/charts/compare/linkding-5.0.26...linkding-6.0.0) (2023-07-31)
-
-
-
 

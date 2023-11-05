@@ -37,6 +37,14 @@ portals:
       - "$kubernetes-resource_configmap_tcportal-open_host"
     ports:
       - "$kubernetes-resource_configmap_tcportal-open_port"
+  admin:
+    protocols:
+      - "$kubernetes-resource_configmap_tcportal-open_protocol"
+    host:
+      - "$kubernetes-resource_configmap_tcportal-open_host"
+    ports:
+      - "$kubernetes-resource_configmap_tcportal-open_port"
+    path: "/admin"
 questions:
   - variable: global
     group: General Settings
@@ -102,55 +110,43 @@ questions:
                               attrs:
 
                                 - variable: env
-                                  group: App Configuration
-                                  label: Image Environment
+                                  group: "App Configuration"
+                                  label: "Image Environment"
                                   schema:
                                     additional_attrs: true
                                     type: dict
                                     attrs:
-                                      - variable: NEXT_PUBLIC_URL
-                                        label: Next Public URL
-                                        description: Used for meta tags, no trailing slash.
+                                      - variable: LD_SUPERUSER_NAME
+                                        label: "Superuser Username (Initial install only)"
                                         schema:
                                           type: string
-                                          required: true
                                           default: ""
-                                      - variable: NEXT_TELEMETRY_DISABLED
-                                        label: Next Telemetry Disabled
+                                          required: true
+                                      - variable: LD_SUPERUSER_PASSWORD
+                                        label: "Superuser Password (Initial install only)"
                                         schema:
                                           type: string
-                                          default: "1"
-                                          enum:
-                                            - value: "0"
-                                              description: "False"
-                                            - value: "1"
-                                              description: "True"
-                                      - variable: axios
-                                        label: Show AXIOS Settings
+                                          default: ""
+                                          private: true
+                                          required: true
+                                      - variable: LD_DISABLE_BACKGROUND_TASKS
+                                        label: "Disable Background Tasks"
+                                        description: "Disables background tasks, such as creating snapshots for bookmarks on the web archive. Enabling this flag will prevent the background task processor from starting up, and prevents scheduling tasks. This might be useful if you are experiencing performance issues or other problematic behaviour due to background task processing."
                                         schema:
                                           type: boolean
                                           default: false
-                                          show_subquestions_if: true
-                                          subquestions:
-                                            - variable: AXIOS_USERAGENT
-                                              label: Axios User Agent
-                                              description: Default user agent for requesting data from IMDB.
-                                              schema:
-                                                type: string
-                                                default: "Mozilla/5.0 (X11; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0"
-                                            - variable: AXIOS_ACCEPT
-                                              label: Axios Accept
-                                              description: Default Accept Header.
-                                              schema:
-                                                type: string
-                                                default: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
-                                            - variable: AXIOS_LANGUAGE
-                                              label: Axios Language
-                                              description: Forcing a certain language for data we get from IMDB.
-                                              schema:
-                                                type: string
-                                                default: "en-US,en;q=0.5"
-
+                                      - variable: LD_DISABLE_URL_VALIDATION
+                                        label: "Disable URL Validation"
+                                        description: "Completely disables URL validation for bookmarks. This can be useful if you intend to store non fully qualified domain name URLs, such as network paths, or you want to store URLs that use another protocol than http or https."
+                                        schema:
+                                          type: boolean
+                                          default: false
+                                      - variable: LD_REQUEST_TIMEOUT
+                                        label: "Request Timeout"
+                                        description: "Configures the request timeout in the uwsgi application server. This can be useful if you want to import a bookmark file with a high number of bookmarks and run into request timeouts."
+                                        schema:
+                                          type: int
+                                          default: 60
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -322,17 +318,17 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: Main Service Port Configuration
+                      label: "Main Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10593
+                              default: 10210
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -562,9 +558,9 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: config
-          label: App Config Storage
-          description: Stores the Application Configuration.
+        - variable: data
+          label: "App Data Storage"
+          description: "Stores the Application Data."
           schema:
             additional_attrs: true
             type: dict
@@ -791,7 +787,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Ingress
+          label: "Main Ingress"
           schema:
             additional_attrs: true
             type: dict
@@ -1045,7 +1041,7 @@ questions:
                 schema:
                   type: list
                   default: []
-                  show_if: [["clusterIssuer", "=", ""]]
+                  show_if: [["certificateIssuer", "=", ""]]
                   items:
                     - variable: tlsEntry
                       label: Host
@@ -1074,7 +1070,7 @@ questions:
                           - variable: scaleCert
                             label: Use TrueNAS SCALE Certificate (Deprecated)
                             schema:
-                              show_if: [["clusterIssuer", "=", ""]]
+                              show_if: [["certificateIssuer", "=", ""]]
                               type: int
                               $ref:
                                 - "definitions/certificate"
@@ -1083,13 +1079,13 @@ questions:
                             description: 'Add the name of your cluster-wide certificate, that you set up in the ClusterIssuer chart.'
                             schema:
                               type: string
-                              show_if: [["clusterIssuer", "=", ""]]
+                              show_if: [["certificateIssuer", "=", ""]]
                               default: ""
                           - variable: secretName
                             label: Use Custom Secret (Advanced)
                             schema:
                               type: string
-                              show_if: [["clusterIssuer", "=", ""]]
+                              show_if: [["certificateIssuer", "=", ""]]
                               default: ""
               - variable: entrypoint
                 label: Traefik Entrypoint
@@ -1131,13 +1127,13 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 568
+                  default: 0
               - variable: runAsGroup
                 label: "runAsGroup"
                 description: "The groupID this App of the user running the application"
                 schema:
                   type: int
-                  default: 568
+                  default: 0
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
