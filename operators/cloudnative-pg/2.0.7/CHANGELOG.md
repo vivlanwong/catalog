@@ -4,6 +4,15 @@
 
 
 
+## [cloudnative-pg-2.0.7](https://github.com/truecharts/charts/compare/cloudnative-pg-2.0.6...cloudnative-pg-2.0.7) (2023-11-06)
+
+### Chore
+
+- update container image tccr.io/truecharts/cloudnative-pg to v1.21.1 ([#13655](https://github.com/truecharts/charts/issues/13655))
+  
+  
+
+
 ## [cloudnative-pg-2.0.6](https://github.com/truecharts/charts/compare/cloudnative-pg-2.0.5...cloudnative-pg-2.0.6) (2023-11-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [cloudnative-pg-1.0.2](https://github.com/truecharts/charts/compare/cloudnative-pg-1.0.1...cloudnative-pg-1.0.2) (2023-06-11)
-
-### Chore
-
-- update helm general non-major ([#9558](https://github.com/truecharts/charts/issues/9558))
-  - pin dependencies ([#9468](https://github.com/truecharts/charts/issues/9468))
-  
-  
-
-
