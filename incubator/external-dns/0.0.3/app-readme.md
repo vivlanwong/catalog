@@ -1,4 +1,4 @@
-API Support for your favorite torrent trackers.
+ExternalDNS synchronizes exposed Kubernetes Services and Ingresses with DNS providers.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/incubator/external-dns](https://truecharts.org/charts/incubator/external-dns)
 
