@@ -4,6 +4,15 @@
 
 
 
+## [unpoller-7.0.12](https://github.com/truecharts/charts/compare/unpoller-7.0.11...unpoller-7.0.12) (2023-11-06)
+
+### Chore
+
+- update container image tccr.io/truecharts/unifi-poller to v2.9.4 ([#14394](https://github.com/truecharts/charts/issues/14394))
+  
+  
+
+
 ## [unpoller-7.0.11](https://github.com/truecharts/charts/compare/unpoller-7.0.10...unpoller-7.0.11) (2023-11-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [unpoller-7.0.1](https://github.com/truecharts/charts/compare/unpoller-7.0.0...unpoller-7.0.1) (2023-08-07)
 
 ### Chore
-
-- update container image tccr.io/truecharts/unifi-poller to v2.8.0 ([#11280](https://github.com/truecharts/charts/issues/11280))
-  
-  
-
-
-
-## [unpoller-7.0.0](https://github.com/truecharts/charts/compare/unpoller-6.0.26...unpoller-7.0.0) (2023-07-31)
-
