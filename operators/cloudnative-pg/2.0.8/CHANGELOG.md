@@ -4,6 +4,11 @@
 
 
 
+## [cloudnative-pg-2.0.8](https://github.com/truecharts/charts/compare/cloudnative-pg-2.0.7...cloudnative-pg-2.0.8) (2023-11-07)
+
+
+
+
 ## [cloudnative-pg-2.0.7](https://github.com/truecharts/charts/compare/cloudnative-pg-2.0.6...cloudnative-pg-2.0.7) (2023-11-06)
 
 ### Chore
@@ -92,8 +97,3 @@
 ### Chore
 
 - update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
-  
-  
-
-
-## [cloudnative-pg-1.0.2](https://github.com/truecharts/charts/compare/cloudnative-pg-1.0.1...cloudnative-pg-1.0.2) (2023-06-11)
