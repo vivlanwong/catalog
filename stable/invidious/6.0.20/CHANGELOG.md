@@ -4,6 +4,15 @@
 
 
 
+## [invidious-6.0.20](https://github.com/truecharts/charts/compare/invidious-6.0.19...invidious-6.0.20) (2023-11-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/invidious to latest ([#14469](https://github.com/truecharts/charts/issues/14469))
+  
+  
+
+
 ## [invidious-6.0.19](https://github.com/truecharts/charts/compare/invidious-6.0.18...invidious-6.0.19) (2023-11-08)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [invidious-6.0.10](https://github.com/truecharts/charts/compare/invidious-6.0.9...invidious-6.0.10) (2023-10-20)
-
-### Chore
-
-- update container image tccr.io/truecharts/invidious to latest ([#13806](https://github.com/truecharts/charts/issues/13806))
-  
-  
-
-
-## [invidious-6.0.9](https://github.com/truecharts/charts/compare/invidious-6.0.8...invidious-6.0.9) (2023-10-10)
 
