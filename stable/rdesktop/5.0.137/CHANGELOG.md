@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-5.0.137](https://github.com/truecharts/charts/compare/rdesktop-5.0.136...rdesktop-5.0.137) (2023-11-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-arch-i3 to latest ([#14546](https://github.com/truecharts/charts/issues/14546))
+  
+  
+
+
 ## [rdesktop-5.0.136](https://github.com/truecharts/charts/compare/rdesktop-5.0.135...rdesktop-5.0.136) (2023-11-08)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-5.0.127](https://github.com/truecharts/charts/compare/rdesktop-5.0.126...rdesktop-5.0.127) (2023-11-02)
-
-### Chore
-
-- update rdesktop ([#14262](https://github.com/truecharts/charts/issues/14262))
-  
-  
-
-
-## [rdesktop-5.0.126](https://github.com/truecharts/charts/compare/rdesktop-5.0.125...rdesktop-5.0.126) (2023-11-02)
 
 ### Chore
