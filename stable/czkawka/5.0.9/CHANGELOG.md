@@ -4,6 +4,15 @@
 
 
 
+## [czkawka-5.0.9](https://github.com/truecharts/charts/compare/czkawka-5.0.8...czkawka-5.0.9) (2023-11-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/czkawka to v23.11.1 ([#14547](https://github.com/truecharts/charts/issues/14547))
+  
+  
+
+
 ## [czkawka-5.0.8](https://github.com/truecharts/charts/compare/czkawka-5.0.7...czkawka-5.0.8) (2023-11-08)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Chore
 
 - update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
-  
-  
-
-
-## [czkawka-4.0.28](https://github.com/truecharts/charts/compare/czkawka-4.0.27...czkawka-4.0.28) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
