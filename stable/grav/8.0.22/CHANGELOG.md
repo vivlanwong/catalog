@@ -4,6 +4,15 @@
 
 
 
+## [grav-8.0.22](https://github.com/truecharts/charts/compare/grav-8.0.21...grav-8.0.22) (2023-11-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/grav to v1.7.43 ([#14575](https://github.com/truecharts/charts/issues/14575))
+  
+  
+
+
 ## [grav-8.0.21](https://github.com/truecharts/charts/compare/grav-8.0.20...grav-8.0.21) (2023-11-08)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [grav-8.0.12](https://github.com/truecharts/charts/compare/grav-8.0.11...grav-8.0.12) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  
-
-
-## [grav-8.0.11](https://github.com/truecharts/charts/compare/grav-8.0.10...grav-8.0.11) (2023-10-07)
 
