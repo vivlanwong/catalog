@@ -4,6 +4,15 @@
 
 
 
+## [qdirstat-5.0.9](https://github.com/truecharts/charts/compare/qdirstat-5.0.8...qdirstat-5.0.9) (2023-11-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/qdirstat to v23.11.1 ([#14565](https://github.com/truecharts/charts/issues/14565))
+  
+  
+
+
 ## [qdirstat-5.0.8](https://github.com/truecharts/charts/compare/qdirstat-5.0.7...qdirstat-5.0.8) (2023-11-08)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [qdirstat-4.0.16](https://github.com/truecharts/charts/compare/qdirstat-4.0.15...qdirstat-4.0.16) (2023-06-13)
-
-### Chore
-
-- update helm chart common to 12.14.2 ([#9599](https://github.com/truecharts/charts/issues/9599))
   
