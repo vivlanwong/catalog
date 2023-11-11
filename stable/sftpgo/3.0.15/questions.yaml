@@ -1247,7 +1247,7 @@ questions:
                                   label: Paths
                                   schema:
                                     type: list
-                                    default: []
+                                    default: [{path: "/", pathType: "Prefix"}]
                                     items:
                                       - variable: pathEntry
                                         label: Host
