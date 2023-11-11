@@ -4,6 +4,15 @@
 
 
 
+## [qbitrr-0.0.22](https://github.com/truecharts/charts/compare/qbitrr-0.0.21...qbitrr-0.0.22) (2023-11-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/qbitrr to v3.7.16 ([#14573](https://github.com/truecharts/charts/issues/14573))
+  
+  
+
+
 ## [qbitrr-0.0.21](https://github.com/truecharts/charts/compare/qbitrr-0.0.20...qbitrr-0.0.21) (2023-11-08)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [qbitrr-0.0.12](https://github.com/truecharts/charts/compare/qbitrr-0.0.11...qbitrr-0.0.12) (2023-10-23)
-
-### Chore
-
-- update container image tccr.io/truecharts/qbitrr to v3.7.12 ([#13910](https://github.com/truecharts/charts/issues/13910))
   
   
