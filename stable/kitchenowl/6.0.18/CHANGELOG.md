@@ -4,6 +4,15 @@
 
 
 
+## [kitchenowl-6.0.18](https://github.com/truecharts/charts/compare/kitchenowl-6.0.17...kitchenowl-6.0.18) (2023-11-13)
+
+### Chore
+
+- update kitchenowl ([#14623](https://github.com/truecharts/charts/issues/14623))
+  
+  
+
+
 ## [kitchenowl-6.0.17](https://github.com/truecharts/charts/compare/kitchenowl-6.0.16...kitchenowl-6.0.17) (2023-11-08)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [kitchenowl-6.0.8](https://github.com/truecharts/charts/compare/kitchenowl-6.0.7...kitchenowl-6.0.8) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  
-
-
-## [kitchenowl-6.0.7](https://github.com/truecharts/charts/compare/kitchenowl-6.0.6...kitchenowl-6.0.7) (2023-10-06)
 
