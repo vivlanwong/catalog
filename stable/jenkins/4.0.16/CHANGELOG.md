@@ -4,6 +4,15 @@
 
 
 
+## [jenkins-4.0.16](https://github.com/truecharts/charts/compare/jenkins-4.0.15...jenkins-4.0.16) (2023-11-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/jenkins to v2.432.0 ([#14660](https://github.com/truecharts/charts/issues/14660))
+  
+  
+
+
 ## [jenkins-4.0.15](https://github.com/truecharts/charts/compare/jenkins-4.0.14...jenkins-4.0.15) (2023-11-08)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [jenkins-4.0.6](https://github.com/truecharts/charts/compare/jenkins-4.0.5...jenkins-4.0.6) (2023-10-12)
 
-### Chore
-
-- update container image tccr.io/truecharts/jenkins to v2.427.0 ([#13546](https://github.com/truecharts/charts/issues/13546))
-  - run precocmit ([#13387](https://github.com/truecharts/charts/issues/13387))
-  
-  
-
-
-## [jenkins-4.0.5](https://github.com/truecharts/charts/compare/jenkins-4.0.4...jenkins-4.0.5) (2023-10-07)
