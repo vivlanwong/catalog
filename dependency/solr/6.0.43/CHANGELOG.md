@@ -4,6 +4,15 @@
 
 
 
+## [solr-6.0.43](https://github.com/truecharts/charts/compare/solr-6.0.42...solr-6.0.43) (2023-11-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/solr to v9.4.0 ([#14718](https://github.com/truecharts/charts/issues/14718))
+  
+  
+
+
 ## [solr-6.0.42](https://github.com/truecharts/charts/compare/solr-6.0.41...solr-6.0.42) (2023-11-14)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm chart common to 14.1.0 ([#14049](https://github.com/truecharts/charts/issues/14049))
-  
-  
-
-
-## [solr-6.0.32](https://github.com/truecharts/charts/compare/solr-6.0.31...solr-6.0.32) (2023-10-18)
-
-### Chore
-
-- update container image tccr.io/truecharts/solr to v9.4.0 ([#13736](https://github.com/truecharts/charts/issues/13736))
   
