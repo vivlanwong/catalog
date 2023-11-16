@@ -4,6 +4,15 @@
 
 
 
+## [synclounge-6.0.18](https://github.com/truecharts/charts/compare/synclounge-6.0.17...synclounge-6.0.18) (2023-11-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/synclounge to v5.2.23 ([#14732](https://github.com/truecharts/charts/issues/14732))
+  
+  
+
+
 ## [synclounge-6.0.17](https://github.com/truecharts/charts/compare/synclounge-6.0.16...synclounge-6.0.17) (2023-11-14)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [synclounge-6.0.8](https://github.com/truecharts/charts/compare/synclounge-6.0.7...synclounge-6.0.8) (2023-10-24)
-
-### Chore
-
-- update container image tccr.io/truecharts/synclounge to v5.2.19 ([#13940](https://github.com/truecharts/charts/issues/13940))
-  
-  
-
-
-## [synclounge-6.0.7](https://github.com/truecharts/charts/compare/synclounge-6.0.6...synclounge-6.0.7) (2023-10-24)
 
