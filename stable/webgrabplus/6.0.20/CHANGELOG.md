@@ -4,6 +4,15 @@
 
 
 
+## [webgrabplus-6.0.20](https://github.com/truecharts/charts/compare/webgrabplus-6.0.19...webgrabplus-6.0.20) (2023-11-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/webgrabplus to v5.1.3 ([#14704](https://github.com/truecharts/charts/issues/14704))
+  
+  
+
+
 ## [webgrabplus-6.0.19](https://github.com/truecharts/charts/compare/webgrabplus-6.0.18...webgrabplus-6.0.19) (2023-11-09)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [webgrabplus-6.0.10](https://github.com/truecharts/charts/compare/webgrabplus-6.0.9...webgrabplus-6.0.10) (2023-10-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/webgrabplus to v5.1.3 ([#13552](https://github.com/truecharts/charts/issues/13552))
-  
-  
-
-
-## [webgrabplus-6.0.9](https://github.com/truecharts/charts/compare/webgrabplus-6.0.8...webgrabplus-6.0.9) (2023-10-07)
 
