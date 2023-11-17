@@ -4,6 +4,15 @@
 
 
 
+## [fleet-8.0.10](https://github.com/truecharts/charts/compare/fleet-8.0.9...fleet-8.0.10) (2023-11-17)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/fleet to 2.3.3 ([#14760](https://github.com/truecharts/charts/issues/14760))
+  
+  
+
+
 ## [fleet-8.0.9](https://github.com/truecharts/charts/compare/fleet-8.0.8...fleet-8.0.9) (2023-11-17)
 
 
@@ -88,12 +97,3 @@
 
 
 ## [fleet-7.0.27](https://github.com/truecharts/charts/compare/fleet-7.0.26...fleet-7.0.27) (2023-07-04)
-
-### Chore
-
-- update helm general non-major ([#10135](https://github.com/truecharts/charts/issues/10135))
-  
-  
-
-
-## [fleet-7.0.26](https://github.com/truecharts/charts/compare/fleet-7.0.25...fleet-7.0.26) (2023-07-01)
