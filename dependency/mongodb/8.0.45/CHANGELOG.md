@@ -4,6 +4,15 @@
 
 
 
+## [mongodb-8.0.45](https://github.com/truecharts/charts/compare/mongodb-8.0.44...mongodb-8.0.45) (2023-11-17)
+
+### Chore
+
+- update container image bitnami/mongodb to 7.0.3 ([#14753](https://github.com/truecharts/charts/issues/14753))
+  
+  
+
+
 ## [mongodb-8.0.44](https://github.com/truecharts/charts/compare/mongodb-8.0.43...mongodb-8.0.44) (2023-11-17)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm chart common to 14.2.3 ([#14362](https://github.com/truecharts/charts/issues/14362))
-  
-  
-
-
-## [mongodb-8.0.34](https://github.com/truecharts/charts/compare/mongodb-8.0.33...mongodb-8.0.34) (2023-11-01)
-
-### Chore
-
-- update helm chart common to 14.2.2 ([#14190](https://github.com/truecharts/charts/issues/14190))
   
   
