@@ -4,6 +4,15 @@
 
 
 
+## [emulatorjs-6.0.18](https://github.com/truecharts/charts/compare/emulatorjs-6.0.17...emulatorjs-6.0.18) (2023-11-17)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/emulatorjs to 1.7.2 ([#14759](https://github.com/truecharts/charts/issues/14759))
+  
+  
+
+
 ## [emulatorjs-6.0.17](https://github.com/truecharts/charts/compare/emulatorjs-6.0.16...emulatorjs-6.0.17) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/emulatorjs to v1.7.2 ([#13990](https://github.com/truecharts/charts/issues/13990))
-  
-  
-
-
-## [emulatorjs-6.0.7](https://github.com/truecharts/charts/compare/emulatorjs-6.0.6...emulatorjs-6.0.7) (2023-10-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/emulatorjs to v1.7.2 ([#13778](https://github.com/truecharts/charts/issues/13778))
   
