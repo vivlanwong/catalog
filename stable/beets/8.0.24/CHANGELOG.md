@@ -4,6 +4,15 @@
 
 
 
+## [beets-8.0.24](https://github.com/truecharts/charts/compare/beets-8.0.23...beets-8.0.24) (2023-11-17)
+
+### Fix
+
+- update container image ghcr.io/linuxserver/beets to version-1.6.0 ([#14807](https://github.com/truecharts/charts/issues/14807))
+  
+  
+
+
 ## [beets-8.0.23](https://github.com/truecharts/charts/compare/beets-8.0.22...beets-8.0.23) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/beets to v1.6.0 ([#13827](https://github.com/truecharts/charts/issues/13827))
-  
-  
-
-
-## [beets-8.0.13](https://github.com/truecharts/charts/compare/beets-8.0.12...beets-8.0.13) (2023-10-16)
-
-### Chore
-
-- update container image tccr.io/truecharts/beets to v1.6.0 ([#13687](https://github.com/truecharts/charts/issues/13687))
   
