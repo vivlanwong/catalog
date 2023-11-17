@@ -4,6 +4,15 @@
 
 
 
+## [solr-6.0.45](https://github.com/truecharts/charts/compare/solr-6.0.44...solr-6.0.45) (2023-11-17)
+
+### Chore
+
+- update container image bitnami/solr to 9.4.0 ([#14754](https://github.com/truecharts/charts/issues/14754))
+  
+  
+
+
 ## [solr-6.0.44](https://github.com/truecharts/charts/compare/solr-6.0.43...solr-6.0.44) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 
 
 ## [solr-6.0.34](https://github.com/truecharts/charts/compare/solr-6.0.33...solr-6.0.34) (2023-10-29)
-
-### Chore
-
-- update helm chart common to 14.1.1 ([#14053](https://github.com/truecharts/charts/issues/14053))
-  
-  
-
-
-## [solr-6.0.33](https://github.com/truecharts/charts/compare/solr-6.0.32...solr-6.0.33) (2023-10-28)
 
