@@ -1,0 +1,191 @@
+image:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3@sha256:2af12eac3a7106882e23d1b2435358db841c4302d213532e415255fbbd36c826
+  pullPolicy: Always
+j20Image:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java20@sha256:29023fbcfd3a36ae403f9879c780090ba63109525af901dddf249e544cafecef
+  pullPolicy: Always
+j20AlpineImage:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java20-alpine@sha256:2f005c2417abd30b66c640fae0953a687550256bc1e18e59d90800311338e8a9
+  pullPolicy: Always
+j17j9Image:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java17-openj9@sha256:1598bacb87b18984257501acbc8fb3d6babbd4a1c4dd188f0877fc3e600f3fdd
+  pullPolicy: Always
+j17jdkImage:
+  repository: itzg/minecraft-server
+  tag: 2023.8.2-java17-jdk@sha256:e2d7c26bad68318d0f3f08c405455cbb6372f5df352bc7d11c62a14119b7d76a
+  pullPolicy: Always
+j17gceImage:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java17-graalvm-ce@sha256:9e7a9b67db056ae94eb3dd98b6d02b86112638dd306747090a77766ca0e01447
+  pullPolicy: Always
+j17alpineImage:
+  repository: itzg/minecraft-server
+  tag: 2023.8.2-java17-alpine@sha256:7035083e6b0e7c77c0bff1601ad061eb35547621933fc070af831ee8d10b665f
+  pullPolicy: Always
+j11Image:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java11@sha256:536223fac6f3c576907ea22640124942094b87bf94edabb1f106218d90274374
+  pullPolicy: Always
+j11jdkImage:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java11-jdk@sha256:13c6f5ccce16d7d599bd3bce355209c39714eab9b7f93701b4ce11627e38031b
+  pullPolicy: Always
+j11j9Image:
+  repository: itzg/minecraft-server
+  tag: 2023.8.2-java11-openj9@sha256:02df151227425a530102e88caea1a0f12f52fea94682a451d7a150279d8dafe0
+  pullPolicy: Always
+j8Image:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java8@sha256:caba3fd4044ea240a859d7c63a50a278dbd6f4163bf50b922aa36e4109b8023f
+  pullPolicy: Always
+j8gceImage:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java8-graalvm-ce@sha256:bc4b660b13f99398c21b83915034e640a8c6ee5021f6fb34e1a8b091cada8d97
+  pullPolicy: Always
+j8jdkImage:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java8-jdk@sha256:eaec7a499b74c084a1a390a79fa2d88fef08ca39f9bb0e5c31a2943a3025f91c
+  pullPolicy: Always
+j8j9Image:
+  repository: itzg/minecraft-server
+  tag: 2023.8.3-java8-openj9@sha256:fc05cd0ae9b37a638e2549001d951c662b359a355e3c6ba28d7e0454e71b14cd
+  pullPolicy: Always
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        enabled: true
+        protocol: tcp
+        port: 25565
+      query:
+        enabled: true
+        protocol: udp
+        port: 25565
+  rcon:
+    enabled: true
+    ports:
+      rcon:
+        enabled: true
+        port: 25575
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          imageSelector: image
+          probes:
+            liveness:
+              enabled: true
+              type: exec
+              command:
+                - mc-health
+            readiness:
+              enabled: true
+              type: exec
+              command:
+                - mc-health
+            startup:
+              enabled: true
+              type: exec
+              command:
+                - mc-health
+          env:
+            SERVER_PORT: "{{ .Values.service.main.ports.main.port }}"
+            QUERY_PORT: "{{ .Values.service.main.ports.query.port }}"
+            RCON_PORT: "{{ .Values.service.rcon.ports.rcon.port }}"
+            ENABLE_QUERY: "true"
+            EULA: "TRUE"
+            GUI: "FALSE"
+            OVERRIDE_SERVER_PROPERTIES: true
+            VERSION: "LATEST"
+            TYPE: "VANILLA"
+            DIFFICULTY: easy
+            MAX_PLAYERS: 20
+            MAX_WORLD_SIZE: 10000
+            ALLOW_NETHER: true
+            ANNOUNCE_PLAYER_ACHIEVEMENTS: true
+            ENABLE_COMMAND_BLOCK: false
+            FORCE_GAMEMODE: false
+            GENERATE_STRUCTURES: true
+            HARDCORE: false
+            MAX_BUILD_HEIGHT: 256
+            MAX_TICK_TIME: 60000
+            SPAWN_ANIMALS: true
+            SPAWN_MONSTERS: true
+            SPAWN_NPCS: true
+            VIEW_DISTANCE: 16
+            MODE: survival
+            MOTD: "Welcome to Minecraft on TrueNAS Scale!"
+            PVP: false
+            LEVEL_TYPE: DEFAULT
+            LEVEL: world
+            ONLINE_MODE: true
+            MEMORY: 2048M
+            RCON_PASSWORD: "secretrconpass"
+            # CUSTOM_SERVER: ""
+            # QUILT_LOADER_VERSION: ""
+            # QUILT_LAUNCHER: ""
+            # QUILT_LAUNCHER_URL: ""
+            # PUFFERFISH_BUILD: "lastSuccessfulBuild"
+            # FORGEVERSION: ""
+            # FORGE_INSTALLER: ""
+            # FORGE_INSTALLER_URL: ""
+            # FABRIC_LOADER_VERSION: ""
+            # FABRIC_INSTALLER: ""
+            # FABRIC_INSTALLER_URL: ""
+            # SPIGOT_DOWNLOAD_URL: ""
+            # BUILD_FROM_SOURCE: false
+            # BUKKIT_DOWNLOAD_URL: ""
+            # PAPERBUILD: ""
+            # PAPER_DOWNLOAD_URL: ""
+            # PACKWIZ_URL: ""
+            # AIRPLANE_BUILD: "lastSuccessfulBuild"
+            # MAGMA_CHANNEL: "stable"
+            # MOHIST_BUILD: ""
+            # CANYON_BUILD: ""
+            # SPONGEBRANCH: "STABLE"
+            # SPONGEVERSION: ""
+            # LIMBO_BUILD: "LATEST"
+            # LIMBO_SCHEMA_FILENAME: "default.schem"
+            # CRUCIBLE_RELEASE: "latest"
+            # FTB_MODPACK_ID: ""
+            # FTB_MODPACK_VERSION_ID: ""
+            # CF_SERVER_MOD: ""
+            # CF_BASE_DIR: ""
+            # USE_MODPACK_START_SCRIPT: true
+            # FTB_LEGACYJAVAFIXER: false
+            # WHITELIST: ""
+            # OPS: ""
+            # ICON: ""
+            # SEED: ""
+            # GENERATOR_SETTINGS: ""
+            # WORLD: ""
+            # FORCE_REDOWNLOAD: false
+            # USE_FLARE_FLAGS: false
+            # USE_AIKAR_FLAGS: true
+            # USE_SIMD_FLAGS: false
+            # JVM_OPTS: ""
+            # JVM_XX_OPTS: ""
+            # CF_API_KEY
+            # CF_PAGE_URL
+            # CF_SLUG
+            # CF_EXCLUDE_INCLUDE_FILE
+            # CF_EXCLUDE_MODS
+            # CF_FORCE_INCLUDE_MODS
+            # CF_FORCE_SYNCHRONIZE
+            # CF_OVERRIDES_SKIP_EXISTING
+            # CF_PARALLEL_DOWNLOADS
+            # CF_SET_LEVEL_FROM
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data"
+portal:
+  open:
+    enabled: false
+updated: true
