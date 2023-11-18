@@ -4,6 +4,15 @@
 
 
 
+## [grav-8.0.25](https://github.com/truecharts/charts/compare/grav-8.0.24...grav-8.0.25) (2023-11-18)
+
+### Fix
+
+- update container image ghcr.io/linuxserver/grav to 1.7.43 ([#15070](https://github.com/truecharts/charts/issues/15070))
+  
+  
+
+
 ## [grav-8.0.24](https://github.com/truecharts/charts/compare/grav-8.0.23...grav-8.0.24) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [grav-8.0.14](https://github.com/truecharts/charts/compare/grav-8.0.13...grav-8.0.14) (2023-10-21)
-
-### Chore
-
-- update container image tccr.io/truecharts/grav to v1.7.43 ([#13851](https://github.com/truecharts/charts/issues/13851))
   
