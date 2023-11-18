@@ -4,6 +4,15 @@
 
 
 
+## [seafile-1.0.13](https://github.com/truecharts/charts/compare/seafile-1.0.12...seafile-1.0.13) (2023-11-18)
+
+### Fix
+
+- update container image seafileltd/seafile-mc to v11.0.2 ([#15040](https://github.com/truecharts/charts/issues/15040))
+  
+  
+
+
 ## [seafile-1.0.12](https://github.com/truecharts/charts/compare/seafile-1.0.11...seafile-1.0.12) (2023-11-17)
 
 ### Docs
@@ -87,13 +96,4 @@
 
 
 ## [seafile-1.0.3](https://github.com/truecharts/charts/compare/seafile-1.0.2...seafile-1.0.3) (2023-10-07)
-
-### Chore
-
-- update container image tccr.io/truecharts/seafile to v11.0.0 ([#12373](https://github.com/truecharts/charts/issues/12373))
-  
-  
-
-
-## [seafile-1.0.2](https://github.com/truecharts/charts/compare/seafile-1.0.1...seafile-1.0.2) (2023-10-07)
 

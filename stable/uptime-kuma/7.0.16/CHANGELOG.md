@@ -4,6 +4,15 @@
 
 
 
+## [uptime-kuma-7.0.16](https://github.com/truecharts/charts/compare/uptime-kuma-7.0.15...uptime-kuma-7.0.16) (2023-11-18)
+
+### Fix
+
+- update container image louislam/uptime-kuma to v1.23.6 ([#15038](https://github.com/truecharts/charts/issues/15038))
+  
+  
+
+
 ## [uptime-kuma-7.0.15](https://github.com/truecharts/charts/compare/uptime-kuma-7.0.14...uptime-kuma-7.0.15) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 
 
 ## [uptime-kuma-7.0.4](https://github.com/truecharts/charts/compare/uptime-kuma-7.0.3...uptime-kuma-7.0.4) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  
-
-
-## [uptime-kuma-7.0.3](https://github.com/truecharts/charts/compare/uptime-kuma-7.0.2...uptime-kuma-7.0.3) (2023-09-20)
 

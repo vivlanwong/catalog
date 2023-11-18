@@ -4,6 +4,15 @@
 
 
 
+## [minio-7.0.33](https://github.com/truecharts/charts/compare/minio-7.0.32...minio-7.0.33) (2023-11-18)
+
+### Fix
+
+- update container image minio/minio to vrelease.2023-11-15t20-43-25z ([#15039](https://github.com/truecharts/charts/issues/15039))
+  
+  
+
+
 ## [minio-7.0.32](https://github.com/truecharts/charts/compare/minio-7.0.31...minio-7.0.32) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 
 - update container image tccr.io/truecharts/minio to latest ([#14208](https://github.com/truecharts/charts/issues/14208))
   
-  
-
-
-## [minio-7.0.22](https://github.com/truecharts/charts/compare/minio-7.0.21...minio-7.0.22) (2023-10-29)
-
-### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
   
