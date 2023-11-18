@@ -4,6 +4,15 @@
 
 
 
+## [mysql-workbench-6.0.23](https://github.com/truecharts/charts/compare/mysql-workbench-6.0.22...mysql-workbench-6.0.23) (2023-11-18)
+
+### Fix
+
+- update container image ghcr.io/linuxserver/mysql-workbench to 8.0.34 ([#14838](https://github.com/truecharts/charts/issues/14838))
+  
+  
+
+
 ## [mysql-workbench-6.0.22](https://github.com/truecharts/charts/compare/mysql-workbench-6.0.21...mysql-workbench-6.0.22) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/mysql-workbench to v8.0.34 ([#13844](https://github.com/truecharts/charts/issues/13844))
-  
-  
-
-
-## [mysql-workbench-6.0.12](https://github.com/truecharts/charts/compare/mysql-workbench-6.0.11...mysql-workbench-6.0.12) (2023-10-14)
-
-### Chore
-
-- update container image tccr.io/truecharts/mysql-workbench to v8.0.34 ([#13607](https://github.com/truecharts/charts/issues/13607))
   
