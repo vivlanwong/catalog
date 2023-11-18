@@ -4,6 +4,15 @@
 
 
 
+## [piwigo-7.0.18](https://github.com/truecharts/charts/compare/piwigo-7.0.17...piwigo-7.0.18) (2023-11-18)
+
+### Fix
+
+- update container image ghcr.io/linuxserver/piwigo to 13.8.0 ([#15076](https://github.com/truecharts/charts/issues/15076))
+  
+  
+
+
 ## [piwigo-7.0.17](https://github.com/truecharts/charts/compare/piwigo-7.0.16...piwigo-7.0.17) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  
-
-
-## [piwigo-7.0.7](https://github.com/truecharts/charts/compare/piwigo-7.0.6...piwigo-7.0.7) (2023-10-07)
-
-### Chore
-
-- update container image tccr.io/truecharts/piwigo to v13.8.0 ([#13363](https://github.com/truecharts/charts/issues/13363))
   
