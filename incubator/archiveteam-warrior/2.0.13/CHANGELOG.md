@@ -4,6 +4,33 @@
 
 
 
+## [archiveteam-warrior-2.0.13](https://github.com/truecharts/charts/compare/archiveteam-warrior-3.0.0...archiveteam-warrior-2.0.13) (2023-11-18)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  
+  ### Fix
+
+- update container image tccr.io/truecharts/archiveteam-warrior to latest ([#14827](https://github.com/truecharts/charts/issues/14827))
+  
+  
+
+
+
+## [archiveteam-warrior-3.0.0](https://github.com/truecharts/charts/compare/archiveteam-warrior-2.0.12...archiveteam-warrior-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [archiveteam-warrior-2.0.12](https://github.com/truecharts/charts/compare/archiveteam-warrior-2.0.11...archiveteam-warrior-2.0.12) (2023-04-30)
 
 ### Chore
@@ -69,31 +96,4 @@
 - update helm general non-major
   
   
-
-
-## [archiveteam-warrior-2.0.5](https://github.com/truecharts/charts/compare/archiveteam-warrior-2.0.4...archiveteam-warrior-2.0.5) (2022-12-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/archiveteam-warrior to latest
-  
-  
-
-
-## [archiveteam-warrior-2.0.4](https://github.com/truecharts/charts/compare/archiveteam-warrior-2.0.3...archiveteam-warrior-2.0.4) (2022-12-01)
-
-### Chore
-
-- update container image tccr.io/truecharts/archiveteam-warrior to latest
-  
-  
-
-
-## [archiveteam-warrior-2.0.3](https://github.com/truecharts/charts/compare/archiveteam-warrior-2.0.2...archiveteam-warrior-2.0.3) (2022-12-01)
-
-
-
-
-## [archiveteam-warrior-2.0.3](https://github.com/truecharts/charts/compare/archiveteam-warrior-2.0.2...archiveteam-warrior-2.0.3) (2022-12-01)
-
 
