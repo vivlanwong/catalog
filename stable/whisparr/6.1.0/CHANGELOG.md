@@ -4,6 +4,15 @@
 
 
 
+## [whisparr-6.1.0](https://github.com/truecharts/charts/compare/whisparr-6.0.0...whisparr-6.1.0) (2023-11-18)
+
+### Feat
+
+- add authentication ([#15089](https://github.com/truecharts/charts/issues/15089))
+  
+  
+
+
 ## [whisparr-6.0.0](https://github.com/truecharts/charts/compare/whisparr-5.0.9...whisparr-6.0.0) (2023-11-18)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 
 ## [whisparr-4.0.24](https://github.com/truecharts/charts/compare/whisparr-4.0.23...whisparr-4.0.24) (2023-07-29)
-
-### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
-  
-  
-
-
-## [whisparr-4.0.23](https://github.com/truecharts/charts/compare/whisparr-4.0.22...whisparr-4.0.23) (2023-07-01)

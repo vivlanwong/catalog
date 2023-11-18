@@ -102,6 +102,28 @@ questions:
                               attrs:
 
 
+                                - variable: env
+                                  group: App Configuration
+                                  label: Image Environment
+                                  schema:
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: WHISPARR__AUTHENTICATION_METHOD
+                                        label: Auth Method
+                                        description: Sets the auth method.
+                                        schema:
+                                          type: string
+                                          default: ""
+                                          enum:
+                                            - value: ""
+                                              description: In-App Setting
+                                            - value: External
+                                              description: External/None
+                                            - value: Basic
+                                              description: Basic
+                                            - value: Forms
+                                              description: Forms
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
