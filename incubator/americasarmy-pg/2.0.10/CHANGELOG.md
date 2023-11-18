@@ -4,6 +4,34 @@
 
 
 
+## [americasarmy-pg-2.0.10](https://github.com/truecharts/charts/compare/americasarmy-pg-3.0.0...americasarmy-pg-2.0.10) (2023-11-18)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  
+  ### Fix
+
+- update container image tccr.io/truecharts/americasarmy-pg to latest ([#14825](https://github.com/truecharts/charts/issues/14825))
+  
+  
+
+
+
+## [americasarmy-pg-3.0.0](https://github.com/truecharts/charts/compare/americasarmy-pg-2.0.9...americasarmy-pg-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [americasarmy-pg-2.0.9](https://github.com/truecharts/charts/compare/americasarmy-pg-2.0.8...americasarmy-pg-2.0.9) (2023-02-10)
 
 ### Fix
@@ -68,32 +96,4 @@
 
 
 ## [americasarmy-pg-2.0.2](https://github.com/truecharts/charts/compare/americasarmy-pg-2.0.1...americasarmy-pg-2.0.2) (2022-11-30)
-
-
-
-
-## [americasarmy-pg-2.0.2](https://github.com/truecharts/charts/compare/americasarmy-pg-2.0.1...americasarmy-pg-2.0.2) (2022-11-30)
-
-
-
-
-## [americasarmy-pg-2.0.2](https://github.com/truecharts/charts/compare/americasarmy-pg-2.0.1...americasarmy-pg-2.0.2) (2022-11-30)
-
-
-
-
-## [americasarmy-pg-2.0.2](https://github.com/truecharts/charts/compare/americasarmy-pg-2.0.1...americasarmy-pg-2.0.2) (2022-11-30)
-
-
-
-
-## [americasarmy-pg-2.0.2](https://github.com/truecharts/charts/compare/americasarmy-pg-2.0.1...americasarmy-pg-2.0.2) (2022-11-30)
-
-
-
-
-## [americasarmy-pg-2.0.2](https://github.com/truecharts/charts/compare/americasarmy-pg-2.0.1...americasarmy-pg-2.0.2) (2022-11-30)
-
-
-
 
