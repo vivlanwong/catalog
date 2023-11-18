@@ -4,6 +4,34 @@
 
 
 
+## [barotrauma-2.0.10](https://github.com/truecharts/charts/compare/barotrauma-3.0.0...barotrauma-2.0.10) (2023-11-18)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  
+  ### Fix
+
+- update container image tccr.io/truecharts/barotrauma to latest ([#14840](https://github.com/truecharts/charts/issues/14840))
+  
+  
+
+
+
+## [barotrauma-3.0.0](https://github.com/truecharts/charts/compare/barotrauma-2.0.9...barotrauma-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [barotrauma-2.0.9](https://github.com/truecharts/charts/compare/barotrauma-2.0.8...barotrauma-2.0.9) (2023-02-10)
 
 ### Fix
@@ -68,32 +96,4 @@
 
 
 ## [barotrauma-2.0.2](https://github.com/truecharts/charts/compare/barotrauma-2.0.1...barotrauma-2.0.2) (2022-11-30)
-
-
-
-
-## [barotrauma-2.0.2](https://github.com/truecharts/charts/compare/barotrauma-2.0.1...barotrauma-2.0.2) (2022-11-30)
-
-
-
-
-## [barotrauma-2.0.2](https://github.com/truecharts/charts/compare/barotrauma-2.0.1...barotrauma-2.0.2) (2022-11-30)
-
-
-
-
-## [barotrauma-2.0.2](https://github.com/truecharts/charts/compare/barotrauma-2.0.1...barotrauma-2.0.2) (2022-11-30)
-
-
-
-
-## [barotrauma-2.0.2](https://github.com/truecharts/charts/compare/barotrauma-2.0.1...barotrauma-2.0.2) (2022-11-30)
-
-
-
-
-## [barotrauma-2.0.2](https://github.com/truecharts/charts/compare/barotrauma-2.0.1...barotrauma-2.0.2) (2022-11-30)
-
-
-
 
