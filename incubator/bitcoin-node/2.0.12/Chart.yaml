@@ -1,7 +1,6 @@
 annotations:
   truecharts.org/SCALE-support: "true"
-  truecharts.org/catagories: |
-    - Crypto
+  truecharts.org/category: Crypto
 apiVersion: v2
 appVersion: "latest"
 dependencies:
@@ -23,7 +22,6 @@ maintainers:
 name: bitcoin-node
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/bitcoin-node
-  - https://hub.docker.com/r/kylemanna/bitcoind
   - https://github.com/kylemanna/docker-bitcoind
 type: application
-version: 2.0.11
+version: 2.0.12
