@@ -4,6 +4,15 @@
 
 
 
+## [libremdb-3.0.297](https://github.com/truecharts/charts/compare/libremdb-3.0.296...libremdb-3.0.297) (2023-11-18)
+
+### Fix
+
+- update container image quay.io/pussthecatorg/libremdb to latest ([#14823](https://github.com/truecharts/charts/issues/14823))
+  
+  
+
+
 ## [libremdb-3.0.296](https://github.com/truecharts/charts/compare/libremdb-3.0.295...libremdb-3.0.296) (2023-11-17)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [libremdb-3.0.287](https://github.com/truecharts/charts/compare/libremdb-3.0.286...libremdb-3.0.287) (2023-11-14)
-
-### Chore
-
-- update container image tccr.io/truecharts/libremdb to latest ([#14654](https://github.com/truecharts/charts/issues/14654))
-  
-  
-
-
-## [libremdb-3.0.286](https://github.com/truecharts/charts/compare/libremdb-3.0.285...libremdb-3.0.286) (2023-11-14)
 
 ### Chore
