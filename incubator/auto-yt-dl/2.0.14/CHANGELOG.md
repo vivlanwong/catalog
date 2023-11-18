@@ -4,6 +4,33 @@
 
 
 
+## [auto-yt-dl-2.0.14](https://github.com/truecharts/charts/compare/auto-yt-dl-3.0.0...auto-yt-dl-2.0.14) (2023-11-18)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  
+  ### Fix
+
+- update container image tccr.io/truecharts/auto-yt-dl to latest ([#14832](https://github.com/truecharts/charts/issues/14832))
+  
+  
+
+
+
+## [auto-yt-dl-3.0.0](https://github.com/truecharts/charts/compare/auto-yt-dl-2.0.13...auto-yt-dl-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [auto-yt-dl-2.0.13](https://github.com/truecharts/charts/compare/auto-yt-dl-2.0.12...auto-yt-dl-2.0.13) (2023-04-30)
 
 ### Chore
@@ -67,33 +94,6 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [auto-yt-dl-2.0.6](https://github.com/truecharts/charts/compare/auto-yt-dl-2.0.5...auto-yt-dl-2.0.6) (2022-12-24)
-
-### Chore
-
-- update container image tccr.io/truecharts/auto-yt-dl to latest
-  
-  
-
-
-## [auto-yt-dl-2.0.5](https://github.com/truecharts/charts/compare/auto-yt-dl-2.0.4...auto-yt-dl-2.0.5) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [auto-yt-dl-2.0.4](https://github.com/truecharts/charts/compare/auto-yt-dl-2.0.3...auto-yt-dl-2.0.4) (2022-12-17)
-
-### Chore
-
-- update container image tccr.io/truecharts/auto-yt-dl to latest
   
   
 
