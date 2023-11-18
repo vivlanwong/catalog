@@ -1,7 +1,6 @@
 annotations:
   truecharts.org/SCALE-support: "true"
-  truecharts.org/catagories: |
-    - GameServers
+  truecharts.org/category: GameServers
 apiVersion: v2
 appVersion: "latest"
 dependencies:
@@ -23,7 +22,6 @@ maintainers:
 name: avorion
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/avorion
-  - https://hub.docker.com/r/ich777/steamcmd
   - https://www.steampowered.com/
 type: application
-version: 2.0.9
+version: 2.0.10
