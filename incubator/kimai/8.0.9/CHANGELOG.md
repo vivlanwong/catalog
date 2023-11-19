@@ -4,6 +4,15 @@
 
 
 
+## [kimai-8.0.9](https://github.com/truecharts/charts/compare/kimai-8.0.8...kimai-8.0.9) (2023-11-19)
+
+### Fix
+
+- fix vars ([#14812](https://github.com/truecharts/charts/issues/14812))
+  
+  
+
+
 ## [kimai-8.0.8](https://github.com/truecharts/charts/compare/kimai-8.0.7...kimai-8.0.8) (2023-11-09)
 
 ### Chore
@@ -88,12 +97,3 @@
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
   
   
-
-
-## [kimai-7.0.0](https://github.com/truecharts/charts/compare/kimai-6.0.21...kimai-7.0.0) (2023-05-24)
-
-
-
-
-## [kimai-7.0.0](https://github.com/truecharts/charts/compare/kimai-6.0.21...kimai-7.0.0) (2023-05-24)
-
