@@ -4,6 +4,15 @@
 
 
 
+## [xen-orchestra-5.1.24](https://github.com/truecharts/charts/compare/xen-orchestra-5.0.24...xen-orchestra-5.1.24) (2023-11-19)
+
+### Feat
+
+- update container image ronivay/xen-orchestra to v5.126.0 ([#15074](https://github.com/truecharts/charts/issues/15074))
+  
+  
+
+
 ## [xen-orchestra-5.0.24](https://github.com/truecharts/charts/compare/xen-orchestra-5.0.23...xen-orchestra-5.0.24) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/xenorchestra to v5.125.0 ([#14045](https://github.com/truecharts/charts/issues/14045))
-  
-  
-
-
-## [xen-orchestra-5.0.14](https://github.com/truecharts/charts/compare/xen-orchestra-5.0.13...xen-orchestra-5.0.14) (2023-10-21)
-
-### Chore
-
-- update container image tccr.io/truecharts/xenorchestra to v5.124.0 ([#13848](https://github.com/truecharts/charts/issues/13848))
   
