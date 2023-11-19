@@ -4,6 +4,15 @@
 
 
 
+## [kiwix-serve-5.1.9](https://github.com/truecharts/charts/compare/kiwix-serve-5.0.9...kiwix-serve-5.1.9) (2023-11-19)
+
+### Feat
+
+- update container image ghcr.io/kiwix/kiwix-serve to v3.6.0 ([#15111](https://github.com/truecharts/charts/issues/15111))
+  
+  
+
+
 ## [kiwix-serve-5.0.9](https://github.com/truecharts/charts/compare/kiwix-serve-5.0.8...kiwix-serve-5.0.9) (2023-11-17)
 
 
@@ -88,12 +97,3 @@
 
 
 ## [kiwix-serve-4.0.26](https://github.com/truecharts/charts/compare/kiwix-serve-4.0.25...kiwix-serve-4.0.26) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [kiwix-serve-4.0.25](https://github.com/truecharts/charts/compare/kiwix-serve-4.0.24...kiwix-serve-4.0.25) (2023-06-13)
