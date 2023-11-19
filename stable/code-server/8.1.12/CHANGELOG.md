@@ -4,6 +4,15 @@
 
 
 
+## [code-server-8.1.12](https://github.com/truecharts/charts/compare/code-server-8.0.12...code-server-8.1.12) (2023-11-19)
+
+### Feat
+
+- update container image docker.io/codercom/code-server to v4.19.0 ([#15073](https://github.com/truecharts/charts/issues/15073))
+  
+  
+
+
 ## [code-server-8.0.12](https://github.com/truecharts/charts/compare/code-server-8.0.11...code-server-8.0.12) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#12869](https://github.com/truecharts/charts/issues/12869))
-  
-  
-
-
-## [code-server-8.0.2](https://github.com/truecharts/charts/compare/code-server-8.0.1...code-server-8.0.2) (2023-09-23)
-
-### Chore
-
-- update container image tccr.io/truecharts/code-server to v4.17.0 ([#12886](https://github.com/truecharts/charts/issues/12886))
   
