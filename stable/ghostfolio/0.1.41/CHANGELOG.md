@@ -4,6 +4,15 @@
 
 
 
+## [ghostfolio-0.1.41](https://github.com/truecharts/charts/compare/ghostfolio-0.0.41...ghostfolio-0.1.41) (2023-11-19)
+
+### Feat
+
+- update container image ghostfolio/ghostfolio to v2.25.1 ([#15114](https://github.com/truecharts/charts/issues/15114))
+  
+  
+
+
 ## [ghostfolio-0.0.41](https://github.com/truecharts/charts/compare/ghostfolio-0.0.40...ghostfolio-0.0.41) (2023-11-17)
 
 ### Feat
@@ -87,13 +96,4 @@
 
 - update container image tccr.io/truecharts/ghostfolio to v2.18.0 ([#14363](https://github.com/truecharts/charts/issues/14363))
   
-  
-
-
-## [ghostfolio-0.0.31](https://github.com/truecharts/charts/compare/ghostfolio-0.0.30...ghostfolio-0.0.31) (2023-11-05)
-
-### Chore
-
-- update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
-  - update helm general non-major ([#14287](https://github.com/truecharts/charts/issues/14287))
   
