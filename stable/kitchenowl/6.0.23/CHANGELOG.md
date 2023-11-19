@@ -4,6 +4,15 @@
 
 
 
+## [kitchenowl-6.0.23](https://github.com/truecharts/charts/compare/kitchenowl-6.0.22...kitchenowl-6.0.23) (2023-11-19)
+
+### Fix
+
+- update container image tombursch/kitchenowl to latest ([#15062](https://github.com/truecharts/charts/issues/15062))
+  
+  
+
+
 ## [kitchenowl-6.0.22](https://github.com/truecharts/charts/compare/kitchenowl-6.0.21...kitchenowl-6.0.22) (2023-11-18)
 
 
@@ -87,13 +96,4 @@
 
 
 ## [kitchenowl-6.0.12](https://github.com/truecharts/charts/compare/kitchenowl-6.0.11...kitchenowl-6.0.12) (2023-11-03)
-
-### Chore
-
-- update helm general non-major ([#14287](https://github.com/truecharts/charts/issues/14287))
-  
-  
-
-
-## [kitchenowl-6.0.11](https://github.com/truecharts/charts/compare/kitchenowl-6.0.10...kitchenowl-6.0.11) (2023-11-03)
 
