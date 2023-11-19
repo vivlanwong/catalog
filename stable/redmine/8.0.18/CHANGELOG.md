@@ -4,6 +4,15 @@
 
 
 
+## [redmine-8.0.18](https://github.com/truecharts/charts/compare/redmine-8.0.17...redmine-8.0.18) (2023-11-19)
+
+### Fix
+
+- update container image redmine to v ([#15094](https://github.com/truecharts/charts/issues/15094))
+  
+  
+
+
 ## [redmine-8.0.17](https://github.com/truecharts/charts/compare/redmine-8.0.16...redmine-8.0.17) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [redmine-8.0.7](https://github.com/truecharts/charts/compare/redmine-8.0.6...redmine-8.0.7) (2023-10-21)
-
-### Chore
-
-- update container image tccr.io/truecharts/redmine to v5.0.6 ([#13841](https://github.com/truecharts/charts/issues/13841))
   
