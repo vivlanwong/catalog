@@ -4,6 +4,15 @@
 
 
 
+## [pwndrop-6.0.22](https://github.com/truecharts/charts/compare/pwndrop-6.0.21...pwndrop-6.0.22) (2023-11-20)
+
+### Fix
+
+- update container image ghcr.io/linuxserver/pwndrop to 1.0.1 ([#15165](https://github.com/truecharts/charts/issues/15165))
+  
+  
+
+
 ## [pwndrop-6.0.21](https://github.com/truecharts/charts/compare/pwndrop-6.0.20...pwndrop-6.0.21) (2023-11-17)
 
 
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/pwndrop to v1.0.1 ([#13685](https://github.com/truecharts/charts/issues/13685))
-  
-  
-
-
-## [pwndrop-6.0.10](https://github.com/truecharts/charts/compare/pwndrop-6.0.9...pwndrop-6.0.10) (2023-10-09)
-
-### Chore
-
-- update container image tccr.io/truecharts/pwndrop to v1.0.1 ([#13439](https://github.com/truecharts/charts/issues/13439))
   
   
