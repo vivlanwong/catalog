@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-5.0.149](https://github.com/truecharts/charts/compare/rdesktop-5.0.148...rdesktop-5.0.149) (2023-11-20)
+
+### Fix
+
+- update container image lscr.io/linuxserver/rdesktop to alpine-i3 ([#15122](https://github.com/truecharts/charts/issues/15122))
+  
+  
+
+
 ## [rdesktop-5.0.148](https://github.com/truecharts/charts/compare/rdesktop-5.0.147...rdesktop-5.0.148) (2023-11-19)
 
 ### Fix
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/rdesktop-arch-openbox to latest ([#14550](https://github.com/truecharts/charts/issues/14550))
-  
-  
-
-
-## [rdesktop-5.0.138](https://github.com/truecharts/charts/compare/rdesktop-5.0.137...rdesktop-5.0.138) (2023-11-10)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-arch-mate to latest ([#14548](https://github.com/truecharts/charts/issues/14548))
   
   
