@@ -4,6 +4,15 @@
 
 
 
+## [mediainfo-5.0.13](https://github.com/truecharts/charts/compare/mediainfo-5.0.12...mediainfo-5.0.13) (2023-11-20)
+
+### Fix
+
+- update container image jlesage/mediainfo to v23.11.2 ([#15154](https://github.com/truecharts/charts/issues/15154))
+  
+  
+
+
 ## [mediainfo-5.0.12](https://github.com/truecharts/charts/compare/mediainfo-5.0.11...mediainfo-5.0.12) (2023-11-17)
 
 
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/mediainfo to v23.10.1 ([#13281](https://github.com/truecharts/charts/issues/13281))
-  
-  
-
-
-## [mediainfo-5.0.1](https://github.com/truecharts/charts/compare/mediainfo-5.0.0...mediainfo-5.0.1) (2023-09-22)
-
-### Chore
-
-- update container image tccr.io/truecharts/mediainfo to v23.09.1 ([#12840](https://github.com/truecharts/charts/issues/12840))
   
   
