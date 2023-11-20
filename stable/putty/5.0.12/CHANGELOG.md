@@ -4,6 +4,15 @@
 
 
 
+## [putty-5.0.12](https://github.com/truecharts/charts/compare/putty-5.0.11...putty-5.0.12) (2023-11-20)
+
+### Fix
+
+- update container image jlesage/putty to v23.11.2 ([#15157](https://github.com/truecharts/charts/issues/15157))
+  
+  
+
+
 ## [putty-5.0.11](https://github.com/truecharts/charts/compare/putty-5.0.10...putty-5.0.11) (2023-11-17)
 
 
@@ -88,12 +97,3 @@
 - update container image tccr.io/truecharts/putty to v23.08.1 ([#12177](https://github.com/truecharts/charts/issues/12177))
   
   
-
-
-
-## [putty-5.0.0](https://github.com/truecharts/charts/compare/putty-4.0.17...putty-5.0.0) (2023-07-31)
-
-
-
-
-## [putty-4.0.17](https://github.com/truecharts/charts/compare/putty-4.0.16...putty-4.0.17) (2023-07-29)
