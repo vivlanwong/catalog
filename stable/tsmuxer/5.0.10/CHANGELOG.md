@@ -4,6 +4,15 @@
 
 
 
+## [tsmuxer-5.0.10](https://github.com/truecharts/charts/compare/tsmuxer-5.0.9...tsmuxer-5.0.10) (2023-11-20)
+
+### Fix
+
+- update container image jlesage/tsmuxer to v23.11.2 ([#15159](https://github.com/truecharts/charts/issues/15159))
+  
+  
+
+
 ## [tsmuxer-5.0.9](https://github.com/truecharts/charts/compare/tsmuxer-5.0.8...tsmuxer-5.0.9) (2023-11-17)
 
 
@@ -86,14 +95,5 @@
 ## [tsmuxer-5.0.0](https://github.com/truecharts/charts/compare/tsmuxer-4.0.19...tsmuxer-5.0.0) (2023-07-31)
 
 
-
-
-## [tsmuxer-4.0.19](https://github.com/truecharts/charts/compare/tsmuxer-4.0.18...tsmuxer-4.0.19) (2023-07-29)
-
-### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
-  
-  
 
 
