@@ -4,6 +4,15 @@
 
 
 
+## [makemkv-6.0.12](https://github.com/truecharts/charts/compare/makemkv-6.0.11...makemkv-6.0.12) (2023-11-20)
+
+### Fix
+
+- update container image jlesage/makemkv to v23.11.2 ([#15153](https://github.com/truecharts/charts/issues/15153))
+  
+  
+
+
 ## [makemkv-6.0.11](https://github.com/truecharts/charts/compare/makemkv-6.0.10...makemkv-6.0.11) (2023-11-17)
 
 
@@ -88,12 +97,3 @@
 - update container image tccr.io/truecharts/makemkv to v23.09.1 ([#13031](https://github.com/truecharts/charts/issues/13031))
   
   
-
-
-
-## [makemkv-6.0.0](https://github.com/truecharts/charts/compare/makemkv-5.0.18...makemkv-6.0.0) (2023-07-31)
-
-
-
-
-## [makemkv-5.0.18](https://github.com/truecharts/charts/compare/makemkv-5.0.17...makemkv-5.0.18) (2023-07-29)
