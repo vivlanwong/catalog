@@ -4,6 +4,15 @@
 
 
 
+## [avidemux-5.0.11](https://github.com/truecharts/charts/compare/avidemux-5.0.10...avidemux-5.0.11) (2023-11-20)
+
+### Fix
+
+- update container image jlesage/avidemux to v23.11.2 ([#15148](https://github.com/truecharts/charts/issues/15148))
+  
+  
+
+
 ## [avidemux-5.0.10](https://github.com/truecharts/charts/compare/avidemux-5.0.9...avidemux-5.0.10) (2023-11-17)
 
 
@@ -88,12 +97,3 @@
 
 
 ## [avidemux-4.0.26](https://github.com/truecharts/charts/compare/avidemux-4.0.25...avidemux-4.0.26) (2023-07-29)
-
-### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
-  
-  
-
-
-## [avidemux-4.0.25](https://github.com/truecharts/charts/compare/avidemux-4.0.24...avidemux-4.0.25) (2023-07-01)
