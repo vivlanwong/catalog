@@ -4,6 +4,15 @@
 
 
 
+## [mkvtoolnix-6.0.12](https://github.com/truecharts/charts/compare/mkvtoolnix-6.0.11...mkvtoolnix-6.0.12) (2023-11-20)
+
+### Fix
+
+- update container image jlesage/mkvtoolnix to v23.11.3 ([#15156](https://github.com/truecharts/charts/issues/15156))
+  
+  
+
+
 ## [mkvtoolnix-6.0.11](https://github.com/truecharts/charts/compare/mkvtoolnix-6.0.10...mkvtoolnix-6.0.11) (2023-11-17)
 
 
@@ -88,12 +97,3 @@
 
 - update container image tccr.io/truecharts/mkvtoolnix to v23.08.1 ([#12100](https://github.com/truecharts/charts/issues/12100))
   
-  
-
-
-
-## [mkvtoolnix-6.0.0](https://github.com/truecharts/charts/compare/mkvtoolnix-5.0.19...mkvtoolnix-6.0.0) (2023-07-31)
-
-
-
-
