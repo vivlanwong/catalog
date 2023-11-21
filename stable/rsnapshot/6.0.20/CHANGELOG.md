@@ -4,6 +4,15 @@
 
 
 
+## [rsnapshot-6.0.20](https://github.com/truecharts/charts/compare/rsnapshot-6.0.19...rsnapshot-6.0.20) (2023-11-21)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/rsnapshot to 1.4.5[@aff53c9](https://github.com/aff53c9) ([#15219](https://github.com/truecharts/charts/issues/15219))
+  
+  
+
+
 ## [rsnapshot-6.0.19](https://github.com/truecharts/charts/compare/rsnapshot-6.0.18...rsnapshot-6.0.19) (2023-11-19)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [rsnapshot-6.0.9](https://github.com/truecharts/charts/compare/rsnapshot-6.0.8...rsnapshot-6.0.9) (2023-10-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/rsnapshot to v1.4.5 ([#13770](https://github.com/truecharts/charts/issues/13770))
   
