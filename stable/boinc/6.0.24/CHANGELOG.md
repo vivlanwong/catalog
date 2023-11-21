@@ -4,6 +4,15 @@
 
 
 
+## [boinc-6.0.24](https://github.com/truecharts/charts/compare/boinc-6.0.23...boinc-6.0.24) (2023-11-21)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/boinc to latest[@c1f6bfa](https://github.com/c1f6bfa) ([#15220](https://github.com/truecharts/charts/issues/15220))
+  
+  
+
+
 ## [boinc-6.0.23](https://github.com/truecharts/charts/compare/boinc-6.0.22...boinc-6.0.23) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/boinc to latest ([#13935](https://github.com/truecharts/charts/issues/13935))
-  
-  
-
-
-## [boinc-6.0.13](https://github.com/truecharts/charts/compare/boinc-6.0.12...boinc-6.0.13) (2023-10-17)
-
-### Chore
-
-- update container image tccr.io/truecharts/boinc to latest ([#13708](https://github.com/truecharts/charts/issues/13708))
   
