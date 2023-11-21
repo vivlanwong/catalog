@@ -6,6 +6,7 @@
 
 
 
+
 ## [cryptpad-4.0.0](https://github.com/truecharts/charts/compare/cryptpad-3.0.9...cryptpad-4.0.0) (2023-07-31)
 
 
@@ -96,4 +97,3 @@
   - Cryptpad port ([#9240](https://github.com/truecharts/charts/issues/9240))
   
   ### Fix
-
