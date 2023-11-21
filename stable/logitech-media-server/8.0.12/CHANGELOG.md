@@ -4,6 +4,15 @@
 
 
 
+## [logitech-media-server-8.0.12](https://github.com/truecharts/charts/compare/logitech-media-server-8.0.11...logitech-media-server-8.0.12) (2023-11-21)
+
+### Chore
+
+- update container image lmscommunity/logitechmediaserver to 8.4.0[@bb6a9a6](https://github.com/bb6a9a6) ([#15147](https://github.com/truecharts/charts/issues/15147))
+  
+  
+
+
 ## [logitech-media-server-8.0.11](https://github.com/truecharts/charts/compare/logitech-media-server-8.0.10...logitech-media-server-8.0.11) (2023-11-20)
 
 ### Fix
@@ -88,12 +97,3 @@
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   
   
-
-
-
-## [logitech-media-server-8.0.0](https://github.com/truecharts/charts/compare/logitech-media-server-7.0.25...logitech-media-server-8.0.0) (2023-07-31)
-
-
-
-
-## [logitech-media-server-7.0.25](https://github.com/truecharts/charts/compare/logitech-media-server-7.0.24...logitech-media-server-7.0.25) (2023-07-29)
