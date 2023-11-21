@@ -4,6 +4,15 @@
 
 
 
+## [adminer-5.0.34](https://github.com/truecharts/charts/compare/adminer-5.0.33...adminer-5.0.34) (2023-11-21)
+
+### Chore
+
+- update container image adminer to latest[@9099f67](https://github.com/9099f67) ([#15201](https://github.com/truecharts/charts/issues/15201))
+  
+  
+
+
 ## [adminer-5.0.33](https://github.com/truecharts/charts/compare/adminer-5.0.32...adminer-5.0.33) (2023-11-17)
 
 
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [adminer-5.0.23](https://github.com/truecharts/charts/compare/adminer-5.0.21...adminer-5.0.23) (2023-10-28)
-
-### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   
   
