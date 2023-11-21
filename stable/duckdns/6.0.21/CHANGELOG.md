@@ -4,6 +4,15 @@
 
 
 
+## [duckdns-6.0.21](https://github.com/truecharts/charts/compare/duckdns-6.0.20...duckdns-6.0.21) (2023-11-21)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/duckdns to latest[@fc21f41](https://github.com/fc21f41) ([#15142](https://github.com/truecharts/charts/issues/15142))
+  
+  
+
+
 ## [duckdns-6.0.20](https://github.com/truecharts/charts/compare/duckdns-6.0.19...duckdns-6.0.20) (2023-11-19)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [duckdns-6.0.10](https://github.com/truecharts/charts/compare/duckdns-6.0.9...duckdns-6.0.10) (2023-10-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/duckdns to latest ([#13948](https://github.com/truecharts/charts/issues/13948))
   
