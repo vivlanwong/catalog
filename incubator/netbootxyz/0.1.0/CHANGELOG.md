@@ -4,6 +4,25 @@
 
 
 
+## [netbootxyz-0.1.0](https://github.com/truecharts/charts/compare/netbootxyz-1.0.0...netbootxyz-0.1.0) (2023-11-21)
+
+### Chore
+
+- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  
+  ### Fix
+
+- Add SYS_CHROOT capability ([#15190](https://github.com/truecharts/charts/issues/15190))
+  
+  
+
+
+
+## [netbootxyz-1.0.0](https://github.com/truecharts/charts/compare/netbootxyz-0.0.10...netbootxyz-1.0.0) (2023-07-31)
+
+
+
+
 ## [netbootxyz-0.0.10](https://github.com/truecharts/charts/compare/netbootxyz-0.0.9...netbootxyz-0.0.10) (2023-07-30)
 
 ### Chore
@@ -78,8 +97,3 @@
 
 - update helm general non-major ([#9393](https://github.com/truecharts/charts/issues/9393))
   
-  
-
-
-## [netbootxyz-0.0.1]netbootxyz-0.0.1 (2023-05-30)
-
