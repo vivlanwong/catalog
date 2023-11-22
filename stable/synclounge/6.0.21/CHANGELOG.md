@@ -4,6 +4,15 @@
 
 
 
+## [synclounge-6.0.21](https://github.com/truecharts/charts/compare/synclounge-6.0.20...synclounge-6.0.21) (2023-11-22)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/synclounge to 5.2.23[@99ec333](https://github.com/99ec333) ([#15229](https://github.com/truecharts/charts/issues/15229))
+  
+  
+
+
 ## [synclounge-6.0.20](https://github.com/truecharts/charts/compare/synclounge-6.0.19...synclounge-6.0.20) (2023-11-17)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 - update container image tccr.io/truecharts/synclounge to v5.2.22 ([#14170](https://github.com/truecharts/charts/issues/14170))
   
-  
-
-
-## [synclounge-6.0.10](https://github.com/truecharts/charts/compare/synclounge-6.0.9...synclounge-6.0.10) (2023-10-29)
-
-### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
   
