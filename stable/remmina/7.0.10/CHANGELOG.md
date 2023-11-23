@@ -4,6 +4,15 @@
 
 
 
+## [remmina-7.0.10](https://github.com/truecharts/charts/compare/remmina-7.0.9...remmina-7.0.10) (2023-11-23)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/remmina to 1.4.2[@de4fd3e](https://github.com/de4fd3e) ([#15253](https://github.com/truecharts/charts/issues/15253))
+  
+  
+
+
 ## [remmina-7.0.9](https://github.com/truecharts/charts/compare/remmina-7.0.8...remmina-7.0.9) (2023-11-17)
 
 
@@ -88,12 +97,3 @@
 
 
 ## [remmina-6.0.23](https://github.com/truecharts/charts/compare/remmina-6.0.22...remmina-6.0.23) (2023-07-01)
-
-### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
-  
-  
-
-
-## [remmina-6.0.22](https://github.com/truecharts/charts/compare/remmina-6.0.21...remmina-6.0.22) (2023-06-13)
