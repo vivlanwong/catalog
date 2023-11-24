@@ -4,6 +4,15 @@
 
 
 
+## [vikunja-9.0.26](https://github.com/truecharts/charts/compare/vikunja-9.0.25...vikunja-9.0.26) (2023-11-24)
+
+### Chore
+
+- update container image nginx to 1.25.3[@10d1f5b](https://github.com/10d1f5b) ([#15217](https://github.com/truecharts/charts/issues/15217))
+  
+  
+
+
 ## [vikunja-9.0.25](https://github.com/truecharts/charts/compare/vikunja-9.0.24...vikunja-9.0.25) (2023-11-18)
 
 
@@ -88,12 +97,3 @@
 
 ## [vikunja-9.0.15](https://github.com/truecharts/charts/compare/vikunja-9.0.14...vikunja-9.0.15) (2023-10-29)
 
-### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [vikunja-9.0.14](https://github.com/truecharts/charts/compare/vikunja-9.0.13...vikunja-9.0.14) (2023-10-26)
