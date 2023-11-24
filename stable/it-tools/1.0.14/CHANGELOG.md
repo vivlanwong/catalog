@@ -4,6 +4,11 @@
 
 
 
+## [it-tools-1.0.14](https://github.com/truecharts/charts/compare/it-tools-1.0.13...it-tools-1.0.14) (2023-11-24)
+
+
+
+
 ## [it-tools-1.0.13](https://github.com/truecharts/charts/compare/it-tools-1.0.12...it-tools-1.0.13) (2023-11-23)
 
 ### Chore
@@ -92,8 +97,3 @@
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   
   
-
-
-## [it-tools-1.0.2](https://github.com/truecharts/charts/compare/it-tools-1.0.1...it-tools-1.0.2) (2023-10-07)
-
-### Chore
