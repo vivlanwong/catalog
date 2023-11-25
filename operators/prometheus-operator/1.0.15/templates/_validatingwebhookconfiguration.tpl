@@ -1,4 +1,4 @@
-{{- define "promop.webhooks.mutating" -}}
+{{- define "promop.webhooks.validating" -}}
 {{- if .Values.prometheusOperator.admissionWebhooks.enabled }}
 {{- $promopLabels := .Values.prometheusOperator.admissionWebhooks.labels -}}
 {{- $promopAnnotations := .Values.prometheusOperator.admissionWebhooks.annotations -}}
@@ -6,12 +6,11 @@
 {{- $annotations := (mustMerge ($promopAnnotations | default dict) (include "tc.v1.common.lib.metadata.allAnnotations" $ | fromYaml)) }}
 ---
 apiVersion: admissionregistration.k8s.io/v1
-kind: MutatingWebhookConfiguration
+kind: ValidatingWebhookConfiguration
 metadata:
   name:  {{ include "tc.v1.common.lib.chart.names.fullname" $ }}-admission
   labels:
   {{- with (include "tc.v1.common.lib.metadata.render" (dict "rootCtx" $ "labels" $labels) | trim) }}
-    app: {{ include "tc.v1.common.lib.chart.names.fullname" $ }}-admission
     {{- . | nindent 4 }}
   {{- end }}
   {{- with (include "tc.v1.common.lib.metadata.render" (dict "rootCtx" $ "annotations" $annotations) | trim) }}
@@ -43,7 +42,7 @@ webhooks:
       service:
         namespace: {{ .Release.Namespace }}
         name: {{ include "tc.v1.common.lib.chart.names.fullname" $ }}
-        path: /admission-prometheusrules/mutate
+        path: /admission-prometheusrules/validate
       {{- if and .Values.prometheusOperator.admissionWebhooks.caBundle (not .Values.prometheusOperator.admissionWebhooks.patch.enabled) (not .Values.prometheusOperator.admissionWebhooks.certManager.enabled) }}
       caBundle: {{ .Values.prometheusOperator.admissionWebhooks.caBundle }}
       {{- end }}
