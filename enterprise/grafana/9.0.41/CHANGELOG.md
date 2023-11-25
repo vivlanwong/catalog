@@ -4,6 +4,15 @@
 
 
 
+## [grafana-9.0.41](https://github.com/truecharts/charts/compare/grafana-9.0.40...grafana-9.0.41) (2023-11-25)
+
+### Chore
+
+- update container image bitnami/grafana to 10.2.2[@b611d30](https://github.com/b611d30) ([#15354](https://github.com/truecharts/charts/issues/15354))
+  
+  
+
+
 ## [grafana-9.0.40](https://github.com/truecharts/charts/compare/grafana-9.0.39...grafana-9.0.40) (2023-11-24)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
   
-  
-
-
-## [grafana-9.0.29](https://github.com/truecharts/charts/compare/grafana-9.0.28...grafana-9.0.29) (2023-10-29)
-
-### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - update container image tccr.io/truecharts/grafana to v10.2.0 ([#13982](https://github.com/truecharts/charts/issues/13982))

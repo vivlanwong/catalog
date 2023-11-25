@@ -12,7 +12,7 @@ fedoraXFCEImage:
   pullPolicy: Always
 archXFCEImage:
   repository: lscr.io/linuxserver/rdesktop
-  tag: arch-xfce@sha256:28d7d76473dffb7e404307846479e1fe72d926b9595bd23bd3bcfb2d5d4023fa
+  tag: arch-xfce@sha256:907be5fa469a793c94907b155770f5fd334e67cb76b22749244d88181250e825
   pullPolicy: Always
 alpineKDEImage:
   repository: lscr.io/linuxserver/rdesktop
@@ -28,7 +28,7 @@ fedoraKDEImage:
   pullPolicy: Always
 archKDEImage:
   repository: lscr.io/linuxserver/rdesktop
-  tag: arch-kde@sha256:a5361f5a47921e7faa868f7328c5c5240344b29175e93a1a8dba09f403b67b7e
+  tag: arch-kde@sha256:f7c5965900bbb867ba8d2f49098021916b539801e22b0a3d6402b21d083ebf6e
   pullPolicy: Always
 alpineMATEImage:
   repository: lscr.io/linuxserver/rdesktop
