@@ -4,6 +4,15 @@
 
 
 
+## [alist-6.1.0](https://github.com/truecharts/charts/compare/alist-6.0.13...alist-6.1.0) (2023-11-25)
+
+### Chore
+
+- update container image xhofe/alist to v3.29.1[@33f0cc7](https://github.com/33f0cc7) ([#15347](https://github.com/truecharts/charts/issues/15347))
+  
+  
+
+
 ## [alist-6.0.13](https://github.com/truecharts/charts/compare/alist-6.0.12...alist-6.0.13) (2023-11-17)
 
 
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/alist to v3.27.0 ([#12314](https://github.com/truecharts/charts/issues/12314))
-  
-  
-
-
-## [alist-6.0.2](https://github.com/truecharts/charts/compare/alist-6.0.1...alist-6.0.2) (2023-08-31)
-
-### Chore
-
-- update container image tccr.io/truecharts/alist to v3.26.0 ([#12079](https://github.com/truecharts/charts/issues/12079))
   
   
