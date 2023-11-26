@@ -4,6 +4,15 @@
 
 
 
+## [tdarr-node-6.1.0](https://github.com/truecharts/charts/compare/tdarr-node-6.0.17...tdarr-node-6.1.0) (2023-11-26)
+
+### Chore
+
+- update container image haveagitgat/tdarr_node to v2.16.01[@40403e0](https://github.com/40403e0) ([#15393](https://github.com/truecharts/charts/issues/15393))
+  
+  
+
+
 ## [tdarr-node-6.0.17](https://github.com/truecharts/charts/compare/tdarr-node-6.0.16...tdarr-node-6.0.17) (2023-11-17)
 
 
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  
-
-
-## [tdarr-node-6.0.7](https://github.com/truecharts/charts/compare/tdarr-node-6.0.6...tdarr-node-6.0.7) (2023-10-03)
-
-### Chore
-
-- update helm general non-major ([#13174](https://github.com/truecharts/charts/issues/13174))
   
