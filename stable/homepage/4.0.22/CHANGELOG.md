@@ -4,6 +4,15 @@
 
 
 
+## [homepage-4.0.22](https://github.com/truecharts/charts/compare/homepage-4.0.21...homepage-4.0.22) (2023-11-26)
+
+### Chore
+
+- update container image ghcr.io/gethomepage/homepage to v0.8.2[@5e8e784](https://github.com/5e8e784) ([#15373](https://github.com/truecharts/charts/issues/15373))
+  
+  
+
+
 ## [homepage-4.0.21](https://github.com/truecharts/charts/compare/homepage-4.0.20...homepage-4.0.21) (2023-11-25)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update container image tccr.io/truecharts/homepage to v0.7.3 ([#13817](https://github.com/truecharts/charts/issues/13817))
   - run precocmit ([#13387](https://github.com/truecharts/charts/issues/13387))
-  
-  
-
-
-## [homepage-4.0.11](https://github.com/truecharts/charts/compare/homepage-4.0.10...homepage-4.0.11) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
