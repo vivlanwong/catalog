@@ -4,6 +4,15 @@
 
 
 
+## [shlink-9.1.0](https://github.com/truecharts/charts/compare/shlink-9.0.10...shlink-9.1.0) (2023-11-26)
+
+### Chore
+
+- update container image shlinkio/shlink to v3.7.0[@c5b949e](https://github.com/c5b949e) ([#15381](https://github.com/truecharts/charts/issues/15381))
+  
+  
+
+
 ## [shlink-9.0.10](https://github.com/truecharts/charts/compare/shlink-9.0.9...shlink-9.0.10) (2023-11-17)
 
 
@@ -88,12 +97,3 @@
 
 
 ## [shlink-8.0.29](https://github.com/truecharts/charts/compare/shlink-8.0.28...shlink-8.0.29) (2023-07-29)
-
-### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
-  
-  
-
-
-## [shlink-8.0.28](https://github.com/truecharts/charts/compare/shlink-8.0.27...shlink-8.0.28) (2023-07-01)
