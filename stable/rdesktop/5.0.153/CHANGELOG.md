@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-5.0.153](https://github.com/truecharts/charts/compare/rdesktop-5.0.152...rdesktop-5.0.153) (2023-11-27)
+
+### Chore
+
+- update container image lscr.io/linuxserver/rdesktop to alpine-i3[@f0867c5](https://github.com/f0867c5) ([#15399](https://github.com/truecharts/charts/issues/15399))
+  
+  
+
+
 ## [rdesktop-5.0.152](https://github.com/truecharts/charts/compare/rdesktop-5.0.151...rdesktop-5.0.152) (2023-11-25)
 
 ### Chore
@@ -88,12 +97,3 @@
   - update container image lscr.io/linuxserver/rdesktop to arch-mate ([#14851](https://github.com/truecharts/charts/issues/14851))
   - update container image lscr.io/linuxserver/rdesktop to arch-xfce ([#14853](https://github.com/truecharts/charts/issues/14853))
   
-  
-
-
-## [rdesktop-5.0.146](https://github.com/truecharts/charts/compare/rdesktop-5.0.145...rdesktop-5.0.146) (2023-11-18)
-
-
-
-
-## [rdesktop-5.0.145](https://github.com/truecharts/charts/compare/rdesktop-5.0.144...rdesktop-5.0.145) (2023-11-17)
