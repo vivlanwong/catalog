@@ -4,6 +4,19 @@
 
 
 
+## [tailscale-5.1.17](https://github.com/truecharts/charts/compare/tailscale-5.1.16...tailscale-5.1.17) (2023-11-30)
+
+### Chore
+
+- cleanup chart.yaml and add min-max scale version
+  
+  ### Fix
+
+- Bump to fix catalog version ([#15533](https://github.com/truecharts/charts/issues/15533))
+  
+  
+
+
 ## [tailscale-5.1.16](https://github.com/truecharts/charts/compare/tailscale-5.0.16...tailscale-5.1.16) (2023-11-20)
 
 ### Feat
@@ -84,16 +97,3 @@
   
   
 
-
-## [tailscale-5.0.7](https://github.com/truecharts/charts/compare/tailscale-5.0.6...tailscale-5.0.7) (2023-10-04)
-
-### Chore
-
-- update container image tailscale/tailscale to v1.50.1 ([#13251](https://github.com/truecharts/charts/issues/13251))
-  
-  
-
-
-## [tailscale-5.0.6](https://github.com/truecharts/charts/compare/tailscale-5.0.5...tailscale-5.0.6) (2023-09-25)
-
-### Chore
