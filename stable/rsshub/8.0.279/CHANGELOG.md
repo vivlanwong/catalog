@@ -4,6 +4,15 @@
 
 
 
+## [rsshub-8.0.279](https://github.com/truecharts/charts/compare/rsshub-8.0.278...rsshub-8.0.279) (2023-11-30)
+
+### Chore
+
+- update container image diygod/rsshub to latest[@f07f772](https://github.com/f07f772) ([#15534](https://github.com/truecharts/charts/issues/15534))
+  
+  
+
+
 ## [rsshub-8.0.278](https://github.com/truecharts/charts/compare/rsshub-8.0.277...rsshub-8.0.278) (2023-11-30)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rsshub-8.0.269](https://github.com/truecharts/charts/compare/rsshub-8.0.268...rsshub-8.0.269) (2023-11-19)
-
-### Fix
-
-- update container image diygod/rsshub to latest ([#15088](https://github.com/truecharts/charts/issues/15088))
-  
-  
-
-
-## [rsshub-8.0.268](https://github.com/truecharts/charts/compare/rsshub-8.0.267...rsshub-8.0.268) (2023-11-18)
 
 ### Fix
