@@ -283,7 +283,57 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 13030
+                              default: 8091
+                              required: true
+        - variable: ws
+          label: "WebSocket Service"
+          description: "WebSocket Service"
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: ws
+                      label: "WebSocket Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 10046
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -513,9 +563,9 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: plugins
-          label: "App Plugin Storage"
-          description: "Stores the Metabase Plugins."
+        - variable: config
+          label: "App Config Storage"
+          description: "Stores the Application Configuration."
           schema:
             additional_attrs: true
             type: dict
@@ -1953,6 +2003,157 @@ questions:
                                         schema:
                                           type: int
                                           default: 36107
+                    - variable: ingress
+                      label:  "Ingress"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: enabled
+                            label: Enable Ingress
+                            schema:
+                              type: boolean
+                              default: false
+                              show_subquestions_if: true
+                              subquestions:
+                                - variable: hosts
+                                  label: Hosts
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: hostEntry
+                                        label: Host
+                                        schema:
+                                          additional_attrs: true
+                                          type: dict
+                                          attrs:
+                                            - variable: host
+                                              label: HostName
+                                              schema:
+                                                type: string
+                                                default: ""
+                                                required: true
+                                            - variable: paths
+                                              label: Paths
+                                              schema:
+                                                type: list
+                                                default: [{path: "/", pathType: "Prefix"}]
+                                                items:
+                                                  - variable: pathEntry
+                                                    label: Host
+                                                    schema:
+                                                      additional_attrs: true
+                                                      type: dict
+                                                      attrs:
+                                                        - variable: path
+                                                          label: Path
+                                                          schema:
+                                                            type: string
+                                                            required: true
+                                                            default: "/"
+                                                        - variable: pathType
+                                                          label: Path Type
+                                                          schema:
+                                                            type: string
+                                                            required: true
+                                                            default: Prefix
+                                - variable: certificateIssuer
+                                  label: Cert-Manager clusterIssuer
+                                  description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates. Cannot be used combined with tls option below'
+                                  schema:
+                                    type: string
+                                    default: ""
+                                - variable: middlewares
+                                  label: Traefik Middlewares
+                                  description: Add previously created Traefik Middlewares to this Ingress
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: name
+                                        label: Name
+                                        schema:
+                                          type: string
+                                          default: ""
+                                          required: true
+                                - variable: advanced
+                                  label: Show Advanced Settings
+                                  description: Advanced settings are not covered by TrueCharts Support
+                                  schema:
+                                    type: boolean
+                                    default: false
+                                - variable: entrypoint
+                                  label: (Advanced) Traefik Entrypoint
+                                  description: Entrypoint used by Traefik when using Traefik as Ingress Provider
+                                  schema:
+                                    type: string
+                                    default: websecure
+                                    show_if: [["advanced", "=", true]]
+                                    required: true
+                                - variable: allowCors
+                                  label: "Allow Cross Origin Requests"
+                                  schema:
+                                    type: boolean
+                                    show_if: [["advanced", "=", true]]
+                                    default: false
+                                - variable: ingressClassName
+                                  label: (Advanced/Optional) IngressClass Name
+                                  schema:
+                                    type: string
+                                    show_if: [["advanced", "=", true]]
+                                    default: ""
+                                - variable: tls
+                                  label: TLS-Settings
+                                  schema:
+                                    type: list
+                                    show_if: [["advanced", "=", true]]
+                                    default: []
+                                    items:
+                                      - variable: tlsEntry
+                                        label: Host
+                                        schema:
+                                          additional_attrs: true
+                                          type: dict
+                                          attrs:
+                                            - variable: hosts
+                                              label: Certificate Hosts
+                                              schema:
+                                                type: list
+                                                default: []
+                                                items:
+                                                  - variable: host
+                                                    label: Host
+                                                    schema:
+                                                      type: string
+                                                      default: ""
+                                                      required: true
+                                            - variable: certificateIssuer
+                                              label: Use Cert-Manager clusterIssuer
+                                              description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates.'
+                                              schema:
+                                                type: string
+                                                default: ""
+                                            - variable: clusterCertificate
+                                              label:  'Cluster Certificate (Advanced)'
+                                              description: 'Add the name of your cluster-wide certificate, that you set up in the ClusterIssuer chart.'
+                                              schema:
+                                                type: string
+                                                show_if: [["certificateIssuer", "=", ""]]
+                                                default: ""
+                                            - variable: secretName
+                                              label: 'Use Custom Certificate Secret (Advanced)'
+                                              schema:
+                                                show_if: [["certificateIssuer", "=", ""]]
+                                                type: string
+                                                default: ""
+                                            - variable: scaleCert
+                                              label: 'Use TrueNAS SCALE Certificate (Deprecated)'
+                                              schema:
+                                                show_if: [["certificateIssuer", "=", ""]]
+                                                type: int
+                                                $ref:
+                                                  - "definitions/certificate"
                     - variable: envList
                       label: Codeserver Environment Variables
                       schema:

@@ -4,6 +4,16 @@
 
 
 
+## [invidious-6.0.23](https://github.com/truecharts/charts/compare/invidious-6.0.22...invidious-6.0.23) (2023-12-01)
+
+### Chore
+
+- cleanup chart.yaml and add min-max scale version
+  - update container image quay.io/invidious/invidious to latest[@7863b23](https://github.com/7863b23) ([#15580](https://github.com/truecharts/charts/issues/15580))
+  
+  
+
+
 ## [invidious-6.0.22](https://github.com/truecharts/charts/compare/invidious-6.0.21...invidious-6.0.22) (2023-11-24)
 
 ### Chore
@@ -87,13 +97,3 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [invidious-6.0.12](https://github.com/truecharts/charts/compare/invidious-6.0.11...invidious-6.0.12) (2023-10-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/invidious to latest ([#13970](https://github.com/truecharts/charts/issues/13970))
-  
