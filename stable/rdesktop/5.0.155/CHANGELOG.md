@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-5.0.155](https://github.com/truecharts/charts/compare/rdesktop-5.0.154...rdesktop-5.0.155) (2023-12-01)
+
+### Chore
+
+- update container image lscr.io/linuxserver/rdesktop to arch-i3[@fbdad59](https://github.com/fbdad59) ([#15575](https://github.com/truecharts/charts/issues/15575))
+  
+  
+
+
 ## [rdesktop-5.0.154](https://github.com/truecharts/charts/compare/rdesktop-5.0.153...rdesktop-5.0.154) (2023-11-30)
 
 ### Chore
@@ -88,12 +97,3 @@
   - update container image lscr.io/linuxserver/rdesktop to fedora-i3 ([#15127](https://github.com/truecharts/charts/issues/15127))
   - update container image lscr.io/linuxserver/rdesktop to alpine-openbox ([#15126](https://github.com/truecharts/charts/issues/15126))
   - update container image lscr.io/linuxserver/rdesktop to alpine-mate ([#15125](https://github.com/truecharts/charts/issues/15125))
-  - update container image lscr.io/linuxserver/rdesktop to alpine-kde ([#15124](https://github.com/truecharts/charts/issues/15124))
-  - update container image lscr.io/linuxserver/rdesktop to alpine-icewm ([#15123](https://github.com/truecharts/charts/issues/15123))
-  
-  
-
-
-## [rdesktop-5.0.149](https://github.com/truecharts/charts/compare/rdesktop-5.0.148...rdesktop-5.0.149) (2023-11-20)
-
-### Fix
