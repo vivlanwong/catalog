@@ -4,6 +4,7 @@
 
 
 
+
 ## [autobrr-5.1.0](https://github.com/truecharts/charts/compare/autobrr-5.0.12...autobrr-5.1.0) (2023-12-01)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 ### Chore
 
-- update container image tccr.io/truecharts/autobrr to v1.31.0 ([#13233](https://github.com/truecharts/charts/issues/13233))

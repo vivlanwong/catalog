@@ -4,6 +4,7 @@
 
 
 
+
 ## [foldingathome-6.0.17](https://github.com/truecharts/charts/compare/foldingathome-6.0.16...foldingathome-6.0.17) (2023-11-21)
 
 ### Chore
@@ -96,4 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/foldingathome to v7.6.21 ([#13460](https://github.com/truecharts/charts/issues/13460))
-  

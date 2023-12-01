@@ -4,6 +4,7 @@
 
 
 
+
 ## [ddns-go-6.0.14](https://github.com/truecharts/charts/compare/ddns-go-6.0.13...ddns-go-6.0.14) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/ddns-go to v5.6.2 ([#12478](https://github.com/truecharts/charts/issues/12478))
-  

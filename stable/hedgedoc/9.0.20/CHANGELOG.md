@@ -4,6 +4,7 @@
 
 
 
+
 ## [hedgedoc-9.0.20](https://github.com/truecharts/charts/compare/hedgedoc-9.0.19...hedgedoc-9.0.20) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/hedgedoc to v1.9.9 ([#12397](https://github.com/truecharts/charts/issues/12397))
-  
   

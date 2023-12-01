@@ -4,6 +4,7 @@
 
 
 
+
 ## [chevereto-8.0.9](https://github.com/truecharts/charts/compare/chevereto-8.0.8...chevereto-8.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
   
 
 
-## [chevereto-7.0.25](https://github.com/truecharts/charts/compare/chevereto-7.0.24...chevereto-7.0.25) (2023-07-01)

@@ -1,25 +1,27 @@
+annotations:
+  max_scale_version: 23.10.1
+  min_scale_version: 22.12.4
+  truecharts.org/SCALE-support: "true"
+  truecharts.org/category: incubator
 apiVersion: v2
-kubeVersion: ">=1.16.0-0"
-name: quassel-core
-version: 8.0.20
 appVersion: 0.14.0
-description: Quassel-core is a modern, cross-platform, distributed IRC client.
-type: application
-deprecated: false
-home: https://truecharts.org/charts/stable/quassel-core
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/quassel-core.png
-keywords:
-  - quassel-core
-sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/quassel-core
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
     version: 14.3.5
+deprecated: false
+description: Quassel-core is a modern, cross-platform, distributed IRC client.
+home: https://truecharts.org/charts/stable/quassel-core
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/quassel-core.png
+keywords:
+  - quassel-core
+kubeVersion: ">=1.16.0-0"
 maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-annotations:
-  truecharts.org/category: incubator
-  truecharts.org/SCALE-support: "true"
+name: quassel-core
+sources:
+  - https://github.com/truecharts/charts/tree/master/charts/stable/quassel-core
+type: application
+version: 8.0.20

@@ -4,6 +4,7 @@
 
 
 
+
 ## [mysql-workbench-6.0.24](https://github.com/truecharts/charts/compare/mysql-workbench-6.0.23...mysql-workbench-6.0.24) (2023-11-25)
 
 ### Chore
@@ -96,4 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/mysql-workbench to v8.0.34 ([#14046](https://github.com/truecharts/charts/issues/14046))
-  

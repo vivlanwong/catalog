@@ -4,6 +4,22 @@
 
 
 
+
+
+## [fancyindex-4.0.0](https://github.com/truecharts/charts/compare/fancyindex-3.0.8...fancyindex-4.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [fancyindex-3.0.8](https://github.com/truecharts/charts/compare/fancyindex-3.0.7...fancyindex-3.0.8) (2023-02-10)
 
 ### Fix
@@ -79,21 +95,5 @@
 
 
 ## [fancyindex-3.0.2](https://github.com/truecharts/charts/compare/fancyindex-3.0.1...fancyindex-3.0.2) (2022-11-30)
-
-
-
-
-## [fancyindex-3.0.2](https://github.com/truecharts/charts/compare/fancyindex-3.0.1...fancyindex-3.0.2) (2022-11-30)
-
-
-
-
-## [fancyindex-3.0.2](https://github.com/truecharts/charts/compare/fancyindex-3.0.1...fancyindex-3.0.2) (2022-11-30)
-
-
-
-
-## [fancyindex-3.0.2](https://github.com/truecharts/charts/compare/fancyindex-3.0.1...fancyindex-3.0.2) (2022-11-30)
-
 
 

@@ -1,6 +1,10 @@
+annotations:
+  max_scale_version: 23.10.1
+  min_scale_version: 22.12.4
+  truecharts.org/SCALE-support: "true"
+  truecharts.org/category: Media
 apiVersion: v2
-appVersion: "2.1.4"
-version: 2.0.10
+appVersion: 2.1.4
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
@@ -19,10 +23,6 @@ maintainers:
 name: cleanarr
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/cleanarr
-  - https://hub.docker.com/r/selexin/cleanarr
   - https://github.com/se1exin/cleanarr
 type: application
-annotations:
-  truecharts.org/SCALE-support: "true"
-  truecharts.org/catagories: |
-    - Media
+version: 2.0.10

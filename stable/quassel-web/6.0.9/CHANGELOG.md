@@ -4,6 +4,7 @@
 
 
 
+
 ## [quassel-web-6.0.9](https://github.com/truecharts/charts/compare/quassel-web-6.0.8...quassel-web-6.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
   
 
 
-## [quassel-web-5.0.22](https://github.com/truecharts/charts/compare/quassel-web-5.0.21...quassel-web-5.0.22) (2023-06-13)

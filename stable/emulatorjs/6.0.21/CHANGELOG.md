@@ -4,6 +4,7 @@
 
 
 
+
 ## [emulatorjs-6.0.21](https://github.com/truecharts/charts/compare/emulatorjs-6.0.20...emulatorjs-6.0.21) (2023-12-01)
 
 ### Chore
@@ -95,5 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#14245](https://github.com/truecharts/charts/issues/14245))
-  
   

@@ -4,6 +4,7 @@
 
 
 
+
 ## [synclounge-6.0.22](https://github.com/truecharts/charts/compare/synclounge-6.0.21...synclounge-6.0.22) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#14287](https://github.com/truecharts/charts/issues/14287))
-  
   

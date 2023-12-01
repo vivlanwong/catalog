@@ -4,6 +4,7 @@
 
 
 
+
 ## [paperless-ngx-3.0.1](https://github.com/truecharts/charts/compare/paperless-ngx-3.0.0...paperless-ngx-3.0.1) (2023-11-30)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [paperless-ngx-2.0.5](https://github.com/truecharts/charts/compare/paperless-ngx-2.0.4...paperless-ngx-2.0.5) (2023-09-06)
-

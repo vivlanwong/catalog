@@ -4,6 +4,7 @@
 
 
 
+
 ## [rsshub-8.0.281](https://github.com/truecharts/charts/compare/rsshub-8.0.280...rsshub-8.0.281) (2023-12-01)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 ## [rsshub-8.0.271](https://github.com/truecharts/charts/compare/rsshub-8.0.270...rsshub-8.0.271) (2023-11-23)
 
-### Chore

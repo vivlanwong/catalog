@@ -4,6 +4,7 @@
 
 
 
+
 ## [boinc-6.0.25](https://github.com/truecharts/charts/compare/boinc-6.0.24...boinc-6.0.25) (2023-11-30)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  

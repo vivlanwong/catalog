@@ -4,6 +4,7 @@
 
 
 
+
 ## [kavita-6.0.10](https://github.com/truecharts/charts/compare/kavita-6.0.9...kavita-6.0.10) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
   
 
 
-## [kavita-5.0.25](https://github.com/truecharts/charts/compare/kavita-5.0.24...kavita-5.0.25) (2023-07-01)

@@ -4,6 +4,7 @@
 
 
 
+
 ## [guacd-6.0.10](https://github.com/truecharts/charts/compare/guacd-6.0.9...guacd-6.0.10) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
   
 
 
-## [guacd-5.0.16](https://github.com/truecharts/charts/compare/guacd-5.0.15...guacd-5.0.16) (2023-07-01)

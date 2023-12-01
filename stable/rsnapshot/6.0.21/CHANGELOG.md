@@ -4,6 +4,7 @@
 
 
 
+
 ## [rsnapshot-6.0.21](https://github.com/truecharts/charts/compare/rsnapshot-6.0.20...rsnapshot-6.0.21) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/rsnapshot to v1.4.5 ([#14236](https://github.com/truecharts/charts/issues/14236))
-  
   

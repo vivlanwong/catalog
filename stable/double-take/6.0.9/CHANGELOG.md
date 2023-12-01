@@ -4,6 +4,7 @@
 
 
 
+
 ## [double-take-6.0.9](https://github.com/truecharts/charts/compare/double-take-6.0.8...double-take-6.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
   
 
 
-## [double-take-5.0.22](https://github.com/truecharts/charts/compare/double-take-5.0.21...double-take-5.0.22) (2023-06-13)

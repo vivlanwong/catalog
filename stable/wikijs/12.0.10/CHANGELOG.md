@@ -4,6 +4,7 @@
 
 
 
+
 ## [wikijs-12.0.10](https://github.com/truecharts/charts/compare/wikijs-12.0.9...wikijs-12.0.10) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
   
 
 
-## [wikijs-11.0.25](https://github.com/truecharts/charts/compare/wikijs-11.0.24...wikijs-11.0.25) (2023-07-01)

@@ -4,6 +4,7 @@
 
 
 
+
 ## [quassel-core-8.0.20](https://github.com/truecharts/charts/compare/quassel-core-8.0.19...quassel-core-8.0.20) (2023-11-20)
 
 ### Fix
@@ -95,5 +96,4 @@
 ### Chore
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  
   

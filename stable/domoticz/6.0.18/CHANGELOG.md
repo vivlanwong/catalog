@@ -4,6 +4,7 @@
 
 
 
+
 ## [domoticz-6.0.18](https://github.com/truecharts/charts/compare/domoticz-6.0.17...domoticz-6.0.18) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/domoticz to v2023.2.20231102 ([#14244](https://github.com/truecharts/charts/issues/14244))
-  
   

@@ -4,6 +4,7 @@
 
 
 
+
 ## [firefox-syncserver-14.0.9](https://github.com/truecharts/charts/compare/firefox-syncserver-14.0.8...firefox-syncserver-14.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
   
 
 
-## [firefox-syncserver-13.0.13](https://github.com/truecharts/charts/compare/firefox-syncserver-13.0.12...firefox-syncserver-13.0.13) (2023-06-13)

@@ -4,6 +4,7 @@
 
 
 
+
 ## [pylon-6.0.20](https://github.com/truecharts/charts/compare/pylon-6.0.19...pylon-6.0.20) (2023-11-22)
 
 ### Chore
@@ -96,4 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/pylon to v2.10.0 ([#13474](https://github.com/truecharts/charts/issues/13474))
-  
