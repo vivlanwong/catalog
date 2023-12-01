@@ -4,6 +4,16 @@
 
 
 
+## [autobrr-5.1.0](https://github.com/truecharts/charts/compare/autobrr-5.0.12...autobrr-5.1.0) (2023-12-01)
+
+### Chore
+
+- cleanup chart.yaml and add min-max scale version
+  - update container image ghcr.io/autobrr/autobrr to v1.34.0[@dda89d0](https://github.com/dda89d0) ([#15586](https://github.com/truecharts/charts/issues/15586))
+  
+  
+
+
 ## [autobrr-5.0.12](https://github.com/truecharts/charts/compare/autobrr-5.0.11...autobrr-5.0.12) (2023-11-17)
 
 
@@ -87,13 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/autobrr to v1.31.0 ([#13233](https://github.com/truecharts/charts/issues/13233))
-  
-  
-
-
-## [autobrr-5.0.2](https://github.com/truecharts/charts/compare/autobrr-5.0.1...autobrr-5.0.2) (2023-09-23)
-
-### Chore
-
-- update container image tccr.io/truecharts/autobrr to v1.30.0 ([#12879](https://github.com/truecharts/charts/issues/12879))
-  
