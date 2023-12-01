@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.191](https://github.com/truecharts/charts/compare/webtop-6.0.190...webtop-6.0.191) (2023-12-01)
+
+### Chore
+
+- update container image lscr.io/linuxserver/webtop to arch-mate[@53fde17](https://github.com/53fde17) ([#15565](https://github.com/truecharts/charts/issues/15565))
+  
+  
+
+
 ## [webtop-6.0.190](https://github.com/truecharts/charts/compare/webtop-6.0.189...webtop-6.0.190) (2023-11-30)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [webtop-6.0.185](https://github.com/truecharts/charts/compare/webtop-6.0.184...webtop-6.0.185) (2023-11-21)
-
-### Chore
-
-- update container image lscr.io/linuxserver/webtop to arch-i3[@82fe836](https://github.com/82fe836) ([#15177](https://github.com/truecharts/charts/issues/15177))
-  
-  
-
-
-## [webtop-6.0.184](https://github.com/truecharts/charts/compare/webtop-6.0.183...webtop-6.0.184) (2023-11-18)
