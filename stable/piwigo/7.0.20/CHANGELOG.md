@@ -4,6 +4,18 @@
 
 
 
+## [piwigo-7.0.20](https://github.com/truecharts/charts/compare/piwigo-7.0.19...piwigo-7.0.20) (2023-12-02)
+
+### Chore
+
+- fix annotations again
+  - update annotations
+  - cleanup chart.yaml and add min-max scale version
+  - update container image ghcr.io/linuxserver/piwigo to 13.8.0[@5a9fd99](https://github.com/5a9fd99) ([#15615](https://github.com/truecharts/charts/issues/15615))
+  
+  
+
+
 
 
 
@@ -85,15 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/piwigo to v13.8.0 ([#14059](https://github.com/truecharts/charts/issues/14059))
-  
-  
-
-
-## [piwigo-7.0.10](https://github.com/truecharts/charts/compare/piwigo-7.0.9...piwigo-7.0.10) (2023-10-29)
-
-### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
