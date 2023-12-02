@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [handbrake-17.0.15](https://github.com/truecharts/charts/compare/handbrake-17.0.14...handbrake-17.0.15) (2023-12-01)
 
 ### Chore
@@ -95,5 +97,3 @@
   
   
 
-
-## [handbrake-17.0.5](https://github.com/truecharts/charts/compare/handbrake-17.0.4...handbrake-17.0.5) (2023-10-29)

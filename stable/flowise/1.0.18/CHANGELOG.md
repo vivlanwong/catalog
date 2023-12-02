@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [flowise-1.0.18](https://github.com/truecharts/charts/compare/flowise-1.0.17...flowise-1.0.18) (2023-11-30)
 
 ### Chore
@@ -94,6 +96,4 @@
   
   
 
-
-## [flowise-1.0.8](https://github.com/truecharts/charts/compare/flowise-1.0.6...flowise-1.0.8) (2023-10-28)
 

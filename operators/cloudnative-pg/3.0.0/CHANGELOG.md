@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [cloudnative-pg-3.0.0](https://github.com/truecharts/charts/compare/cloudnative-pg-2.0.12...cloudnative-pg-3.0.0) (2023-11-15)
 
 
@@ -94,6 +96,4 @@
 
 
 ## [cloudnative-pg-2.0.2](https://github.com/truecharts/charts/compare/cloudnative-pg-2.0.1...cloudnative-pg-2.0.2) (2023-07-30)
-
-### Chore
 

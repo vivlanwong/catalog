@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [piwigo-7.0.19](https://github.com/truecharts/charts/compare/piwigo-7.0.18...piwigo-7.0.19) (2023-11-25)
 
 ### Chore
@@ -95,5 +97,3 @@
   
   
 
-
-## [piwigo-7.0.9](https://github.com/truecharts/charts/compare/piwigo-7.0.8...piwigo-7.0.9) (2023-10-21)

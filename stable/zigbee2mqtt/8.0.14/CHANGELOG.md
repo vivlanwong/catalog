@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [zigbee2mqtt-8.0.14](https://github.com/truecharts/charts/compare/zigbee2mqtt-8.0.13...zigbee2mqtt-8.0.14) (2023-11-17)
 
 
@@ -94,6 +96,4 @@
   
   
 
-
-## [zigbee2mqtt-8.0.3](https://github.com/truecharts/charts/compare/zigbee2mqtt-8.0.2...zigbee2mqtt-8.0.3) (2023-10-04)
 

@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [matomo-8.1.0](https://github.com/truecharts/charts/compare/matomo-8.0.13...matomo-8.1.0) (2023-11-30)
 
 ### Chore
@@ -94,6 +96,4 @@
   
   
 
-
-## [matomo-8.0.3](https://github.com/truecharts/charts/compare/matomo-8.0.2...matomo-8.0.3) (2023-10-09)
 

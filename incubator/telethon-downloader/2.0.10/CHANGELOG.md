@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [telethon-downloader-3.0.0](https://github.com/truecharts/charts/compare/telethon-downloader-2.0.10...telethon-downloader-3.0.0) (2023-07-31)
 
 ### Fix
@@ -94,6 +96,4 @@
   
   
 
-
-## [telethon-downloader-2.0.2](https://github.com/truecharts/charts/compare/telethon-downloader-2.0.1...telethon-downloader-2.0.2) (2022-11-30)
 

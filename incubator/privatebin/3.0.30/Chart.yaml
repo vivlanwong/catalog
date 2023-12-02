@@ -1,4 +1,4 @@
-kubeVersion: 1.24.0
+kubeVersion: ">=1.24.0"
 apiVersion: v2
 name: privatebin
 version: 3.0.30
@@ -10,10 +10,10 @@ home: https://truecharts.org/charts/incubator/privatebin
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/privatebin.png
 deprecated: false
 sources:
-  - https://privatebin.info/
-  - https://github.com/PrivateBin/PrivateBin
   - https://github.com/truecharts/charts/tree/master/charts/incubator/privatebin
   - https://github.com/truecharts/containers/tree/master/mirrorprivatebin
+  - https://privatebin.info/
+  - https://github.com/PrivateBin/PrivateBin
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -37,15 +37,10 @@ dependencies:
     tags: []
     import-values: []
 annotations:
-  "category:": unsorted
   max_scale_version: 23.10.1
-  "max_scale_version:": 23.10.1
   min_scale_version: 22.12.4
-  "min_scale_version:": "22.12"
   truecharts.org/SCALE-support: "true"
-  "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: productivity
-  "truecharts.org/category:": unsorted
-  "truecharts.org/max_helm_version:": "3.13"
-  "truecharts.org/min_helm_version:": "3.12"
+  truecharts.org/max_helm_version: "3.13"
+  truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: incubator

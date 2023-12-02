@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [bitcoin-node-2.0.12](https://github.com/truecharts/charts/compare/bitcoin-node-3.0.0...bitcoin-node-2.0.12) (2023-11-18)
 
 ### Chore
@@ -95,5 +97,3 @@
 
 ### Chore
 
-- update helm general non-major
-  

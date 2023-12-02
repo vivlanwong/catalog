@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [mojopaste-3.0.0](https://github.com/truecharts/charts/compare/mojopaste-2.0.9...mojopaste-3.0.0) (2023-07-31)
 
 ### Feat
@@ -93,7 +95,5 @@
 
 
 ## [mojopaste-2.0.2](https://github.com/truecharts/charts/compare/mojopaste-2.0.1...mojopaste-2.0.2) (2022-11-30)
-
-
 
 

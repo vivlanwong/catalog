@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [rimgo-3.0.1](https://github.com/truecharts/charts/compare/rimgo-3.0.0...rimgo-3.0.1) (2023-11-18)
 
 ### Chore
@@ -95,5 +97,3 @@
 - update container image tccr.io/truecharts/rimgo to latest
   
   
-
-

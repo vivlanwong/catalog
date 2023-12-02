@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [homebridge-4.0.6](https://github.com/truecharts/charts/compare/homebridge-4.0.5...homebridge-4.0.6) (2023-11-08)
 
 ### Chore
@@ -95,5 +97,3 @@
 
 - ensure new helm deps repo is used in latest releases as well.
   
-  
-

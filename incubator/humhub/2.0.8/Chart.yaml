@@ -1,4 +1,4 @@
-kubeVersion: 1.24.0
+kubeVersion: ">=1.24.0"
 apiVersion: v2
 name: humhub
 version: 2.0.8
@@ -12,8 +12,8 @@ home: https://truecharts.org/charts/incubator/humhub
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/humhub.png
 deprecated: false
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/humhub
   - https://github.com/truecharts/containers/tree/master/mirrorhumhub
+  - https://github.com/truecharts/charts/tree/master/charts/incubator/humhub
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -30,15 +30,10 @@ dependencies:
     tags: []
     import-values: []
 annotations:
-  "category:": unsorted
   max_scale_version: 23.10.1
-  "max_scale_version:": 23.10.1
   min_scale_version: 22.12.4
-  "min_scale_version:": "22.12"
   truecharts.org/SCALE-support: "true"
-  "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: Network-Web
-  "truecharts.org/category:": unsorted
-  "truecharts.org/max_helm_version:": "3.13"
-  "truecharts.org/min_helm_version:": "3.12"
+  truecharts.org/max_helm_version: "3.13"
+  truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: incubator

@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [privatebin-4.0.0](https://github.com/truecharts/charts/compare/privatebin-3.0.30...privatebin-4.0.0) (2023-07-31)
 
 ### Feat
@@ -94,6 +96,4 @@
   
   
 
-
-## [privatebin-3.0.22](https://github.com/truecharts/charts/compare/privatebin-3.0.21...privatebin-3.0.22) (2023-01-24)
 

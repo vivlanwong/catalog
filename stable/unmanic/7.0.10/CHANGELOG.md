@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [unmanic-7.0.10](https://github.com/truecharts/charts/compare/unmanic-7.0.9...unmanic-7.0.10) (2023-11-17)
 
 
@@ -95,5 +97,3 @@
 ## [unmanic-6.0.22](https://github.com/truecharts/charts/compare/unmanic-6.0.21...unmanic-6.0.22) (2023-07-29)
 
 ### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))

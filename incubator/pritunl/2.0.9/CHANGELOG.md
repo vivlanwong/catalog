@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [pritunl-3.0.0](https://github.com/truecharts/charts/compare/pritunl-2.0.9...pritunl-3.0.0) (2023-07-31)
 
 ### Feat
@@ -94,6 +96,4 @@
 
 
 ## [pritunl-2.0.2](https://github.com/truecharts/charts/compare/pritunl-2.0.1...pritunl-2.0.2) (2022-11-30)
-
-
 

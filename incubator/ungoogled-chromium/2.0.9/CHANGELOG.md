@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [ungoogled-chromium-3.0.0](https://github.com/truecharts/charts/compare/ungoogled-chromium-2.0.9...ungoogled-chromium-3.0.0) (2023-07-31)
 
 ### Feat
@@ -93,7 +95,5 @@
 
 
 ## [ungoogled-chromium-2.0.2](https://github.com/truecharts/charts/compare/ungoogled-chromium-2.0.1...ungoogled-chromium-2.0.2) (2022-11-30)
-
-
 
 

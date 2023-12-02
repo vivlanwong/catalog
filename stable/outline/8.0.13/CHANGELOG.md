@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [outline-8.0.13](https://github.com/truecharts/charts/compare/outline-8.0.12...outline-8.0.13) (2023-11-17)
 
 ### Fix
@@ -95,5 +97,3 @@
   
   
 
-
-## [outline-8.0.3](https://github.com/truecharts/charts/compare/outline-8.0.2...outline-8.0.3) (2023-10-07)

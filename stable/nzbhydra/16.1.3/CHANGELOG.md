@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [nzbhydra-16.1.3](https://github.com/truecharts/charts/compare/nzbhydra-16.1.2...nzbhydra-16.1.3) (2023-11-30)
 
 ### Chore
@@ -94,6 +96,4 @@
   
   
 
-
-## [nzbhydra-15.0.4](https://github.com/truecharts/charts/compare/nzbhydra-15.0.3...nzbhydra-15.0.4) (2023-10-29)
 

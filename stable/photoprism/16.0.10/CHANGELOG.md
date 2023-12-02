@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [photoprism-16.0.10](https://github.com/truecharts/charts/compare/photoprism-16.0.9...photoprism-16.0.10) (2023-11-17)
 
 
@@ -95,5 +97,3 @@
   
   
 
-
-## [photoprism-16.0.0](https://github.com/truecharts/charts/compare/photoprism-15.0.0...photoprism-16.0.0) (2023-08-12)

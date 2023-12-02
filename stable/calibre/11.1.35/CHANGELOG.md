@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [calibre-11.1.35](https://github.com/truecharts/charts/compare/calibre-11.1.34...calibre-11.1.35) (2023-11-29)
 
 ### Chore
@@ -94,6 +96,4 @@
   
   
 
-
-## [calibre-11.0.26](https://github.com/truecharts/charts/compare/calibre-11.0.25...calibre-11.0.26) (2023-11-03)
 

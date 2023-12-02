@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [grafana-image-renderer-3.0.0](https://github.com/truecharts/charts/compare/grafana-image-renderer-2.0.13...grafana-image-renderer-3.0.0) (2023-07-31)
 
 ### Fix
@@ -95,5 +97,3 @@
 
 ### Chore
 
-- update helm general non-major
-  

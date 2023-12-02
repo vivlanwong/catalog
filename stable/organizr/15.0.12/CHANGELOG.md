@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [organizr-15.0.12](https://github.com/truecharts/charts/compare/organizr-15.0.11...organizr-15.0.12) (2023-11-30)
 
 ### Chore
@@ -94,6 +96,4 @@
   
   
 
-
-## [organizr-15.0.1](https://github.com/truecharts/charts/compare/organizr-15.0.0...organizr-15.0.1) (2023-10-07)
 

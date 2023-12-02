@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [euterpe-4.0.0](https://github.com/truecharts/charts/compare/euterpe-3.0.10...euterpe-4.0.0) (2023-07-31)
 
 ### Feat
@@ -94,6 +96,4 @@
   
   
 
-
-## [euterpe-3.0.2](https://github.com/truecharts/charts/compare/euterpe-3.0.1...euterpe-3.0.2) (2022-12-11)
 

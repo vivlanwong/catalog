@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [n8n-9.2.0](https://github.com/truecharts/charts/compare/n8n-9.1.31...n8n-9.2.0) (2023-12-01)
 
 ### Chore
@@ -94,6 +96,4 @@
   
   
 
-
-## [n8n-9.0.23](https://github.com/truecharts/charts/compare/n8n-9.0.22...n8n-9.0.23) (2023-11-05)
 

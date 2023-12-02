@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [weblate-9.0.9](https://github.com/truecharts/charts/compare/weblate-9.0.8...weblate-9.0.9) (2023-11-17)
 
 
@@ -95,5 +97,3 @@
 ## [weblate-8.0.26](https://github.com/truecharts/charts/compare/weblate-8.0.25...weblate-8.0.26) (2023-07-01)
 
 ### Chore
-
-- update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))

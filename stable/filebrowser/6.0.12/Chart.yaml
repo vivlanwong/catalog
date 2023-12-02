@@ -1,4 +1,4 @@
-kubeVersion: 1.24.0
+kubeVersion: ">=1.24.0"
 apiVersion: v2
 name: filebrowser
 version: 6.0.12
@@ -8,8 +8,8 @@ home: https://truecharts.org/charts/stable/filebrowser
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/filebrowser.png
 deprecated: false
 sources:
-  - https://filebrowser.org/cli/filebrowser
   - https://github.com/filebrowser/filebrowser
+  - https://filebrowser.org/cli/filebrowser
   - https://github.com/truecharts/charts/tree/master/charts/stable/filebrowser
   - https://hub.docker.com/r/filebrowser/filebrowser
 maintainers:
@@ -27,15 +27,10 @@ dependencies:
     tags: []
     import-values: []
 annotations:
-  "category:": unsorted
   max_scale_version: 23.10.1
-  "max_scale_version:": 23.10.1
   min_scale_version: 22.12.4
-  "min_scale_version:": "22.12"
   truecharts.org/SCALE-support: "true"
-  "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: media
-  "truecharts.org/category:": unsorted
-  "truecharts.org/max_helm_version:": "3.13"
-  "truecharts.org/min_helm_version:": "3.12"
+  truecharts.org/max_helm_version: "3.13"
+  truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable

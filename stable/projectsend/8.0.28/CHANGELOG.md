@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [projectsend-8.0.28](https://github.com/truecharts/charts/compare/projectsend-8.0.27...projectsend-8.0.28) (2023-11-30)
 
 ### Chore
@@ -94,6 +96,4 @@
   
   
 
-
-## [projectsend-8.0.19](https://github.com/truecharts/charts/compare/projectsend-8.0.18...projectsend-8.0.19) (2023-11-03)
 

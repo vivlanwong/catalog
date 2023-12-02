@@ -1,4 +1,4 @@
-kubeVersion: 1.24.0
+kubeVersion: ">=1.24.0"
 apiVersion: v2
 name: theme-park
 version: 6.0.10
@@ -8,9 +8,9 @@ home: https://truecharts.org/charts/stable/theme-park
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/theme-park.png
 deprecated: false
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/theme-park
   - https://ghcr.io/onedr0p/theme-park
   - https://github.com/gilbn/theme.park
+  - https://github.com/truecharts/charts/tree/master/charts/stable/theme-park
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -27,15 +27,10 @@ dependencies:
     tags: []
     import-values: []
 annotations:
-  "category:": unsorted
   max_scale_version: 23.10.1
-  "max_scale_version:": 23.10.1
   min_scale_version: 22.12.4
-  "min_scale_version:": "22.12"
   truecharts.org/SCALE-support: "true"
-  "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: customization
-  "truecharts.org/category:": unsorted
-  "truecharts.org/max_helm_version:": "3.13"
-  "truecharts.org/min_helm_version:": "3.12"
+  truecharts.org/max_helm_version: "3.13"
+  truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable

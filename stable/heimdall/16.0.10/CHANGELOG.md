@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [heimdall-16.0.10](https://github.com/truecharts/charts/compare/heimdall-16.0.9...heimdall-16.0.10) (2023-11-17)
 
 
@@ -94,6 +96,4 @@
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   
   
-
-
 

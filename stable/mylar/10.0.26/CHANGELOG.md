@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [mylar-10.0.26](https://github.com/truecharts/charts/compare/mylar-10.0.25...mylar-10.0.26) (2023-12-01)
 
 ### Chore
@@ -95,5 +97,3 @@
 
 ### Chore
 
-- update container image tccr.io/truecharts/mylar3 to v0.7.5 ([#14279](https://github.com/truecharts/charts/issues/14279))
-  

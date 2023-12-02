@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [clusterissuer-4.2.10](https://github.com/truecharts/charts/compare/clusterissuer-4.2.9...clusterissuer-4.2.10) (2023-11-17)
 
 
@@ -95,5 +97,3 @@
 
 ### Chore
 
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  

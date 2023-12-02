@@ -13,6 +13,8 @@
 
 
 
+
+
 ## [nitter-2.0.0](https://github.com/truecharts/charts/compare/nitter-1.0.12...nitter-2.0.0) (2023-07-31)
 
 ### Feat
@@ -95,5 +97,3 @@
 
 - update helm general non-major
   
-  
-

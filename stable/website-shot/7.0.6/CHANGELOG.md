@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [website-shot-7.0.6](https://github.com/truecharts/charts/compare/website-shot-7.0.5...website-shot-7.0.6) (2023-11-17)
 
 
@@ -94,6 +96,4 @@
 
 
 ## [website-shot-5.0.25](https://github.com/truecharts/charts/compare/website-shot-5.0.24...website-shot-5.0.25) (2023-07-01)
-
-### Chore
 

@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [plausible-5.0.12](https://github.com/truecharts/charts/compare/plausible-5.0.11...plausible-5.0.12) (2023-11-17)
 
 
@@ -95,5 +97,3 @@
   
   
 
-
-## [plausible-5.0.1](https://github.com/truecharts/charts/compare/plausible-5.0.0...plausible-5.0.1) (2023-08-30)

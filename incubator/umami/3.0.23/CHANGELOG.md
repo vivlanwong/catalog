@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [umami-4.0.0](https://github.com/truecharts/charts/compare/umami-3.0.23...umami-4.0.0) (2023-07-31)
 
 ### Feat
@@ -94,6 +96,4 @@
   
   
 
-
-## [umami-3.0.15](https://github.com/truecharts/charts/compare/umami-3.0.14...umami-3.0.15) (2022-12-27)
 

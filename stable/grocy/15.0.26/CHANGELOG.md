@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [grocy-15.0.26](https://github.com/truecharts/charts/compare/grocy-15.0.25...grocy-15.0.26) (2023-11-30)
 
 ### Chore
@@ -94,6 +96,4 @@
   
   
 
-
-## [grocy-15.0.16](https://github.com/truecharts/charts/compare/grocy-15.0.15...grocy-15.0.16) (2023-10-29)
 

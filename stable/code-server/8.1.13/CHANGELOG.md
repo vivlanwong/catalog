@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [code-server-8.1.13](https://github.com/truecharts/charts/compare/code-server-8.1.12...code-server-8.1.13) (2023-11-30)
 
 ### Chore
@@ -95,5 +97,3 @@
   
   
 
-
-## [code-server-8.0.4](https://github.com/truecharts/charts/compare/code-server-8.0.3...code-server-8.0.4) (2023-09-30)

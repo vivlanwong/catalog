@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [picoshare-6.0.13](https://github.com/truecharts/charts/compare/picoshare-6.0.12...picoshare-6.0.13) (2023-11-17)
 
 
@@ -94,6 +96,4 @@
   
   
 
-
-## [picoshare-6.0.2](https://github.com/truecharts/charts/compare/picoshare-6.0.1...picoshare-6.0.2) (2023-09-05)
 

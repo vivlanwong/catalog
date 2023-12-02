@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [yourls-3.0.0](https://github.com/truecharts/charts/compare/yourls-2.0.16...yourls-3.0.0) (2023-07-31)
 
 ### Feat
@@ -95,5 +97,3 @@
 ### Chore
 
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  - update container image tccr.io/truecharts/yourls to latest ([#5811](https://github.com/truecharts/charts/issues/5811))
-  

@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [metallb-11.0.0](https://github.com/truecharts/charts/compare/metallb-10.0.11...metallb-11.0.0) (2023-11-15)
 
 
@@ -95,5 +97,3 @@
 - update helm general non-major ([#11034](https://github.com/truecharts/charts/issues/11034))
   
   
-
-

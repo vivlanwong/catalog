@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [mc-router-1.0.11](https://github.com/truecharts/charts/compare/mc-router-1.0.10...mc-router-1.0.11) (2023-11-17)
 
 
@@ -94,6 +96,4 @@
 - update container image tccr.io/truecharts/mc-router to v1.19.0 ([#12453](https://github.com/truecharts/charts/issues/12453))
   
   
-
-
 

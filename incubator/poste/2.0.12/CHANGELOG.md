@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [poste-2.0.12](https://github.com/truecharts/charts/compare/poste-3.0.0...poste-2.0.12) (2023-11-18)
 
 ### Chore
@@ -95,5 +97,3 @@
 
 
 ## [poste-2.0.5](https://github.com/truecharts/charts/compare/posterr-3.0.3...poste-2.0.5) (2022-12-19)
-
-### Chore

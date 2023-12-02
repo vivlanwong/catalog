@@ -10,6 +10,8 @@
 
 
 
+
+
 ## [ts-dnsserver-3.0.0](https://github.com/truecharts/charts/compare/ts-dnsserver-2.0.20...ts-dnsserver-3.0.0) (2023-07-31)
 
 ### Feat
@@ -95,5 +97,3 @@
 ## [ts-dnsserver-2.0.12](https://github.com/truecharts/charts/compare/ts-dnsserver-2.0.11...ts-dnsserver-2.0.12) (2022-12-26)
 
 ### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))

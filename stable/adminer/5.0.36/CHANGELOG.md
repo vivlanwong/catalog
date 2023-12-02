@@ -9,6 +9,8 @@
 
 
 
+
+
 ## [adminer-5.0.36](https://github.com/truecharts/charts/compare/adminer-5.0.35...adminer-5.0.36) (2023-11-22)
 
 ### Chore
@@ -94,6 +96,4 @@
   
   
 
-
-## [adminer-5.0.26](https://github.com/truecharts/charts/compare/adminer-5.0.25...adminer-5.0.26) (2023-11-01)
 
