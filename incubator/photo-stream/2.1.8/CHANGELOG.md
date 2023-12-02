@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [photo-stream-3.0.0](https://github.com/truecharts/charts/compare/photo-stream-2.1.8...photo-stream-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [photo-stream-2.1.8](https://github.com/truecharts/charts/compare/photo-stream-2.1.7...photo-stream-2.1.8) (2023-02-10)
 
 ### Fix
@@ -79,21 +97,3 @@
 
 
 ## [photo-stream-2.1.1](https://github.com/truecharts/charts/compare/photo-stream-2.1.0...photo-stream-2.1.1) (2022-11-30)
-
-
-
-
-## [photo-stream-2.1.1](https://github.com/truecharts/charts/compare/photo-stream-2.1.0...photo-stream-2.1.1) (2022-11-30)
-
-
-
-
-## [photo-stream-2.1.1](https://github.com/truecharts/charts/compare/photo-stream-2.1.0...photo-stream-2.1.1) (2022-11-30)
-
-
-
-
-## [photo-stream-2.1.1](https://github.com/truecharts/charts/compare/photo-stream-2.1.0...photo-stream-2.1.1) (2022-11-30)
-
-
-

@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [docusaurus-5.0.9](https://github.com/truecharts/charts/compare/docusaurus-5.0.8...docusaurus-5.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [docusaurus-4.0.21](https://github.com/truecharts/charts/compare/docusaurus-4.0.20...docusaurus-4.0.21) (2023-06-13)

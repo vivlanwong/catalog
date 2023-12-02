@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [qbitrr-0.0.27](https://github.com/truecharts/charts/compare/qbitrr-0.0.26...qbitrr-0.0.27) (2023-11-30)
 
 ### Chore
@@ -93,7 +97,3 @@
   
   
 
-
-## [qbitrr-0.0.17](https://github.com/truecharts/charts/compare/qbitrr-0.0.16...qbitrr-0.0.17) (2023-11-03)
-
-### Chore

@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [funkwhale-3.0.2](https://github.com/truecharts/charts/compare/funkwhale-4.0.0...funkwhale-3.0.2) (2023-10-07)
 
 ### Chore
@@ -93,7 +97,3 @@
   
   
 
-
-## [funkwhale-2.1.5](https://github.com/truecharts/charts/compare/funkwhale-2.1.4...funkwhale-2.1.5) (2022-12-25)
-
-### Chore

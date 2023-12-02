@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [automatic-music-downloader-6.0.9](https://github.com/truecharts/charts/compare/automatic-music-downloader-6.0.8...automatic-music-downloader-6.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [automatic-music-downloader-5.0.21](https://github.com/truecharts/charts/compare/automatic-music-downloader-5.0.20...automatic-music-downloader-5.0.21) (2023-06-13)

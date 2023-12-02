@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [metallb-config-3.0.11](https://github.com/truecharts/charts/compare/metallb-config-3.0.10...metallb-config-3.0.11) (2023-11-17)
 
 
@@ -91,9 +95,5 @@
 - Setup Guide Updates ([#12191](https://github.com/truecharts/charts/issues/12191))
   
   
-
-
-
-## [metallb-config-3.0.0](https://github.com/truecharts/charts/compare/metallb-config-2.0.2...metallb-config-3.0.0) (2023-07-31)
 
 

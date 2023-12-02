@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [sickgear-8.0.9](https://github.com/truecharts/charts/compare/sickgear-8.0.8...sickgear-8.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [sickgear-7.0.25](https://github.com/truecharts/charts/compare/sickgear-7.0.24...sickgear-7.0.25) (2023-06-13)

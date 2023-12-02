@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [uptimerobot-prometheus-8.0.9](https://github.com/truecharts/charts/compare/uptimerobot-prometheus-8.0.8...uptimerobot-prometheus-8.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [uptimerobot-prometheus-7.0.13](https://github.com/truecharts/charts/compare/uptimerobot-prometheus-7.0.12...uptimerobot-prometheus-7.0.13) (2023-06-13)

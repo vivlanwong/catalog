@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [minio-console-7.0.9](https://github.com/truecharts/charts/compare/minio-console-7.0.8...minio-console-7.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [minio-console-6.0.29](https://github.com/truecharts/charts/compare/minio-console-6.0.28...minio-console-6.0.29) (2023-06-26)

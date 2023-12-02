@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [bookstack-8.0.11](https://github.com/truecharts/charts/compare/bookstack-8.0.10...bookstack-8.0.11) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 ## [bookstack-8.0.0](https://github.com/truecharts/charts/compare/bookstack-7.0.25...bookstack-8.0.0) (2023-07-31)
 
-
-
-
-## [bookstack-7.0.25](https://github.com/truecharts/charts/compare/bookstack-7.0.24...bookstack-7.0.25) (2023-07-29)

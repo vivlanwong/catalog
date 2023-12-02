@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [photoshow-7.0.9](https://github.com/truecharts/charts/compare/photoshow-7.0.8...photoshow-7.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [photoshow-6.0.20](https://github.com/truecharts/charts/compare/photoshow-6.0.19...photoshow-6.0.20) (2023-06-13)

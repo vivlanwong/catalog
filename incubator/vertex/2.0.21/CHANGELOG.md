@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [vertex-3.0.0](https://github.com/truecharts/charts/compare/vertex-2.0.21...vertex-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [vertex-2.0.21](https://github.com/truecharts/charts/compare/vertex-2.0.20...vertex-2.0.21) (2023-04-30)
 
 ### Chore
@@ -76,24 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [vertex-2.0.13](https://github.com/truecharts/charts/compare/vertex-2.0.12...vertex-2.0.13) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [vertex-2.0.12](https://github.com/truecharts/charts/compare/vertex-2.0.11...vertex-2.0.12) (2022-12-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/vertex to vstable ([#5805](https://github.com/truecharts/charts/issues/5805))
   
   
 

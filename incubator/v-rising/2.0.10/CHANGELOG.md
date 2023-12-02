@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [v-rising-2.0.10](https://github.com/truecharts/charts/compare/v-rising-3.0.0...v-rising-2.0.10) (2023-11-18)
 
 ### Chore
@@ -93,7 +97,3 @@
 - update helm general non-major
   
   
-
-
-## [v-rising-2.0.2](https://github.com/truecharts/charts/compare/v-rising-2.0.1...v-rising-2.0.2) (2022-11-30)
-

@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [send-3.0.0](https://github.com/truecharts/charts/compare/send-2.0.10...send-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [send-2.0.10](https://github.com/truecharts/charts/compare/send-2.0.9...send-2.0.10) (2023-02-14)
 
 ### Chore
@@ -78,22 +97,3 @@
 
 ## [send-2.0.2](https://github.com/truecharts/charts/compare/projectsend-6.0.4...send-2.0.2) (2022-11-30)
 
-
-
-
-## [send-2.0.2](https://github.com/truecharts/charts/compare/projectsend-6.0.4...send-2.0.2) (2022-11-30)
-
-
-
-
-## [send-2.0.2](https://github.com/truecharts/charts/compare/projectsend-6.0.4...send-2.0.2) (2022-11-30)
-
-
-
-
-## [send-2.0.2](https://github.com/truecharts/charts/compare/projectsend-6.0.4...send-2.0.2) (2022-11-30)
-
-
-
-
-## [send-2.0.2](https://github.com/truecharts/charts/compare/projectsend-6.0.4...send-2.0.2) (2022-11-30)

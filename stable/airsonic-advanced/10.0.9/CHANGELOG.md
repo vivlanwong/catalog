@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [airsonic-advanced-10.0.9](https://github.com/truecharts/charts/compare/airsonic-advanced-10.0.8...airsonic-advanced-10.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [airsonic-advanced-9.0.12](https://github.com/truecharts/charts/compare/airsonic-advanced-9.0.11...airsonic-advanced-9.0.12) (2023-06-13)

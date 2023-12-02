@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [ciao-3.0.0](https://github.com/truecharts/charts/compare/ciao-2.0.12...ciao-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [ciao-2.0.12](https://github.com/truecharts/charts/compare/ciao-2.0.11...ciao-2.0.12) (2023-02-10)
 
 ### Fix
@@ -78,22 +97,3 @@
 
 ## [ciao-2.0.4](https://github.com/truecharts/charts/compare/ciao-2.0.3...ciao-2.0.4) (2022-12-10)
 
-
-
-
-## [ciao-2.0.3](https://github.com/truecharts/charts/compare/ciao-2.0.2...ciao-2.0.3) (2022-11-30)
-
-
-
-
-## [ciao-2.0.3](https://github.com/truecharts/charts/compare/ciao-2.0.2...ciao-2.0.3) (2022-11-30)
-
-
-
-
-## [ciao-2.0.3](https://github.com/truecharts/charts/compare/ciao-2.0.2...ciao-2.0.3) (2022-11-30)
-
-
-
-
-## [ciao-2.0.3](https://github.com/truecharts/charts/compare/ciao-2.0.2...ciao-2.0.3) (2022-11-30)

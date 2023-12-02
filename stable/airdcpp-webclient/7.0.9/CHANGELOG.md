@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [airdcpp-webclient-7.0.9](https://github.com/truecharts/charts/compare/airdcpp-webclient-7.0.8...airdcpp-webclient-7.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [airdcpp-webclient-6.0.24](https://github.com/truecharts/charts/compare/airdcpp-webclient-6.0.23...airdcpp-webclient-6.0.24) (2023-06-13)

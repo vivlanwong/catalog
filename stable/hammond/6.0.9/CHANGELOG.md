@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [hammond-6.0.9](https://github.com/truecharts/charts/compare/hammond-6.0.8...hammond-6.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [hammond-5.0.13](https://github.com/truecharts/charts/compare/hammond-5.0.12...hammond-5.0.13) (2023-06-13)

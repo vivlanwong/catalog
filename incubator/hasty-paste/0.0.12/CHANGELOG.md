@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [hasty-paste-1.0.0](https://github.com/truecharts/charts/compare/hasty-paste-0.0.12...hasty-paste-1.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [hasty-paste-0.0.12](https://github.com/truecharts/charts/compare/hasty-paste-0.0.11...hasty-paste-0.0.12) (2023-02-27)
 
 ### Chore
@@ -77,23 +95,5 @@
 
 
 ## [hasty-paste-0.0.4](https://github.com/truecharts/charts/compare/hasty-paste-0.0.3...hasty-paste-0.0.4) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5848](https://github.com/truecharts/charts/issues/5848))
-  
-  
-
-
-## [hasty-paste-0.0.3](https://github.com/truecharts/charts/compare/hasty-paste-0.0.2...hasty-paste-0.0.3) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [hasty-paste-0.0.2](https://github.com/truecharts/charts/compare/hasty-paste-0.0.1...hasty-paste-0.0.2) (2022-12-25)
 
 ### Chore

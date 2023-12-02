@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [homebridge-4.0.6](https://github.com/truecharts/charts/compare/homebridge-4.0.5...homebridge-4.0.6) (2023-11-08)
 
 ### Chore
@@ -92,8 +96,4 @@
   
   
 
-
-## [homebridge-3.0.7](https://github.com/truecharts/charts/compare/homebridge-3.0.6...homebridge-3.0.7) (2022-12-27)
-
-### Chore
 

@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [memories-of-mars-3.0.0](https://github.com/truecharts/charts/compare/memories-of-mars-2.0.9...memories-of-mars-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [memories-of-mars-2.0.9](https://github.com/truecharts/charts/compare/memories-of-mars-2.0.8...memories-of-mars-2.0.9) (2023-02-10)
 
 ### Fix
@@ -78,22 +97,3 @@
 
 
 ## [memories-of-mars-2.0.2](https://github.com/truecharts/charts/compare/memories-of-mars-2.0.1...memories-of-mars-2.0.2) (2022-11-30)
-
-
-
-
-## [memories-of-mars-2.0.2](https://github.com/truecharts/charts/compare/memories-of-mars-2.0.1...memories-of-mars-2.0.2) (2022-11-30)
-
-
-
-
-## [memories-of-mars-2.0.2](https://github.com/truecharts/charts/compare/memories-of-mars-2.0.1...memories-of-mars-2.0.2) (2022-11-30)
-
-
-
-
-## [memories-of-mars-2.0.2](https://github.com/truecharts/charts/compare/memories-of-mars-2.0.1...memories-of-mars-2.0.2) (2022-11-30)
-
-
-
-

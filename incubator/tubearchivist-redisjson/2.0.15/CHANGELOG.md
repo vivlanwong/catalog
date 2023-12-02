@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [tubearchivist-redisjson-3.0.0](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-2.0.15...tubearchivist-redisjson-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [tubearchivist-redisjson-2.0.15](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-2.0.14...tubearchivist-redisjson-2.0.15) (2023-04-30)
 
 ### Chore
@@ -76,24 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [tubearchivist-redisjson-2.0.7](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-2.0.6...tubearchivist-redisjson-2.0.7) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [tubearchivist-redisjson-2.0.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-2.0.5...tubearchivist-redisjson-2.0.6) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
   
   
 

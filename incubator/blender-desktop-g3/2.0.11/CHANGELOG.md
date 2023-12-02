@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [blender-desktop-g3-3.0.0](https://github.com/truecharts/charts/compare/blender-desktop-g3-2.0.11...blender-desktop-g3-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [blender-desktop-g3-2.0.11](https://github.com/truecharts/charts/compare/blender-desktop-g3-2.0.10...blender-desktop-g3-2.0.11) (2023-04-30)
 
 ### Chore
@@ -78,22 +96,4 @@
 - update helm general non-major
   
   
-
-
-## [blender-desktop-g3-2.0.3](https://github.com/truecharts/charts/compare/blender-desktop-g3-2.0.2...blender-desktop-g3-2.0.3) (2022-12-13)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [blender-desktop-g3-2.0.2](https://github.com/truecharts/charts/compare/blender-desktop-g3-2.0.1...blender-desktop-g3-2.0.2) (2022-11-30)
-
-
-
-
-## [blender-desktop-g3-2.0.2](https://github.com/truecharts/charts/compare/blender-desktop-g3-2.0.1...blender-desktop-g3-2.0.2) (2022-11-30)
-
 

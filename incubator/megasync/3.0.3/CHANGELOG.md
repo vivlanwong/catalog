@@ -4,6 +4,16 @@
 
 
 
+
+
+
+
+
+## [megasync-4.0.0](https://github.com/truecharts/charts/compare/megasync-3.0.3...megasync-4.0.0) (2023-07-31)
+
+
+
+
 ## [megasync-3.0.3](https://github.com/truecharts/charts/compare/megasync-3.0.2...megasync-3.0.3) (2023-07-30)
 
 ### Chore
@@ -87,13 +97,3 @@
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
   
   
-
-
-## [megasync-2.0.5](https://github.com/truecharts/charts/compare/megasync-2.0.4...megasync-2.0.5) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-

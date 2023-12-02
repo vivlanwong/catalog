@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [gitea-14.0.13](https://github.com/truecharts/charts/compare/gitea-14.0.12...gitea-14.0.13) (2023-11-26)
 
 ### Chore
@@ -93,7 +97,3 @@
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   
   
-
-
-## [gitea-14.0.1](https://github.com/truecharts/charts/compare/gitea-14.0.0...gitea-14.0.1) (2023-10-04)
-

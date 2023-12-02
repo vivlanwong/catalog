@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [rstudio-4.0.0](https://github.com/truecharts/charts/compare/rstudio-3.0.8...rstudio-4.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [rstudio-3.0.8](https://github.com/truecharts/charts/compare/rstudio-3.0.7...rstudio-3.0.8) (2023-05-01)
 
 ### Chore
@@ -79,21 +97,3 @@
   
   
 
-
-## [rstudio-3.0.0](https://github.com/truecharts/charts/compare/rstudio-2.0.7...rstudio-3.0.0) (2022-12-25)
-
-
-
-
-## [rstudio-2.0.7](https://github.com/truecharts/charts/compare/rstudio-2.0.6...rstudio-2.0.7) (2022-12-24)
-
-### Chore
-
-- update container image tccr.io/truecharts/rstudio to latest
-  
-  
-
-
-## [rstudio-2.0.6](https://github.com/truecharts/charts/compare/rstudio-2.0.5...rstudio-2.0.6) (2022-12-19)
-
-### Chore

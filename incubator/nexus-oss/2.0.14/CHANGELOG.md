@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [nexus-oss-3.0.0](https://github.com/truecharts/charts/compare/nexus-oss-2.0.14...nexus-oss-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [nexus-oss-2.0.14](https://github.com/truecharts/charts/compare/nexus-oss-2.0.13...nexus-oss-2.0.14) (2023-02-27)
 
 ### Chore
@@ -77,23 +95,5 @@
 
 
 ## [nexus-oss-2.0.6](https://github.com/truecharts/charts/compare/nexus-oss-2.0.5...nexus-oss-2.0.6) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [nexus-oss-2.0.5](https://github.com/truecharts/charts/compare/nexus-oss-2.0.4...nexus-oss-2.0.5) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [nexus-oss-2.0.4](https://github.com/truecharts/charts/compare/nexus-oss-2.0.3...nexus-oss-2.0.4) (2022-12-14)
 
 ### Chore

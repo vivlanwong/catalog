@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [restic-rest-server-2.0.11](https://github.com/truecharts/charts/compare/restic-rest-server-3.0.0...restic-rest-server-2.0.11) (2023-11-18)
 
 ### Chore
@@ -93,7 +97,3 @@
   
   
 
-
-## [restic-rest-server-2.0.3](https://github.com/truecharts/charts/compare/restic-rest-server-2.0.2...restic-rest-server-2.0.3) (2022-12-13)
-
-### Chore

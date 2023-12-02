@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [lanraragi-6.0.10](https://github.com/truecharts/charts/compare/lanraragi-6.0.9...lanraragi-6.0.10) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
   
-  
-
-
-## [lanraragi-5.0.22](https://github.com/truecharts/charts/compare/lanraragi-5.0.21...lanraragi-5.0.22) (2023-07-01)

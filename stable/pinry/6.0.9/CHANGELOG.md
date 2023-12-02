@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [pinry-6.0.9](https://github.com/truecharts/charts/compare/pinry-6.0.8...pinry-6.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [pinry-5.0.21](https://github.com/truecharts/charts/compare/pinry-5.0.20...pinry-5.0.21) (2023-06-13)

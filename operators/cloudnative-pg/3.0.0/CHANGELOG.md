@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [cloudnative-pg-3.0.0](https://github.com/truecharts/charts/compare/cloudnative-pg-2.0.12...cloudnative-pg-3.0.0) (2023-11-15)
 
 
@@ -93,7 +97,3 @@
 ### Chore
 
 - update helm general non-major ([#11034](https://github.com/truecharts/charts/issues/11034))
-  - update container image tccr.io/truecharts/cloudnative-pg to v1.20.2 ([#9657](https://github.com/truecharts/charts/issues/9657))
-  
-  
-

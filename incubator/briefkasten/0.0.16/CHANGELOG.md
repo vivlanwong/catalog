@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [briefkasten-1.0.0](https://github.com/truecharts/charts/compare/briefkasten-0.0.16...briefkasten-1.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [briefkasten-0.0.16](https://github.com/truecharts/charts/compare/briefkasten-0.0.15...briefkasten-0.0.16) (2023-02-27)
 
 ### Chore
@@ -77,23 +95,5 @@
 
 
 ## [briefkasten-0.0.8](https://github.com/truecharts/charts/compare/briefkasten-0.0.7...briefkasten-0.0.8) (2023-01-23)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [briefkasten-0.0.7](https://github.com/truecharts/charts/compare/briefkasten-0.0.6...briefkasten-0.0.7) (2023-01-17)
-
-### Chore
-
-- update helm general non-major ([#6430](https://github.com/truecharts/charts/issues/6430))
-  
-  
-
-
-## [briefkasten-0.0.6](https://github.com/truecharts/charts/compare/briefkasten-0.0.5...briefkasten-0.0.6) (2023-01-07)
 
 ### Chore

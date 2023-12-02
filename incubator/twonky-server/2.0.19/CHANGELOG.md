@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [twonky-server-3.0.0](https://github.com/truecharts/charts/compare/twonky-server-2.0.19...twonky-server-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [twonky-server-2.0.19](https://github.com/truecharts/charts/compare/twonky-server-2.0.18...twonky-server-2.0.19) (2023-04-30)
 
 ### Chore
@@ -76,24 +94,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/twonky-server to latest
-  
-  
-
-
-## [twonky-server-2.0.11](https://github.com/truecharts/charts/compare/twonky-server-2.0.10...twonky-server-2.0.11) (2023-01-07)
-
-### Chore
-
-- update container image tccr.io/truecharts/twonky-server to latest
-  
-  
-
-
-## [twonky-server-2.0.10](https://github.com/truecharts/charts/compare/twonky-server-2.0.9...twonky-server-2.0.10) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
   
   
 

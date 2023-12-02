@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [retrobot-5.0.9](https://github.com/truecharts/charts/compare/retrobot-5.0.8...retrobot-5.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [retrobot-4.0.23](https://github.com/truecharts/charts/compare/retrobot-4.0.22...retrobot-4.0.23) (2023-06-13)

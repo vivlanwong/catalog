@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [damselfly-3.0.0](https://github.com/truecharts/charts/compare/damselfly-2.0.13...damselfly-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [damselfly-2.0.13](https://github.com/truecharts/charts/compare/damselfly-2.0.12...damselfly-2.0.13) (2023-02-10)
 
 ### Fix
@@ -77,23 +96,4 @@
 
 
 ## [damselfly-2.0.5](https://github.com/truecharts/charts/compare/damselfly-2.0.4...damselfly-2.0.5) (2022-12-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/damselfly to latest
-  
-  
-
-
-## [damselfly-2.0.4](https://github.com/truecharts/charts/compare/damselfly-2.0.3...damselfly-2.0.4) (2022-11-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/damselfly to latest
-  
-  
-
-
-## [damselfly-2.0.3](https://github.com/truecharts/charts/compare/damselfly-2.0.1...damselfly-2.0.3) (2022-11-30)
-
 

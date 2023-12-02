@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [etesync-5.0.9](https://github.com/truecharts/charts/compare/etesync-5.0.8...etesync-5.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [etesync-4.0.10](https://github.com/truecharts/charts/compare/etesync-4.0.9...etesync-4.0.10) (2023-06-17)

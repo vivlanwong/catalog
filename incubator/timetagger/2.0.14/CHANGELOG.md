@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [timetagger-3.0.0](https://github.com/truecharts/charts/compare/timetagger-2.0.14...timetagger-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [timetagger-2.0.14](https://github.com/truecharts/charts/compare/timetagger-2.0.13...timetagger-2.0.14) (2023-02-14)
 
 ### Chore
@@ -78,22 +97,3 @@
 
 ## [timetagger-2.0.6](https://github.com/truecharts/charts/compare/timetagger-2.0.5...timetagger-2.0.6) (2022-12-13)
 
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [timetagger-2.0.5](https://github.com/truecharts/charts/compare/timetagger-2.0.3...timetagger-2.0.5) (2022-11-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/timetagger to v22.11.3
-  
-  
-
-
-## [timetagger-2.0.5](https://github.com/truecharts/charts/compare/timetagger-2.0.3...timetagger-2.0.5) (2022-11-30)
-
-### Chore

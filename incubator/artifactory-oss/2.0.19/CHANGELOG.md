@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [artifactory-oss-3.0.0](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.19...artifactory-oss-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [artifactory-oss-2.0.19](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.18...artifactory-oss-2.0.19) (2023-04-30)
 
 ### Chore
@@ -76,24 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [artifactory-oss-2.0.11](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.10...artifactory-oss-2.0.11) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [artifactory-oss-2.0.10](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.9...artifactory-oss-2.0.10) (2022-12-24)
-
-### Chore
-
-- pin dependencies ([#5688](https://github.com/truecharts/charts/issues/5688))
   
   
 

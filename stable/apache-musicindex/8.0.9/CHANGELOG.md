@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [apache-musicindex-8.0.9](https://github.com/truecharts/charts/compare/apache-musicindex-8.0.8...apache-musicindex-8.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [apache-musicindex-7.0.20](https://github.com/truecharts/charts/compare/apache-musicindex-7.0.19...apache-musicindex-7.0.20) (2023-06-13)

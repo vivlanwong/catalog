@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [mongodb-9.0.1](https://github.com/truecharts/charts/compare/mongodb-9.0.0...mongodb-9.0.1) (2023-11-30)
 
 ### Chore
@@ -93,7 +97,3 @@
   
   
 
-
-## [mongodb-8.0.39](https://github.com/truecharts/charts/compare/mongodb-8.0.38...mongodb-8.0.39) (2023-11-09)
-
-### Chore

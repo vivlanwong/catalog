@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [wizarr-3.0.11](https://github.com/truecharts/charts/compare/wizarr-3.0.10...wizarr-3.0.11) (2023-11-17)
 
 ### Feat
@@ -93,7 +97,3 @@
 
 
 ## [wizarr-3.0.0](https://github.com/truecharts/charts/compare/wizarr-2.0.2...wizarr-3.0.0) (2023-07-31)
-
-
-
-

@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [chronograf-3.0.0](https://github.com/truecharts/charts/compare/chronograf-2.0.14...chronograf-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [chronograf-2.0.14](https://github.com/truecharts/charts/compare/chronograf-2.0.13...chronograf-2.0.14) (2023-04-30)
 
 ### Chore
@@ -76,24 +94,6 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [chronograf-2.0.6](https://github.com/truecharts/charts/compare/chronograf-2.0.5...chronograf-2.0.6) (2022-12-13)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [chronograf-2.0.5](https://github.com/truecharts/charts/compare/chronograf-2.0.4...chronograf-2.0.5) (2022-12-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/chronograf to latest
   
   
 

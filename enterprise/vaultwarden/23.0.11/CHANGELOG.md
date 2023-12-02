@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [vaultwarden-23.0.11](https://github.com/truecharts/charts/compare/vaultwarden-23.0.10...vaultwarden-23.0.11) (2023-11-20)
 
 ### Fix
@@ -92,8 +96,4 @@
   
   
 
-
-## [vaultwarden-23.0.0](https://github.com/truecharts/charts/compare/vaultwarden-22.0.0...vaultwarden-23.0.0) (2023-09-16)
-
-### Fix
 

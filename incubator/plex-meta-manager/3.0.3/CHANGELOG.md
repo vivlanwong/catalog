@@ -4,6 +4,16 @@
 
 
 
+
+
+
+
+
+## [plex-meta-manager-4.0.0](https://github.com/truecharts/charts/compare/plex-meta-manager-3.0.3...plex-meta-manager-4.0.0) (2023-07-31)
+
+
+
+
 ## [plex-meta-manager-3.0.3](https://github.com/truecharts/charts/compare/plex-meta-manager-3.0.2...plex-meta-manager-3.0.3) (2023-07-30)
 
 ### Chore
@@ -87,13 +97,3 @@
 ### Chore
 
 - update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [plex-meta-manager-2.0.7](https://github.com/truecharts/charts/compare/plex-meta-manager-2.0.6...plex-meta-manager-2.0.7) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  

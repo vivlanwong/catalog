@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [openproject-4.0.0](https://github.com/truecharts/charts/compare/openproject-3.0.27...openproject-4.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [openproject-3.0.27](https://github.com/truecharts/charts/compare/openproject-3.0.26...openproject-3.0.27) (2023-02-27)
 
 ### Chore
@@ -77,23 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#6689](https://github.com/truecharts/charts/issues/6689))
-  
-  
-
-
-## [openproject-3.0.18](https://github.com/truecharts/charts/compare/openproject-3.0.17...openproject-3.0.18) (2023-01-23)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [openproject-3.0.17](https://github.com/truecharts/charts/compare/openproject-3.0.16...openproject-3.0.17) (2023-01-17)
-
-### Chore
-
-- update helm general non-major ([#6430](https://github.com/truecharts/charts/issues/6430))
-  
   

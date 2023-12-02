@@ -4,6 +4,20 @@
 
 
 
+
+
+
+
+
+## [ra-rom-processor-3.0.0](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.18...ra-rom-processor-3.0.0) (2023-07-31)
+
+### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [ra-rom-processor-2.0.18](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.17...ra-rom-processor-2.0.18) (2023-02-26)
 
 ### Chore
@@ -83,17 +97,3 @@
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
   
   
-
-
-## [ra-rom-processor-2.0.9](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.8...ra-rom-processor-2.0.9) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [ra-rom-processor-2.0.8](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.7...ra-rom-processor-2.0.8) (2022-12-25)
-
-### Chore

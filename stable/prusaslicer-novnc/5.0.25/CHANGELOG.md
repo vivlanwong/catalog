@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [prusaslicer-novnc-5.0.25](https://github.com/truecharts/charts/compare/prusaslicer-novnc-5.0.24...prusaslicer-novnc-5.0.25) (2023-12-01)
 
 ### Chore
@@ -93,7 +97,3 @@
 - update container image tccr.io/truecharts/prusaslicer-novnc to latest ([#14272](https://github.com/truecharts/charts/issues/14272))
   
   
-
-
-## [prusaslicer-novnc-5.0.15](https://github.com/truecharts/charts/compare/prusaslicer-novnc-5.0.14...prusaslicer-novnc-5.0.15) (2023-10-29)
-

@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [linkwallet-3.0.0](https://github.com/truecharts/charts/compare/linkwallet-2.0.10...linkwallet-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [linkwallet-2.0.10](https://github.com/truecharts/charts/compare/linkwallet-2.0.9...linkwallet-2.0.10) (2023-02-10)
 
 ### Fix
@@ -79,21 +97,3 @@
 ## [linkwallet-2.0.2](https://github.com/truecharts/charts/compare/linkwallet-2.0.1...linkwallet-2.0.2) (2022-11-30)
 
 
-
-
-## [linkwallet-2.0.2](https://github.com/truecharts/charts/compare/linkwallet-2.0.1...linkwallet-2.0.2) (2022-11-30)
-
-
-
-
-## [linkwallet-2.0.2](https://github.com/truecharts/charts/compare/linkwallet-2.0.1...linkwallet-2.0.2) (2022-11-30)
-
-
-
-
-## [linkwallet-2.0.2](https://github.com/truecharts/charts/compare/linkwallet-2.0.1...linkwallet-2.0.2) (2022-11-30)
-
-
-
-
-## [linkwallet-2.0.2](https://github.com/truecharts/charts/compare/linkwallet-2.0.1...linkwallet-2.0.2) (2022-11-30)

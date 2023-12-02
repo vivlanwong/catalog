@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [homebox-3.0.12](https://github.com/truecharts/charts/compare/homebox-3.0.11...homebox-3.0.12) (2023-11-17)
 
 ### Fix
@@ -93,7 +97,3 @@
 ## [homebox-3.0.1](https://github.com/truecharts/charts/compare/homebox-3.0.0...homebox-3.0.1) (2023-10-07)
 
 ### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  

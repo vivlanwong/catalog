@@ -8,6 +8,10 @@
 
 
 
+
+
+
+
 ## [nitter-2.0.0](https://github.com/truecharts/charts/compare/nitter-1.0.12...nitter-2.0.0) (2023-07-31)
 
 ### Feat
@@ -92,8 +96,4 @@
   
   
 
-
-## [nitter-1.0.4](https://github.com/truecharts/charts/compare/nitter-1.0.3...nitter-1.0.4) (2023-01-17)
-
-### Chore
 

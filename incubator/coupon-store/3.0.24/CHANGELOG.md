@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [coupon-store-4.0.0](https://github.com/truecharts/charts/compare/coupon-store-3.0.24...coupon-store-4.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [coupon-store-3.0.24](https://github.com/truecharts/charts/compare/coupon-store-3.0.23...coupon-store-3.0.24) (2023-02-27)
 
 ### Chore
@@ -77,23 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#6121](https://github.com/truecharts/charts/issues/6121))
-  
-  
-
-
-## [coupon-store-3.0.15](https://github.com/truecharts/charts/compare/coupon-store-3.0.14...coupon-store-3.0.15) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [coupon-store-3.0.14](https://github.com/truecharts/charts/compare/coupon-store-3.0.13...coupon-store-3.0.14) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
   
   

@@ -4,6 +4,20 @@
 
 
 
+
+
+
+
+
+## [grafana-image-renderer-3.0.0](https://github.com/truecharts/charts/compare/grafana-image-renderer-2.0.13...grafana-image-renderer-3.0.0) (2023-07-31)
+
+### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [grafana-image-renderer-2.0.13](https://github.com/truecharts/charts/compare/grafana-image-renderer-2.0.12...grafana-image-renderer-2.0.13) (2023-04-30)
 
 ### Chore
@@ -83,17 +97,3 @@
 - update helm general non-major
   
   
-
-
-## [grafana-image-renderer-2.0.4](https://github.com/truecharts/charts/compare/grafana-image-renderer-2.0.3...grafana-image-renderer-2.0.4) (2022-12-13)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [grafana-image-renderer-2.0.3](https://github.com/truecharts/charts/compare/grafana-image-renderer-2.0.2...grafana-image-renderer-2.0.3) (2022-11-30)
-
-

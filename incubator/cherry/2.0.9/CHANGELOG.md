@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [cherry-3.0.0](https://github.com/truecharts/charts/compare/cherry-2.0.9...cherry-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [cherry-2.0.9](https://github.com/truecharts/charts/compare/cherry-2.0.8...cherry-2.0.9) (2023-02-10)
 
 ### Fix
@@ -78,22 +96,4 @@
 
 
 ## [cherry-2.0.2](https://github.com/truecharts/charts/compare/cherry-2.0.1...cherry-2.0.2) (2022-11-30)
-
-
-
-
-## [cherry-2.0.2](https://github.com/truecharts/charts/compare/cherry-2.0.1...cherry-2.0.2) (2022-11-30)
-
-
-
-
-## [cherry-2.0.2](https://github.com/truecharts/charts/compare/cherry-2.0.1...cherry-2.0.2) (2022-11-30)
-
-
-
-
-## [cherry-2.0.2](https://github.com/truecharts/charts/compare/cherry-2.0.1...cherry-2.0.2) (2022-11-30)
-
-
-
 

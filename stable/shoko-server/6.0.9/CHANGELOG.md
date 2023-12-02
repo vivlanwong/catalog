@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [shoko-server-6.0.9](https://github.com/truecharts/charts/compare/shoko-server-6.0.8...shoko-server-6.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [shoko-server-5.0.23](https://github.com/truecharts/charts/compare/shoko-server-5.0.22...shoko-server-5.0.23) (2023-06-13)

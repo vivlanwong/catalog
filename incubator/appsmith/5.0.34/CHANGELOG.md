@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [appsmith-6.0.0](https://github.com/truecharts/charts/compare/appsmith-5.0.34...appsmith-6.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [appsmith-5.0.34](https://github.com/truecharts/charts/compare/appsmith-5.0.33...appsmith-5.0.34) (2023-02-27)
 
 ### Chore
@@ -77,23 +96,4 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [appsmith-5.0.25](https://github.com/truecharts/charts/compare/appsmith-5.0.24...appsmith-5.0.25) (2023-01-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/appsmith to v1.9.4
-  
-  
-
-
-## [appsmith-5.0.24](https://github.com/truecharts/charts/compare/appsmith-5.0.23...appsmith-5.0.24) (2023-01-17)
-
-### Chore
-
-- update helm general non-major ([#6430](https://github.com/truecharts/charts/issues/6430))
-  
   

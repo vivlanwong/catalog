@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [ghost-7.0.0](https://github.com/truecharts/charts/compare/ghost-6.0.59...ghost-7.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [ghost-6.0.59](https://github.com/truecharts/charts/compare/ghost-6.0.58...ghost-6.0.59) (2023-05-03)
 
 ### Chore
@@ -77,23 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/ghost to 5.34.0
-  
-  
-
-
-## [ghost-6.0.51](https://github.com/truecharts/charts/compare/ghost-6.0.50...ghost-6.0.51) (2023-02-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/ghost to 5.34.0
-  
-  
-
-
-## [ghost-6.0.50](https://github.com/truecharts/charts/compare/ghost-6.0.49...ghost-6.0.50) (2023-02-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/ghost to v5.34.0
   
   

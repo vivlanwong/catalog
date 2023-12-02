@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [resilio-sync-11.0.10](https://github.com/truecharts/charts/compare/resilio-sync-11.0.9...resilio-sync-11.0.10) (2023-11-21)
 
 ### Chore
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
   
-  
-
-
-## [resilio-sync-10.0.1](https://github.com/truecharts/charts/compare/resilio-sync-10.0.0...resilio-sync-10.0.1) (2023-07-01)

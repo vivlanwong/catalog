@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [euterpe-4.0.0](https://github.com/truecharts/charts/compare/euterpe-3.0.10...euterpe-4.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [euterpe-3.0.10](https://github.com/truecharts/charts/compare/euterpe-3.0.9...euterpe-3.0.10) (2023-02-10)
 
 ### Fix
@@ -78,22 +96,4 @@
 
 ## [euterpe-3.0.2](https://github.com/truecharts/charts/compare/euterpe-3.0.1...euterpe-3.0.2) (2022-12-11)
 
-
-
-
-## [euterpe-3.0.1](https://github.com/truecharts/charts/compare/euterpe-3.0.0...euterpe-3.0.1) (2022-12-11)
-
-### Fix
-
-- decode keys before reencode ([#5258](https://github.com/truecharts/charts/issues/5258))
-  
-  
-
-
-## [euterpe-3.0.0](https://github.com/truecharts/charts/compare/euterpe-2.0.3...euterpe-3.0.0) (2022-12-08)
-
-
-
-
-## [euterpe-2.0.3](https://github.com/truecharts/charts/compare/euterpe-2.0.2...euterpe-2.0.3) (2022-11-30)
 

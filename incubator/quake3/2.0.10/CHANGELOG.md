@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [quake3-2.0.10](https://github.com/truecharts/charts/compare/quake3-3.0.0...quake3-2.0.10) (2023-11-18)
 
 ### Chore
@@ -93,7 +97,3 @@
 - update helm general non-major
   
   
-
-
-## [quake3-2.0.2](https://github.com/truecharts/charts/compare/quake3-2.0.1...quake3-2.0.2) (2022-11-30)
-

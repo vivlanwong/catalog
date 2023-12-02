@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [filestash-3.0.5](https://github.com/truecharts/charts/compare/filestash-3.0.4...filestash-3.0.5) (2023-11-08)
 
 ### Chore
@@ -93,7 +97,3 @@
 
 - ensure new helm deps repo is used in latest releases as well.
   
-  
-
-
-## [filestash-2.0.14](https://github.com/truecharts/charts/compare/filestash-2.0.13...filestash-2.0.14) (2023-02-02)

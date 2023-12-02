@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [goaccess-npm-logs-3.0.0](https://github.com/truecharts/charts/compare/goaccess-npm-logs-2.0.14...goaccess-npm-logs-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [goaccess-npm-logs-2.0.14](https://github.com/truecharts/charts/compare/goaccess-npm-logs-2.0.13...goaccess-npm-logs-2.0.14) (2023-04-30)
 
 ### Chore
@@ -77,23 +95,5 @@
 
 
 ## [goaccess-npm-logs-2.0.6](https://github.com/truecharts/charts/compare/goaccess-npm-logs-2.0.5...goaccess-npm-logs-2.0.6) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [goaccess-npm-logs-2.0.5](https://github.com/truecharts/charts/compare/goaccess-npm-logs-2.0.4...goaccess-npm-logs-2.0.5) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [goaccess-npm-logs-2.0.4](https://github.com/truecharts/charts/compare/goaccess-npm-logs-2.0.3...goaccess-npm-logs-2.0.4) (2022-12-19)
 
 ### Chore

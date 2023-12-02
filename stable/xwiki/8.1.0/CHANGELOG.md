@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [xwiki-8.1.0](https://github.com/truecharts/charts/compare/xwiki-8.0.24...xwiki-8.1.0) (2023-11-30)
 
 ### Chore
@@ -93,7 +97,3 @@
   
   
 
-
-## [xwiki-8.0.15](https://github.com/truecharts/charts/compare/xwiki-8.0.14...xwiki-8.0.15) (2023-10-29)
-
-### Chore

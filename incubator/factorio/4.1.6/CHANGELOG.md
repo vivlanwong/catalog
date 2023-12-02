@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [factorio-4.1.6](https://github.com/truecharts/charts/compare/factorio-4.1.5...factorio-4.1.6) (2023-11-08)
 
 ### Chore
@@ -92,8 +96,4 @@
 
 
 
-
-## [factorio-4.0.6](https://github.com/truecharts/charts/compare/factorio-4.0.5...factorio-4.0.6) (2023-07-01)
-
-### Chore
 

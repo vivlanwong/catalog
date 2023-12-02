@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [googlephotossync-3.0.0](https://github.com/truecharts/charts/compare/googlephotossync-2.0.15...googlephotossync-3.0.0) (2023-07-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/googlephotossync to latest ([#8231](https://github.com/truecharts/charts/issues/8231))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [googlephotossync-2.0.15](https://github.com/truecharts/charts/compare/googlephotossync-2.0.14...googlephotossync-2.0.15) (2023-02-26)
 
 ### Chore
@@ -78,22 +97,3 @@
 
 ## [googlephotossync-2.0.7](https://github.com/truecharts/charts/compare/googlephotossync-2.0.6...googlephotossync-2.0.7) (2022-12-25)
 
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [googlephotossync-2.0.6](https://github.com/truecharts/charts/compare/googlephotossync-2.0.5...googlephotossync-2.0.6) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [googlephotossync-2.0.5](https://github.com/truecharts/charts/compare/googlephotossync-2.0.4...googlephotossync-2.0.5) (2022-12-13)
-
-### Chore

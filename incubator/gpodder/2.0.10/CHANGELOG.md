@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [gpodder-3.0.0](https://github.com/truecharts/charts/compare/gpodder-2.0.10...gpodder-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [gpodder-2.0.10](https://github.com/truecharts/charts/compare/gpodder-2.0.9...gpodder-2.0.10) (2023-04-30)
 
 ### Chore
@@ -79,21 +97,3 @@
 ## [gpodder-2.0.2](https://github.com/truecharts/charts/compare/gpodder-2.0.1...gpodder-2.0.2) (2022-11-30)
 
 
-
-
-## [gpodder-2.0.2](https://github.com/truecharts/charts/compare/gpodder-2.0.1...gpodder-2.0.2) (2022-11-30)
-
-
-
-
-## [gpodder-2.0.2](https://github.com/truecharts/charts/compare/gpodder-2.0.1...gpodder-2.0.2) (2022-11-30)
-
-
-
-
-## [gpodder-2.0.2](https://github.com/truecharts/charts/compare/gpodder-2.0.1...gpodder-2.0.2) (2022-11-30)
-
-
-
-
-## [gpodder-2.0.2](https://github.com/truecharts/charts/compare/gpodder-2.0.1...gpodder-2.0.2) (2022-11-30)

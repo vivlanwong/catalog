@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [kdenlive-3.0.0](https://github.com/truecharts/charts/compare/kdenlive-2.0.20...kdenlive-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [kdenlive-2.0.20](https://github.com/truecharts/charts/compare/kdenlive-2.0.19...kdenlive-2.0.20) (2023-04-30)
 
 ### Chore
@@ -76,24 +94,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/kdenlive to latest
-  
-  
-
-
-## [kdenlive-2.0.12](https://github.com/truecharts/charts/compare/kdenlive-vnc-2.0.6...kdenlive-2.0.12) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [kdenlive-2.0.11](https://github.com/truecharts/charts/compare/kdenlive-2.0.10...kdenlive-2.0.11) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
   
   
 

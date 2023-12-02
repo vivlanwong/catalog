@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [apt-cacher-ng-5.0.9](https://github.com/truecharts/charts/compare/apt-cacher-ng-5.0.8...apt-cacher-ng-5.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [apt-cacher-ng-4.0.20](https://github.com/truecharts/charts/compare/apt-cacher-ng-4.0.19...apt-cacher-ng-4.0.20) (2023-06-13)

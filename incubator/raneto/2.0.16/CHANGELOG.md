@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [raneto-2.0.16](https://github.com/truecharts/charts/compare/raneto-3.0.0...raneto-2.0.16) (2023-11-18)
 
 ### Chore
@@ -92,8 +96,4 @@
 ## [raneto-2.0.9](https://github.com/truecharts/charts/compare/raneto-2.0.8...raneto-2.0.9) (2022-12-27)
 
 ### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
 

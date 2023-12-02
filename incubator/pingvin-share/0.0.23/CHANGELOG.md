@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [pingvin-share-1.0.0](https://github.com/truecharts/charts/compare/pingvin-share-0.0.23...pingvin-share-1.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [pingvin-share-0.0.23](https://github.com/truecharts/charts/compare/pingvin-share-0.0.22...pingvin-share-0.0.23) (2023-02-13)
 
 ### Chore
@@ -77,23 +95,5 @@
 
 
 ## [pingvin-share-0.0.15](https://github.com/truecharts/charts/compare/pingvin-share-0.0.14...pingvin-share-0.0.15) (2023-01-16)
-
-### Chore
-
-- update container image tccr.io/truecharts/pingvin-share to v0.6.1
-  
-  
-
-
-## [pingvin-share-0.0.14](https://github.com/truecharts/charts/compare/pingvin-share-0.0.13...pingvin-share-0.0.14) (2023-01-11)
-
-### Chore
-
-- update container image tccr.io/truecharts/pingvin-share to v0.6.0
-  
-  
-
-
-## [pingvin-share-0.0.13](https://github.com/truecharts/charts/compare/pingvin-share-0.0.12...pingvin-share-0.0.13) (2023-01-10)
 
 ### Chore

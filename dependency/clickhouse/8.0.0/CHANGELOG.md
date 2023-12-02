@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [clickhouse-8.0.0](https://github.com/truecharts/charts/compare/clickhouse-7.0.30...clickhouse-8.0.0) (2023-11-27)
 
 ### Chore
@@ -93,7 +97,3 @@
 - update helm chart common to 14.2.3 ([#14362](https://github.com/truecharts/charts/issues/14362))
   
   
-
-
-## [clickhouse-7.0.20](https://github.com/truecharts/charts/compare/clickhouse-7.0.19...clickhouse-7.0.20) (2023-11-03)
-

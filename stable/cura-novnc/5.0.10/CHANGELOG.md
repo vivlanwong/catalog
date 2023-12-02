@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [cura-novnc-5.0.10](https://github.com/truecharts/charts/compare/cura-novnc-5.0.9...cura-novnc-5.0.10) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
   
-  
-
-
-## [cura-novnc-4.0.25](https://github.com/truecharts/charts/compare/cura-novnc-4.0.24...cura-novnc-4.0.25) (2023-07-07)

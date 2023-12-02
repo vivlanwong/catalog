@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [redis-9.0.0](https://github.com/truecharts/charts/compare/redis-8.0.47...redis-9.0.0) (2023-11-27)
 
 ### Chore
@@ -93,7 +97,3 @@
 - update helm chart common to 14.2.1 ([#14176](https://github.com/truecharts/charts/issues/14176))
   
   
-
-
-## [redis-8.0.37](https://github.com/truecharts/charts/compare/redis-8.0.36...redis-8.0.37) (2023-10-29)
-

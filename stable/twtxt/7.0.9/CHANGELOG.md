@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [twtxt-7.0.9](https://github.com/truecharts/charts/compare/twtxt-7.0.8...twtxt-7.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 
 - update helm general non-major ([#10069](https://github.com/truecharts/charts/issues/10069))
   
-  
-
-
-## [twtxt-6.0.22](https://github.com/truecharts/charts/compare/twtxt-6.0.21...twtxt-6.0.22) (2023-06-13)

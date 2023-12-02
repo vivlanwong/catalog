@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [cups-server-4.0.0](https://github.com/truecharts/charts/compare/cups-server-3.0.21...cups-server-4.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [cups-server-3.0.21](https://github.com/truecharts/charts/compare/cups-server-3.0.20...cups-server-3.0.21) (2023-02-26)
 
 ### Chore
@@ -78,22 +97,3 @@
 
 ## [cups-server-3.0.13](https://github.com/truecharts/charts/compare/cups-server-3.0.12...cups-server-3.0.13) (2023-01-07)
 
-### Chore
-
-- update container image tccr.io/truecharts/cups-server to latest ([#6020](https://github.com/truecharts/charts/issues/6020))
-  
-  
-
-
-## [cups-server-3.0.12](https://github.com/truecharts/charts/compare/cups-server-3.0.11...cups-server-3.0.12) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [cups-server-3.0.11](https://github.com/truecharts/charts/compare/cups-server-3.0.10...cups-server-3.0.11) (2022-12-26)
-
-### Chore

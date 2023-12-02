@@ -4,6 +4,21 @@
 
 
 
+
+
+
+
+
+## [projectzomboidreporter-frontend-3.0.0](https://github.com/truecharts/charts/compare/projectzomboidreporter-frontend-2.0.9...projectzomboidreporter-frontend-3.0.0) (2023-07-31)
+
+### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [projectzomboidreporter-frontend-2.0.9](https://github.com/truecharts/charts/compare/projectzomboidreporter-frontend-2.0.8...projectzomboidreporter-frontend-2.0.9) (2023-02-10)
 
 ### Fix
@@ -61,21 +76,6 @@
 - update helm general non-major
   
   
-
-
-## [projectzomboidreporter-frontend-2.0.2](https://github.com/truecharts/charts/compare/projectzomboidreporter-frontend-2.0.1...projectzomboidreporter-frontend-2.0.2) (2022-11-30)
-
-
-
-
-## [projectzomboidreporter-frontend-2.0.2](https://github.com/truecharts/charts/compare/projectzomboidreporter-frontend-2.0.1...projectzomboidreporter-frontend-2.0.2) (2022-11-30)
-
-
-
-
-## [projectzomboidreporter-frontend-2.0.2](https://github.com/truecharts/charts/compare/projectzomboidreporter-frontend-2.0.1...projectzomboidreporter-frontend-2.0.2) (2022-11-30)
-
-
 
 
 ## [projectzomboidreporter-frontend-2.0.2](https://github.com/truecharts/charts/compare/projectzomboidreporter-frontend-2.0.1...projectzomboidreporter-frontend-2.0.2) (2022-11-30)

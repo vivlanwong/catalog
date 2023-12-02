@@ -4,6 +4,16 @@
 
 
 
+
+
+
+
+
+## [tasmobackup-4.0.0](https://github.com/truecharts/charts/compare/tasmobackup-3.0.3...tasmobackup-4.0.0) (2023-07-31)
+
+
+
+
 ## [tasmobackup-3.0.3](https://github.com/truecharts/charts/compare/tasmobackup-3.0.2...tasmobackup-3.0.3) (2023-07-30)
 
 ### Chore
@@ -87,13 +97,3 @@
 
 
 ## [tasmobackup-2.0.4](https://github.com/truecharts/charts/compare/tasmobackup-2.0.3...tasmobackup-2.0.4) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [tasmobackup-2.0.3](https://github.com/truecharts/charts/compare/tasmobackup-2.0.2...tasmobackup-2.0.3) (2022-12-13)
-

@@ -4,6 +4,8 @@
 
 
 
+
+
 ## [blocky-9.0.11](https://github.com/truecharts/charts/compare/blocky-9.0.10...blocky-9.0.11) (2023-11-18)
 
 
@@ -95,5 +97,3 @@
 
 - update helm general major (major) ([#11104](https://github.com/truecharts/charts/issues/11104))
   
-  ### Docs
-

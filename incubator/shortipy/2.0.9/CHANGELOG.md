@@ -4,6 +4,21 @@
 
 
 
+
+
+
+
+
+## [shortipy-3.0.0](https://github.com/truecharts/charts/compare/shortipy-2.0.9...shortipy-3.0.0) (2023-07-31)
+
+### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [shortipy-2.0.9](https://github.com/truecharts/charts/compare/shortipy-2.0.8...shortipy-2.0.9) (2023-02-10)
 
 ### Fix
@@ -65,21 +80,6 @@
 - update helm general non-major
   
   
-
-
-## [shortipy-2.0.2](https://github.com/truecharts/charts/compare/shortipy-2.0.1...shortipy-2.0.2) (2022-11-30)
-
-
-
-
-## [shortipy-2.0.2](https://github.com/truecharts/charts/compare/shortipy-2.0.1...shortipy-2.0.2) (2022-11-30)
-
-
-
-
-## [shortipy-2.0.2](https://github.com/truecharts/charts/compare/shortipy-2.0.1...shortipy-2.0.2) (2022-11-30)
-
-
 
 
 ## [shortipy-2.0.2](https://github.com/truecharts/charts/compare/shortipy-2.0.1...shortipy-2.0.2) (2022-11-30)

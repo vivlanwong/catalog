@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [wg-easy-5.0.9](https://github.com/truecharts/charts/compare/wg-easy-5.0.8...wg-easy-5.0.9) (2023-11-17)
 
 
@@ -93,7 +97,3 @@
 - update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
   
   
-
-
-## [wg-easy-4.0.17](https://github.com/truecharts/charts/compare/wg-easy-4.0.16...wg-easy-4.0.17) (2023-07-19)
-

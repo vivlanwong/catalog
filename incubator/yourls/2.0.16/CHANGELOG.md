@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [yourls-3.0.0](https://github.com/truecharts/charts/compare/yourls-2.0.16...yourls-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [yourls-2.0.16](https://github.com/truecharts/charts/compare/yourls-2.0.15...yourls-2.0.16) (2023-04-30)
 
 ### Chore
@@ -77,23 +95,5 @@
 
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
   - update container image tccr.io/truecharts/yourls to latest ([#5811](https://github.com/truecharts/charts/issues/5811))
-  
-  
-
-
-## [yourls-2.0.8](https://github.com/truecharts/charts/compare/yourls-2.0.7...yourls-2.0.8) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [yourls-2.0.7](https://github.com/truecharts/charts/compare/yourls-2.0.6...yourls-2.0.7) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
   
   

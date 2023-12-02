@@ -4,6 +4,24 @@
 
 
 
+
+
+
+
+
+## [debian-bullseye-3.0.0](https://github.com/truecharts/charts/compare/debian-bullseye-2.1.9...debian-bullseye-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [debian-bullseye-2.1.9](https://github.com/truecharts/charts/compare/debian-bullseye-2.1.8...debian-bullseye-2.1.9) (2023-04-30)
 
 ### Chore
@@ -76,24 +94,6 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [debian-bullseye-2.1.1](https://github.com/truecharts/charts/compare/debian-bullseye-2.1.0...debian-bullseye-2.1.1) (2022-12-13)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [debian-bullseye-2.1.0](https://github.com/truecharts/charts/compare/debian-bullseye-2.0.4...debian-bullseye-2.1.0) (2022-12-05)
-
-### Feat
-
-- Fix main port / order values better ([#5121](https://github.com/truecharts/charts/issues/5121))
   
   
 

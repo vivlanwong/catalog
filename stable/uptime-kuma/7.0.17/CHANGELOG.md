@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [uptime-kuma-7.0.17](https://github.com/truecharts/charts/compare/uptime-kuma-7.0.16...uptime-kuma-7.0.17) (2023-11-24)
 
 ### Chore
@@ -93,7 +97,3 @@
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   
   
-
-
-## [uptime-kuma-7.0.5](https://github.com/truecharts/charts/compare/uptime-kuma-7.0.4...uptime-kuma-7.0.5) (2023-10-11)
-

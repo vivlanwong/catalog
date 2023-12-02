@@ -4,6 +4,25 @@
 
 
 
+
+
+
+
+
+## [ts-dnsserver-3.0.0](https://github.com/truecharts/charts/compare/ts-dnsserver-2.0.20...ts-dnsserver-3.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  - fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [ts-dnsserver-2.0.20](https://github.com/truecharts/charts/compare/ts-dnsserver-2.0.19...ts-dnsserver-2.0.20) (2023-02-10)
 
 ### Fix
@@ -77,23 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [ts-dnsserver-2.0.11](https://github.com/truecharts/charts/compare/ts-dnsserver-2.0.10...ts-dnsserver-2.0.11) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [ts-dnsserver-2.0.10](https://github.com/truecharts/charts/compare/ts-dnsserver-2.0.9...ts-dnsserver-2.0.10) (2022-12-24)
-
-### Chore
-
-- update container image tccr.io/truecharts/ts-dnsserver to latest
-  
   

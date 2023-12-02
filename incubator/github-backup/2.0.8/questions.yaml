@@ -3,6 +3,8 @@ groups:
     description: Image to be used for container
   - name: General Settings
     description: General Deployment Settings
+  - name: Workload Settings
+    description: Workload Settings
   - name: App Configuration
     description: App Specific Config Options
   - name: Networking and Services
@@ -19,62 +21,128 @@ groups:
     description: Traefik Middlewares
   - name: Metrics
     description: Metrics
-  - name: VPN
-    description: VPN
   - name: Addons
     description: Addon Configuration
   - name: Advanced
     description: Advanced Configuration
+  - name: Postgresql
+    description: Postgresql
   - name: Documentation
     description: Documentation
 portals: {}
 questions:
   - variable: global
-    label: Global Settings
-    group: "General Settings"
+    group: General Settings
+    label: "Global Settings"
     schema:
+      additional_attrs: true
       type: dict
-      hidden: true
       attrs:
-        - variable: isSCALE
-          label: Flag this is SCALE
+        - variable: stopAll
+          label: Stop All
+          description: "Stops All Running pods and hibernates cnpg"
           schema:
             type: boolean
-            default: true
-            hidden: true
-  - variable: controller
-    group: "General Settings"
+            default: false
+  - variable: workload
+    group: "Workload Settings"
     label: ""
     schema:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: replicas
-          description: Number of desired pod replicas
-          label: Desired Replicas
+        - variable: main
+          label: ""
           schema:
-            type: int
-            required: true
-            default: 1
-  - variable: customextraargs
-    group: "General Settings"
-    label: "Extra Args"
-    description: "Do not click this unless you know what you are doing"
-    schema:
-      type: boolean
-      default: false
-      show_subquestions_if: true
-      subquestions:
-        - variable: extraArgs
-          label: Extra Args
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: arg
-                label: Arg
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type (Advanced)
                 schema:
                   type: string
+                  default: Deployment
+                  enum:
+                    - value: Deployment
+                      description: Deployment
+                    - value: DaemonSet
+                      description: DaemonSet
+
+              - variable: replicas
+                label: Replicas (Advanced)
+                description: Set the number of Replicas
+                schema:
+                  type: int
+                  show_if: [["type", "!=", "DaemonSet"]]
+                  default: 1
+              - variable: podSpec
+                label: ""
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: containers
+                      label: Containers
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: main
+                            label: Main Container
+                            schema:
+                              additional_attrs: true
+                              type: dict
+                              attrs:
+                                - variable: envList
+                                  label: Extra Environment Variables
+                                  description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: envItem
+                                        label: Environment Variable
+                                        schema:
+                                          additional_attrs: true
+                                          type: dict
+                                          attrs:
+                                            - variable: name
+                                              label: Name
+                                              schema:
+                                                type: string
+                                            - variable: value
+                                              label: Value
+                                              schema:
+                                                type: string
+                                - variable: extraArgs
+                                  label: Extra Args
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: arg
+                                        label: Arg
+                                        schema:
+                                          type: string
+                                - variable: advanced
+                                  label: Show Advanced Settings
+                                  description: Advanced settings are not covered by TrueCharts Support
+                                  schema:
+                                    type: boolean
+                                    default: false
+                                    show_subquestions_if: true
+                                    subquestions:
+                                      - variable: command
+                                        label: Command
+                                        schema:
+                                          type: list
+                                          default: []
+                                          items:
+                                            - variable: param
+                                              label: Param
+                                              schema:
+                                                type: string
+
   - variable: env
     group: "App Configuration"
     label: "Image Environment"
@@ -102,13 +170,7 @@ questions:
       default: false
       show_subquestions_if: true
       subquestions:
-        - variable: hostNetwork
-          group: Networking and Services
-          label: Host-Networking (Complicated)
-          schema:
-            type: boolean
-            default: false
-        - variable: externalInterfaces
+        - variable: scaleExternalInterface
           description: Add External Interfaces
           label: Add external Interfaces
           group: Networking
@@ -119,6 +181,7 @@ questions:
                 description: Interface Configuration
                 label: Interface Configuration
                 schema:
+                  additional_attrs: true
                   type: dict
                   $ref:
                     - "normalize/interfaceConfiguration"
@@ -135,6 +198,7 @@ questions:
                       description: Define how IP Address will be managed
                       label: IP Address Management
                       schema:
+                        additional_attrs: true
                         type: dict
                         required: true
                         attrs:
@@ -149,41 +213,41 @@ questions:
                                   description: Use DHCP
                                 - value: static
                                   description: Use Static IP
-                              show_subquestions_if: static
-                              subquestions:
-                                - variable: staticIPConfigurations
-                                  label: Static IP Addresses
+                          - variable: staticIPConfigurations
+                            label: Static IP Addresses
+                            schema:
+                              type: list
+                              show_if: [["type", "=", "static"]]
+                              items:
+                                - variable: staticIP
+                                  label: Static IP
                                   schema:
-                                    type: list
-                                    items:
-                                      - variable: staticIP
-                                        label: Static IP
+                                    type: ipaddr
+                                    cidr: true
+                          - variable: staticRoutes
+                            label: Static Routes
+                            schema:
+                              type: list
+                              show_if: [["type", "=", "static"]]
+                              items:
+                                - variable: staticRouteConfiguration
+                                  label: Static Route Configuration
+                                  schema:
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: destination
+                                        label: Destination
                                         schema:
                                           type: ipaddr
                                           cidr: true
-                                - variable: staticRoutes
-                                  label: Static Routes
-                                  schema:
-                                    type: list
-                                    items:
-                                      - variable: staticRouteConfiguration
-                                        label: Static Route Configuration
+                                          required: true
+                                      - variable: gateway
+                                        label: Gateway
                                         schema:
-                                          additional_attrs: true
-                                          type: dict
-                                          attrs:
-                                            - variable: destination
-                                              label: Destination
-                                              schema:
-                                                type: ipaddr
-                                                cidr: true
-                                                required: true
-                                            - variable: gateway
-                                              label: Gateway
-                                              schema:
-                                                type: ipaddr
-                                                cidr: false
-                                                required: true
+                                          type: ipaddr
+                                          cidr: false
+                                          required: true
         - variable: serviceList
           label: Add Manual Custom Services
           group: Networking and Services
@@ -297,15 +361,15 @@ questions:
                                   label: Port Type
                                   schema:
                                     type: string
-                                    default: TCP
+                                    default: tcp
                                     enum:
-                                      - value: HTTP
+                                      - value: http
                                         description: HTTP
-                                      - value: HTTPS
+                                      - value: https
                                         description: HTTPS
-                                      - value: TCP
+                                      - value: tcp
                                         description: TCP
-                                      - value: UDP
+                                      - value: udp
                                         description: UDP
                                 - variable: targetPort
                                   label: Target Port
@@ -360,13 +424,44 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
                 schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -396,6 +491,99 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: 256Gi
+              - variable: storageClass
+                label: 'storageClass (Advanced)'
+                description: 'sets the storageClass to something other than iX default. Only for advanced usecases!'
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: ""
+              - variable: static
+                label: 'Static Fixed PVC Bindings (Experimental)'
+                description: Link a PVC to a specific storage location
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: mode
+                      label: mode
+                      description: |
+                        disabled: use normal dynamic PVCs
+                        smb: connect to an SMB share
+                        nfs: connect to an NFS share
+                      schema:
+                        type: string
+                        default: "disabled"
+                        enum:
+                          - value: "disabled"
+                            description: disabled
+                          - value: smb
+                            description: smb
+                          - value: nfs
+                            description: nfs
+                    - variable: server
+                      label: Server
+                      description: server to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "myserver"
+                    - variable: share
+                      label: Share
+                      description: share to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "/myshare"
+                    - variable: user
+                      label: User
+                      description: connecting user
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: "myuser"
+                    - variable: domain
+                      label: Domain
+                      description: user domain
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+                    - variable: password
+                      label: Password
+                      description: connecting password
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+              - variable: volumeSnapshots
+                label: 'Volume Snapshots (Experimental)'
+                description: Add an entry to the list to force creation of a volumeSnapshot of this PVC
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: list
+                  default: []
+                  items:
+                    - variable: volumeSnapshotEntry
+                      label: Custom volumeSnapshot
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: Name
+                            description: 'WARNING: renaming this, means deletion of the snapshot with the old name!'
+                            schema:
+                              type: string
+                              default: "mysnapshot"
+                              required: true
+                          - variable: volumeSnapshotClassName
+                            label: 'volumeSnapshot Class Name (Advanced)'
+                            description: For use with PVCs using a non-default storageClass
+                            schema:
+                              type: string
+                              default: ""
         - variable: config
           label: "config Storage"
           description: "Persistent storage for config.json"
@@ -430,13 +618,44 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
                 schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -466,6 +685,99 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: 256Gi
+              - variable: storageClass
+                label: 'storageClass (Advanced)'
+                description: 'sets the storageClass to something other than iX default. Only for advanced usecases!'
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: ""
+              - variable: static
+                label: 'Static Fixed PVC Bindings (Experimental)'
+                description: Link a PVC to a specific storage location
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: mode
+                      label: mode
+                      description: |
+                        disabled: use normal dynamic PVCs
+                        smb: connect to an SMB share
+                        nfs: connect to an NFS share
+                      schema:
+                        type: string
+                        default: "disabled"
+                        enum:
+                          - value: "disabled"
+                            description: disabled
+                          - value: smb
+                            description: smb
+                          - value: nfs
+                            description: nfs
+                    - variable: server
+                      label: Server
+                      description: server to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "myserver"
+                    - variable: share
+                      label: Share
+                      description: share to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "/myshare"
+                    - variable: user
+                      label: User
+                      description: connecting user
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: "myuser"
+                    - variable: domain
+                      label: Domain
+                      description: user domain
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+                    - variable: password
+                      label: Password
+                      description: connecting password
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+              - variable: volumeSnapshots
+                label: 'Volume Snapshots (Experimental)'
+                description: Add an entry to the list to force creation of a volumeSnapshot of this PVC
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: list
+                  default: []
+                  items:
+                    - variable: volumeSnapshotEntry
+                      label: Custom volumeSnapshot
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: Name
+                            description: 'WARNING: renaming this, means deletion of the snapshot with the old name!'
+                            schema:
+                              type: string
+                              default: "mysnapshot"
+                              required: true
+                          - variable: volumeSnapshotClassName
+                            label: 'volumeSnapshot Class Name (Advanced)'
+                            description: For use with PVCs using a non-default storageClass
+                            schema:
+                              type: string
+                              default: ""
   - variable: persistenceList
     label: Additional App Storage
     group: Storage and Persistence
@@ -512,13 +824,44 @@ questions:
                   show_if: [["type", "=", "nfs"]]
                   type: string
                   default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
                 schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -555,112 +898,192 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: 256Gi
-  - variable: security
-    label: Container Security Settings
+              - variable: storageClass
+                label: 'storageClass (Advanced)'
+                description: 'sets the storageClass to something other than iX default. Only for advanced usecases!'
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: ""
+              - variable: static
+                label: 'Static Fixed PVC Bindings (Experimental)'
+                description: Link a PVC to a specific storage location
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: mode
+                      label: mode
+                      description: |
+                        disabled: use normal dynamic PVCs
+                        smb: connect to an SMB share
+                        nfs: connect to an NFS share
+                      schema:
+                        type: string
+                        default: "disabled"
+                        enum:
+                          - value: "disabled"
+                            description: disabled
+                          - value: smb
+                            description: smb
+                          - value: nfs
+                            description: nfs
+                    - variable: server
+                      label: Server
+                      description: server to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "myserver"
+                    - variable: share
+                      label: Share
+                      description: share to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "/myshare"
+                    - variable: user
+                      label: User
+                      description: connecting user
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: "myuser"
+                    - variable: domain
+                      label: Domain
+                      description: user domain
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+                    - variable: password
+                      label: Password
+                      description: connecting password
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+              - variable: volumeSnapshots
+                label: 'Volume Snapshots (Experimental)'
+                description: Add an entry to the list to force creation of a volumeSnapshot of this PVC
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: list
+                  default: []
+                  items:
+                    - variable: volumeSnapshotEntry
+                      label: Custom volumeSnapshot
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: Name
+                            description: 'WARNING: renaming this, means deletion of the snapshot with the old name!'
+                            schema:
+                              type: string
+                              default: "mysnapshot"
+                              required: true
+                          - variable: volumeSnapshotClassName
+                            label: 'volumeSnapshot Class Name (Advanced)'
+                            description: For use with PVCs using a non-default storageClass
+                            schema:
+                              type: string
+                              default: ""
+  - variable: securityContext
     group: Security and Permissions
+    label: Security Context
     schema:
-      type: dict
       additional_attrs: true
+      type: dict
       attrs:
-        - variable: editsecurity
-          label: Change PUID / UMASK values
-          description: By enabling this you override default set values.
+        - variable: container
+          label: Container
           schema:
-            type: boolean
-            default: false
-            show_subquestions_if: true
-            subquestions:
+            additional_attrs: true
+            type: dict
+            attrs:
+              # Settings from questions.yaml get appended here on a per-app basis
+
+              - variable: runAsUser
+                label: "runAsUser"
+                description: "The UserID of the user running the application"
+                schema:
+                  type: int
+                  default: 0
+              - variable: runAsGroup
+                label: "runAsGroup"
+                description: "The groupID of the user running the application"
+                schema:
+                  type: int
+                  default: 0
+              # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
                 description: When supported by the container, this sets the User ID running the Application Process. Not supported by all Apps
                 schema:
                   type: int
+                  show_if: [["runAsUser", "=", 0]]
                   default: 568
               - variable: UMASK
                 label: UMASK
                 description: When supported by the container, this sets the UMASK for the App. Not supported by all Apps
                 schema:
                   type: string
-                  default: "002"
-  - variable: advancedSecurity
-    label: Show Advanced Security Settings
-    group: Security and Permissions
-    schema:
-      type: boolean
-      default: false
-      show_subquestions_if: true
-      subquestions:
-        - variable: securityContext
-          label: Security Context
+                  default: "0022"
+              - variable: advanced
+                label: Show Advanced Settings
+                description: Advanced settings are not covered by TrueCharts Support
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: privileged
+                      label: "Privileged mode"
+                      schema:
+                        type: boolean
+                        default: false
+                    - variable: readOnlyRootFilesystem
+                      label: "ReadOnly Root Filesystem"
+                      schema:
+                        type: boolean
+                        default: true
+        - variable: pod
+          label: Pod
           schema:
             additional_attrs: true
             type: dict
             attrs:
-              - variable: privileged
-                label: "Privileged mode"
+              - variable: fsGroupChangePolicy
+                label: "When should we take ownership?"
                 schema:
-                  type: boolean
-                  default: false
-              - variable: readOnlyRootFilesystem
-                label: "ReadOnly Root Filesystem"
+                  type: string
+                  default: OnRootMismatch
+                  enum:
+                    - value: OnRootMismatch
+                      description: OnRootMismatch
+                    - value: Always
+                      description: Always
+              - variable: supplementalGroups
+                label: Supplemental Groups
                 schema:
-                  type: boolean
-                  default: false
-              - variable: allowPrivilegeEscalation
-                label: "Allow Privilege Escalation"
-                schema:
-                  type: boolean
-                  default: false
-              - variable: runAsNonRoot
-                label: "runAsNonRoot"
-                schema:
-                  type: boolean
-                  default: false
-  - variable: podSecurityContext
-    group: Security and Permissions
-    label: Pod Security Context
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: runAsUser
-          label: "runAsUser"
-          description: "The UserID of the user running the application"
-          schema:
-            type: int
-            default: 0
-        - variable: runAsGroup
-          label: "runAsGroup"
-          description: The groupID this App of the user running the application"
-          schema:
-            type: int
-            default: 0
-        - variable: fsGroup
-          label: "fsGroup"
-          description: "The group that should own ALL storage."
-          schema:
-            type: int
-            default: 568
-        - variable: fsGroupChangePolicy
-          label: "When should we take ownership?"
-          schema:
-            type: string
-            default: OnRootMismatch
-            enum:
-              - value: OnRootMismatch
-                description: OnRootMismatch
-              - value: Always
-                description: Always
-        - variable: supplementalGroups
-          label: Supplemental Groups
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: supplementalGroupsEntry
-                label: Supplemental Group
+                  type: list
+                  default: []
+                  items:
+                    - variable: supplementalGroupsEntry
+                      label: Supplemental Group
+                      schema:
+                        type: int
+              # Settings from questions.yaml get appended here on a per-app basis
+              - variable: fsGroup
+                label: "fsGroup"
+                description: "The group that should own ALL storage."
                 schema:
                   type: int
+                  default: 568
+
   - variable: resources
     group: Resources and Devices
     label: "Resource Limits"
@@ -676,14 +1099,14 @@ questions:
             attrs:
               - variable: cpu
                 label: CPU
-                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 4000m
                   valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: RAM
-                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 8Gi
@@ -697,7 +1120,7 @@ questions:
             attrs:
               - variable: cpu
                 label: CPU
-                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1000m means 1 hyperthread. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 10m
@@ -705,7 +1128,7 @@ questions:
                   valid_chars: '^(?!^0(\.0|m|)$)([0-9]+)(\.[0-9]|m?)$'
               - variable: memory
                 label: "RAM"
-                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/docs/manual/SCALE%20Apps/indepth/validation"
+                description: "1Gi means 1 Gibibyte RAM. Detailed info: https://truecharts.org/manual/SCALE/validation"
                 schema:
                   type: string
                   default: 50Mi
@@ -734,7 +1157,7 @@ questions:
                 description: Sets the persistence type
                 schema:
                   type: string
-                  default: hostPath
+                  default: device
                   hidden: true
               - variable: readOnly
                 label: readOnly
@@ -752,15 +1175,34 @@ questions:
                 schema:
                   type: string
                   default: "/dev/ttyACM0"
-  # Specify GPU configuration
   - variable: scaleGPU
     label: GPU Configuration
     group: Resources and Devices
     schema:
-      type: dict
-      $ref:
-        - "definitions/gpuConfiguration"
-      attrs: []
+      type: list
+      default: []
+      items:
+        - variable: scaleGPUEntry
+          label: GPU
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              # Specify GPU configuration
+              - variable: gpu
+                label: Select GPU
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  $ref:
+                    - "definitions/gpuConfiguration"
+                  attrs: []
+              - variable: workaround
+                label: "Workaround"
+                schema:
+                  type: string
+                  default: workaround
+                  hidden: true
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
@@ -1211,22 +1653,6 @@ questions:
                   default: false
                   show_subquestions_if: true
                   subquestions:
-                    - variable: git
-                      label: Git Settings
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: deployKey
-                            description: Raw SSH Private Key
-                            label: Deploy Key
-                            schema:
-                              type: string
-                          - variable: deployKeyBase64
-                            description: Base64-encoded SSH private key. When both variables are set, the raw SSH key takes precedence
-                            label: Deploy Key Base64
-                            schema:
-                              type: string
                     - variable: service
                       label: ""
                       schema:
@@ -1253,48 +1679,6 @@ questions:
                               show_if: [["type", "=", "LoadBalancer"]]
                               type: string
                               default: ""
-                          - variable: advancedsvcset
-                            label: Show Advanced Service Settings
-                            schema:
-                              type: boolean
-                              default: false
-                              show_subquestions_if: true
-                              subquestions:
-                                - variable: externalIPs
-                                  label: "External IP's"
-                                  description: "External IP's"
-                                  schema:
-                                    type: list
-                                    default: []
-                                    items:
-                                      - variable: externalIP
-                                        label: External IP
-                                        schema:
-                                          type: string
-                                - variable: ipFamilyPolicy
-                                  label: IP Family Policy
-                                  description: Specify the IP Policy
-                                  schema:
-                                    type: string
-                                    default: SingleStack
-                                    enum:
-                                      - value: SingleStack
-                                        description: SingleStack
-                                      - value: PreferDualStack
-                                        description: PreferDualStack
-                                      - value: RequireDualStack
-                                        description: RequireDualStack
-                                - variable: ipFamilies
-                                  label: IP Families
-                                  description: (Advanced) The IP Families that should be used
-                                  schema:
-                                    type: list
-                                    default: []
-                                    items:
-                                      - variable: ipFamily
-                                        label: IP Family
-                                        schema:
-                                          type: string
                           - variable: ports
                             label: ""
                             schema:
@@ -1312,14 +1696,195 @@ questions:
                                         schema:
                                           type: int
                                           default: 36107
-                                      - variable: nodePort
-                                        description: Leave Empty to Disable
-                                        label: nodePort DEPRECATED
+                    - variable: ingress
+                      label:  "Ingress"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: enabled
+                            label: Enable Ingress
+                            schema:
+                              type: boolean
+                              default: false
+                              show_subquestions_if: true
+                              subquestions:
+                                - variable: hosts
+                                  label: Hosts
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: hostEntry
+                                        label: Host
                                         schema:
-                                          type: int
-                                          default: 36107
+                                          additional_attrs: true
+                                          type: dict
+                                          attrs:
+                                            - variable: host
+                                              label: HostName
+                                              schema:
+                                                type: string
+                                                default: ""
+                                                required: true
+                                            - variable: paths
+                                              label: Paths
+                                              schema:
+                                                type: list
+                                                default: [{path: "/", pathType: "Prefix"}]
+                                                items:
+                                                  - variable: pathEntry
+                                                    label: Host
+                                                    schema:
+                                                      additional_attrs: true
+                                                      type: dict
+                                                      attrs:
+                                                        - variable: path
+                                                          label: Path
+                                                          schema:
+                                                            type: string
+                                                            required: true
+                                                            default: "/"
+                                                        - variable: pathType
+                                                          label: Path Type
+                                                          schema:
+                                                            type: string
+                                                            required: true
+                                                            default: Prefix
+                                - variable: certificateIssuer
+                                  label: Cert-Manager clusterIssuer
+                                  description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates. Cannot be used combined with tls option below'
+                                  schema:
+                                    type: string
+                                    default: ""
+                                - variable: middlewares
+                                  label: Traefik Middlewares
+                                  description: Add previously created Traefik Middlewares to this Ingress
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: name
+                                        label: Name
+                                        schema:
+                                          type: string
+                                          default: ""
+                                          required: true
+                                - variable: advanced
+                                  label: Show Advanced Settings
+                                  description: Advanced settings are not covered by TrueCharts Support
+                                  schema:
+                                    type: boolean
+                                    default: false
+                                - variable: entrypoint
+                                  label: (Advanced) Traefik Entrypoint
+                                  description: Entrypoint used by Traefik when using Traefik as Ingress Provider
+                                  schema:
+                                    type: string
+                                    default: websecure
+                                    show_if: [["advanced", "=", true]]
+                                    required: true
+                                - variable: allowCors
+                                  label: "Allow Cross Origin Requests"
+                                  schema:
+                                    type: boolean
+                                    show_if: [["advanced", "=", true]]
+                                    default: false
+                                - variable: ingressClassName
+                                  label: (Advanced/Optional) IngressClass Name
+                                  schema:
+                                    type: string
+                                    show_if: [["advanced", "=", true]]
+                                    default: ""
+                                - variable: tls
+                                  label: TLS-Settings
+                                  schema:
+                                    type: list
+                                    show_if: [["advanced", "=", true]]
+                                    default: []
+                                    items:
+                                      - variable: tlsEntry
+                                        label: Host
+                                        schema:
+                                          additional_attrs: true
+                                          type: dict
+                                          attrs:
+                                            - variable: hosts
+                                              label: Certificate Hosts
+                                              schema:
+                                                type: list
+                                                default: []
+                                                items:
+                                                  - variable: host
+                                                    label: Host
+                                                    schema:
+                                                      type: string
+                                                      default: ""
+                                                      required: true
+                                            - variable: certificateIssuer
+                                              label: Use Cert-Manager clusterIssuer
+                                              description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates.'
+                                              schema:
+                                                type: string
+                                                default: ""
+                                            - variable: clusterCertificate
+                                              label:  'Cluster Certificate (Advanced)'
+                                              description: 'Add the name of your cluster-wide certificate, that you set up in the ClusterIssuer chart.'
+                                              schema:
+                                                type: string
+                                                show_if: [["certificateIssuer", "=", ""]]
+                                                default: ""
+                                            - variable: secretName
+                                              label: 'Use Custom Certificate Secret (Advanced)'
+                                              schema:
+                                                show_if: [["certificateIssuer", "=", ""]]
+                                                type: string
+                                                default: ""
+                                            - variable: scaleCert
+                                              label: 'Use TrueNAS SCALE Certificate (Deprecated)'
+                                              schema:
+                                                show_if: [["certificateIssuer", "=", ""]]
+                                                type: int
+                                                $ref:
+                                                  - "definitions/certificate"
                     - variable: envList
                       label: Codeserver Environment Variables
+                      schema:
+                        type: list
+                        show_if: [["type", "!=", "disabled"]]
+                        default: []
+                        items:
+                          - variable: envItem
+                            label: Environment Variable
+                            schema:
+                              additional_attrs: true
+                              type: dict
+                              attrs:
+                                - variable: name
+                                  label: Name
+                                  schema:
+                                    type: string
+                                    required: true
+                                - variable: value
+                                  label: Value
+                                  schema:
+                                    type: string
+                                    required: true
+        - variable: netshoot
+          label: Netshoot
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enabled
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: envList
+                      label: Netshoot Environment Variables
                       schema:
                         type: list
                         show_if: [["type", "!=", "disabled"]]
@@ -1355,15 +1920,18 @@ questions:
                   enum:
                     - value: disabled
                       description: disabled
-                    - value: openvpn
-                      description: OpenVPN
-                    - value: wireguard
-                      description: Wireguard
+                    - value: gluetun
+                      description: Gluetun
                     - value: tailscale
                       description: Tailscale
+                    - value: openvpn
+                      description: OpenVPN (Deprecated)
+                    - value: wireguard
+                      description: Wireguard (Deprecated)
               - variable: openvpn
                 label: OpenVPN Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "openvpn"]]
                   attrs:
@@ -1378,11 +1946,13 @@ questions:
                       description: Authentication Credentials
                       schema:
                         type: string
+                        show_if: [["username", "!=", ""]]
                         default: ""
                         required: true
               - variable: tailscale
                 label: Tailscale Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "tailscale"]]
                   attrs:
@@ -1482,39 +2052,10 @@ questions:
               - variable: configFile
                 label: VPN Config File Location
                 schema:
-                  type: dict
+                  type: string
                   show_if: [["type", "!=", "disabled"]]
-                  attrs:
-                    - variable: enabled
-                      label: Enabled
-                      schema:
-                        type: boolean
-                        default: true
-                        hidden: true
-                    - variable: type
-                      label: Type
-                      schema:
-                        type: string
-                        default: hostPath
-                        hidden: true
-                    - variable: hostPathType
-                      label: hostPathType
-                      schema:
-                        type: string
-                        default: File
-                        hidden: true
-                    - variable: noMount
-                      label: noMount
-                      schema:
-                        type: boolean
-                        default: true
-                        hidden: true
-                    - variable: hostPath
-                      label: Full Path to File
-                      description: "Path to your local VPN config file for example: /mnt/tank/vpn.conf or /mnt/tank/vpn.ovpn"
-                      schema:
-                        type: string
-                        default: ""
+                  default: ""
+
               - variable: envList
                 label: VPN Environment Variables
                 schema:
@@ -1538,6 +2079,7 @@ questions:
                             schema:
                               type: string
                               required: true
+                              max_length: 10240
   - variable: docs
     group: Documentation
     label: Please read the documentation at https://truecharts.org

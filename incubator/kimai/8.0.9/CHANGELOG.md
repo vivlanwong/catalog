@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [kimai-8.0.9](https://github.com/truecharts/charts/compare/kimai-8.0.8...kimai-8.0.9) (2023-11-19)
 
 ### Fix
@@ -93,7 +97,3 @@
 ## [kimai-8.0.0](https://github.com/truecharts/charts/compare/kimai-7.0.0...kimai-8.0.0) (2023-07-31)
 
 ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
