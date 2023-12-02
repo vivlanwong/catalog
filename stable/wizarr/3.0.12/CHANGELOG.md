@@ -4,6 +4,21 @@
 
 
 
+## [wizarr-3.0.12](https://github.com/truecharts/charts/compare/wizarr-3.0.11...wizarr-3.0.12) (2023-12-02)
+
+### Chore
+
+- fix annotations again
+  - update annotations
+  - cleanup chart.yaml and add min-max scale version
+  
+  ### Fix
+
+- Fix upstream missing release ([#15443](https://github.com/truecharts/charts/issues/15443))
+  
+  
+
+
 
 
 
@@ -82,18 +97,3 @@
 
 
 ## [wizarr-3.0.2](https://github.com/truecharts/charts/compare/wizarr-3.0.1...wizarr-3.0.2) (2023-10-08)
-
-### Chore
-
-- update container image tccr.io/truecharts/wizarr to v3.4.1 ([#12116](https://github.com/truecharts/charts/issues/12116))
-  
-  
-
-
-## [wizarr-3.0.1](https://github.com/truecharts/charts/compare/wizarr-3.0.0...wizarr-3.0.1) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  

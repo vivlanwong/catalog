@@ -4,6 +4,26 @@
 
 
 
+## [splunk-4.1.0](https://github.com/truecharts/charts/compare/splunk-4.0.0...splunk-4.1.0) (2023-12-02)
+
+### Chore
+
+- fix annotations again
+  - update annotations
+  - cleanup chart.yaml and add min-max scale version
+  - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
+  
+  ### Feat
+
+- Add HEC service ([#15353](https://github.com/truecharts/charts/issues/15353))
+  
+  ### Migrate
+
+- Migrate to new common ([#15093](https://github.com/truecharts/charts/issues/15093))
+  
+  
+
+
 
 
 
@@ -77,23 +97,3 @@
 
 ### Chore
 
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [splunk-3.0.4](https://github.com/truecharts/charts/compare/splunk-3.0.3...splunk-3.0.4) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [splunk-3.0.3](https://github.com/truecharts/charts/compare/splunk-3.0.2...splunk-3.0.3) (2022-12-21)
-
-### Chore
-
-- update container image splunk/splunk to v9.0.3
-  
