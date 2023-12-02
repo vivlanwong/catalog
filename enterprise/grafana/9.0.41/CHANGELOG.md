@@ -8,6 +8,7 @@
 
 
 
+
 ## [grafana-9.0.41](https://github.com/truecharts/charts/compare/grafana-9.0.40...grafana-9.0.41) (2023-11-25)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [grafana-9.0.30](https://github.com/truecharts/charts/compare/grafana-9.0.29...grafana-9.0.30) (2023-10-29)
-

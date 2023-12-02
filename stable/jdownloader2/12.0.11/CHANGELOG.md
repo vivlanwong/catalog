@@ -8,6 +8,7 @@
 
 
 
+
 ## [jdownloader2-12.0.11](https://github.com/truecharts/charts/compare/jdownloader2-12.0.10...jdownloader2-12.0.11) (2023-11-20)
 
 ### Fix
@@ -96,4 +97,3 @@
 
 
 ## [jdownloader2-12.0.0](https://github.com/truecharts/charts/compare/jdownloader2-11.0.18...jdownloader2-12.0.0) (2023-07-31)
-

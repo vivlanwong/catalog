@@ -8,6 +8,7 @@
 
 
 
+
 ## [monica-8.0.11](https://github.com/truecharts/charts/compare/monica-8.0.10...monica-8.0.11) (2023-11-30)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [monica-8.0.0](https://github.com/truecharts/charts/compare/monica-7.0.20...monica-8.0.0) (2023-07-31)
-

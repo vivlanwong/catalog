@@ -8,6 +8,7 @@
 
 
 
+
 ## [clamav-7.0.13](https://github.com/truecharts/charts/compare/clamav-7.0.12...clamav-7.0.13) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 
 ## [clamav-7.0.3](https://github.com/truecharts/charts/compare/clamav-7.0.2...clamav-7.0.3) (2023-08-31)
-

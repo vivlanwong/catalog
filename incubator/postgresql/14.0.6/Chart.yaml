@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: postgresql
 version: 14.0.6
@@ -8,9 +8,9 @@ home: https://truecharts.org/charts/incubator/postgresql
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/postgresql.png
 deprecated: false
 sources:
-  - https://www.postgresql.org/
   - https://github.com/truecharts/charts/tree/master/charts/incubator/postgresql
   - https://github.com/truecharts/containers/tree/master/mirrorpostgresql
+  - https://www.postgresql.org/
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -37,6 +37,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: database
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

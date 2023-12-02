@@ -8,6 +8,7 @@
 
 
 
+
 ## [grav-8.0.27](https://github.com/truecharts/charts/compare/grav-8.0.26...grav-8.0.27) (2023-11-30)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 ## [grav-8.0.17](https://github.com/truecharts/charts/compare/grav-8.0.16...grav-8.0.17) (2023-11-03)
 
-### Chore

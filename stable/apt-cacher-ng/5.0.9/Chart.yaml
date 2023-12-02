@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: apt-cacher-ng
 version: 5.0.9
@@ -11,9 +11,9 @@ home: https://truecharts.org/charts/stable/apt-cacher-ng
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/apt-cacher-ng.png
 deprecated: false
 sources:
+  - https://www.unix-ag.uni-kl.de/~bloch/acng/
   - https://github.com/truecharts/charts/tree/master/charts/stable/apt-cacher-ng
   - https://hub.docker.com/r/sameersbn/apt-cacher-ng
-  - https://www.unix-ag.uni-kl.de/~bloch/acng/
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -40,6 +40,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: Network-Proxy
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

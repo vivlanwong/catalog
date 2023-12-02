@@ -8,6 +8,7 @@
 
 
 
+
 ## [valetudo-mapper-2.0.10](https://github.com/truecharts/charts/compare/valetudo-mapper-3.0.0...valetudo-mapper-2.0.10) (2023-11-18)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [valetudo-mapper-2.0.2](https://github.com/truecharts/charts/compare/valetudo-mapper-2.0.1...valetudo-mapper-2.0.2) (2022-11-30)
-

@@ -8,6 +8,7 @@
 
 
 
+
 ## [rapidphotodownloader-2.0.11](https://github.com/truecharts/charts/compare/rapidphotodownloader-3.0.0...rapidphotodownloader-2.0.11) (2023-11-18)
 
 ### Chore
@@ -96,4 +97,3 @@
 ## [rapidphotodownloader-2.0.4](https://github.com/truecharts/charts/compare/rapidphotodownloader-2.0.3...rapidphotodownloader-2.0.4) (2022-12-19)
 
 ### Chore
-

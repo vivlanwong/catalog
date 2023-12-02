@@ -8,6 +8,7 @@
 
 
 
+
 ## [dell-idrac-fan-controller-2.0.9](https://github.com/truecharts/charts/compare/dell-idrac-fan-controller-2.0.8...dell-idrac-fan-controller-2.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 
 ## [dell-idrac-fan-controller-1.0.12](https://github.com/truecharts/charts/compare/dell-idrac-fan-controller-1.0.11...dell-idrac-fan-controller-1.0.12) (2023-07-01)
-

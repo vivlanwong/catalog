@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: chromium-desktop-g3
 version: 2.0.16
@@ -10,9 +10,9 @@ home: https://truecharts.org/charts/incubator/chromium-desktop-g3
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/chromium-desktop-g3.png
 deprecated: false
 sources:
-  - https://github.com/truecharts/containers/tree/master/mirrorchromium-desktop-g3
   - https://github.com/accetto/headless-drawing-g3/
   - https://github.com/truecharts/charts/tree/master/charts/incubator/chromium-desktop-g3
+  - https://github.com/truecharts/containers/tree/master/mirrorchromium-desktop-g3
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -38,6 +38,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: Tools-Utilities
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

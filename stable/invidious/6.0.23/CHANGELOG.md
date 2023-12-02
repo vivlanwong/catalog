@@ -8,6 +8,7 @@
 
 
 
+
 ## [invidious-6.0.23](https://github.com/truecharts/charts/compare/invidious-6.0.22...invidious-6.0.23) (2023-12-01)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [invidious-6.0.13](https://github.com/truecharts/charts/compare/invidious-6.0.12...invidious-6.0.13) (2023-10-29)
-

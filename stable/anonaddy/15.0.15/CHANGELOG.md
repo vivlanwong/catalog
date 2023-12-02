@@ -8,6 +8,7 @@
 
 
 
+
 ## [anonaddy-15.0.15](https://github.com/truecharts/charts/compare/anonaddy-15.0.14...anonaddy-15.0.15) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 ### Fix
 
 - revert to 32 chars ([#12289](https://github.com/truecharts/charts/issues/12289))
-  

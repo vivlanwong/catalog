@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: ghostfolio
 version: 0.3.1
@@ -11,10 +11,10 @@ home: https://truecharts.org/charts/stable/ghostfolio
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/ghostfolio.png
 deprecated: false
 sources:
+  - https://ghostfol.io/
   - https://github.com/truecharts/charts/tree/master/charts/stable/ghostfolio
   - https://hub.docker.com/r/ghostfolio/ghostfolio
   - https://github.com/ghostfolio/ghostfolio
-  - https://ghostfol.io/
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -44,6 +44,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: finance
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

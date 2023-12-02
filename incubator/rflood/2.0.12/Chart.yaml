@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: rflood
 version: 2.0.12
@@ -8,9 +8,9 @@ home: https://truecharts.org/charts/incubator/rflood
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/rflood.png
 deprecated: false
 sources:
+  - https://hotio.dev/containers/rflood
   - https://github.com/truecharts/charts/tree/master/charts/incubator/rflood
   - https://github.com/truecharts/containers/tree/master/mirrorrflood
-  - https://hotio.dev/containers/rflood
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -35,6 +35,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: Downloaders
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

@@ -8,6 +8,7 @@
 
 
 
+
 ## [netdata-6.0.15](https://github.com/truecharts/charts/compare/netdata-6.0.14...netdata-6.0.15) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 
 ## [netdata-6.0.5](https://github.com/truecharts/charts/compare/netdata-6.0.4...netdata-6.0.5) (2023-09-19)
-

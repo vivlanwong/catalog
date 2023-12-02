@@ -9,6 +9,7 @@
 
 
 
+
 ## [goaccess-npm-logs-3.0.0](https://github.com/truecharts/charts/compare/goaccess-npm-logs-2.0.14...goaccess-npm-logs-3.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 
 ## [goaccess-npm-logs-2.0.6](https://github.com/truecharts/charts/compare/goaccess-npm-logs-2.0.5...goaccess-npm-logs-2.0.6) (2022-12-26)
 
-### Chore

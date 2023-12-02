@@ -4,6 +4,9 @@
 
 
 
+
+
+
 ## [vikunja-9.0.26](https://github.com/truecharts/charts/compare/vikunja-9.0.25...vikunja-9.0.26) (2023-11-24)
 
 ### Chore
@@ -93,7 +96,4 @@
 - update container image tccr.io/truecharts/nginx to v1.25.3 ([#14195](https://github.com/truecharts/charts/issues/14195))
   
   
-
-
-## [vikunja-9.0.15](https://github.com/truecharts/charts/compare/vikunja-9.0.14...vikunja-9.0.15) (2023-10-29)
 

@@ -8,6 +8,7 @@
 
 
 
+
 ## [bazarr-15.1.0](https://github.com/truecharts/charts/compare/bazarr-15.0.20...bazarr-15.1.0) (2023-11-30)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 ## [bazarr-15.0.10](https://github.com/truecharts/charts/compare/bazarr-15.0.9...bazarr-15.0.10) (2023-10-07)
 
-### Chore

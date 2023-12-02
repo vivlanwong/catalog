@@ -7,6 +7,7 @@
 
 
 
+
 ## [frigate-10.1.8](https://github.com/truecharts/charts/compare/frigate-10.1.7...frigate-10.1.8) (2023-11-18)
 
 
@@ -96,4 +97,3 @@
 
 
 ## [frigate-10.0.0](https://github.com/truecharts/charts/compare/frigate-9.0.7...frigate-10.0.0) (2023-07-31)
-

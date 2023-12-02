@@ -8,6 +8,7 @@
 
 
 
+
 ## [misskey-4.0.5](https://github.com/truecharts/charts/compare/misskey-4.0.4...misskey-4.0.5) (2023-10-07)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [misskey-3.0.40](https://github.com/truecharts/charts/compare/misskey-3.0.39...misskey-3.0.40) (2023-02-23)
-

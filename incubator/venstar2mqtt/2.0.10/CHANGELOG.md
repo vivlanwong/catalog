@@ -9,6 +9,7 @@
 
 
 
+
 ## [venstar2mqtt-3.0.0](https://github.com/truecharts/charts/compare/venstar2mqtt-2.0.10...venstar2mqtt-3.0.0) (2023-07-31)
 
 ### Fix
@@ -96,4 +97,3 @@
 
 
 ## [venstar2mqtt-2.0.2](https://github.com/truecharts/charts/compare/venstar2mqtt-2.0.1...venstar2mqtt-2.0.2) (2022-11-30)
-

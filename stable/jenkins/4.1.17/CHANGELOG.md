@@ -8,6 +8,7 @@
 
 
 
+
 ## [jenkins-4.1.17](https://github.com/truecharts/charts/compare/jenkins-4.0.17...jenkins-4.1.17) (2023-11-24)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [jenkins-4.0.8](https://github.com/truecharts/charts/compare/jenkins-4.0.7...jenkins-4.0.8) (2023-10-26)
-

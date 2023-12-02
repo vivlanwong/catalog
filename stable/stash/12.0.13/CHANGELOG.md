@@ -8,6 +8,7 @@
 
 
 
+
 ## [stash-12.0.13](https://github.com/truecharts/charts/compare/stash-12.0.12...stash-12.0.13) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [stash-12.0.2](https://github.com/truecharts/charts/compare/stash-12.0.1...stash-12.0.2) (2023-08-26)
 
-### Chore

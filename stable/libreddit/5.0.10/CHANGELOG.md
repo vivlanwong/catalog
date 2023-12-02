@@ -8,6 +8,7 @@
 
 
 
+
 ## [libreddit-5.0.10](https://github.com/truecharts/charts/compare/libreddit-5.0.9...libreddit-5.0.10) (2023-11-30)
 
 ### Chore
@@ -96,4 +97,3 @@
 ### Chore
 
 - update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
-  

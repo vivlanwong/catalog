@@ -9,6 +9,7 @@
 
 
 
+
 ## [netbox-4.0.0](https://github.com/truecharts/charts/compare/netbox-3.0.39...netbox-4.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 
 ## [netbox-3.0.31](https://github.com/truecharts/charts/compare/netbox-3.0.30...netbox-3.0.31) (2023-02-08)
 
-### Chore

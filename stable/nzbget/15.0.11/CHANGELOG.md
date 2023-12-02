@@ -8,6 +8,7 @@
 
 
 
+
 ## [nzbget-15.0.11](https://github.com/truecharts/charts/compare/nzbget-15.0.10...nzbget-15.0.11) (2023-11-18)
 
 ### Fix
@@ -96,4 +97,3 @@
 
 
 
-## [nzbget-14.0.24](https://github.com/truecharts/charts/compare/nzbget-14.0.23...nzbget-14.0.24) (2023-07-29)

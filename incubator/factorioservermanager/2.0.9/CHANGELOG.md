@@ -9,6 +9,7 @@
 
 
 
+
 ## [factorioservermanager-3.0.0](https://github.com/truecharts/charts/compare/factorioservermanager-2.0.9...factorioservermanager-3.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 
 
 
-## [factorioservermanager-2.0.2](https://github.com/truecharts/charts/compare/factorioservermanager-2.0.1...factorioservermanager-2.0.2) (2022-11-30)

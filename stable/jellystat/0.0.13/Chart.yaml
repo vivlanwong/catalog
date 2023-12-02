@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: jellystat
 version: 0.0.13
@@ -8,9 +8,9 @@ home: https://truecharts.org/charts/stable/jellystat
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellystat.png
 deprecated: false
 sources:
+  - https://github.com/CyferShepard/Jellystat
   - https://github.com/truecharts/charts/tree/master/charts/stable/jellystat
   - https://hub.docker.com/r/cyfershepard/jellystat
-  - https://github.com/CyferShepard/Jellystat
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -35,6 +35,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: statistics
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

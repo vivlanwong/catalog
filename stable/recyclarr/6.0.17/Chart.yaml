@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: recyclarr
 version: 6.0.17
@@ -10,10 +10,10 @@ home: https://truecharts.org/charts/stable/recyclarr
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/recyclarr.png
 deprecated: false
 sources:
-  - https://github.com/recyclarr/recyclarr
   - https://github.com/recyclarr/recyclarr/pkgs/container/recyclarr
   - https://github.com/truecharts/charts/tree/master/charts/stable/recyclarr
   - https://ghcr.io/recyclarr/recyclarr
+  - https://github.com/recyclarr/recyclarr
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -38,6 +38,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: Tools-Utilities
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

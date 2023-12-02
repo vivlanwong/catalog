@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: inkscape-desktop-g3
 version: 2.0.12
@@ -10,9 +10,9 @@ home: https://truecharts.org/charts/incubator/inkscape-desktop-g3
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/inkscape-desktop-g3.png
 deprecated: false
 sources:
+  - https://github.com/truecharts/containers/tree/master/mirrorinkscape-desktop-g3
   - https://github.com/accetto/headless-drawing-g3/
   - https://github.com/truecharts/charts/tree/master/charts/incubator/inkscape-desktop-g3
-  - https://github.com/truecharts/containers/tree/master/mirrorinkscape-desktop-g3
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -39,6 +39,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: Productivity
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

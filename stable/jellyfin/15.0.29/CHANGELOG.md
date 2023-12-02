@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 ## [jellyfin-15.0.29](https://github.com/truecharts/charts/compare/jellyfin-15.0.28...jellyfin-15.0.29) (2023-11-30)
 
 ### Chore
@@ -92,8 +96,4 @@
 ### Feat
 
 - use tc-opencors-chain if allow-cors is enabled ([#13240](https://github.com/truecharts/charts/issues/13240))
-  
-  ### Fix
-
-- Fix autodiscovery question ([#14344](https://github.com/truecharts/charts/issues/14344))
   

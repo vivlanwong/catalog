@@ -8,6 +8,7 @@
 
 
 
+
 ## [nginx-proxy-manager-5.0.12](https://github.com/truecharts/charts/compare/nginx-proxy-manager-5.0.11...nginx-proxy-manager-5.0.12) (2023-11-24)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 ## [nginx-proxy-manager-5.0.1](https://github.com/truecharts/charts/compare/nginx-proxy-manager-5.0.0...nginx-proxy-manager-5.0.1) (2023-08-06)
 
-### Chore

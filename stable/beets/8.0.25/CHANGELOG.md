@@ -8,6 +8,7 @@
 
 
 
+
 ## [beets-8.0.25](https://github.com/truecharts/charts/compare/beets-8.0.24...beets-8.0.25) (2023-11-25)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [beets-8.0.15](https://github.com/truecharts/charts/compare/beets-8.0.14...beets-8.0.15) (2023-10-27)
-

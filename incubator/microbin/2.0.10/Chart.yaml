@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: microbin
 version: 2.0.10
@@ -10,9 +10,9 @@ home: https://truecharts.org/charts/incubator/microbin
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/microbin.png
 deprecated: false
 sources:
-  - https://github.com/truecharts/containers/tree/master/mirrormicrobin
   - https://github.com/szabodanika/microbin
   - https://github.com/truecharts/charts/tree/master/charts/incubator/microbin
+  - https://github.com/truecharts/containers/tree/master/mirrormicrobin
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -36,6 +36,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: utility
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

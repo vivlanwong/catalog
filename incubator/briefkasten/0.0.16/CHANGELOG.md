@@ -9,6 +9,7 @@
 
 
 
+
 ## [briefkasten-1.0.0](https://github.com/truecharts/charts/compare/briefkasten-0.0.16...briefkasten-1.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 
 ## [briefkasten-0.0.8](https://github.com/truecharts/charts/compare/briefkasten-0.0.7...briefkasten-0.0.8) (2023-01-23)
 
-### Chore

@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: mylar
 version: 10.0.26
@@ -8,10 +8,10 @@ home: https://truecharts.org/charts/stable/mylar
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mylar.png
 deprecated: false
 sources:
+  - https://hub.docker.com/r/linuxserver/mylar3
   - https://github.com/mylar3/mylar3
   - https://github.com/linuxserver/docker-mylar3
   - https://github.com/truecharts/charts/tree/master/charts/stable/mylar
-  - https://hub.docker.com/r/linuxserver/mylar3
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -35,6 +35,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: media
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

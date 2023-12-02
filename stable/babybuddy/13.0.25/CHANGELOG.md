@@ -9,6 +9,7 @@
 
 
 
+
 ## [babybuddy-13.0.25](https://github.com/truecharts/charts/compare/babybuddy-13.0.24...babybuddy-13.0.25) (2023-11-30)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [babybuddy-13.0.15](https://github.com/truecharts/charts/compare/babybuddy-13.0.14...babybuddy-13.0.15) (2023-10-29)
-

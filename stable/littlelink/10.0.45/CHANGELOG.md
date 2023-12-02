@@ -8,6 +8,7 @@
 
 
 
+
 ## [littlelink-10.0.45](https://github.com/truecharts/charts/compare/littlelink-10.0.44...littlelink-10.0.45) (2023-12-01)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [littlelink-10.0.35](https://github.com/truecharts/charts/compare/littlelink-10.0.34...littlelink-10.0.35) (2023-11-08)
-

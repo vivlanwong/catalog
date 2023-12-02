@@ -8,6 +8,7 @@
 
 
 
+
 ## [mealie-18.0.2](https://github.com/truecharts/charts/compare/mealie-18.0.1...mealie-18.0.2) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [mealie-17.0.23](https://github.com/truecharts/charts/compare/mealie-17.0.22...mealie-17.0.23) (2023-09-01)
 
-### Chore

@@ -8,6 +8,7 @@
 
 
 
+
 ## [gamevault-backend-1.1.22](https://github.com/truecharts/charts/compare/gamevault-backend-1.1.21...gamevault-backend-1.1.22) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 
 ## [gamevault-backend-1.1.12](https://github.com/truecharts/charts/compare/gamevault-backend-1.1.11...gamevault-backend-1.1.12) (2023-10-25)
-

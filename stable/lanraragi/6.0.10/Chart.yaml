@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: lanraragi
 version: 6.0.10
@@ -8,10 +8,10 @@ home: https://truecharts.org/charts/stable/lanraragi
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/lanraragi.png
 deprecated: false
 sources:
-  - https://hub.docker.com/r/difegue/lanraragi
   - https://github.com/Difegue/LANraragi
   - https://sugoi.gitbook.io/lanraragi/
   - https://github.com/truecharts/charts/tree/master/charts/stable/lanraragi
+  - https://hub.docker.com/r/difegue/lanraragi
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -35,6 +35,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: media
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

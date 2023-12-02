@@ -8,6 +8,7 @@
 
 
 
+
 ## [linkding-6.1.14](https://github.com/truecharts/charts/compare/linkding-6.0.14...linkding-6.1.14) (2023-11-24)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 ## [linkding-6.0.5](https://github.com/truecharts/charts/compare/linkding-6.0.4...linkding-6.0.5) (2023-10-07)
-

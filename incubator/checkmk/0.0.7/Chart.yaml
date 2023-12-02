@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: checkmk
 version: 0.0.7
@@ -11,9 +11,9 @@ home: https://truecharts.org/charts/incubator/checkmk
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/checkmk.png
 deprecated: false
 sources:
+  - https://github.com/tribe29/checkmk
   - https://github.com/truecharts/charts/tree/master/charts/incubator/checkmk
   - https://github.com/truecharts/containers/tree/master/mirrorcheck-mk-raw
-  - https://github.com/tribe29/checkmk
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -38,6 +38,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: monitoring
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

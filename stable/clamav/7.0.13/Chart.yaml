@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: clamav
 version: 7.0.13
@@ -10,10 +10,10 @@ home: https://truecharts.org/charts/stable/clamav
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/clamav.png
 deprecated: false
 sources:
-  - https://docs.clamav.net/
-  - https://github.com/truecharts/charts/tree/master/charts/stable/clamav
   - https://hub.docker.com/r/clamav/clamav
+  - https://docs.clamav.net/
   - https://github.com/Cisco-Talos/clamav
+  - https://github.com/truecharts/charts/tree/master/charts/stable/clamav
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -38,6 +38,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: utilities
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

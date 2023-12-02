@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: tubesync
 version: 2.0.13
@@ -12,10 +12,10 @@ home: https://truecharts.org/charts/incubator/tubesync
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/tubesync.png
 deprecated: false
 sources:
+  - https://github.com/truecharts/containers/tree/master/mirrortubesync
   - https://github.com/meeb/tubesync
   - https://registry.hub.docker.com/r/ghcr.io/meeb/tubesync
   - https://github.com/truecharts/charts/tree/master/charts/incubator/tubesync
-  - https://github.com/truecharts/containers/tree/master/mirrortubesync
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -42,6 +42,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: Downloaders
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

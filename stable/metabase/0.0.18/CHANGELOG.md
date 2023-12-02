@@ -8,6 +8,7 @@
 
 
 
+
 ## [metabase-0.0.18](https://github.com/truecharts/charts/compare/metabase-0.0.17...metabase-0.0.18) (2023-12-01)
 
 ### Chore
@@ -96,4 +97,3 @@
   
 
 
-## [metabase-0.0.8](https://github.com/truecharts/charts/compare/metabase-0.0.7...metabase-0.0.8) (2023-10-21)

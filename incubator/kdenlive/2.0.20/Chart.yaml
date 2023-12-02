@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: kdenlive
 version: 2.0.20
@@ -10,11 +10,11 @@ home: https://truecharts.org/charts/incubator/kdenlive
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/kdenlive.png
 deprecated: false
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/incubator/kdenlive
   - https://github.com/truecharts/containers/tree/master/mirrorkdenlive
   - https://kdenlive.org/
   - https://github.com/orgs/linuxserver/packages/container/package/kdenlive
   - https://github.com/linuxserver/docker-kdenlive#readme
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/kdenlive
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -39,6 +39,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: Other
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: external-dns
 version: 1.0.6
@@ -10,8 +10,8 @@ home: https://truecharts.org/charts/stable/external-dns
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/external-dns.png
 deprecated: false
 sources:
-  - https://github.com/kubernetes-sigs/external-dns
   - https://github.com/truecharts/charts/tree/master/charts/stable/external-dns
+  - https://github.com/kubernetes-sigs/external-dns
   - ""
 maintainers:
   - name: TrueCharts
@@ -38,6 +38,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: networking
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

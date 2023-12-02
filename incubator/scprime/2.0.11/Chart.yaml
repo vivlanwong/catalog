@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: scprime
 version: 2.0.11
@@ -11,9 +11,9 @@ home: https://truecharts.org/charts/incubator/scprime
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/scprime.png
 deprecated: false
 sources:
-  - https://scpri.me
   - https://github.com/truecharts/charts/tree/master/charts/incubator/scprime
   - https://github.com/truecharts/containers/tree/master/mirrorscprime
+  - https://scpri.me
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -39,6 +39,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: Cloud
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

@@ -4,6 +4,21 @@
 
 
 
+
+
+## [zabbix-5.0.0](https://github.com/truecharts/charts/compare/zabbix-4.0.28...zabbix-5.0.0) (2023-07-31)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  ### Fix
+
+- fix mistakes on questions.yaml
+  
+  
+
+
 ## [zabbix-4.0.28](https://github.com/truecharts/charts/compare/zabbix-4.0.27...zabbix-4.0.28) (2023-02-27)
 
 ### Chore
@@ -82,18 +97,3 @@
 
 - update helm general non-major ([#6430](https://github.com/truecharts/charts/issues/6430))
   
-  
-
-
-## [zabbix-4.0.19](https://github.com/truecharts/charts/compare/zabbix-4.0.18...zabbix-4.0.19) (2023-01-07)
-
-### Chore
-
-- update helm general non-major ([#6121](https://github.com/truecharts/charts/issues/6121))
-  
-  
-
-
-## [zabbix-4.0.18](https://github.com/truecharts/charts/compare/zabbix-4.0.17...zabbix-4.0.18) (2022-12-27)
-
-### Chore

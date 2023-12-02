@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: projectsend
 version: 8.0.28
@@ -10,9 +10,9 @@ home: https://truecharts.org/charts/stable/projectsend
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/projectsend.png
 deprecated: false
 sources:
-  - https://ghcr.io/linuxserver/projectsend
   - https://github.com/projectsend/projectsend
   - https://github.com/truecharts/charts/tree/master/charts/stable/projectsend
+  - https://ghcr.io/linuxserver/projectsend
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -42,6 +42,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: files
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

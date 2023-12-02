@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: umami
 version: 3.0.23
@@ -8,9 +8,9 @@ home: https://truecharts.org/charts/incubator/umami
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/umami.png
 deprecated: false
 sources:
+  - https://github.com/truecharts/containers/tree/master/mirrorumami
   - https://github.com/umami-software/umami
   - https://github.com/truecharts/charts/tree/master/charts/incubator/umami
-  - https://github.com/truecharts/containers/tree/master/mirrorumami
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -42,6 +42,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: website
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

@@ -8,6 +8,7 @@
 
 
 
+
 ## [seafile-1.0.13](https://github.com/truecharts/charts/compare/seafile-1.0.12...seafile-1.0.13) (2023-11-18)
 
 ### Fix
@@ -95,5 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/seafile to v11.0.1 ([#13735](https://github.com/truecharts/charts/issues/13735))
-  
   

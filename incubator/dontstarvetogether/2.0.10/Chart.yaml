@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: dontstarvetogether
 version: 2.0.10
@@ -10,9 +10,9 @@ home: https://truecharts.org/charts/incubator/dontstarvetogether
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/dontstarvetogether.png
 deprecated: false
 sources:
+  - https://github.com/truecharts/charts/tree/master/charts/incubator/dontstarvetogether
   - https://github.com/truecharts/containers/tree/master/mirrordontstarvetogether
   - https://www.klei.com/games/dont-starve-together
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/dontstarvetogether
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -37,6 +37,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: GameServers
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: incubator

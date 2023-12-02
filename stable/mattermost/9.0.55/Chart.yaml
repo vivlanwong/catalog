@@ -1,4 +1,4 @@
-kubeVersion: ">=1.16.0-0"
+kubeVersion: 1.24.0
 apiVersion: v2
 name: mattermost
 version: 9.0.55
@@ -10,10 +10,10 @@ home: https://truecharts.org/charts/stable/mattermost
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/mattermost.png
 deprecated: false
 sources:
-  - https://github.com/mattermost/mattermost-server
   - https://github.com/mattermost/docker
   - https://github.com/truecharts/charts/tree/master/charts/stable/mattermost
   - https://hub.docker.com/r/mattermost/mattermost-enterprise-edition
+  - https://github.com/mattermost/mattermost-server
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -39,6 +39,7 @@ annotations:
   truecharts.org/SCALE-support: "true"
   "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: hosting
+  "truecharts.org/category:": unsorted
   "truecharts.org/max_helm_version:": "3.13"
   "truecharts.org/min_helm_version:": "3.12"
   truecharts.org/train: stable

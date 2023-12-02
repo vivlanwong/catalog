@@ -8,6 +8,7 @@
 
 
 
+
 ## [unturned-3.0.5](https://github.com/truecharts/charts/compare/unturned-4.0.0...unturned-3.0.5) (2023-11-18)
 
 ### Chore
@@ -96,4 +97,3 @@
 ### Chore
 
 - update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  

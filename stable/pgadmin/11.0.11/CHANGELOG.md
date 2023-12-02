@@ -8,6 +8,7 @@
 
 
 
+
 ## [pgadmin-11.0.11](https://github.com/truecharts/charts/compare/pgadmin-11.0.10...pgadmin-11.0.11) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/pgadmin4 to v7.6.0 ([#11927](https://github.com/truecharts/charts/issues/11927))
-  

@@ -8,6 +8,7 @@
 
 
 
+
 ## [whoogle-7.0.11](https://github.com/truecharts/charts/compare/whoogle-7.0.10...whoogle-7.0.11) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 
 ## [whoogle-7.0.0](https://github.com/truecharts/charts/compare/whoogle-6.0.23...whoogle-7.0.0) (2023-07-31)
-
