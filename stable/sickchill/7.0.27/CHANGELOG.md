@@ -11,6 +11,7 @@
 
 
 
+
 ## [sickchill-7.0.27](https://github.com/truecharts/charts/compare/sickchill-7.0.26...sickchill-7.0.27) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update helm general non-major ([#14287](https://github.com/truecharts/charts/issues/14287))
   
   
-
 

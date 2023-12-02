@@ -11,6 +11,7 @@
 
 
 
+
 ## [cert-manager-1.1.7](https://github.com/truecharts/charts/compare/cert-manager-1.1.6...cert-manager-1.1.7) (2023-11-08)
 
 
@@ -96,4 +97,3 @@
   ### Feat
 
 - add cert-manager operator chart DNM DRAFT ([#10297](https://github.com/truecharts/charts/issues/10297))
-  

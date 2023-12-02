@@ -11,6 +11,7 @@
 
 
 
+
 ## [dell-idrac-fan-controller-2.0.9](https://github.com/truecharts/charts/compare/dell-idrac-fan-controller-2.0.8...dell-idrac-fan-controller-2.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 - update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
   
   
-

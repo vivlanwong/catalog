@@ -11,6 +11,7 @@
 
 
 
+
 ## [sabnzbd-15.0.15](https://github.com/truecharts/charts/compare/sabnzbd-15.0.14...sabnzbd-15.0.15) (2023-11-26)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/sabnzbd to v4.1.0 ([#13391](https://github.com/truecharts/charts/issues/13391))
   
   
-
 

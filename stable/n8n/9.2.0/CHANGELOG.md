@@ -11,6 +11,7 @@
 
 
 
+
 ## [n8n-9.2.0](https://github.com/truecharts/charts/compare/n8n-9.1.31...n8n-9.2.0) (2023-12-01)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/n8n to v1.15.2 ([#14419](https://github.com/truecharts/charts/issues/14419))
   
   
-
 

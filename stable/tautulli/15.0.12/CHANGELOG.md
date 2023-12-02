@@ -11,6 +11,7 @@
 
 
 
+
 ## [tautulli-15.0.12](https://github.com/truecharts/charts/compare/tautulli-15.0.11...tautulli-15.0.12) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   
   
-

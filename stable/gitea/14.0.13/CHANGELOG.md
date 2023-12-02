@@ -11,6 +11,7 @@
 
 
 
+
 ## [gitea-14.0.13](https://github.com/truecharts/charts/compare/gitea-14.0.12...gitea-14.0.13) (2023-11-26)
 
 ### Chore
@@ -96,4 +97,3 @@
 ## [gitea-14.0.2](https://github.com/truecharts/charts/compare/gitea-14.0.1...gitea-14.0.2) (2023-10-07)
 
 ### Chore
-

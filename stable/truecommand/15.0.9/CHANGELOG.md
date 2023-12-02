@@ -11,6 +11,7 @@
 
 
 
+
 ## [truecommand-15.0.9](https://github.com/truecharts/charts/compare/truecommand-15.0.8...truecommand-15.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [truecommand-14.0.21](https://github.com/truecharts/charts/compare/truecommand-14.0.20...truecommand-14.0.21) (2023-07-01)
 
-### Chore

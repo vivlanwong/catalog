@@ -11,6 +11,7 @@
 
 
 
+
 ## [romm-2.0.13](https://github.com/truecharts/charts/compare/romm-2.0.12...romm-2.0.13) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 - update container image tccr.io/truecharts/romm to v1.10.0 ([#11921](https://github.com/truecharts/charts/issues/11921))
   
   
-

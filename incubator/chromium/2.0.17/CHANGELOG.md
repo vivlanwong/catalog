@@ -12,6 +12,7 @@
 
 
 
+
 ## [chromium-3.0.0](https://github.com/truecharts/charts/compare/chromium-2.0.17...chromium-3.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 
 ### Chore
 
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))

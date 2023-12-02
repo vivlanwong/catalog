@@ -11,6 +11,7 @@
 
 
 
+
 ## [minecraft-bedrock-5.0.11](https://github.com/truecharts/charts/compare/minecraft-bedrock-5.0.10...minecraft-bedrock-5.0.11) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 
 
 ## [minecraft-bedrock-5.0.0](https://github.com/truecharts/charts/compare/minecraft-bedrock-4.0.26...minecraft-bedrock-5.0.0) (2023-07-31)
-
 

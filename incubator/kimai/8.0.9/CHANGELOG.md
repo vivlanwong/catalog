@@ -11,6 +11,7 @@
 
 
 
+
 ## [kimai-8.0.9](https://github.com/truecharts/charts/compare/kimai-8.0.8...kimai-8.0.9) (2023-11-19)
 
 ### Fix
@@ -92,7 +93,6 @@
   - Migrate to new common and update app ([#9831](https://github.com/truecharts/charts/issues/9831))
   
   
-
 
 
 

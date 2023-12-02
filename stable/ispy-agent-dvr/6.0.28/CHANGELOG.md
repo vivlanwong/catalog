@@ -11,6 +11,7 @@
 
 
 
+
 ## [ispy-agent-dvr-6.0.28](https://github.com/truecharts/charts/compare/ispy-agent-dvr-6.0.27...ispy-agent-dvr-6.0.28) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update helm general non-major ([#14287](https://github.com/truecharts/charts/issues/14287))
   
   
-
 

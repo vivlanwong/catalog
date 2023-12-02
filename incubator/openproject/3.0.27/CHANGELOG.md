@@ -12,6 +12,7 @@
 
 
 
+
 ## [openproject-4.0.0](https://github.com/truecharts/charts/compare/openproject-3.0.27...openproject-4.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 
 ## [openproject-3.0.19](https://github.com/truecharts/charts/compare/openproject-3.0.18...openproject-3.0.19) (2023-01-24)
 
-### Chore

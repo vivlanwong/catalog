@@ -12,6 +12,7 @@
 
 
 
+
 ## [ubuntu-xrdp-3.0.0](https://github.com/truecharts/charts/compare/ubuntu-xrdp-2.1.7...ubuntu-xrdp-3.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 - Fix port + reorder values.yaml ([#5122](https://github.com/truecharts/charts/issues/5122))
   
   
-

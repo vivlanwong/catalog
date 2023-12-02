@@ -12,6 +12,7 @@
 
 
 
+
 ## [ra-rom-processor-3.0.0](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.18...ra-rom-processor-3.0.0) (2023-07-31)
 
 ### Fix
@@ -96,4 +97,3 @@
 ## [ra-rom-processor-2.0.10](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.9...ra-rom-processor-2.0.10) (2022-12-26)
 
 ### Chore
-

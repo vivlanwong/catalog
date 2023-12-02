@@ -11,6 +11,7 @@
 
 
 
+
 ## [actualserver-5.0.13](https://github.com/truecharts/charts/compare/actualserver-5.0.12...actualserver-5.0.13) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/actualserver to v23.9.0 ([#12312](https://github.com/truecharts/charts/issues/12312))
   
   
-
 

@@ -11,6 +11,7 @@
 
 
 
+
 ## [xen-orchestra-5.1.25](https://github.com/truecharts/charts/compare/xen-orchestra-5.1.24...xen-orchestra-5.1.25) (2023-11-25)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/xenorchestra to v5.125.1 ([#14250](https://github.com/truecharts/charts/issues/14250))
   
   
-
 

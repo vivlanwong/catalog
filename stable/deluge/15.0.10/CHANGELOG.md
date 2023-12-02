@@ -11,6 +11,7 @@
 
 
 
+
 ## [deluge-15.0.10](https://github.com/truecharts/charts/compare/deluge-15.0.9...deluge-15.0.10) (2023-11-24)
 
 ### Fix
@@ -96,4 +97,3 @@
 
 ## [deluge-14.0.25](https://github.com/truecharts/charts/compare/deluge-14.0.24...deluge-14.0.25) (2023-07-29)
 
-### Chore

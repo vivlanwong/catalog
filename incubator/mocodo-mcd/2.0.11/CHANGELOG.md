@@ -12,6 +12,7 @@
 
 
 
+
 ## [mocodo-mcd-3.0.0](https://github.com/truecharts/charts/compare/mocodo-mcd-2.0.11...mocodo-mcd-3.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 - update container image tccr.io/truecharts/mocodo-mcd to latest ([#4919](https://github.com/truecharts/charts/issues/4919))
   
   
-

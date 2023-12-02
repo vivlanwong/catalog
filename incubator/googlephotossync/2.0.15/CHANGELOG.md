@@ -12,6 +12,7 @@
 
 
 
+
 ## [googlephotossync-3.0.0](https://github.com/truecharts/charts/compare/googlephotossync-2.0.15...googlephotossync-3.0.0) (2023-07-31)
 
 ### Chore
@@ -96,4 +97,3 @@
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
   
   
-

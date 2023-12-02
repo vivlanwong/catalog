@@ -11,6 +11,7 @@
 
 
 
+
 ## [traefik-22.1.0](https://github.com/truecharts/charts/compare/traefik-22.0.3...traefik-22.1.0) (2023-11-25)
 
 ### Feat
@@ -95,5 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#14287](https://github.com/truecharts/charts/issues/14287))
-  
   

@@ -12,6 +12,7 @@
 
 
 
+
 ## [serpbear-1.0.0](https://github.com/truecharts/charts/compare/serpbear-0.0.10...serpbear-1.0.0) (2023-07-31)
 
 ### Feat
@@ -95,5 +96,4 @@
 - update helm general non-major
   
   
-
 

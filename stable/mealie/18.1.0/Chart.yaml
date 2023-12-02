@@ -1,25 +1,27 @@
 kubeVersion: ">=1.24.0"
 apiVersion: v2
-name: wyoming-piper
-version: 1.0.7
-appVersion: 1.4.0
-description: The Wyoming integration of piper
-home: https://truecharts.org/charts/stable/wyoming-piper
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/wyoming-piper.png
+name: mealie
+version: 18.1.0
+appVersion: 1.0.0
+description:
+  Mealie is a self hosted recipe manager and meal planner with a RestAPI
+  backend
+home: https://truecharts.org/charts/stable/mealie
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mealie.png
 deprecated: false
 sources:
-  - https://github.com/home-assistant/addons/tree/master/piper
-  - https://github.com/truecharts/charts/tree/master/charts/stable/wyoming-piper
-  - https://hub.docker.com/r/rhasspy/wyoming-piper
+  - https://github.com/mealie-recipes/mealie
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mealie
+  - https://ghcr.io/mealie-recipes/mealie
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - wyoming-piper
+  - grocy
 dependencies:
   - name: common
-    version: 13.2.2
+    version: 14.3.5
     repository: https://library-charts.truecharts.org
     condition: ""
     alias: ""
@@ -29,7 +31,7 @@ annotations:
   max_scale_version: 23.10.1
   min_scale_version: 22.12.4
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: home-automation
+  truecharts.org/category: utilities
   truecharts.org/max_helm_version: "3.13"
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable

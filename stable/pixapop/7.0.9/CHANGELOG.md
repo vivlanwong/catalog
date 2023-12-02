@@ -11,6 +11,7 @@
 
 
 
+
 ## [pixapop-7.0.9](https://github.com/truecharts/charts/compare/pixapop-7.0.8...pixapop-7.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [pixapop-6.0.23](https://github.com/truecharts/charts/compare/pixapop-6.0.22...pixapop-6.0.23) (2023-07-01)
 
-### Chore

@@ -11,6 +11,7 @@
 
 
 
+
 ## [mosquitto-11.0.16](https://github.com/truecharts/charts/compare/mosquitto-11.0.15...mosquitto-11.0.16) (2023-12-01)
 
 ### Chore
@@ -95,5 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
   

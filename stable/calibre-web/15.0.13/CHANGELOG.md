@@ -11,6 +11,7 @@
 
 
 
+
 ## [calibre-web-15.0.13](https://github.com/truecharts/charts/compare/calibre-web-15.0.12...calibre-web-15.0.13) (2023-11-26)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
   
   
-
 

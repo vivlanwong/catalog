@@ -12,6 +12,7 @@
 
 
 
+
 ## [s3backup-3.0.0](https://github.com/truecharts/charts/compare/s3backup-2.0.9...s3backup-3.0.0) (2023-07-31)
 
 ### Fix
@@ -96,4 +97,3 @@
 
 
 ## [s3backup-2.0.2](https://github.com/truecharts/charts/compare/s3backup-2.0.1...s3backup-2.0.2) (2022-11-30)
-

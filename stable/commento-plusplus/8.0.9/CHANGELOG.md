@@ -11,6 +11,7 @@
 
 
 
+
 ## [commento-plusplus-8.0.9](https://github.com/truecharts/charts/compare/commento-plusplus-8.0.8...commento-plusplus-8.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [commento-plusplus-7.0.14](https://github.com/truecharts/charts/compare/commento-plusplus-7.0.13...commento-plusplus-7.0.14) (2023-07-01)
 
-### Chore

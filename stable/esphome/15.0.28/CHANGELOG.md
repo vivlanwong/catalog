@@ -11,6 +11,7 @@
 
 
 
+
 ## [esphome-15.0.28](https://github.com/truecharts/charts/compare/esphome-15.0.27...esphome-15.0.28) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
   
   
-
 

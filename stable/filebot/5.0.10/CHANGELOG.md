@@ -11,6 +11,7 @@
 
 
 
+
 ## [filebot-5.0.10](https://github.com/truecharts/charts/compare/filebot-5.0.9...filebot-5.0.10) (2023-11-20)
 
 ### Fix
@@ -96,4 +97,3 @@
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   
   
-

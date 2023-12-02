@@ -11,6 +11,7 @@
 
 
 
+
 ## [grafana-9.0.41](https://github.com/truecharts/charts/compare/grafana-9.0.40...grafana-9.0.41) (2023-11-25)
 
 ### Chore
@@ -96,4 +97,3 @@
 - update helm general non-major ([#14287](https://github.com/truecharts/charts/issues/14287))
   
   
-

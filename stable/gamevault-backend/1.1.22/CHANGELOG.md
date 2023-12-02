@@ -11,6 +11,7 @@
 
 
 
+
 ## [gamevault-backend-1.1.22](https://github.com/truecharts/charts/compare/gamevault-backend-1.1.21...gamevault-backend-1.1.22) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 - update container image tccr.io/truecharts/gamevault-backend to v9.0.0 ([#13985](https://github.com/truecharts/charts/issues/13985))
   
   
-

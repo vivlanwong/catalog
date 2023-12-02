@@ -10,6 +10,7 @@
 
 
 
+
 ## [jellyfin-15.0.29](https://github.com/truecharts/charts/compare/jellyfin-15.0.28...jellyfin-15.0.29) (2023-11-30)
 
 ### Chore
@@ -96,4 +97,3 @@
 ## [jellyfin-15.0.19](https://github.com/truecharts/charts/compare/jellyfin-15.0.18...jellyfin-15.0.19) (2023-11-04)
 
 ### Feat
-

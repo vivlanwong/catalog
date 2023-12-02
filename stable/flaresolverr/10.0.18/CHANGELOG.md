@@ -11,6 +11,7 @@
 
 
 
+
 ## [flaresolverr-10.0.18](https://github.com/truecharts/charts/compare/flaresolverr-10.0.17...flaresolverr-10.0.18) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
   
   
-
 

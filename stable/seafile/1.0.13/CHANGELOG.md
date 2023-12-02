@@ -11,6 +11,7 @@
 
 
 
+
 ## [seafile-1.0.13](https://github.com/truecharts/charts/compare/seafile-1.0.12...seafile-1.0.13) (2023-11-18)
 
 ### Fix
@@ -96,4 +97,3 @@
 ## [seafile-1.0.4](https://github.com/truecharts/charts/compare/seafile-1.0.3...seafile-1.0.4) (2023-10-18)
 
 ### Chore
-

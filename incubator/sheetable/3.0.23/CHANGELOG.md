@@ -12,6 +12,7 @@
 
 
 
+
 ## [sheetable-4.0.0](https://github.com/truecharts/charts/compare/sheetable-3.0.23...sheetable-4.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 - update helm general non-major ([#6121](https://github.com/truecharts/charts/issues/6121))
   
   
-

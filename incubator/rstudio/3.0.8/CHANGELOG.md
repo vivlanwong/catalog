@@ -12,6 +12,7 @@
 
 
 
+
 ## [rstudio-4.0.0](https://github.com/truecharts/charts/compare/rstudio-3.0.8...rstudio-4.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 
 ### Chore
 
-- update helm general non-major

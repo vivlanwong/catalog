@@ -11,6 +11,7 @@
 
 
 
+
 ## [solr-7.0.0](https://github.com/truecharts/charts/compare/solr-6.0.45...solr-7.0.0) (2023-11-27)
 
 ### Chore
@@ -96,4 +97,3 @@
 ## [solr-6.0.36](https://github.com/truecharts/charts/compare/solr-6.0.35...solr-6.0.36) (2023-10-31)
 
 ### Chore
-

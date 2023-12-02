@@ -11,6 +11,7 @@
 
 
 
+
 ## [audiobookshelf-6.1.0](https://github.com/truecharts/charts/compare/audiobookshelf-6.0.15...audiobookshelf-6.1.0) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   
   
-
 

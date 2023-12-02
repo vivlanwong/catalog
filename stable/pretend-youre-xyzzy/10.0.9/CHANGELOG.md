@@ -11,6 +11,7 @@
 
 
 
+
 ## [pretend-youre-xyzzy-10.0.9](https://github.com/truecharts/charts/compare/pretend-youre-xyzzy-10.0.8...pretend-youre-xyzzy-10.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [pretend-youre-xyzzy-9.0.23](https://github.com/truecharts/charts/compare/pretend-youre-xyzzy-9.0.22...pretend-youre-xyzzy-9.0.23) (2023-07-01)
 
-### Chore

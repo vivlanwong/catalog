@@ -11,6 +11,7 @@
 
 
 
+
 ## [mediainfo-5.1.0](https://github.com/truecharts/charts/compare/mediainfo-5.0.13...mediainfo-5.1.0) (2023-12-01)
 
 ### Chore
@@ -96,4 +97,3 @@
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   
   
-

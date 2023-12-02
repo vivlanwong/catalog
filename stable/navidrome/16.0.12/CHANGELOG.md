@@ -11,6 +11,7 @@
 
 
 
+
 ## [navidrome-16.0.12](https://github.com/truecharts/charts/compare/navidrome-16.0.11...navidrome-16.0.12) (2023-11-24)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 ### Chore
 
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))

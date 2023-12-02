@@ -11,6 +11,7 @@
 
 
 
+
 ## [shlink-web-client-7.0.9](https://github.com/truecharts/charts/compare/shlink-web-client-7.0.8...shlink-web-client-7.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [shlink-web-client-6.0.25](https://github.com/truecharts/charts/compare/shlink-web-client-6.0.24...shlink-web-client-6.0.25) (2023-07-19)
 
-### Chore

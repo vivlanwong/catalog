@@ -11,6 +11,7 @@
 
 
 
+
 ## [netdata-6.0.15](https://github.com/truecharts/charts/compare/netdata-6.0.14...netdata-6.0.15) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   
   
-

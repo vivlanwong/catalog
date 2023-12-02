@@ -11,6 +11,7 @@
 
 
 
+
 ## [sia-daemon-2.0.14](https://github.com/truecharts/charts/compare/sia-daemon-3.0.0...sia-daemon-2.0.14) (2023-11-18)
 
 ### Chore
@@ -96,4 +97,3 @@
   
 
 
-## [sia-daemon-2.0.7](https://github.com/truecharts/charts/compare/sia-daemon-2.0.6...sia-daemon-2.0.7) (2022-12-26)

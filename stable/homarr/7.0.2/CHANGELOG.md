@@ -11,6 +11,7 @@
 
 
 
+
 ## [homarr-7.0.2](https://github.com/truecharts/charts/compare/homarr-7.0.1...homarr-7.0.2) (2023-11-24)
 
 ### Chore
@@ -96,4 +97,3 @@
 ## [homarr-6.0.4](https://github.com/truecharts/charts/compare/homarr-6.0.3...homarr-6.0.4) (2023-09-09)
 
 ### Chore
-

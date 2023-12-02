@@ -11,6 +11,7 @@
 
 
 
+
 ## [doublecommander-9.0.24](https://github.com/truecharts/charts/compare/doublecommander-9.0.23...doublecommander-9.0.24) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/doublecommander to latest ([#14223](https://github.com/truecharts/charts/issues/14223))
   
   
-
 

@@ -11,6 +11,7 @@
 
 
 
+
 ## [memcached-9.0.0](https://github.com/truecharts/charts/compare/memcached-8.0.44...memcached-9.0.0) (2023-11-27)
 
 ### Chore
@@ -96,4 +97,3 @@
 ## [memcached-8.0.35](https://github.com/truecharts/charts/compare/memcached-8.0.34...memcached-8.0.35) (2023-10-29)
 
 ### Chore
-

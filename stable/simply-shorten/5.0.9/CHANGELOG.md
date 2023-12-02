@@ -11,6 +11,7 @@
 
 
 
+
 ## [simply-shorten-5.0.9](https://github.com/truecharts/charts/compare/simply-shorten-5.0.8...simply-shorten-5.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [simply-shorten-4.0.23](https://github.com/truecharts/charts/compare/simply-shorten-4.0.22...simply-shorten-4.0.23) (2023-07-01)
 
-### Chore

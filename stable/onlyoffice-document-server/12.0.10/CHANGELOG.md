@@ -11,6 +11,7 @@
 
 
 
+
 ## [onlyoffice-document-server-12.0.10](https://github.com/truecharts/charts/compare/onlyoffice-document-server-12.0.9...onlyoffice-document-server-12.0.10) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
   

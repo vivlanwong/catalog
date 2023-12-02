@@ -11,6 +11,7 @@
 
 
 
+
 ## [muse-2.0.12](https://github.com/truecharts/charts/compare/muse-2.0.11...muse-2.0.12) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/muse to v2.4.2 ([#12098](https://github.com/truecharts/charts/issues/12098))
   
   
-
 

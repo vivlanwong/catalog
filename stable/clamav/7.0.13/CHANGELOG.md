@@ -11,6 +11,7 @@
 
 
 
+
 ## [clamav-7.0.13](https://github.com/truecharts/charts/compare/clamav-7.0.12...clamav-7.0.13) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 - update container image tccr.io/truecharts/clamav to v1.2.0 ([#13153](https://github.com/truecharts/charts/issues/13153))
   
   
-

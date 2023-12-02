@@ -11,6 +11,7 @@
 
 
 
+
 ## [leaf2mqtt-8.0.9](https://github.com/truecharts/charts/compare/leaf2mqtt-8.0.8...leaf2mqtt-8.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [leaf2mqtt-7.0.23](https://github.com/truecharts/charts/compare/leaf2mqtt-7.0.22...leaf2mqtt-7.0.23) (2023-07-01)
 
-### Chore

@@ -11,6 +11,7 @@
 
 
 
+
 ## [trilium-notes-9.1.1](https://github.com/truecharts/charts/compare/trilium-notes-9.1.0...trilium-notes-9.1.1) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
   
   
-
 

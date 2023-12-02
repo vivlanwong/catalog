@@ -11,6 +11,7 @@
 
 
 
+
 ## [snippet-box-4.0.9](https://github.com/truecharts/charts/compare/snippet-box-4.0.8...snippet-box-4.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [snippet-box-3.0.6](https://github.com/truecharts/charts/compare/snippet-box-3.0.5...snippet-box-3.0.6) (2023-07-01)
 
-### Chore

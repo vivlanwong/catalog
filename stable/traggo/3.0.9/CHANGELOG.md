@@ -11,6 +11,7 @@
 
 
 
+
 ## [traggo-3.0.9](https://github.com/truecharts/charts/compare/traggo-3.0.8...traggo-3.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [traggo-2.0.23](https://github.com/truecharts/charts/compare/traggo-2.0.22...traggo-2.0.23) (2023-07-01)
 
-### Chore

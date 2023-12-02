@@ -12,6 +12,7 @@
 
 
 
+
 ## [magicmirror2-3.0.0](https://github.com/truecharts/charts/compare/magicmirror2-2.0.8...magicmirror2-3.0.0) (2023-07-31)
 
 ### Feat
@@ -95,5 +96,4 @@
 - add some default config ([#4437](https://github.com/truecharts/charts/issues/4437))
   
   
-
 

@@ -11,6 +11,7 @@
 
 
 
+
 ## [sickgear-8.0.9](https://github.com/truecharts/charts/compare/sickgear-8.0.8...sickgear-8.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [sickgear-7.0.26](https://github.com/truecharts/charts/compare/sickgear-7.0.25...sickgear-7.0.26) (2023-07-01)
 
-### Chore

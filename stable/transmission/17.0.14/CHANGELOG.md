@@ -11,6 +11,7 @@
 
 
 
+
 ## [transmission-17.0.14](https://github.com/truecharts/charts/compare/transmission-17.0.13...transmission-17.0.14) (2023-11-24)
 
 ### Fix
@@ -95,5 +96,4 @@
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   
   
-
 

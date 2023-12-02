@@ -12,6 +12,7 @@
 
 
 
+
 ## [docker-hub-rss-3.0.0](https://github.com/truecharts/charts/compare/docker-hub-rss-2.0.11...docker-hub-rss-3.0.0) (2023-07-31)
 
 ### Fix
@@ -96,4 +97,3 @@
 ## [docker-hub-rss-2.0.3](https://github.com/truecharts/charts/compare/docker-hub-rss-2.0.2...docker-hub-rss-2.0.3) (2022-12-06)
 
 ### Chore
-

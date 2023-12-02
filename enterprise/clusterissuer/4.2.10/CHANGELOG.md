@@ -11,6 +11,7 @@
 
 
 
+
 ## [clusterissuer-4.2.10](https://github.com/truecharts/charts/compare/clusterissuer-4.2.9...clusterissuer-4.2.10) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 ## [clusterissuer-4.2.0](https://github.com/truecharts/charts/compare/clusterissuer-4.1.4...clusterissuer-4.2.0) (2023-10-28)
 
 ### Chore
-

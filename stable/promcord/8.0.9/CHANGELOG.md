@@ -11,6 +11,7 @@
 
 
 
+
 ## [promcord-8.0.9](https://github.com/truecharts/charts/compare/promcord-8.0.8...promcord-8.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [promcord-7.0.25](https://github.com/truecharts/charts/compare/promcord-7.0.24...promcord-7.0.25) (2023-07-20)
 
-### Chore

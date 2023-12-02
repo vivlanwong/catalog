@@ -11,6 +11,7 @@
 
 
 
+
 ## [dashdot-5.0.11](https://github.com/truecharts/charts/compare/dashdot-5.0.10...dashdot-5.0.11) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/dashdot to v5.2.3 ([#11913](https://github.com/truecharts/charts/issues/11913))
   
   
-
 

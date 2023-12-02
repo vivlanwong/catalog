@@ -11,6 +11,7 @@
 
 
 
+
 ## [jackett-16.0.4](https://github.com/truecharts/charts/compare/jackett-16.0.3...jackett-16.0.4) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
   
   
-
 

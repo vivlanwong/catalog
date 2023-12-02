@@ -11,6 +11,7 @@
 
 
 
+
 ## [openhab-6.0.14](https://github.com/truecharts/charts/compare/openhab-6.0.13...openhab-6.0.14) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/openhab to v4.0.3 ([#12809](https://github.com/truecharts/charts/issues/12809))
   
   
-
 

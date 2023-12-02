@@ -11,6 +11,7 @@
 
 
 
+
 ## [novnc-7.0.9](https://github.com/truecharts/charts/compare/novnc-7.0.8...novnc-7.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [novnc-6.0.23](https://github.com/truecharts/charts/compare/novnc-6.0.22...novnc-6.0.23) (2023-07-01)
 
-### Chore

@@ -11,6 +11,7 @@
 
 
 
+
 ## [openspeedtest-5.0.12](https://github.com/truecharts/charts/compare/openspeedtest-5.0.11...openspeedtest-5.0.12) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   
   
-
 

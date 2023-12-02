@@ -11,6 +11,7 @@
 
 
 
+
 ## [matomo-8.1.0](https://github.com/truecharts/charts/compare/matomo-8.0.13...matomo-8.1.0) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/matomo to v4.15.1 ([#13549](https://github.com/truecharts/charts/issues/13549))
   
   
-
 

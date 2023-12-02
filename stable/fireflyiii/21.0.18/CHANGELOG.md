@@ -11,6 +11,7 @@
 
 
 
+
 ## [fireflyiii-21.0.18](https://github.com/truecharts/charts/compare/fireflyiii-21.0.17...fireflyiii-21.0.18) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/fireflyiii-core to v6.0.27 ([#13652](https://github.com/truecharts/charts/issues/13652))
   
   
-
 

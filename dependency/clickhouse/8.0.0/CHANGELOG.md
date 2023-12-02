@@ -11,6 +11,7 @@
 
 
 
+
 ## [clickhouse-8.0.0](https://github.com/truecharts/charts/compare/clickhouse-7.0.30...clickhouse-8.0.0) (2023-11-27)
 
 ### Chore
@@ -96,4 +97,3 @@
 ## [clickhouse-7.0.21](https://github.com/truecharts/charts/compare/clickhouse-7.0.20...clickhouse-7.0.21) (2023-11-05)
 
 ### Chore
-

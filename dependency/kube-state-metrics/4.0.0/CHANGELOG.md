@@ -11,6 +11,7 @@
 
 
 
+
 ## [kube-state-metrics-4.0.0](https://github.com/truecharts/charts/compare/kube-state-metrics-3.0.41...kube-state-metrics-4.0.0) (2023-11-27)
 
 ### Chore
@@ -96,4 +97,3 @@
 ## [kube-state-metrics-3.0.32](https://github.com/truecharts/charts/compare/kube-state-metrics-3.0.31...kube-state-metrics-3.0.32) (2023-10-31)
 
 ### Chore
-

@@ -11,6 +11,7 @@
 
 
 
+
 ## [komga-10.1.0](https://github.com/truecharts/charts/compare/komga-10.0.20...komga-10.1.0) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/komga to v1.7.0 ([#14119](https://github.com/truecharts/charts/issues/14119))
   
   
-
 

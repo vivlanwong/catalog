@@ -11,6 +11,7 @@
 
 
 
+
 ## [deemix-7.0.9](https://github.com/truecharts/charts/compare/deemix-7.0.8...deemix-7.0.9) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 
 ## [deemix-6.0.23](https://github.com/truecharts/charts/compare/deemix-6.0.22...deemix-6.0.23) (2023-07-01)
 
-### Chore

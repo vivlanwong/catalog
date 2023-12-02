@@ -11,6 +11,7 @@
 
 
 
+
 ## [cyberchef-6.0.43](https://github.com/truecharts/charts/compare/cyberchef-6.0.42...cyberchef-6.0.43) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/cyberchef to v10.5.2 ([#12554](https://github.com/truecharts/charts/issues/12554))
   
   
-
 

@@ -11,6 +11,7 @@
 
 
 
+
 ## [slash-0.0.14](https://github.com/truecharts/charts/compare/slash-0.0.13...slash-0.0.14) (2023-11-17)
 
 
@@ -96,4 +97,3 @@
 - update container image tccr.io/truecharts/slash to v0.4.4 ([#12980](https://github.com/truecharts/charts/issues/12980))
   
   
-

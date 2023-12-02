@@ -11,6 +11,7 @@
 
 
 
+
 ## [node-red-15.0.10](https://github.com/truecharts/charts/compare/node-red-15.0.9...node-red-15.0.10) (2023-12-01)
 
 ### Chore
@@ -95,5 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/node-red to v3.1.0 ([#12348](https://github.com/truecharts/charts/issues/12348))
-  
   

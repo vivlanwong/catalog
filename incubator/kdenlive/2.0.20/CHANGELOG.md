@@ -12,6 +12,7 @@
 
 
 
+
 ## [kdenlive-3.0.0](https://github.com/truecharts/charts/compare/kdenlive-2.0.20...kdenlive-3.0.0) (2023-07-31)
 
 ### Feat
@@ -96,4 +97,3 @@
 
 ### Chore
 
-- update container image tccr.io/truecharts/kdenlive to latest

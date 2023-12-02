@@ -11,6 +11,7 @@
 
 
 
+
 ## [omada-controller-10.0.34](https://github.com/truecharts/charts/compare/omada-controller-10.0.33...omada-controller-10.0.34) (2023-11-17)
 
 
@@ -95,5 +96,4 @@
 - update container image tccr.io/truecharts/omada-controller to v5.12.0 ([#14330](https://github.com/truecharts/charts/issues/14330))
   
   
-
 

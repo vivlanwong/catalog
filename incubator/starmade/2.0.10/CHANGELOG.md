@@ -11,6 +11,7 @@
 
 
 
+
 ## [starmade-2.0.10](https://github.com/truecharts/charts/compare/starmade-3.0.0...starmade-2.0.10) (2023-11-18)
 
 ### Chore
@@ -96,4 +97,3 @@
 ## [starmade-2.0.3](https://github.com/truecharts/charts/compare/starmade-2.0.2...starmade-2.0.3) (2022-12-13)
 
 ### Chore
-

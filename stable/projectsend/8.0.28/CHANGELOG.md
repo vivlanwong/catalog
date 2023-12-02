@@ -11,6 +11,7 @@
 
 
 
+
 ## [projectsend-8.0.28](https://github.com/truecharts/charts/compare/projectsend-8.0.27...projectsend-8.0.28) (2023-11-30)
 
 ### Chore
@@ -95,5 +96,4 @@
 - update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
   
   
-
 
