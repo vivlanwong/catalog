@@ -4,6 +4,21 @@
 
 
 
+## [actualserver-5.0.14](https://github.com/truecharts/charts/compare/actualserver-5.0.13...actualserver-5.0.14) (2023-12-03)
+
+### Chore
+
+- fix annotations again
+  - update annotations
+  - cleanup chart.yaml and add min-max scale version
+  
+  ### Fix
+
+- update chart with the right image ([#15629](https://github.com/truecharts/charts/issues/15629))
+  
+  
+
+
 
 
 
@@ -81,19 +96,4 @@
 
 
 ## [actualserver-5.0.4](https://github.com/truecharts/charts/compare/actualserver-5.0.3...actualserver-5.0.4) (2023-10-04)
-
-### Chore
-
-- update container image tccr.io/truecharts/actualserver to v23.10.0 ([#13248](https://github.com/truecharts/charts/issues/13248))
-  
-  
-
-
-## [actualserver-5.0.3](https://github.com/truecharts/charts/compare/actualserver-5.0.2...actualserver-5.0.3) (2023-09-06)
-
-### Chore
-
-- update container image tccr.io/truecharts/actualserver to v23.9.0 ([#12312](https://github.com/truecharts/charts/issues/12312))
-  
-  
 
