@@ -149,6 +149,7 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
+
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -225,146 +226,6 @@ questions:
                             schema:
                               type: string
                               required: true
-  - variable: misskey
-    group: App Configuration
-    label: Misskey Configuration
-    schema:
-      type: dict
-      attrs:
-        - variable: url
-          label: Final Accessible URL (Initial Install Only)
-          description: Final accessible URL seen by a user. ONCE YOU HAVE STARTED THE INSTANCE, DO NOT CHANGE THE URL SETTINGS AFTER THAT!
-          schema:
-            type: string
-            required: true
-        - variable: id
-          label: ID Generation Method (Initial Install Only)
-          description: Select the ID generation method. DO NOT CHANGE AFTER INSTANCE IS STARTED!
-          schema:
-            type: string
-            enum:
-              - value: aid
-                description: (aid) Short, Millisecond accuracy
-              - value: meid
-                description: (meid) Similar to ObjectID, Millisecond accuracy
-              - value: ulid
-                description: (ulid) Millisecond accuracy
-              - value: objectid
-                description: (objectid) This is left for backward compatibility
-            default: aid
-            required: true
-        - variable: other
-          label: Other Configuration
-          schema:
-            type: dict
-            attrs:
-              - variable: disableHSTS
-                label: Disable HSTS
-                schema:
-                  type: boolean
-                  default: false
-              - variable: signToActivityPubGet
-                label: Sign to ActivityPub GET Request
-                schema:
-                  type: boolean
-                  default: false
-              - variable: maxFileSize
-                label: Max file upload/download size (bytes)
-                schema:
-                  type: int
-                  required: true
-                  default: 262144000
-              - variable: clusterLimit
-                label: Cluster Limit
-                description: Number of worker processes for server
-                schema:
-                  type: int
-                  required: true
-                  default: 1
-              - variable: deliverJobConcurrency
-                label: Deliver Job Concurrency
-                description: Job concurrency per worker
-                schema:
-                  type: int
-                  required: true
-                  default: 128
-              - variable: inboxJobConcurrency
-                label: Inbox Job Concurrency
-                description: Inbox job concurrency per worker
-                schema:
-                  type: int
-                  required: true
-                  default: 16
-              - variable: relashionshipJobConcurrency
-                label: Relashionship Job Concurrency
-                description: Relashionship job concurrency per worker
-                schema:
-                  type: int
-                  required: true
-                  default: 16
-              - variable: deliverJobPerSec
-                label: Deliver Jobs Per Second
-                description: Job rate limiter
-                schema:
-                  type: int
-                  required: true
-                  default: 128
-              - variable: inboxJobPerSec
-                label: Inbox Jobs Per Second
-                description: Inbox job rate limiter
-                schema:
-                  type: int
-                  required: true
-                  default: 16
-              - variable: relashionshipJobPerSec
-                label: Relashionship Jobs Per Second
-                description: Relashionship job rate limiter
-                schema:
-                  type: int
-                  required: true
-                  default: 64
-              - variable: deliverJobMaxAttempts
-                label: Max Deliver Job Attempts
-                schema:
-                  type: int
-                  required: true
-                  default: 12
-              - variable: inboxJobMaxAttempts
-                label: Max Inbox Job Attempts
-                schema:
-                  type: int
-                  required: true
-                  default: 8
-              - variable: allowedPrivateNetworks
-                label: Allowed Private Networks
-                description: Automatically 127.0.0.1/32 is added
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: privateNet
-                      label: Private Network Entry
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-              - variable: proxyBypassHosts
-                label: Proxy Bypass Hosts
-                schema:
-                  type: list
-                  default:
-                    - api.deepl.com
-                    - api-free.deepl.com
-                    - www.recaptcha.net
-                    - hcaptcha.com
-                    - challenges.cloudflare.com
-                  items:
-                    - variable: proxyBypassHostEntry
-                      label: Proxy Bypass Host Entry
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -373,8 +234,8 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Service
-          description: The Primary service on which the healthcheck runs, often the webUI
+          label: "Main Service"
+          description: "The Primary service on which the healthcheck runs, often the webUI"
           schema:
             additional_attrs: true
             type: dict
@@ -410,17 +271,17 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: Main Service Port Configuration
+                      label: "Main Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 3003
+                              default: 10023
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -650,9 +511,785 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: files
-          label: Misskey file Storage
-          description: Stores the Application file data.
+        - variable: data
+          label: "App Data Storage"
+          description: "Stores the Application Data."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
+              - variable: storageClass
+                label: 'storageClass (Advanced)'
+                description: 'sets the storageClass to something other than iX default. Only for advanced usecases!'
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: ""
+              - variable: static
+                label: 'Static Fixed PVC Bindings (Experimental)'
+                description: Link a PVC to a specific storage location
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: mode
+                      label: mode
+                      description: |
+                        disabled: use normal dynamic PVCs
+                        smb: connect to an SMB share
+                        nfs: connect to an NFS share
+                      schema:
+                        type: string
+                        default: "disabled"
+                        enum:
+                          - value: "disabled"
+                            description: disabled
+                          - value: smb
+                            description: smb
+                          - value: nfs
+                            description: nfs
+                    - variable: server
+                      label: Server
+                      description: server to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "myserver"
+                    - variable: share
+                      label: Share
+                      description: share to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "/myshare"
+                    - variable: user
+                      label: User
+                      description: connecting user
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: "myuser"
+                    - variable: domain
+                      label: Domain
+                      description: user domain
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+                    - variable: password
+                      label: Password
+                      description: connecting password
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+              - variable: volumeSnapshots
+                label: 'Volume Snapshots (Experimental)'
+                description: Add an entry to the list to force creation of a volumeSnapshot of this PVC
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: list
+                  default: []
+                  items:
+                    - variable: volumeSnapshotEntry
+                      label: Custom volumeSnapshot
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: Name
+                            description: 'WARNING: renaming this, means deletion of the snapshot with the old name!'
+                            schema:
+                              type: string
+                              default: "mysnapshot"
+                              required: true
+                          - variable: volumeSnapshotClassName
+                            label: 'volumeSnapshot Class Name (Advanced)'
+                            description: For use with PVCs using a non-default storageClass
+                            schema:
+                              type: string
+                              default: ""
+        - variable: cache
+          label: "App Cache Storage"
+          description: "Stores the Application Cache."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
+              - variable: storageClass
+                label: 'storageClass (Advanced)'
+                description: 'sets the storageClass to something other than iX default. Only for advanced usecases!'
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: ""
+              - variable: static
+                label: 'Static Fixed PVC Bindings (Experimental)'
+                description: Link a PVC to a specific storage location
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: mode
+                      label: mode
+                      description: |
+                        disabled: use normal dynamic PVCs
+                        smb: connect to an SMB share
+                        nfs: connect to an NFS share
+                      schema:
+                        type: string
+                        default: "disabled"
+                        enum:
+                          - value: "disabled"
+                            description: disabled
+                          - value: smb
+                            description: smb
+                          - value: nfs
+                            description: nfs
+                    - variable: server
+                      label: Server
+                      description: server to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "myserver"
+                    - variable: share
+                      label: Share
+                      description: share to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "/myshare"
+                    - variable: user
+                      label: User
+                      description: connecting user
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: "myuser"
+                    - variable: domain
+                      label: Domain
+                      description: user domain
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+                    - variable: password
+                      label: Password
+                      description: connecting password
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+              - variable: volumeSnapshots
+                label: 'Volume Snapshots (Experimental)'
+                description: Add an entry to the list to force creation of a volumeSnapshot of this PVC
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: list
+                  default: []
+                  items:
+                    - variable: volumeSnapshotEntry
+                      label: Custom volumeSnapshot
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: Name
+                            description: 'WARNING: renaming this, means deletion of the snapshot with the old name!'
+                            schema:
+                              type: string
+                              default: "mysnapshot"
+                              required: true
+                          - variable: volumeSnapshotClassName
+                            label: 'volumeSnapshot Class Name (Advanced)'
+                            description: For use with PVCs using a non-default storageClass
+                            schema:
+                              type: string
+                              default: ""
+        - variable: playlists
+          label: "App PlayLists Storage"
+          description: "Stores the Application PlayLists."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
+              - variable: storageClass
+                label: 'storageClass (Advanced)'
+                description: 'sets the storageClass to something other than iX default. Only for advanced usecases!'
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: ""
+              - variable: static
+                label: 'Static Fixed PVC Bindings (Experimental)'
+                description: Link a PVC to a specific storage location
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: mode
+                      label: mode
+                      description: |
+                        disabled: use normal dynamic PVCs
+                        smb: connect to an SMB share
+                        nfs: connect to an NFS share
+                      schema:
+                        type: string
+                        default: "disabled"
+                        enum:
+                          - value: "disabled"
+                            description: disabled
+                          - value: smb
+                            description: smb
+                          - value: nfs
+                            description: nfs
+                    - variable: server
+                      label: Server
+                      description: server to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "myserver"
+                    - variable: share
+                      label: Share
+                      description: share to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "/myshare"
+                    - variable: user
+                      label: User
+                      description: connecting user
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: "myuser"
+                    - variable: domain
+                      label: Domain
+                      description: user domain
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+                    - variable: password
+                      label: Password
+                      description: connecting password
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+              - variable: volumeSnapshots
+                label: 'Volume Snapshots (Experimental)'
+                description: Add an entry to the list to force creation of a volumeSnapshot of this PVC
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: list
+                  default: []
+                  items:
+                    - variable: volumeSnapshotEntry
+                      label: Custom volumeSnapshot
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: Name
+                            description: 'WARNING: renaming this, means deletion of the snapshot with the old name!'
+                            schema:
+                              type: string
+                              default: "mysnapshot"
+                              required: true
+                          - variable: volumeSnapshotClassName
+                            label: 'volumeSnapshot Class Name (Advanced)'
+                            description: For use with PVCs using a non-default storageClass
+                            schema:
+                              type: string
+                              default: ""
+        - variable: podcast
+          label: "App Podcast Storage"
+          description: "Stores the Application Podcast."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: enabled
+                      label: enabled
+                      schema:
+                        type: boolean
+                        default: false
+                        show_subquestions_if: true
+                        subquestions:
+                          - variable: chown
+                            label: Run CHOWN
+                            description: |
+                              It will run CHOWN on the path with the given fsGroup
+                            schema:
+                              type: boolean
+                              default: false
+                          - variable: chmod
+                            label: Run CHMOD
+                            description: |
+                              It will run CHMOD on the path with the given value</br>
+                              Format should be 3 digits, e.g. 770
+                            schema:
+                              type: string
+                              valid_chars: '[0-9]{3}'
+                              default: ""
+                          - variable: recursive
+                            label: Recursive
+                            description: |
+                              It will run CHOWN and CHMOD recursively
+                            schema:
+                              type: boolean
+                              default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
+              - variable: storageClass
+                label: 'storageClass (Advanced)'
+                description: 'sets the storageClass to something other than iX default. Only for advanced usecases!'
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: ""
+              - variable: static
+                label: 'Static Fixed PVC Bindings (Experimental)'
+                description: Link a PVC to a specific storage location
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: mode
+                      label: mode
+                      description: |
+                        disabled: use normal dynamic PVCs
+                        smb: connect to an SMB share
+                        nfs: connect to an NFS share
+                      schema:
+                        type: string
+                        default: "disabled"
+                        enum:
+                          - value: "disabled"
+                            description: disabled
+                          - value: smb
+                            description: smb
+                          - value: nfs
+                            description: nfs
+                    - variable: server
+                      label: Server
+                      description: server to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "myserver"
+                    - variable: share
+                      label: Share
+                      description: share to connect to
+                      schema:
+                        type: string
+                        show_if: [["mode", "!=", "disabled"]]
+                        default: "/myshare"
+                    - variable: user
+                      label: User
+                      description: connecting user
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: "myuser"
+                    - variable: domain
+                      label: Domain
+                      description: user domain
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+                    - variable: password
+                      label: Password
+                      description: connecting password
+                      schema:
+                        type: string
+                        show_if: [["mode", "=", "smb"]]
+                        default: ""
+              - variable: volumeSnapshots
+                label: 'Volume Snapshots (Experimental)'
+                description: Add an entry to the list to force creation of a volumeSnapshot of this PVC
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: list
+                  default: []
+                  items:
+                    - variable: volumeSnapshotEntry
+                      label: Custom volumeSnapshot
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: Name
+                            description: 'WARNING: renaming this, means deletion of the snapshot with the old name!'
+                            schema:
+                              type: string
+                              default: "mysnapshot"
+                              required: true
+                          - variable: volumeSnapshotClassName
+                            label: 'volumeSnapshot Class Name (Advanced)'
+                            description: For use with PVCs using a non-default storageClass
+                            schema:
+                              type: string
+                              default: ""
+        - variable: music
+          label: "App Music Storage"
+          description: "Stores the Application Music."
           schema:
             additional_attrs: true
             type: dict
@@ -1065,7 +1702,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Ingress
+          label: "Main Ingress"
           schema:
             additional_attrs: true
             type: dict
@@ -1385,16 +2022,30 @@ questions:
                         type: string
                         default: ""
                         required: true
+  - variable: securityContext
+    group: Security and Permissions
+    label: Security Context
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: container
+          label: Container
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              # Settings from questions.yaml get appended here on a per-app basis
 
               - variable: runAsUser
-                label: runAsUser
-                description: The UserID of the user running the application
+                label: "runAsUser"
+                description: "The UserID of the user running the application"
                 schema:
                   type: int
                   default: 0
               - variable: runAsGroup
-                label: runAsGroup
-                description: The groupID this App of the user running the application
+                label: "runAsGroup"
+                description: "The groupID this App of the user running the application"
                 schema:
                   type: int
                   default: 0
@@ -1457,12 +2108,12 @@ questions:
                       schema:
                         type: int
               # Settings from questions.yaml get appended here on a per-app basis
-        - variable: fsGroup
-          label: fsGroup
-          description: The group that should own ALL storage.
-          schema:
-            type: int
-            default: 33
+              - variable: fsGroup
+                label: "fsGroup"
+                description: "The group that should own ALL storage."
+                schema:
+                  type: int
+                  default: 568
 
   - variable: resources
     group: Resources and Devices

@@ -4,6 +4,15 @@
 
 
 
+## [misskey-4.1.1](https://github.com/truecharts/charts/compare/misskey-4.0.6...misskey-4.1.1) (2023-12-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/misskey to v2023.11.1 ([#15524](https://github.com/truecharts/charts/issues/15524))
+  
+  
+
+
 ## [misskey-4.0.6](https://github.com/truecharts/charts/compare/misskey-4.0.5...misskey-4.0.6) (2023-12-02)
 
 ### Chore
@@ -84,15 +93,6 @@
   ### Fix
 
 - fix mistakes on questions.yaml
-  
-  
-
-
-## [misskey-3.0.43](https://github.com/truecharts/charts/compare/misskey-3.0.42...misskey-3.0.43) (2023-02-27)
-
-### Chore
-
-- update helm general non-major ([#7725](https://github.com/truecharts/charts/issues/7725))
   
   
 
