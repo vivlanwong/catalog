@@ -1,7 +1,7 @@
-kubeVersion: 1.24.0
+kubeVersion: ">=1.24.0"
 apiVersion: v2
 name: zabbix
-version: 4.0.28
+version: 4.0.29
 appVersion: 6.2.7
 description: Zabbix is an enterprise-class open source distributed monitoring solution.
 home: https://truecharts.org/charts/incubator/zabbix
@@ -34,13 +34,9 @@ dependencies:
     import-values: []
 annotations:
   max_scale_version: 23.10.1
-  "max_scale_version:": 23.10.1
   min_scale_version: 22.12.4
-  "min_scale_version:": "22.12"
   truecharts.org/SCALE-support: "true"
-  "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: utilities
-  "truecharts.org/category:": unsorted
-  "truecharts.org/max_helm_version:": "3.13"
-  "truecharts.org/min_helm_version:": "3.12"
+  truecharts.org/max_helm_version: "3.13"
+  truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: incubator

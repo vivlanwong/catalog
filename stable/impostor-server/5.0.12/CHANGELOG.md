@@ -5,6 +5,7 @@
 
 
 
+
 ## [impostor-server-5.0.12](https://github.com/truecharts/charts/compare/impostor-server-5.0.11...impostor-server-5.0.12) (2023-11-25)
 
 ### Chore
@@ -94,6 +95,5 @@
 - update container image tccr.io/truecharts/impostor-server-nightly to vnightly ([#13313](https://github.com/truecharts/charts/issues/13313))
   
   
-
 
 
