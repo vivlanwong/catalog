@@ -4,6 +4,15 @@
 
 
 
+## [romm-3.0.1](https://github.com/truecharts/charts/compare/romm-3.0.0...romm-3.0.1) (2023-12-03)
+
+### Fix
+
+- update port ([#15637](https://github.com/truecharts/charts/issues/15637))
+  
+  
+
+
 ## [romm-3.0.0](https://github.com/truecharts/charts/compare/romm-2.0.13...romm-3.0.0) (2023-12-02)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
   
-  
-
-
-## [romm-2.0.4](https://github.com/truecharts/charts/compare/romm-2.0.3...romm-2.0.4) (2023-08-30)
-
-
-
-
-## [romm-2.0.3](https://github.com/truecharts/charts/compare/romm-2.0.2...romm-2.0.3) (2023-08-29)
