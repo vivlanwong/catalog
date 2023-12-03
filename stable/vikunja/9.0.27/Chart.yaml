@@ -1,16 +1,16 @@
-kubeVersion: 1.24.0
+kubeVersion: ">=1.24.0"
 apiVersion: v2
 name: vikunja
-version: 9.0.26
+version: 9.0.27
 appVersion: 0.21.0
 description: The to-do app to organize your life.
 home: https://truecharts.org/charts/stable/vikunja
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/vikunja.png
 deprecated: false
 sources:
+  - https://hub.docker.com/r/vikunja/api
   - https://vikunja.io/docs
   - https://github.com/truecharts/charts/tree/master/charts/stable/vikunja
-  - https://hub.docker.com/r/vikunja/api
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
@@ -34,13 +34,9 @@ dependencies:
     import-values: []
 annotations:
   max_scale_version: 23.10.1
-  "max_scale_version:": 23.10.1
   min_scale_version: 22.12.4
-  "min_scale_version:": "22.12"
   truecharts.org/SCALE-support: "true"
-  "truecharts.org/SCALE-support:": "true"
   truecharts.org/category: productivity
-  "truecharts.org/category:": unsorted
-  "truecharts.org/max_helm_version:": "3.13"
-  "truecharts.org/min_helm_version:": "3.12"
+  truecharts.org/max_helm_version: "3.13"
+  truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable

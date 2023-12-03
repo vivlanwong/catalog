@@ -4,6 +4,21 @@
 
 
 
+
+## [minecraft-bungeecord-5.0.11](https://github.com/truecharts/charts/compare/minecraft-bungeecord-5.0.10...minecraft-bungeecord-5.0.11) (2023-12-03)
+
+### Chore
+
+- bump everything to ensure catalog has latest versions
+  - update annotations
+  - cleanup chart.yaml and add min-max scale version
+  
+  
+
+
+
+
+
 ## [minecraft-bungeecord-5.0.10](https://github.com/truecharts/charts/compare/minecraft-bungeecord-5.0.9...minecraft-bungeecord-5.0.10) (2023-11-18)
 
 
@@ -82,18 +97,3 @@
 
 
 
-## [minecraft-bungeecord-5.0.0](https://github.com/truecharts/charts/compare/minecraft-bungeecord-4.1.5...minecraft-bungeecord-5.0.0) (2023-07-31)
-
-
-
-
-## [minecraft-bungeecord-4.1.5](https://github.com/truecharts/charts/compare/minecraft-bungeecord-4.1.4...minecraft-bungeecord-4.1.5) (2023-07-29)
-
-### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
-  
-  
-
-
-## [minecraft-bungeecord-4.1.4](https://github.com/truecharts/charts/compare/minecraft-bungeecord-4.1.3...minecraft-bungeecord-4.1.4) (2023-07-14)

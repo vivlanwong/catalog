@@ -5,6 +5,19 @@
 
 
 
+## [vikunja-9.0.27](https://github.com/truecharts/charts/compare/vikunja-9.0.26...vikunja-9.0.27) (2023-12-03)
+
+### Chore
+
+- bump everything to ensure catalog has latest versions
+  - fix annotations again
+  - update annotations
+  - cleanup chart.yaml and add min-max scale version
+  
+  
+
+
+
 
 
 ## [vikunja-9.0.26](https://github.com/truecharts/charts/compare/vikunja-9.0.25...vikunja-9.0.26) (2023-11-24)
@@ -83,17 +96,4 @@
 ## [vikunja-9.0.17](https://github.com/truecharts/charts/compare/vikunja-9.0.16...vikunja-9.0.17) (2023-11-01)
 
 ### Chore
-
-- update container image tccr.io/truecharts/nginx to v1.25.3 ([#14203](https://github.com/truecharts/charts/issues/14203))
-  
-  
-
-
-## [vikunja-9.0.16](https://github.com/truecharts/charts/compare/vikunja-9.0.15...vikunja-9.0.16) (2023-11-01)
-
-### Chore
-
-- update container image tccr.io/truecharts/nginx to v1.25.3 ([#14195](https://github.com/truecharts/charts/issues/14195))
-  
-  
 
