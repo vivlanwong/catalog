@@ -1,28 +1,27 @@
 image:
-  repository: jvmilazz0/kavita
   pullPolicy: IfNotPresent
-  tag: 0.7.10@sha256:73c42f14a2a70f3110f8d38e1b975797e0cb2b529ebb4d336a14fdf44e8930ef
+  repository: lscr.io/linuxserver/cops
+  tag: 2.2.1@sha256:f07e0ab84714638e5afa706042c4c3d4c27516d8ffde9150c76e61ef7d2643ed
 securityContext:
   container:
     readOnlyRootFilesystem: false
     runAsNonRoot: false
-    runAsUser: 0
     runAsGroup: 0
+    runAsUser: 0
 service:
   main:
     ports:
       main:
-        targetPort: 5000
-        port: 10189
+        port: 10609
+        protocol: http
+        targetPort: 80
 persistence:
   config:
     enabled: true
-    mountPath: "/kavita/config"
-  manga:
+    mountPath: /config
+  books:
     enabled: true
-    mountPath: "/manga"
-  tmp:
-    enabled: false
+    mountPath: /books
 portal:
   open:
     enabled: true

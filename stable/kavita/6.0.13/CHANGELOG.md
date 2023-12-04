@@ -4,6 +4,15 @@
 
 
 
+## [kavita-6.0.13](https://github.com/truecharts/charts/compare/kavita-6.0.12...kavita-6.0.13) (2023-12-04)
+
+### Chore
+
+- update container image jvmilazz0/kavita to v[@4a415d1](https://github.com/4a415d1) ([#15657](https://github.com/truecharts/charts/issues/15657))
+  
+  
+
+
 ## [kavita-6.0.12](https://github.com/truecharts/charts/compare/kavita-6.0.11...kavita-6.0.12) (2023-12-03)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [kavita-6.0.2](https://github.com/truecharts/charts/compare/kavita-6.0.1...kavita-6.0.2) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  
-
-
-## [kavita-6.0.1](https://github.com/truecharts/charts/compare/kavita-6.0.0...kavita-6.0.1) (2023-10-07)
 
 ### Chore
 
