@@ -4,6 +4,15 @@
 
 
 
+## [rickroll-3.0.22](https://github.com/truecharts/charts/compare/rickroll-3.0.21...rickroll-3.0.22) (2023-12-04)
+
+### Chore
+
+- update container image modem7/docker-rickroll to latest[@d3f292c](https://github.com/d3f292c) ([#15727](https://github.com/truecharts/charts/issues/15727))
+  
+  
+
+
 ## [rickroll-3.0.21](https://github.com/truecharts/charts/compare/rickroll-3.0.20...rickroll-3.0.21) (2023-12-03)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Chore
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  
-  
-
-
-## [rickroll-3.0.11](https://github.com/truecharts/charts/compare/rickroll-3.0.10...rickroll-3.0.11) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
