@@ -6,6 +6,7 @@
 
 
 
+
 ## [orbital-sync-2.0.10](https://github.com/truecharts/charts/compare/orbital-sync-2.0.9...orbital-sync-2.0.10) (2023-12-03)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 ## [orbital-sync-2.0.3](https://github.com/truecharts/charts/compare/orbital-sync-2.0.2...orbital-sync-2.0.3) (2022-12-13)
 
-### Chore
