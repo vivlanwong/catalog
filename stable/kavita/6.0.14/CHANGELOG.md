@@ -4,6 +4,15 @@
 
 
 
+## [kavita-6.0.14](https://github.com/truecharts/charts/compare/kavita-6.0.13...kavita-6.0.14) (2023-12-04)
+
+### Chore
+
+- update container image jvmilazz0/kavita to v0.7.11[@24940a1](https://github.com/24940a1) ([#15686](https://github.com/truecharts/charts/issues/15686))
+  
+  
+
+
 ## [kavita-6.0.13](https://github.com/truecharts/charts/compare/kavita-6.0.12...kavita-6.0.13) (2023-12-04)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [kavita-6.0.4](https://github.com/truecharts/charts/compare/kavita-6.0.2...kavita-6.0.4) (2023-10-28)
-
-### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  
-  
-
-
-## [kavita-6.0.2](https://github.com/truecharts/charts/compare/kavita-6.0.1...kavita-6.0.2) (2023-10-07)
 
 ### Chore
 
