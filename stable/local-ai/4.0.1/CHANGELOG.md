@@ -4,6 +4,15 @@
 
 
 
+## [local-ai-4.0.1](https://github.com/truecharts/charts/compare/local-ai-4.0.0...local-ai-4.0.1) (2023-12-05)
+
+### Chore
+
+- update container image quay.io/go-skynet/local-ai to v2.0.0[@04eb683](https://github.com/04eb683) ([#15762](https://github.com/truecharts/charts/issues/15762))
+  
+  
+
+
 ## [local-ai-4.0.0](https://github.com/truecharts/charts/compare/local-ai-0.0.21...local-ai-4.0.0) (2023-12-05)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [local-ai-0.0.13](https://github.com/truecharts/charts/compare/local-ai-0.0.12...local-ai-0.0.13) (2023-11-03)
-
-### Chore
-
-- update helm general non-major ([#14287](https://github.com/truecharts/charts/issues/14287))
-  
-  
-
-
-## [local-ai-0.0.12](https://github.com/truecharts/charts/compare/local-ai-0.0.11...local-ai-0.0.12) (2023-11-01)
 
 ### Chore
 
