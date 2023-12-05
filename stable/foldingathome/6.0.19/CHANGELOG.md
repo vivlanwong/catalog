@@ -4,6 +4,15 @@
 
 
 
+## [foldingathome-6.0.19](https://github.com/truecharts/charts/compare/foldingathome-6.0.18...foldingathome-6.0.19) (2023-12-05)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/foldingathome to 7.6.21[@1919126](https://github.com/1919126) ([#15740](https://github.com/truecharts/charts/issues/15740))
+  
+  
+
+
 ## [foldingathome-6.0.18](https://github.com/truecharts/charts/compare/foldingathome-6.0.17...foldingathome-6.0.18) (2023-12-03)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [foldingathome-6.0.9](https://github.com/truecharts/charts/compare/foldingathome-6.0.8...foldingathome-6.0.9) (2023-10-29)
 
 ### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [foldingathome-6.0.8](https://github.com/truecharts/charts/compare/foldingathome-6.0.7...foldingathome-6.0.8) (2023-10-24)
-
