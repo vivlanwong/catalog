@@ -5,6 +5,7 @@
 
 
 
+
 ## [local-ai-0.0.21](https://github.com/truecharts/charts/compare/local-ai-0.0.20...local-ai-0.0.21) (2023-12-03)
 
 ### Chore
@@ -96,4 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/local-ai-cublas-cuda11 to v1.40.0 ([#14186](https://github.com/truecharts/charts/issues/14186))
-  - update container image tccr.io/truecharts/local-ai to v1.40.0 ([#14149](https://github.com/truecharts/charts/issues/14149))
