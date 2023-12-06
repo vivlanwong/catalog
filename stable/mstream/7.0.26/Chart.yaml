@@ -1,25 +1,25 @@
 kubeVersion: ">=1.24.0"
 apiVersion: v2
-name: invidious
-version: 6.0.24
-appVersion: latest
-description: Open source alternative front-end to YouTube.
-home: https://truecharts.org/charts/stable/invidious
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/invidious.png
+name: mstream
+version: 7.0.26
+appVersion: 5.11.4
+description: A personal music streaming server
+home: https://truecharts.org/charts/stable/mstream
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mstream.png
 deprecated: false
 sources:
-  - https://github.com/iv-org/invidious
-  - https://github.com/truecharts/charts/tree/master/charts/stable/invidious
-  - https://quay.io/invidious/invidious
-  - https://docs.invidious.io/installation/#docker
+  - https://ghcr.io/linuxserver/mstream
+  - https://github.com/linuxserver/docker-mstream
+  - https://mstream.io/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mstream
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - invidious
-  - youtube
-  - media
+  - mstream
+  - server
+  - music
 dependencies:
   - name: common
     version: 14.3.5
