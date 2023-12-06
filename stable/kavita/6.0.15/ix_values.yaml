@@ -1,0 +1,28 @@
+image:
+  repository: jvmilazz0/kavita
+  pullPolicy: IfNotPresent
+  tag: 0.7.11@sha256:42afdf95f1893b59f89128b0c2ab9583bfbd19b1d28c750aa5d97d582b2fe07b
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        targetPort: 5000
+        port: 10189
+persistence:
+  config:
+    enabled: true
+    mountPath: "/kavita/config"
+  manga:
+    enabled: true
+    mountPath: "/manga"
+  tmp:
+    enabled: false
+portal:
+  open:
+    enabled: true

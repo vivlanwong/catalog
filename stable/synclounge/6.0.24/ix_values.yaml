@@ -1,0 +1,29 @@
+image:
+  repository: ghcr.io/linuxserver/synclounge
+  pullPolicy: IfNotPresent
+  tag: 5.2.23@sha256:ba386b20a481a7b7803f7984be2458ffe94ad4cb34d57654c618dfb26086fb9b
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8088
+        port: 8088
+persistence:
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            AUTH_LIST: ""
