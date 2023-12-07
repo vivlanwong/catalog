@@ -5,6 +5,7 @@
 
 
 
+
 ## [jupyter-5.0.49](https://github.com/truecharts/charts/compare/jupyter-5.0.48...jupyter-5.0.49) (2023-12-03)
 
 ### Chore
@@ -96,4 +97,3 @@
 - update jupyter ([#13809](https://github.com/truecharts/charts/issues/13809))
   
   
-
