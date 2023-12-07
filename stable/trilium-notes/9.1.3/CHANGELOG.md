@@ -4,6 +4,15 @@
 
 
 
+## [trilium-notes-9.1.3](https://github.com/truecharts/charts/compare/trilium-notes-9.1.2...trilium-notes-9.1.3) (2023-12-07)
+
+### Chore
+
+- update container image ghcr.io/zadam/trilium to v0.62.4[@f98cde7](https://github.com/f98cde7) ([#15822](https://github.com/truecharts/charts/issues/15822))
+  
+  
+
+
 ## [trilium-notes-9.1.2](https://github.com/truecharts/charts/compare/trilium-notes-9.1.1...trilium-notes-9.1.2) (2023-12-03)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#14454](https://github.com/truecharts/charts/issues/14454))
-  
-  
-
-
-## [trilium-notes-9.0.9](https://github.com/truecharts/charts/compare/trilium-notes-9.0.8...trilium-notes-9.0.9) (2023-11-06)
-
-### Chore
-
-- update container image tccr.io/truecharts/trilium-notes to v0.61.13 ([#14377](https://github.com/truecharts/charts/issues/14377))
   

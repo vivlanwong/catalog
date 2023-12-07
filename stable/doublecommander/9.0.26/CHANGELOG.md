@@ -4,6 +4,15 @@
 
 
 
+## [doublecommander-9.0.26](https://github.com/truecharts/charts/compare/doublecommander-9.0.25...doublecommander-9.0.26) (2023-12-07)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/doublecommander to latest[@fd53071](https://github.com/fd53071) ([#15821](https://github.com/truecharts/charts/issues/15821))
+  
+  
+
+
 ## [doublecommander-9.0.25](https://github.com/truecharts/charts/compare/doublecommander-9.0.24...doublecommander-9.0.25) (2023-12-03)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
-  
-  
-
-
-## [doublecommander-9.0.16](https://github.com/truecharts/charts/compare/doublecommander-9.0.15...doublecommander-9.0.16) (2023-11-02)
-
-### Chore
-
-- update helm general non-major ([#14245](https://github.com/truecharts/charts/issues/14245))
   
