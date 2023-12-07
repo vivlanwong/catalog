@@ -4,6 +4,15 @@
 
 
 
+## [wordpress-3.1.0](https://github.com/truecharts/charts/compare/wordpress-3.0.70...wordpress-3.1.0) (2023-12-07)
+
+### Feat
+
+- switch to https ([#15818](https://github.com/truecharts/charts/issues/15818))
+  
+  
+
+
 ## [wordpress-3.0.70](https://github.com/truecharts/charts/compare/wordpress-3.0.69...wordpress-3.0.70) (2023-12-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [wordpress-3.0.62](https://github.com/truecharts/charts/compare/wordpress-3.0.61...wordpress-3.0.62) (2023-11-09)
-
-### Chore
-
-- update container image tccr.io/truecharts/wordpress to v6.4.1 ([#14494](https://github.com/truecharts/charts/issues/14494))
-  
-  
-
-
-## [wordpress-3.0.61](https://github.com/truecharts/charts/compare/wordpress-3.0.60...wordpress-3.0.61) (2023-11-09)
 
