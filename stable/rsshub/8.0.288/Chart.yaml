@@ -1,25 +1,24 @@
 kubeVersion: ">=1.24.0"
 apiVersion: v2
-name: wordpress
-version: 3.0.69
-appVersion: 6.4.1
-description:
-  The WordPress rich content management system can utilize plugins, widgets,
-  and themes.
-home: https://truecharts.org/charts/stable/wordpress
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/wordpress.png
+name: rsshub
+version: 8.0.288
+appVersion: latest
+description: RSSHub can generate RSS feeds from pretty much everything
+home: https://truecharts.org/charts/stable/rsshub
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsshub.png
 deprecated: false
 sources:
-  - https://www.wordpress.org
-  - https://github.com/truecharts/charts/tree/master/charts/stable/wordpress
-  - https://hub.docker.com/r/bitnami/wordpress
+  - https://github.com/DIYgod/RSSHub
+  - https://docs.rsshub.app/en/install/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/rsshub
+  - https://hub.docker.com/r/diygod/rsshub
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - wordpress
-  - cms
+  - rsshub
+  - rss
 dependencies:
   - name: common
     version: 14.3.5
@@ -28,10 +27,10 @@ dependencies:
     alias: ""
     tags: []
     import-values: []
-  - name: mariadb
-    version: 7.0.70
-    repository: https://deps.truecharts.org/
-    condition: mariadb.enabled
+  - name: redis
+    version: 6.0.66
+    repository: https://deps.truecharts.org
+    condition: redis.enabled
     alias: ""
     tags: []
     import-values: []
@@ -39,7 +38,7 @@ annotations:
   max_scale_version: 23.10.1
   min_scale_version: 22.12.4
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: website
+  truecharts.org/category: media
   truecharts.org/max_helm_version: "3.13"
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable
