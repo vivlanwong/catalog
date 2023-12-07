@@ -1,22 +1,26 @@
 kubeVersion: ">=1.24.0"
 apiVersion: v2
-name: snapdrop
-version: 6.0.25
-appVersion: latest
-description: Snapdrop A local file sharing in your browser. Inspired by Apple's Airdrop.
-home: https://truecharts.org/charts/stable/snapdrop
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/snapdrop.png
+name: sickchill
+version: 7.0.29
+appVersion: 2023.6.27
+description: An Automatic Video Library Manager for TV Shows
+home: https://truecharts.org/charts/stable/sickchill
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/sickchill.png
 deprecated: false
 sources:
-  - https://github.com/linuxserver/docker-snapdrop
-  - https://github.com/truecharts/charts/tree/master/charts/stable/snapdrop
-  - https://hub.docker.com/r/linuxserver/snapdrop
+  - https://github.com/truecharts/charts/tree/master/charts/stable/sickchill
+  - https://ghcr.io/linuxserver/sickchill
+  - https://github.com/linuxserver/docker-sickchill
+  - https://github.com/SickChill/SickChill
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - snapdrop
+  - sickchill
+  - video
+  - library
+  - manager
 dependencies:
   - name: common
     version: 14.3.5

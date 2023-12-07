@@ -4,6 +4,15 @@
 
 
 
+## [minio-7.1.3](https://github.com/truecharts/charts/compare/minio-7.1.2...minio-7.1.3) (2023-12-07)
+
+### Chore
+
+- update container image minio/minio to vrelease.2023-12-07t04-16-00z[@0aecf9f](https://github.com/0aecf9f) ([#15840](https://github.com/truecharts/charts/issues/15840))
+  
+  
+
+
 ## [minio-7.1.2](https://github.com/truecharts/charts/compare/minio-7.1.1...minio-7.1.2) (2023-12-06)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#14465](https://github.com/truecharts/charts/issues/14465))
-  
-  
-
-
-## [minio-7.0.28](https://github.com/truecharts/charts/compare/minio-7.0.27...minio-7.0.28) (2023-11-08)
-
-### Chore
-
-- update helm general non-major ([#14454](https://github.com/truecharts/charts/issues/14454))
   
