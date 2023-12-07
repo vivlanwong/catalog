@@ -4,6 +4,15 @@
 
 
 
+## [awesome-ttrss-4.0.2](https://github.com/truecharts/charts/compare/awesome-ttrss-4.0.1...awesome-ttrss-4.0.2) (2023-12-07)
+
+### Fix
+
+- Fix SCALE question ([#15827](https://github.com/truecharts/charts/issues/15827))
+  
+  
+
+
 ## [awesome-ttrss-4.0.1](https://github.com/truecharts/charts/compare/awesome-ttrss-3.0.25...awesome-ttrss-4.0.1) (2023-12-06)
 
 ### Migrate
@@ -87,13 +96,4 @@
 ## [awesome-ttrss-3.0.22](https://github.com/truecharts/charts/compare/awesome-ttrss-3.0.21...awesome-ttrss-3.0.22) (2023-02-19)
 
 ### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [awesome-ttrss-3.0.21](https://github.com/truecharts/charts/compare/awesome-ttrss-3.0.20...awesome-ttrss-3.0.21) (2023-02-10)
-
-### Fix
 
