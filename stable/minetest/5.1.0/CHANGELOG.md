@@ -4,6 +4,15 @@
 
 
 
+## [minetest-5.1.0](https://github.com/truecharts/charts/compare/minetest-5.0.10...minetest-5.1.0) (2023-12-08)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/minetest to v5.8.0[@929c1fa](https://github.com/929c1fa) ([#15876](https://github.com/truecharts/charts/issues/15876))
+  
+  
+
+
 ## [minetest-5.0.10](https://github.com/truecharts/charts/compare/minetest-5.0.9...minetest-5.0.10) (2023-12-03)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [minetest-5.0.0](https://github.com/truecharts/charts/compare/minetest-4.0.27...minetest-5.0.0) (2023-07-31)
 
-
-
-
-## [minetest-4.0.27](https://github.com/truecharts/charts/compare/minetest-4.0.26...minetest-4.0.27) (2023-07-29)
-
-### Chore
-
-- update helm general non-major ([#10955](https://github.com/truecharts/charts/issues/10955))
-  
