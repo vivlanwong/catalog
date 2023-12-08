@@ -4,6 +4,19 @@
 
 
 
+
+## [minecraft-java-5.1.3](https://github.com/truecharts/charts/compare/minecraft-java-5.1.2...minecraft-java-5.1.3) (2023-12-03)
+
+### Chore
+
+- bump everything to ensure catalog has latest versions
+  - fix annotations again
+  - update annotations
+  - cleanup chart.yaml and add min-max scale version
+  
+  
+
+
 ## [minecraft-java-5.1.2](https://github.com/truecharts/charts/compare/minecraft-java-5.1.1...minecraft-java-5.1.2) (2023-11-27)
 
 
@@ -84,16 +97,3 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   
-  
-
-
-## [minecraft-java-5.0.2](https://github.com/truecharts/charts/compare/minecraft-java-5.0.1...minecraft-java-5.0.2) (2023-10-07)
-
-### Chore
-
-- update helm general non-major ([#13386](https://github.com/truecharts/charts/issues/13386))
-  
-  
-
-
-## [minecraft-java-5.0.1](https://github.com/truecharts/charts/compare/minecraft-java-5.0.0...minecraft-java-5.0.1) (2023-08-24)
