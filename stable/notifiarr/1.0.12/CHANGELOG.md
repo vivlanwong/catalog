@@ -4,6 +4,15 @@
 
 
 
+## [notifiarr-1.0.12](https://github.com/truecharts/charts/compare/notifiarr-1.0.11...notifiarr-1.0.12) (2023-12-08)
+
+### Fix
+
+- Fix inability to change auth settings ([#15294](https://github.com/truecharts/charts/issues/15294))
+  
+  
+
+
 ## [notifiarr-1.0.11](https://github.com/truecharts/charts/compare/notifiarr-1.0.10...notifiarr-1.0.11) (2023-12-03)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [notifiarr-1.0.3](https://github.com/truecharts/charts/compare/notifiarr-1.0.1...notifiarr-1.0.3) (2023-10-28)
-
-### Chore
-
-- Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  - run precocmit ([#13387](https://github.com/truecharts/charts/issues/13387))
-  
-  
-
-
