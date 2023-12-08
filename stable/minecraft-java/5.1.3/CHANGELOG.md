@@ -5,6 +5,7 @@
 
 
 
+
 ## [minecraft-java-5.1.3](https://github.com/truecharts/charts/compare/minecraft-java-5.1.2...minecraft-java-5.1.3) (2023-12-03)
 
 ### Chore
@@ -96,4 +97,3 @@
 ### Chore
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
-  
