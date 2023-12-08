@@ -4,6 +4,15 @@
 
 
 
+## [znc-6.0.19](https://github.com/truecharts/charts/compare/znc-6.0.18...znc-6.0.19) (2023-12-08)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/znc to 1.8.2[@143a9aa](https://github.com/143a9aa) ([#15868](https://github.com/truecharts/charts/issues/15868))
+  
+  
+
+
 ## [znc-6.0.18](https://github.com/truecharts/charts/compare/znc-6.0.17...znc-6.0.18) (2023-12-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 - Fix typo in categories and make them singular ([#13693](https://github.com/truecharts/charts/issues/13693))
   - update helm general non-major ([#14094](https://github.com/truecharts/charts/issues/14094))
-  
-  
-
-
-## [znc-6.0.9](https://github.com/truecharts/charts/compare/znc-6.0.8...znc-6.0.9) (2023-10-20)
-
-### Chore
-
-- update container image tccr.io/truecharts/znc to v1.8.2 ([#13803](https://github.com/truecharts/charts/issues/13803))
   
   
