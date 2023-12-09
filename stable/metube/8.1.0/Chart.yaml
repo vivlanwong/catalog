@@ -1,8 +1,8 @@
 kubeVersion: ">=1.24.0"
 apiVersion: v2
 name: metube
-version: 8.0.12
-appVersion: 2023.11.16
+version: 8.1.0
+appVersion: 2023.12.09
 description: Web GUI for youtube-dl.
 home: https://truecharts.org/charts/stable/metube
 icon: https://truecharts.org/img/hotlink-ok/chart-icons/metube.png
