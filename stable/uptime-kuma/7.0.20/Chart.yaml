@@ -1,23 +1,23 @@
 kubeVersion: ">=1.24.0"
 apiVersion: v2
-name: jellystat
-version: 0.0.15
-appVersion: latest
-description: A free and open source Statistics App for Jellyfin.
-home: https://truecharts.org/charts/stable/jellystat
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/jellystat.png
+name: uptime-kuma
+version: 7.0.20
+appVersion: 1.23.9
+description: A fancy self-hosted monitoring tool
+home: https://truecharts.org/charts/stable/uptime-kuma
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/uptime-kuma.png
 deprecated: false
 sources:
-  - https://github.com/CyferShepard/Jellystat
-  - https://github.com/truecharts/charts/tree/master/charts/stable/jellystat
-  - https://hub.docker.com/r/cyfershepard/jellystat
+  - https://hub.docker.com/r/louislam/uptime-kuma
+  - https://github.com/louislam/uptime-kuma
+  - https://github.com/truecharts/charts/tree/master/charts/stable/uptime-kuma
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - jellystat
-  - jellyfin
+  - monitoring
+  - uptime
 dependencies:
   - name: common
     version: 14.3.5
@@ -30,7 +30,7 @@ annotations:
   max_scale_version: 23.10.1
   min_scale_version: 22.12.4
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: statistics
+  truecharts.org/category: monitoring
   truecharts.org/max_helm_version: "3.13"
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable
