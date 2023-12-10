@@ -4,6 +4,15 @@
 
 
 
+## [budge-6.0.27](https://github.com/truecharts/charts/compare/budge-6.0.26...budge-6.0.27) (2023-12-10)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/budge to 0.0.9[@1ec2c05](https://github.com/1ec2c05) ([#15937](https://github.com/truecharts/charts/issues/15937))
+  
+  
+
+
 ## [budge-6.0.26](https://github.com/truecharts/charts/compare/budge-6.0.25...budge-6.0.26) (2023-12-04)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#14454](https://github.com/truecharts/charts/issues/14454))
-  
-  
-
-
-## [budge-6.0.17](https://github.com/truecharts/charts/compare/budge-6.0.16...budge-6.0.17) (2023-11-05)
-
-### Chore
-
-- update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
   
