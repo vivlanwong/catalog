@@ -4,6 +4,15 @@
 
 
 
+## [flowise-1.0.21](https://github.com/truecharts/charts/compare/flowise-1.0.20...flowise-1.0.21) (2023-12-10)
+
+### Chore
+
+- update container image flowiseai/flowise to v1.4.5[@b9c499a](https://github.com/b9c499a) ([#15932](https://github.com/truecharts/charts/issues/15932))
+  
+  
+
+
 ## [flowise-1.0.20](https://github.com/truecharts/charts/compare/flowise-1.0.19...flowise-1.0.20) (2023-12-08)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
-  
-  
-
-
-## [flowise-1.0.11](https://github.com/truecharts/charts/compare/flowise-1.0.10...flowise-1.0.11) (2023-11-03)
-
-### Chore
-
-- update container image tccr.io/truecharts/flowise to v1.3.9 ([#14311](https://github.com/truecharts/charts/issues/14311))
   
