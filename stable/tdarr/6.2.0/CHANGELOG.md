@@ -4,6 +4,15 @@
 
 
 
+## [tdarr-6.2.0](https://github.com/truecharts/charts/compare/tdarr-6.1.1...tdarr-6.2.0) (2023-12-11)
+
+### Chore
+
+- update container image haveagitgat/tdarr to v2.17.01[@f60a496](https://github.com/f60a496) ([#15959](https://github.com/truecharts/charts/issues/15959))
+  
+  
+
+
 ## [tdarr-6.1.1](https://github.com/truecharts/charts/compare/tdarr-6.1.0...tdarr-6.1.1) (2023-12-03)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [tdarr-6.0.5](https://github.com/truecharts/charts/compare/tdarr-6.0.4...tdarr-6.0.5) (2023-10-29)
-
-### Chore
-
-- update container image tccr.io/truecharts/tdarr to v2.14.02 ([#14097](https://github.com/truecharts/charts/issues/14097))
-  
-  
-
-
-## [tdarr-6.0.4](https://github.com/truecharts/charts/compare/tdarr-6.0.3...tdarr-6.0.4) (2023-10-28)
 
 ### Chore
 
