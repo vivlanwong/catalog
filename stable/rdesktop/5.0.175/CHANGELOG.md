@@ -4,6 +4,50 @@
 
 
 
+## [rdesktop-5.0.175](https://github.com/truecharts/charts/compare/rdesktop-5.0.157...rdesktop-5.0.175) (2023-12-11)
+
+### Chore
+
+- update rdesktop ([#15799](https://github.com/truecharts/charts/issues/15799))
+  - update container image lscr.io/linuxserver/rdesktop to ubuntu-openbox[@c57b073](https://github.com/c57b073) ([#15670](https://github.com/truecharts/charts/issues/15670))
+  - update container image lscr.io/linuxserver/rdesktop to ubuntu-icewm[@5b4958a](https://github.com/5b4958a) ([#15669](https://github.com/truecharts/charts/issues/15669))
+  
+  
+
+
+## [rdesktop-5.0.157](https://github.com/truecharts/charts/compare/rdesktop-5.0.156...rdesktop-5.0.157) (2023-12-04)
+
+### Chore
+
+- update container image lscr.io/linuxserver/rdesktop to latest[@3eb0980](https://github.com/3eb0980) ([#15668](https://github.com/truecharts/charts/issues/15668))
+  - update container image lscr.io/linuxserver/rdesktop to fedora-xfce[@4509b9a](https://github.com/4509b9a) ([#15667](https://github.com/truecharts/charts/issues/15667))
+  - update container image lscr.io/linuxserver/rdesktop to fedora-openbox[@c3fb37c](https://github.com/c3fb37c) ([#15666](https://github.com/truecharts/charts/issues/15666))
+  - update container image lscr.io/linuxserver/rdesktop to fedora-mate[@9d0aa73](https://github.com/9d0aa73) ([#15665](https://github.com/truecharts/charts/issues/15665))
+  - update container image lscr.io/linuxserver/rdesktop to fedora-icewm[@7298666](https://github.com/7298666) ([#15664](https://github.com/truecharts/charts/issues/15664))
+  - update container image lscr.io/linuxserver/rdesktop to fedora-i3[@8a038b9](https://github.com/8a038b9) ([#15663](https://github.com/truecharts/charts/issues/15663))
+  - update container image lscr.io/linuxserver/rdesktop to arch-kde[@79e2983](https://github.com/79e2983) ([#15590](https://github.com/truecharts/charts/issues/15590))
+  - update container image lscr.io/linuxserver/rdesktop to alpine-openbox[@d1007a3](https://github.com/d1007a3) ([#15662](https://github.com/truecharts/charts/issues/15662))
+  - update container image lscr.io/linuxserver/rdesktop to alpine-i3[@097d4f7](https://github.com/097d4f7) ([#15659](https://github.com/truecharts/charts/issues/15659))
+  - update container image lscr.io/linuxserver/rdesktop to alpine-mate[@934472b](https://github.com/934472b) ([#15661](https://github.com/truecharts/charts/issues/15661))
+  - update container image lscr.io/linuxserver/rdesktop to alpine-kde[@a3dbee2](https://github.com/a3dbee2) ([#15660](https://github.com/truecharts/charts/issues/15660))
+  
+  
+
+
+## [rdesktop-5.0.156](https://github.com/truecharts/charts/compare/rdesktop-5.0.155...rdesktop-5.0.156) (2023-12-03)
+
+### Chore
+
+- bump everything to ensure catalog has latest versions
+  - update annotations
+  - update container image lscr.io/linuxserver/rdesktop to arch-icewm[@85c65d2](https://github.com/85c65d2) ([#15576](https://github.com/truecharts/charts/issues/15576))
+  - update container image lscr.io/linuxserver/rdesktop to arch-xfce[@a18c50e](https://github.com/a18c50e) ([#15579](https://github.com/truecharts/charts/issues/15579))
+  - update container image lscr.io/linuxserver/rdesktop to arch-openbox[@dc53b9d](https://github.com/dc53b9d) ([#15578](https://github.com/truecharts/charts/issues/15578))
+  - update container image lscr.io/linuxserver/rdesktop to arch-mate[@54a0e93](https://github.com/54a0e93) ([#15577](https://github.com/truecharts/charts/issues/15577))
+  
+  
+
+
 ## [rdesktop-5.0.155](https://github.com/truecharts/charts/compare/rdesktop-5.0.154...rdesktop-5.0.155) (2023-12-01)
 
 ### Chore
@@ -53,47 +97,3 @@
 
 - update container image lscr.io/linuxserver/rdesktop to arch-xfce[@907be5f](https://github.com/907be5f) ([#15336](https://github.com/truecharts/charts/issues/15336))
   - update container image lscr.io/linuxserver/rdesktop to arch-kde[@f7c5965](https://github.com/f7c5965) ([#15333](https://github.com/truecharts/charts/issues/15333))
-  
-  
-
-
-## [rdesktop-5.0.151](https://github.com/truecharts/charts/compare/rdesktop-5.0.150...rdesktop-5.0.151) (2023-11-24)
-
-### Chore
-
-- update container image lscr.io/linuxserver/rdesktop to arch-openbox[@c20f359](https://github.com/c20f359) ([#15335](https://github.com/truecharts/charts/issues/15335))
-  - update container image lscr.io/linuxserver/rdesktop to arch-mate[@96fc9e3](https://github.com/96fc9e3) ([#15334](https://github.com/truecharts/charts/issues/15334))
-  - update container image lscr.io/linuxserver/rdesktop to arch-icewm[@2dc84a9](https://github.com/2dc84a9) ([#15332](https://github.com/truecharts/charts/issues/15332))
-  - update container image lscr.io/linuxserver/rdesktop to arch-i3[@7a0b2ce](https://github.com/7a0b2ce) ([#15331](https://github.com/truecharts/charts/issues/15331))
-  - update container image lscr.io/linuxserver/rdesktop to arch-xfce[@28d7d76](https://github.com/28d7d76) ([#15176](https://github.com/truecharts/charts/issues/15176))
-  - update container image lscr.io/linuxserver/rdesktop to arch-openbox[@2423a68](https://github.com/2423a68) ([#15175](https://github.com/truecharts/charts/issues/15175))
-  - update container image lscr.io/linuxserver/rdesktop to arch-mate[@3c57b8a](https://github.com/3c57b8a) ([#15174](https://github.com/truecharts/charts/issues/15174))
-  - update container image lscr.io/linuxserver/rdesktop to arch-kde[@a5361f5](https://github.com/a5361f5) ([#15173](https://github.com/truecharts/charts/issues/15173))
-  - update container image lscr.io/linuxserver/rdesktop to arch-icewm[@f11590c](https://github.com/f11590c) ([#15172](https://github.com/truecharts/charts/issues/15172))
-  
-  
-
-
-## [rdesktop-5.0.150](https://github.com/truecharts/charts/compare/rdesktop-5.0.149...rdesktop-5.0.150) (2023-11-21)
-
-### Chore
-
-- update container image lscr.io/linuxserver/rdesktop to arch-i3[@2bfcbbc](https://github.com/2bfcbbc) ([#15171](https://github.com/truecharts/charts/issues/15171))
-  
-  ### Fix
-
-- update container image lscr.io/linuxserver/rdesktop to ubuntu-xfce ([#15139](https://github.com/truecharts/charts/issues/15139))
-  - update container image lscr.io/linuxserver/rdesktop to ubuntu-openbox ([#15138](https://github.com/truecharts/charts/issues/15138))
-  - update container image lscr.io/linuxserver/rdesktop to ubuntu-mate ([#15137](https://github.com/truecharts/charts/issues/15137))
-  - update container image lscr.io/linuxserver/rdesktop to ubuntu-kde ([#15136](https://github.com/truecharts/charts/issues/15136))
-  - update container image lscr.io/linuxserver/rdesktop to ubuntu-icewm ([#15135](https://github.com/truecharts/charts/issues/15135))
-  - update container image lscr.io/linuxserver/rdesktop to ubuntu-i3 ([#15134](https://github.com/truecharts/charts/issues/15134))
-  - update container image lscr.io/linuxserver/rdesktop to latest ([#15133](https://github.com/truecharts/charts/issues/15133))
-  - update container image lscr.io/linuxserver/rdesktop to fedora-xfce ([#15132](https://github.com/truecharts/charts/issues/15132))
-  - update container image lscr.io/linuxserver/rdesktop to fedora-openbox ([#15131](https://github.com/truecharts/charts/issues/15131))
-  - update container image lscr.io/linuxserver/rdesktop to fedora-mate ([#15130](https://github.com/truecharts/charts/issues/15130))
-  - update container image lscr.io/linuxserver/rdesktop to fedora-kde ([#15129](https://github.com/truecharts/charts/issues/15129))
-  - update container image lscr.io/linuxserver/rdesktop to fedora-icewm ([#15128](https://github.com/truecharts/charts/issues/15128))
-  - update container image lscr.io/linuxserver/rdesktop to fedora-i3 ([#15127](https://github.com/truecharts/charts/issues/15127))
-  - update container image lscr.io/linuxserver/rdesktop to alpine-openbox ([#15126](https://github.com/truecharts/charts/issues/15126))
-  - update container image lscr.io/linuxserver/rdesktop to alpine-mate ([#15125](https://github.com/truecharts/charts/issues/15125))
